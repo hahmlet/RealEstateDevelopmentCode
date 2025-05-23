@@ -1,0 +1,48 @@
+{
+  "generated_at": "2025-05-23T06:26:03.556965",
+  "jurisdiction": {
+    "state": "Oregon",
+    "city": "gresham"
+  },
+  "orphaned_files": [
+    {
+      "filename": "dc-section-7.0600.json",
+      "potential_toc_matches": []
+    },
+    {
+      "filename": "dc-section-10.1700.json",
+      "potential_toc_matches": []
+    },
+    {
+      "filename": "dc-section-10.0300.json",
+      "potential_toc_matches": []
+    },
+    {
+      "filename": "development-code-appendix-1.json",
+      "potential_toc_matches": []
+    },
+    {
+      "filename": "solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "potential_toc_matches": []
+    },
+    {
+      "filename": "development-code-amendments-jan.-99---may-09.json",
+      "potential_toc_matches": []
+    },
+    {
+      "filename": "development-code-amendments.json",
+      "potential_toc_matches": []
+    }
+  ],
+  "summary": {
+    "total_orphaned": 7,
+    "recommendations": [
+      "Review orphaned files to determine if they represent:",
+      "- Documents that should be added to the TOC",
+      "- Outdated versions that can be archived",
+      "- Misfiled documents that need renaming",
+      "- Check section files for missing TOC entries",
+      "- Verify appendix numbering consistency"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "test_run": {
+    "timestamp": "20250523_202336",
+    "version": "1.0",
+    "status": "UNKNOWN"
+  },
+  "alignment_summary": {
+    "total_documents": 0,
+    "documents_with_files": 0,
+    "documents_without_files": 0,
+    "total_subsections": 0,
+    "orphaned_files": 0,
+    "alignment_percentage": 0.0
+  },
+  "validation_summary": null,
+  "baseline_comparison": null,
+  "test_files": {
+    "alignment_analysis": "alignment_analysis.json",
+    "content_validation": "content_validation.json",
+    "baseline_comparison": "baseline_comparison.json"
+  }
+}

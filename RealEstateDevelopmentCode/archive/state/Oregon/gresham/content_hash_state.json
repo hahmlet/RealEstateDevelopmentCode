@@ -1,0 +1,258 @@
+{
+  "last_update": "2025-05-21T02:32:12.500354",
+  "content_hashes": {
+    "a8663866d150fd6ae8cc483c81da85a8": [
+      "development-code-appendix-1.pdf"
+    ],
+    "85f63f3bba8601affe62ae4ebcc680e2": [
+      "dc-section-11.0300.pdf_id7889"
+    ],
+    "0c3e9db1f8f4970fc1a96c2c437b34b5": [
+      "dc-section-6.0400.pdf_id7854"
+    ],
+    "3ef2b1dd870a915966ebd9332143999d": [
+      "development-code-amendments.pdf_id1798"
+    ],
+    "dae6c04c2057c842b3c8a0842efb84cc": [
+      "dc-section-10.1700.pdf_id14988"
+    ],
+    "35d2f1627d737a6267ca697549508ebf": [
+      "dc-section-5.0500.pdf_id7848"
+    ],
+    "ce1470eedc06d4cc3115e630e75517e9": [
+      "dc-section-10.0300.pdf_id7876"
+    ],
+    "bbb16ba2d72da9796a4ea1d694b9259e": [
+      "dc-article-3.pdf_id7832"
+    ],
+    "cda5303d22ecb1e57be0f52f3d237bcb": [
+      "dc-table-of-contents.pdf_id7899"
+    ],
+    "35b23212b5838718a22dcc6d61b0c3e8": [
+      "dc-section-8.0300.pdf_id7863"
+    ],
+    "518e8e1590f308f1542a2597eafdbd82": [
+      "dc-section-10.1600.pdf"
+    ],
+    "56fe52b3a26c346b1d4d581609523f4a": [
+      "dc-section-7.0600.pdf_id7860"
+    ],
+    "72ea9d699a6c09f80d310099c4837877": [
+      "dc-section-5.0200.pdf_id7845"
+    ],
+    "7732b232f38cda74a51914a688434e91": [
+      "dc-section-4.0100.pdf_id7833"
+    ],
+    "fbbc07b7eecc22f834e9ddbe74e09d1a": [
+      "dc-section-5.0100.pdf_id7844"
+    ],
+    "6e78b43fcfeea0c7df69df596001162f": [
+      "dc-section-11.0700.pdf_id7893"
+    ],
+    "d71ebde37e15af294bf56dbe11a07451": [
+      "dc-section-4.0400.pdf"
+    ],
+    "f3def5c7ad2f96c3cb1966d187deb4cd": [
+      "dc-section-9.0200.pdf_id7865"
+    ],
+    "910e191f3043beaecbfee40a47a46c26": [
+      "dc-section-11.1000.pdf_id7896"
+    ],
+    "3aac4b3b4ac6243a4a6d6aff357bf639": [
+      "dc-section-10.1500.pdf_id7885"
+    ],
+    "eb13f33ccd1e6cfbec1b79316eba3065": [
+      "dc-section-4.0300.pdf_id7835"
+    ],
+    "d8b59d277e03eef41232308ed0c6ce78": [
+      "dc-section-4.1100.pdf_id7838"
+    ],
+    "52c38a6cbe4bd85d746eeb469a5b3b48": [
+      "dc-section-10.0900.pdf_id7880"
+    ],
+    "281a73e1267c8b12da1417b610d59133": [
+      "dc-section-10.1300.pdf_id7883"
+    ],
+    "8246b3f13f3bbd6c97c676e3029e7f34": [
+      "dc-section-6.0100.pdf_id7851"
+    ],
+    "e08ea5118991fb8cc72c659f22f13e74": [
+      "dc-section-9.0600.pdf_id7869"
+    ],
+    "ef189284cece85a38828478b19990670": [
+      "dc-section-11.0800.pdf_id7894"
+    ],
+    "462f6f85ce1eb5e6db2c2f9b3d233df7": [
+      "dc-appendix-3.000.pdf_id7824"
+    ],
+    "fd35d7560468719a0946bafd771d63d1": [
+      "dc-appendix-9.000.pdf_id7828"
+    ],
+    "64e2ffb2d612c244e54631ea992039e9": [
+      "dc-section-9.0400.pdf_id7867"
+    ],
+    "ac50e799a68027f4d76dc796e7f60243": [
+      "dc-appendix-5.000.pdf_id7825"
+    ],
+    "cae486578cb0eb46120e0908430fd18f": [
+      "dc-section-4.1400.pdf_id7841"
+    ],
+    "a0423a737565405574782e52ef1b2b4b": [
+      "dc-section-9.0900.pdf_id7872"
+    ],
+    "2d7149bf528c23e53842b276ab821744": [
+      "dc-section-11.0200.pdf_id7888"
+    ],
+    "3985a87d5c59ea5f1b71ebbe0869d497": [
+      "dc-section-5.0000.pdf_id7843"
+    ],
+    "15f1e464882fed8adbc343af2aeb8124": [
+      "dc-section-10.1100.pdf_id7882"
+    ],
+    "f7a50593444c571d0518fc52b09c3844": [
+      "dc-section-11.0600.pdf_id7892"
+    ],
+    "6d977c8684e0ae3cb8abce46e11064a1": [
+      "dc-section-10.0500.pdf_id7878"
+    ],
+    "10484c4db3e863dc7c6f64be82b025ad": [
+      "dc-section-11.0900.pdf_id7895"
+    ],
+    "139e42801dc4e516f77b244ba84d2f01": [
+      "dc-section-7.0300.pdf_id7858"
+    ],
+    "5e8a56aea26a44aefab4ea0077744a0f": [
+      "dc-article-2.pdf_id7831"
+    ],
+    "19599e1bcfa7e08230ab8225f0ed0a1e": [
+      "dc-section-8.0100.pdf_id7861"
+    ],
+    "84063ba4c596e50088d150a59275c72f": [
+      "dc-section-11.0100.pdf_id7887"
+    ],
+    "0c9de005b20f565a9ebdfeae2874d5c9": [
+      "dc-section-4.1200.pdf_id7839"
+    ],
+    "55eec6de4f3b4a1339df5ae27ca5912d": [
+      "dc-section-11.0500.pdf_id7891"
+    ],
+    "50c49204217e0dcb5a51a54f70339041": [
+      "dc-section-10.0100.pdf_id7874"
+    ],
+    "287aac31f78e34dd0a2864b967ba153d": [
+      "dc-section-7.0500.pdf_id7859"
+    ],
+    "f507684b17f012ab057fa0836ca214bd": [
+      "dc-section-10.0400.pdf_id7877"
+    ],
+    "1a1e602e066dcf41f92c78b0fa6f79d6": [
+      "dc-section-7.0000.pdf_id7855"
+    ],
+    "c1abee35510f83ae3954ab5bcb931533": [
+      "dc-section-6.0300.pdf_id7853"
+    ],
+    "00265081d16566ce31779712ebe7aba6": [
+      "dc-section-6.0500.pdf_id14098"
+    ],
+    "0a3dd9b4cebaa5cdf2050bc1c94976d5": [
+      "dc-section-5.0600.pdf_id7849"
+    ],
+    "1ec709b324d83648139889e0efdb8c99": [
+      "dc-section-9.0800.pdf_id7871"
+    ],
+    "456f06bea21dbadfa2f7f1a1adafcacc": [
+      "dc-section-10.1400.pdf_id7884"
+    ],
+    "f230c4d898e6651fc5fc6389c3e04047": [
+      "dc-appendix-13.000.pdf_id7830"
+    ],
+    "07c167a49ce33a019242991774a3954e": [
+      "dc-section-11.1100.pdf_id7897"
+    ],
+    "d55c32ebe2dac19ef98080c173ebdf41": [
+      "dc-section-10.1000.pdf_id7881"
+    ],
+    "3102623684a60d740b04e260ffb57276": [
+      "dc-section-4.1000.pdf_id7837"
+    ],
+    "f8168ba2b154b3de942462e57ef0886a": [
+      "dc-section-9.1000.pdf_id7873"
+    ],
+    "f0061daa812af3ff8fd6aca93f335665": [
+      "dc-section-6.0200.pdf_id7852"
+    ],
+    "74166e37b0f8ecccb8390265c4e07d35": [
+      "dc-section-5.0700.pdf_id11907"
+    ],
+    "56eb7af8be51b402530d96bf9c164361": [
+      "dc-section-9.0500.pdf_id7868"
+    ],
+    "eabdb0993d12701dd7a1d91810b96f7e": [
+      "dc-section-9.0700.pdf_id7870"
+    ],
+    "936337088ad6125835bb504e7b1aa154": [
+      "dc-section-9.0300.pdf_id7866"
+    ],
+    "fbe3a89263e5891d018e2f283fdcfcc5": [
+      "dc-section-5.0300.pdf_id7846"
+    ],
+    "7e7f40f64ad25e7f68767a94ebaa4f12": [
+      "dc-section-7.0400.pdf_id14099"
+    ],
+    "48290f98b3588996f69cd7d8f7cf5ab6": [
+      "dc-section-10.0700.pdf_id7900"
+    ],
+    "1cf2b433f97d504f081baadf49e0d494": [
+      "dc-section-4.1500.pdf_id7842"
+    ],
+    "91fce448201fd2b7089fc585d2662223": [
+      "dc-section-4.1300.pdf_id7840"
+    ],
+    "22fe1dfd0172de32c1dab0f4d5aa8809": [
+      "dc-section-12.0000.pdf_id7898"
+    ],
+    "dd8476369f1740921cd8d4e6e6be1b10": [
+      "dc-section-10.0200.pdf_id7875"
+    ],
+    "5b5ca290ffb3083192a6857a22425ff9": [
+      "dc-section-7.0200.pdf_id7857"
+    ],
+    "2c22a503ef0e1915ed523b7dc727926c": [
+      "dc-section-10.0600.pdf_id7879"
+    ],
+    "eccf5a6730919bba40f55ee90f2ce8ff": [
+      "solid-waste-and-recycling-collection-service-planning-matrix.pdf_id5552"
+    ],
+    "1104bf98ea213f69f70b3fa009f7ab3d": [
+      "development-code-amendments-jan.-99---may-09.pdf_id1799"
+    ],
+    "60735abb36bdbaf89f9497e8c2ae2ce4": [
+      "dc-section-9.0100.pdf_id7864"
+    ],
+    "c1c4528be53ab29029c267d0ae2256a3": [
+      "dc-section-7.0100.pdf_id7856"
+    ],
+    "289f85cbb82883c115f0365c719b0a50": [
+      "dc-section-6.0000.pdf_id7850"
+    ],
+    "327d29c747e749fdb29fc87600069686": [
+      "dc-appendix-6.000.pdf_id7826"
+    ],
+    "6856561970d0b7f74127352b24ac5da2": [
+      "dc-appendix-7.000.pdf_id7827"
+    ],
+    "97f152f1276fde4607aaa2af6b266cf6": [
+      "dc-section-11.0400.pdf_id7890"
+    ],
+    "0d380e512c59a8ff0b9e181ab4c6afc7": [
+      "dc-section-8.0200.pdf_id7862"
+    ],
+    "a5ceeffcab033f67878872e0138c7fa4": [
+      "dc-section-4.0200.pdf_id7834"
+    ]
+  },
+  "stats": {
+    "total_hashes": 83,
+    "total_files": 83
+  }
+}

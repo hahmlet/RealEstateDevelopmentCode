@@ -1,0 +1,15 @@
+{
+  "test_run": {
+    "timestamp": "20250523_202204",
+    "version": "1.0",
+    "status": "UNKNOWN"
+  },
+  "alignment_summary": null,
+  "validation_summary": null,
+  "baseline_comparison": null,
+  "test_files": {
+    "alignment_analysis": "alignment_analysis.json",
+    "content_validation": "content_validation.json",
+    "baseline_comparison": "baseline_comparison.json"
+  }
+}

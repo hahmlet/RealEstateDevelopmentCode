@@ -1,0 +1,835 @@
+[
+  {
+    "document_number": "4.01",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "4.0100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "4.02",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0200.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "4.0200"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "4.03",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0300.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "4.0300"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "4.04",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+    "expected_subsections": 2,
+    "found_subsections": 2,
+    "missing_subsections": 0,
+    "found_list": [
+      "4.0400",
+      "4.0440"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "4.10",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1000.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "4.1000"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "4.11",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "4.1100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "4.12",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "4.1200"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "4.13",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1300.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "4.1300"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "4.14",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+    "expected_subsections": 2,
+    "found_subsections": 1,
+    "missing_subsections": 1,
+    "found_list": [
+      "4.1400"
+    ],
+    "missing_list": [
+      "4.1462"
+    ],
+    "validation_percentage": 50.0
+  },
+  {
+    "document_number": "4.15",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "4.1500"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "5.00",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-appendix-5.000.json",
+    "expected_subsections": 1,
+    "found_subsections": 0,
+    "missing_subsections": 1,
+    "found_list": [],
+    "missing_list": [
+      "5.0000"
+    ],
+    "validation_percentage": 0.0
+  },
+  {
+    "document_number": "5.01",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "5.0100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "5.02",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0200.json",
+    "expected_subsections": 3,
+    "found_subsections": 3,
+    "missing_subsections": 0,
+    "found_list": [
+      "5.0200",
+      "5.0209",
+      "5.0210"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "5.03",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0300.json",
+    "expected_subsections": 5,
+    "found_subsections": 5,
+    "missing_subsections": 0,
+    "found_list": [
+      "5.0300",
+      "5.0310",
+      "5.0320",
+      "5.0330",
+      "5.0340"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "5.05",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0500.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "5.0500"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "5.06",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "5.0600"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "5.07",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0700.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "5.0700"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "6.00",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-appendix-6.000.json",
+    "expected_subsections": 1,
+    "found_subsections": 0,
+    "missing_subsections": 1,
+    "found_list": [],
+    "missing_list": [
+      "6.0000"
+    ],
+    "validation_percentage": 0.0
+  },
+  {
+    "document_number": "6.01",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "6.0100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "6.02",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0200.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "6.0200"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "6.03",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "6.0300"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "6.04",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0400.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "6.0400"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "6.05",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0500.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "6.0500"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "7.00",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0000.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "7.0000"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "7.01",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "7.0100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "7.02",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0200.json",
+    "expected_subsections": 2,
+    "found_subsections": 2,
+    "missing_subsections": 0,
+    "found_list": [
+      "7.0200",
+      "7.0212"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "7.03",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0300.json",
+    "expected_subsections": 2,
+    "found_subsections": 2,
+    "missing_subsections": 0,
+    "found_list": [
+      "7.0300",
+      "7.0310"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "7.04",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0400.json",
+    "expected_subsections": 2,
+    "found_subsections": 2,
+    "missing_subsections": 0,
+    "found_list": [
+      "7.0400",
+      "7.0420"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "7.05",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "7.0500"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "8.01",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-8.0100.json",
+    "expected_subsections": 3,
+    "found_subsections": 3,
+    "missing_subsections": 0,
+    "found_list": [
+      "8.0100",
+      "8.0110",
+      "8.0140"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "8.02",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-8.0200.json",
+    "expected_subsections": 3,
+    "found_subsections": 3,
+    "missing_subsections": 0,
+    "found_list": [
+      "8.0200",
+      "8.0221",
+      "8.0222"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "8.03",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-8.0300.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "8.0300"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.01",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.0100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.02",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0200.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.0200"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.03",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0300.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.0300"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.04",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0400.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.0400"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.05",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0500.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.0500"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.06",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0600.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.0600"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.07",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0700.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.0700"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.08",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0800.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.0800"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.09",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0900.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.0900"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "9.10",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.1000.json",
+    "expected_subsections": 7,
+    "found_subsections": 7,
+    "missing_subsections": 0,
+    "found_list": [
+      "9.1000",
+      "9.1010",
+      "9.1020",
+      "9.1030",
+      "9.1040",
+      "9.1050",
+      "9.1053"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.01",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.0100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.02",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.0200"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.04",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0400.json",
+    "expected_subsections": 3,
+    "found_subsections": 3,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.0400",
+      "10.0410",
+      "10.0420"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.05",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0500.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.0500"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.06",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0600.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.0600"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.07",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0700.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.0700"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.09",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0900.json",
+    "expected_subsections": 6,
+    "found_subsections": 6,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.0900",
+      "10.0910",
+      "10.0920",
+      "10.0930",
+      "10.0940",
+      "10.0950"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.10",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1000.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.1000"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.11",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.1100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.13",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1300.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.1300"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.14",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1400.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.1400"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.15",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1500.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.1500"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "10.16",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "10.1600"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.01",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.0100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.02",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0200.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.0200"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.03",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0300.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.0300"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.04",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0400.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.0400"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.05",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0500.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.0500"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.06",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0600.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.0600"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.07",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0700.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.0700"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.08",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0800.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.0800"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.09",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0900.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.0900"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.10",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.1000.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.1000"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "11.11",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.1100.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "11.1100"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  },
+  {
+    "document_number": "12.00",
+    "file_path": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+    "expected_subsections": 1,
+    "found_subsections": 1,
+    "missing_subsections": 0,
+    "found_list": [
+      "12.0000"
+    ],
+    "missing_list": [],
+    "validation_percentage": 100.0
+  }
+]

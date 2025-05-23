@@ -1,0 +1,804 @@
+{
+  "city": "Gresham",
+  "state": "Oregon",
+  "county": "Multnomah",
+  "title": "City of Gresham Development Code",
+  "version": "2023",
+  "sections": [
+    {
+      "id": "article_2",
+      "type": "article",
+      "number": "2",
+      "title": "Article 2",
+      "source_file": "dc-article-2.pdf_id7831",
+      "doc_id": "7831",
+      "subsections": []
+    },
+    {
+      "id": "article_3",
+      "type": "article",
+      "number": "3",
+      "title": "Article 3",
+      "source_file": "dc-article-3.pdf_id7832",
+      "doc_id": "7832",
+      "subsections": []
+    },
+    {
+      "id": "section_4",
+      "type": "section",
+      "number": "4",
+      "title": "Section 4",
+      "subsections": [
+        {
+          "id": "section_4.0100",
+          "type": "subsection",
+          "number": "4.0100",
+          "title": "Section 4.0100",
+          "source_file": "dc-section-4.0100.pdf_id7833",
+          "doc_id": "7833"
+        },
+        {
+          "id": "section_4.0200",
+          "type": "subsection",
+          "number": "4.0200",
+          "title": "Section 4.0200",
+          "source_file": "dc-section-4.0200.pdf_id7834",
+          "doc_id": "7834"
+        },
+        {
+          "id": "section_4.0300",
+          "type": "subsection",
+          "number": "4.0300",
+          "title": "Section 4.0300",
+          "source_file": "dc-section-4.0300.pdf_id7835",
+          "doc_id": "7835"
+        },
+        {
+          "id": "section_4.0400",
+          "type": "subsection",
+          "number": "4.0400",
+          "title": "Section 4.0400",
+          "source_file": "dc-section-4.0400.pdf",
+          "doc_id": null
+        },
+        {
+          "id": "section_4.1000",
+          "type": "subsection",
+          "number": "4.1000",
+          "title": "Section 4.1000",
+          "source_file": "dc-section-4.1000.pdf_id7837",
+          "doc_id": "7837"
+        },
+        {
+          "id": "section_4.1100",
+          "type": "subsection",
+          "number": "4.1100",
+          "title": "Section 4.1100",
+          "source_file": "dc-section-4.1100.pdf_id7838",
+          "doc_id": "7838"
+        },
+        {
+          "id": "section_4.1200",
+          "type": "subsection",
+          "number": "4.1200",
+          "title": "Section 4.1200",
+          "source_file": "dc-section-4.1200.pdf_id7839",
+          "doc_id": "7839"
+        },
+        {
+          "id": "section_4.1300",
+          "type": "subsection",
+          "number": "4.1300",
+          "title": "Section 4.1300",
+          "source_file": "dc-section-4.1300.pdf_id7840",
+          "doc_id": "7840"
+        },
+        {
+          "id": "section_4.1400",
+          "type": "subsection",
+          "number": "4.1400",
+          "title": "Section 4.1400",
+          "source_file": "dc-section-4.1400.pdf_id7841",
+          "doc_id": "7841"
+        },
+        {
+          "id": "section_4.1500",
+          "type": "subsection",
+          "number": "4.1500",
+          "title": "Section 4.1500",
+          "source_file": "dc-section-4.1500.pdf_id7842",
+          "doc_id": "7842"
+        }
+      ]
+    },
+    {
+      "id": "section_5",
+      "type": "section",
+      "number": "5",
+      "title": "Section 5",
+      "subsections": [
+        {
+          "id": "section_5.0000",
+          "type": "subsection",
+          "number": "5.0000",
+          "title": "Section 5.0000",
+          "source_file": "dc-section-5.0000.pdf_id7843",
+          "doc_id": "7843"
+        },
+        {
+          "id": "section_5.0100",
+          "type": "subsection",
+          "number": "5.0100",
+          "title": "Section 5.0100",
+          "source_file": "dc-section-5.0100.pdf_id7844",
+          "doc_id": "7844"
+        },
+        {
+          "id": "section_5.0200",
+          "type": "subsection",
+          "number": "5.0200",
+          "title": "Section 5.0200",
+          "source_file": "dc-section-5.0200.pdf_id7845",
+          "doc_id": "7845"
+        },
+        {
+          "id": "section_5.0300",
+          "type": "subsection",
+          "number": "5.0300",
+          "title": "Section 5.0300",
+          "source_file": "dc-section-5.0300.pdf_id7846",
+          "doc_id": "7846"
+        },
+        {
+          "id": "section_5.0500",
+          "type": "subsection",
+          "number": "5.0500",
+          "title": "Section 5.0500",
+          "source_file": "dc-section-5.0500.pdf_id7848",
+          "doc_id": "7848"
+        },
+        {
+          "id": "section_5.0600",
+          "type": "subsection",
+          "number": "5.0600",
+          "title": "Section 5.0600",
+          "source_file": "dc-section-5.0600.pdf_id7849",
+          "doc_id": "7849"
+        },
+        {
+          "id": "section_5.0700",
+          "type": "subsection",
+          "number": "5.0700",
+          "title": "Section 5.0700",
+          "source_file": "dc-section-5.0700.pdf_id11907",
+          "doc_id": "11907"
+        }
+      ]
+    },
+    {
+      "id": "section_6",
+      "type": "section",
+      "number": "6",
+      "title": "Section 6",
+      "subsections": [
+        {
+          "id": "section_6.0000",
+          "type": "subsection",
+          "number": "6.0000",
+          "title": "Section 6.0000",
+          "source_file": "dc-section-6.0000.pdf_id7850",
+          "doc_id": "7850"
+        },
+        {
+          "id": "section_6.0100",
+          "type": "subsection",
+          "number": "6.0100",
+          "title": "Section 6.0100",
+          "source_file": "dc-section-6.0100.pdf_id7851",
+          "doc_id": "7851"
+        },
+        {
+          "id": "section_6.0200",
+          "type": "subsection",
+          "number": "6.0200",
+          "title": "Section 6.0200",
+          "source_file": "dc-section-6.0200.pdf_id7852",
+          "doc_id": "7852"
+        },
+        {
+          "id": "section_6.0300",
+          "type": "subsection",
+          "number": "6.0300",
+          "title": "Section 6.0300",
+          "source_file": "dc-section-6.0300.pdf_id7853",
+          "doc_id": "7853"
+        },
+        {
+          "id": "section_6.0400",
+          "type": "subsection",
+          "number": "6.0400",
+          "title": "Section 6.0400",
+          "source_file": "dc-section-6.0400.pdf_id7854",
+          "doc_id": "7854"
+        },
+        {
+          "id": "section_6.0500",
+          "type": "subsection",
+          "number": "6.0500",
+          "title": "Section 6.0500",
+          "source_file": "dc-section-6.0500.pdf_id14098",
+          "doc_id": "14098"
+        }
+      ]
+    },
+    {
+      "id": "section_7",
+      "type": "section",
+      "number": "7",
+      "title": "Section 7",
+      "subsections": [
+        {
+          "id": "section_7.0000",
+          "type": "subsection",
+          "number": "7.0000",
+          "title": "Section 7.0000",
+          "source_file": "dc-section-7.0000.pdf_id7855",
+          "doc_id": "7855"
+        },
+        {
+          "id": "section_7.0100",
+          "type": "subsection",
+          "number": "7.0100",
+          "title": "Section 7.0100",
+          "source_file": "dc-section-7.0100.pdf_id7856",
+          "doc_id": "7856"
+        },
+        {
+          "id": "section_7.0200",
+          "type": "subsection",
+          "number": "7.0200",
+          "title": "Section 7.0200",
+          "source_file": "dc-section-7.0200.pdf_id7857",
+          "doc_id": "7857"
+        },
+        {
+          "id": "section_7.0300",
+          "type": "subsection",
+          "number": "7.0300",
+          "title": "Section 7.0300",
+          "source_file": "dc-section-7.0300.pdf_id7858",
+          "doc_id": "7858"
+        },
+        {
+          "id": "section_7.0400",
+          "type": "subsection",
+          "number": "7.0400",
+          "title": "Section 7.0400",
+          "source_file": "dc-section-7.0400.pdf_id14099",
+          "doc_id": "14099"
+        },
+        {
+          "id": "section_7.0500",
+          "type": "subsection",
+          "number": "7.0500",
+          "title": "Section 7.0500",
+          "source_file": "dc-section-7.0500.pdf_id7859",
+          "doc_id": "7859"
+        },
+        {
+          "id": "section_7.0600",
+          "type": "subsection",
+          "number": "7.0600",
+          "title": "Section 7.0600",
+          "source_file": "dc-section-7.0600.pdf_id7860",
+          "doc_id": "7860"
+        }
+      ]
+    },
+    {
+      "id": "section_8",
+      "type": "section",
+      "number": "8",
+      "title": "Section 8",
+      "subsections": [
+        {
+          "id": "section_8.0100",
+          "type": "subsection",
+          "number": "8.0100",
+          "title": "Section 8.0100",
+          "source_file": "dc-section-8.0100.pdf_id7861",
+          "doc_id": "7861"
+        },
+        {
+          "id": "section_8.0200",
+          "type": "subsection",
+          "number": "8.0200",
+          "title": "Section 8.0200",
+          "source_file": "dc-section-8.0200.pdf_id7862",
+          "doc_id": "7862"
+        },
+        {
+          "id": "section_8.0300",
+          "type": "subsection",
+          "number": "8.0300",
+          "title": "Section 8.0300",
+          "source_file": "dc-section-8.0300.pdf_id7863",
+          "doc_id": "7863"
+        }
+      ]
+    },
+    {
+      "id": "section_9",
+      "type": "section",
+      "number": "9",
+      "title": "Section 9",
+      "subsections": [
+        {
+          "id": "section_9.0100",
+          "type": "subsection",
+          "number": "9.0100",
+          "title": "Section 9.0100",
+          "source_file": "dc-section-9.0100.pdf_id7864",
+          "doc_id": "7864"
+        },
+        {
+          "id": "section_9.0200",
+          "type": "subsection",
+          "number": "9.0200",
+          "title": "Section 9.0200",
+          "source_file": "dc-section-9.0200.pdf_id7865",
+          "doc_id": "7865"
+        },
+        {
+          "id": "section_9.0300",
+          "type": "subsection",
+          "number": "9.0300",
+          "title": "Section 9.0300",
+          "source_file": "dc-section-9.0300.pdf_id7866",
+          "doc_id": "7866"
+        },
+        {
+          "id": "section_9.0400",
+          "type": "subsection",
+          "number": "9.0400",
+          "title": "Section 9.0400",
+          "source_file": "dc-section-9.0400.pdf_id7867",
+          "doc_id": "7867"
+        },
+        {
+          "id": "section_9.0500",
+          "type": "subsection",
+          "number": "9.0500",
+          "title": "Section 9.0500",
+          "source_file": "dc-section-9.0500.pdf_id7868",
+          "doc_id": "7868"
+        },
+        {
+          "id": "section_9.0600",
+          "type": "subsection",
+          "number": "9.0600",
+          "title": "Section 9.0600",
+          "source_file": "dc-section-9.0600.pdf_id7869",
+          "doc_id": "7869"
+        },
+        {
+          "id": "section_9.0700",
+          "type": "subsection",
+          "number": "9.0700",
+          "title": "Section 9.0700",
+          "source_file": "dc-section-9.0700.pdf_id7870",
+          "doc_id": "7870"
+        },
+        {
+          "id": "section_9.0800",
+          "type": "subsection",
+          "number": "9.0800",
+          "title": "Section 9.0800",
+          "source_file": "dc-section-9.0800.pdf_id7871",
+          "doc_id": "7871"
+        },
+        {
+          "id": "section_9.0900",
+          "type": "subsection",
+          "number": "9.0900",
+          "title": "Section 9.0900",
+          "source_file": "dc-section-9.0900.pdf_id7872",
+          "doc_id": "7872"
+        },
+        {
+          "id": "section_9.1000",
+          "type": "subsection",
+          "number": "9.1000",
+          "title": "Section 9.1000",
+          "source_file": "dc-section-9.1000.pdf_id7873",
+          "doc_id": "7873"
+        }
+      ]
+    },
+    {
+      "id": "section_10",
+      "type": "section",
+      "number": "10",
+      "title": "Section 10",
+      "subsections": [
+        {
+          "id": "section_10.0100",
+          "type": "subsection",
+          "number": "10.0100",
+          "title": "Section 10.0100",
+          "source_file": "dc-section-10.0100.pdf_id7874",
+          "doc_id": "7874"
+        },
+        {
+          "id": "section_10.0200",
+          "type": "subsection",
+          "number": "10.0200",
+          "title": "Section 10.0200",
+          "source_file": "dc-section-10.0200.pdf_id7875",
+          "doc_id": "7875"
+        },
+        {
+          "id": "section_10.0300",
+          "type": "subsection",
+          "number": "10.0300",
+          "title": "Section 10.0300",
+          "source_file": "dc-section-10.0300.pdf_id7876",
+          "doc_id": "7876"
+        },
+        {
+          "id": "section_10.0400",
+          "type": "subsection",
+          "number": "10.0400",
+          "title": "Section 10.0400",
+          "source_file": "dc-section-10.0400.pdf_id7877",
+          "doc_id": "7877"
+        },
+        {
+          "id": "section_10.0500",
+          "type": "subsection",
+          "number": "10.0500",
+          "title": "Section 10.0500",
+          "source_file": "dc-section-10.0500.pdf_id7878",
+          "doc_id": "7878"
+        },
+        {
+          "id": "section_10.0600",
+          "type": "subsection",
+          "number": "10.0600",
+          "title": "Section 10.0600",
+          "source_file": "dc-section-10.0600.pdf_id7879",
+          "doc_id": "7879"
+        },
+        {
+          "id": "section_10.0700",
+          "type": "subsection",
+          "number": "10.0700",
+          "title": "Section 10.0700",
+          "source_file": "dc-section-10.0700.pdf_id7900",
+          "doc_id": "7900"
+        },
+        {
+          "id": "section_10.0900",
+          "type": "subsection",
+          "number": "10.0900",
+          "title": "Section 10.0900",
+          "source_file": "dc-section-10.0900.pdf_id7880",
+          "doc_id": "7880"
+        },
+        {
+          "id": "section_10.1000",
+          "type": "subsection",
+          "number": "10.1000",
+          "title": "Section 10.1000",
+          "source_file": "dc-section-10.1000.pdf_id7881",
+          "doc_id": "7881"
+        },
+        {
+          "id": "section_10.1100",
+          "type": "subsection",
+          "number": "10.1100",
+          "title": "Section 10.1100",
+          "source_file": "dc-section-10.1100.pdf_id7882",
+          "doc_id": "7882"
+        },
+        {
+          "id": "section_10.1300",
+          "type": "subsection",
+          "number": "10.1300",
+          "title": "Section 10.1300",
+          "source_file": "dc-section-10.1300.pdf_id7883",
+          "doc_id": "7883"
+        },
+        {
+          "id": "section_10.1400",
+          "type": "subsection",
+          "number": "10.1400",
+          "title": "Section 10.1400",
+          "source_file": "dc-section-10.1400.pdf_id7884",
+          "doc_id": "7884"
+        },
+        {
+          "id": "section_10.1500",
+          "type": "subsection",
+          "number": "10.1500",
+          "title": "Section 10.1500",
+          "source_file": "dc-section-10.1500.pdf_id7885",
+          "doc_id": "7885"
+        },
+        {
+          "id": "section_10.1600",
+          "type": "subsection",
+          "number": "10.1600",
+          "title": "Section 10.1600",
+          "source_file": "dc-section-10.1600.pdf",
+          "doc_id": null
+        },
+        {
+          "id": "section_10.1700",
+          "type": "subsection",
+          "number": "10.1700",
+          "title": "Section 10.1700",
+          "source_file": "dc-section-10.1700.pdf_id14988",
+          "doc_id": "14988"
+        }
+      ]
+    },
+    {
+      "id": "section_11",
+      "type": "section",
+      "number": "11",
+      "title": "Section 11",
+      "subsections": [
+        {
+          "id": "section_11.0100",
+          "type": "subsection",
+          "number": "11.0100",
+          "title": "Section 11.0100",
+          "source_file": "dc-section-11.0100.pdf_id7887",
+          "doc_id": "7887"
+        },
+        {
+          "id": "section_11.0200",
+          "type": "subsection",
+          "number": "11.0200",
+          "title": "Section 11.0200",
+          "source_file": "dc-section-11.0200.pdf_id7888",
+          "doc_id": "7888"
+        },
+        {
+          "id": "section_11.0300",
+          "type": "subsection",
+          "number": "11.0300",
+          "title": "Section 11.0300",
+          "source_file": "dc-section-11.0300.pdf_id7889",
+          "doc_id": "7889"
+        },
+        {
+          "id": "section_11.0400",
+          "type": "subsection",
+          "number": "11.0400",
+          "title": "Section 11.0400",
+          "source_file": "dc-section-11.0400.pdf_id7890",
+          "doc_id": "7890"
+        },
+        {
+          "id": "section_11.0500",
+          "type": "subsection",
+          "number": "11.0500",
+          "title": "Section 11.0500",
+          "source_file": "dc-section-11.0500.pdf_id7891",
+          "doc_id": "7891"
+        },
+        {
+          "id": "section_11.0600",
+          "type": "subsection",
+          "number": "11.0600",
+          "title": "Section 11.0600",
+          "source_file": "dc-section-11.0600.pdf_id7892",
+          "doc_id": "7892"
+        },
+        {
+          "id": "section_11.0700",
+          "type": "subsection",
+          "number": "11.0700",
+          "title": "Section 11.0700",
+          "source_file": "dc-section-11.0700.pdf_id7893",
+          "doc_id": "7893"
+        },
+        {
+          "id": "section_11.0800",
+          "type": "subsection",
+          "number": "11.0800",
+          "title": "Section 11.0800",
+          "source_file": "dc-section-11.0800.pdf_id7894",
+          "doc_id": "7894"
+        },
+        {
+          "id": "section_11.0900",
+          "type": "subsection",
+          "number": "11.0900",
+          "title": "Section 11.0900",
+          "source_file": "dc-section-11.0900.pdf_id7895",
+          "doc_id": "7895"
+        },
+        {
+          "id": "section_11.1000",
+          "type": "subsection",
+          "number": "11.1000",
+          "title": "Section 11.1000",
+          "source_file": "dc-section-11.1000.pdf_id7896",
+          "doc_id": "7896"
+        },
+        {
+          "id": "section_11.1100",
+          "type": "subsection",
+          "number": "11.1100",
+          "title": "Section 11.1100",
+          "source_file": "dc-section-11.1100.pdf_id7897",
+          "doc_id": "7897"
+        }
+      ]
+    },
+    {
+      "id": "section_12",
+      "type": "section",
+      "number": "12",
+      "title": "Section 12",
+      "subsections": [
+        {
+          "id": "section_12.0000",
+          "type": "subsection",
+          "number": "12.0000",
+          "title": "Section 12.0000",
+          "source_file": "dc-section-12.0000.pdf_id7898",
+          "doc_id": "7898"
+        }
+      ]
+    },
+    {
+      "id": "appendix_1",
+      "type": "appendix",
+      "number": "1",
+      "title": "Appendix 1",
+      "source_file": "development-code-appendix-1.pdf",
+      "doc_id": null,
+      "subsections": []
+    },
+    {
+      "id": "appendix_13",
+      "type": "appendix",
+      "number": "13",
+      "title": "Appendix 13",
+      "source_file": "dc-appendix-13.000.pdf_id7830",
+      "doc_id": "7830",
+      "subsections": [
+        {
+          "id": "appendix_13_000",
+          "type": "appendix_subsection",
+          "number": "13.000",
+          "title": "Appendix 13.000",
+          "source_file": "dc-appendix-13.000.pdf_id7830",
+          "doc_id": "7830"
+        }
+      ]
+    },
+    {
+      "id": "appendix_3",
+      "type": "appendix",
+      "number": "3",
+      "title": "Appendix 3",
+      "source_file": "dc-appendix-3.000.pdf_id7824",
+      "doc_id": "7824",
+      "subsections": [
+        {
+          "id": "appendix_3_000",
+          "type": "appendix_subsection",
+          "number": "3.000",
+          "title": "Appendix 3.000",
+          "source_file": "dc-appendix-3.000.pdf_id7824",
+          "doc_id": "7824"
+        }
+      ]
+    },
+    {
+      "id": "appendix_5",
+      "type": "appendix",
+      "number": "5",
+      "title": "Appendix 5",
+      "source_file": "dc-appendix-5.000.pdf_id7825",
+      "doc_id": "7825",
+      "subsections": [
+        {
+          "id": "appendix_5_000",
+          "type": "appendix_subsection",
+          "number": "5.000",
+          "title": "Appendix 5.000",
+          "source_file": "dc-appendix-5.000.pdf_id7825",
+          "doc_id": "7825"
+        }
+      ]
+    },
+    {
+      "id": "appendix_6",
+      "type": "appendix",
+      "number": "6",
+      "title": "Appendix 6",
+      "source_file": "dc-appendix-6.000.pdf_id7826",
+      "doc_id": "7826",
+      "subsections": [
+        {
+          "id": "appendix_6_000",
+          "type": "appendix_subsection",
+          "number": "6.000",
+          "title": "Appendix 6.000",
+          "source_file": "dc-appendix-6.000.pdf_id7826",
+          "doc_id": "7826"
+        }
+      ]
+    },
+    {
+      "id": "appendix_7",
+      "type": "appendix",
+      "number": "7",
+      "title": "Appendix 7",
+      "source_file": "dc-appendix-7.000.pdf_id7827",
+      "doc_id": "7827",
+      "subsections": [
+        {
+          "id": "appendix_7_000",
+          "type": "appendix_subsection",
+          "number": "7.000",
+          "title": "Appendix 7.000",
+          "source_file": "dc-appendix-7.000.pdf_id7827",
+          "doc_id": "7827"
+        }
+      ]
+    },
+    {
+      "id": "appendix_9",
+      "type": "appendix",
+      "number": "9",
+      "title": "Appendix 9",
+      "source_file": "dc-appendix-9.000.pdf_id7828",
+      "doc_id": "7828",
+      "subsections": [
+        {
+          "id": "appendix_9_000",
+          "type": "appendix_subsection",
+          "number": "9.000",
+          "title": "Appendix 9.000",
+          "source_file": "dc-appendix-9.000.pdf_id7828",
+          "doc_id": "7828"
+        }
+      ]
+    },
+    {
+      "id": "development-code-amendments-jan.-99---may-09",
+      "type": "document",
+      "title": "development-code-amendments-jan.-99---may-09",
+      "source_file": "development-code-amendments-jan.-99---may-09.pdf_id1799",
+      "doc_id": "1799"
+    },
+    {
+      "id": "dc-table-of-contents",
+      "type": "document",
+      "title": "dc-table-of-contents",
+      "source_file": "dc-table-of-contents.pdf_id7899",
+      "doc_id": "7899"
+    },
+    {
+      "id": "development-code-amendments",
+      "type": "document",
+      "title": "development-code-amendments",
+      "source_file": "development-code-amendments.pdf_id1798",
+      "doc_id": "1798"
+    },
+    {
+      "id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "type": "document",
+      "title": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "source_file": "solid-waste-and-recycling-collection-service-planning-matrix.pdf_id5552",
+      "doc_id": "5552"
+    }
+  ]
+}

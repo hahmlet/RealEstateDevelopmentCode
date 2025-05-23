@@ -1,0 +1,53 @@
+{
+  "test_run": {
+    "timestamp": "20250523_202425",
+    "version": "1.0",
+    "status": "PASS"
+  },
+  "alignment_summary": {
+    "total_documents": 69,
+    "documents_with_files": 67,
+    "documents_without_files": 2,
+    "total_subsections": 97,
+    "orphaned_files": 15,
+    "alignment_percentage": 97.1
+  },
+  "validation_summary": {
+    "total_validations": 67,
+    "successful_validations": 67,
+    "failed_validations": 0
+  },
+  "baseline_comparison": {
+    "timestamp": "20250523_202425",
+    "baseline_version": "1.0",
+    "current_metrics": {
+      "total_documents": 69,
+      "documents_with_files": 67,
+      "alignment_percentage": 97.1,
+      "total_validations": 67,
+      "successful_validations": 67,
+      "avg_validation_percentage": 96.26865671641791
+    },
+    "baseline_metrics": {
+      "total_documents": 69,
+      "documents_with_files": 67,
+      "documents_without_files": 2,
+      "total_subsections": 97,
+      "total_files": 82,
+      "orphaned_files": 15,
+      "alignment_percentage": 97.1
+    },
+    "differences": {
+      "total_documents": 0,
+      "documents_with_files": 0,
+      "alignment_percentage": 0.0,
+      "avg_validation_percentage": -0.0
+    },
+    "status": "PASS"
+  },
+  "test_files": {
+    "alignment_analysis": "alignment_analysis.json",
+    "content_validation": "content_validation.json",
+    "baseline_comparison": "baseline_comparison.json"
+  }
+}

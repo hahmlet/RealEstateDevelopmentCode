@@ -1,0 +1,13 @@
+{
+  "metrics": {
+    "total_documents": 0,
+    "documents_with_files": 0,
+    "documents_without_files": 0,
+    "total_subsections": 0,
+    "orphaned_files": 0,
+    "alignment_percentage": 0.0
+  },
+  "missing_documents": [],
+  "orphaned_files": [],
+  "document_hierarchy": []
+}

@@ -1,0 +1,312 @@
+{
+  "total_files": 121,
+  "unique_files": 83,
+  "duplicate_count": 38,
+  "duplicate_groups": [
+    {
+      "hash": "3985a87d5c59ea5f1b71ebbe0869d497",
+      "files": [
+        "dc-section-5.0000.pdf?id=7843",
+        "dc-section-5.0000.pdf_id7843"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "22fe1dfd0172de32c1dab0f4d5aa8809",
+      "files": [
+        "dc-section-12.0000.pdf?id=7898",
+        "dc-section-12.0000.pdf_id7898"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "dd8476369f1740921cd8d4e6e6be1b10",
+      "files": [
+        "dc-section-10.0200.pdf?id=7875",
+        "dc-section-10.0200.pdf_id7875"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "936337088ad6125835bb504e7b1aa154",
+      "files": [
+        "dc-section-9.0300.pdf?id=7866",
+        "dc-section-9.0300.pdf_id7866"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "a0423a737565405574782e52ef1b2b4b",
+      "files": [
+        "dc-section-9.0900.pdf?id=7872",
+        "dc-section-9.0900.pdf_id7872"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "2d7149bf528c23e53842b276ab821744",
+      "files": [
+        "dc-section-11.0200.pdf?id=7888",
+        "dc-section-11.0200.pdf_id7888"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "eabdb0993d12701dd7a1d91810b96f7e",
+      "files": [
+        "dc-section-9.0700.pdf?id=7870",
+        "dc-section-9.0700.pdf_id7870"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "52c38a6cbe4bd85d746eeb469a5b3b48",
+      "files": [
+        "dc-section-10.0900.pdf?id=7880",
+        "dc-section-10.0900.pdf_id7880"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "bbb16ba2d72da9796a4ea1d694b9259e",
+      "files": [
+        "dc-article-3.pdf?id=7832",
+        "dc-article-3.pdf_id7832"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "eb13f33ccd1e6cfbec1b79316eba3065",
+      "files": [
+        "dc-section-4.0300.pdf?id=7835",
+        "dc-section-4.0300.pdf_id7835"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "6856561970d0b7f74127352b24ac5da2",
+      "files": [
+        "dc-appendix-7.000.pdf?id=7827",
+        "dc-appendix-7.000.pdf_id7827"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "50c49204217e0dcb5a51a54f70339041",
+      "files": [
+        "dc-section-10.0100.pdf?id=7874",
+        "dc-section-10.0100.pdf_id7874"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "97f152f1276fde4607aaa2af6b266cf6",
+      "files": [
+        "dc-section-11.0400.pdf?id=7890",
+        "dc-section-11.0400.pdf_id7890"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "f230c4d898e6651fc5fc6389c3e04047",
+      "files": [
+        "dc-appendix-13.000.pdf?id=7830",
+        "dc-appendix-13.000.pdf_id7830"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "289f85cbb82883c115f0365c719b0a50",
+      "files": [
+        "dc-section-6.0000.pdf?id=7850",
+        "dc-section-6.0000.pdf_id7850"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "91fce448201fd2b7089fc585d2662223",
+      "files": [
+        "dc-section-4.1300.pdf?id=7840",
+        "dc-section-4.1300.pdf_id7840"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "19599e1bcfa7e08230ab8225f0ed0a1e",
+      "files": [
+        "dc-section-8.0100.pdf?id=7861",
+        "dc-section-8.0100.pdf_id7861"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "6d977c8684e0ae3cb8abce46e11064a1",
+      "files": [
+        "dc-section-10.0500.pdf?id=7878",
+        "dc-section-10.0500.pdf_id7878"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "c1c4528be53ab29029c267d0ae2256a3",
+      "files": [
+        "dc-section-7.0100.pdf?id=7856",
+        "dc-section-7.0100.pdf_id7856"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "fbe3a89263e5891d018e2f283fdcfcc5",
+      "files": [
+        "dc-section-5.0300.pdf?id=7846",
+        "dc-section-5.0300.pdf_id7846"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "139e42801dc4e516f77b244ba84d2f01",
+      "files": [
+        "dc-section-7.0300.pdf?id=7858",
+        "dc-section-7.0300.pdf_id7858"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "56fe52b3a26c346b1d4d581609523f4a",
+      "files": [
+        "dc-section-7.0600.pdf?id=7860",
+        "dc-section-7.0600.pdf_id7860"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "84063ba4c596e50088d150a59275c72f",
+      "files": [
+        "dc-section-11.0100.pdf?id=7887",
+        "dc-section-11.0100.pdf_id7887"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "85f63f3bba8601affe62ae4ebcc680e2",
+      "files": [
+        "dc-section-11.0300.pdf?id=7889",
+        "dc-section-11.0300.pdf_id7889"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "eccf5a6730919bba40f55ee90f2ce8ff",
+      "files": [
+        "solid-waste-and-recycling-collection-service-planning-matrix.pdf?id=5552",
+        "solid-waste-and-recycling-collection-service-planning-matrix.pdf_id5552"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "15f1e464882fed8adbc343af2aeb8124",
+      "files": [
+        "dc-section-10.1100.pdf?id=7882",
+        "dc-section-10.1100.pdf_id7882"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "8246b3f13f3bbd6c97c676e3029e7f34",
+      "files": [
+        "dc-section-6.0100.pdf?id=7851",
+        "dc-section-6.0100.pdf_id7851"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "2c22a503ef0e1915ed523b7dc727926c",
+      "files": [
+        "dc-section-10.0600.pdf?id=7879",
+        "dc-section-10.0600.pdf_id7879"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "f507684b17f012ab057fa0836ca214bd",
+      "files": [
+        "dc-section-10.0400.pdf?id=7877",
+        "dc-section-10.0400.pdf_id7877"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "3ef2b1dd870a915966ebd9332143999d",
+      "files": [
+        "development-code-amendments.pdf?id=1798",
+        "development-code-amendments.pdf_id1798"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "35d2f1627d737a6267ca697549508ebf",
+      "files": [
+        "dc-section-5.0500.pdf?id=7848",
+        "dc-section-5.0500.pdf_id7848"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "cda5303d22ecb1e57be0f52f3d237bcb",
+      "files": [
+        "dc-table-of-contents.pdf?id=7899",
+        "dc-table-of-contents.pdf_id7899"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "f0061daa812af3ff8fd6aca93f335665",
+      "files": [
+        "dc-section-6.0200.pdf?id=7852",
+        "dc-section-6.0200.pdf_id7852"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "3102623684a60d740b04e260ffb57276",
+      "files": [
+        "dc-section-4.1000.pdf?id=7837",
+        "dc-section-4.1000.pdf_id7837"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "327d29c747e749fdb29fc87600069686",
+      "files": [
+        "dc-appendix-6.000.pdf?id=7826",
+        "dc-appendix-6.000.pdf_id7826"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "5e8a56aea26a44aefab4ea0077744a0f",
+      "files": [
+        "dc-article-2.pdf?id=7831",
+        "dc-article-2.pdf_id7831"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "64e2ffb2d612c244e54631ea992039e9",
+      "files": [
+        "dc-section-9.0400.pdf?id=7867",
+        "dc-section-9.0400.pdf_id7867"
+      ],
+      "count": 2
+    },
+    {
+      "hash": "d55c32ebe2dac19ef98080c173ebdf41",
+      "files": [
+        "dc-section-10.1000.pdf?id=7881",
+        "dc-section-10.1000.pdf_id7881"
+      ],
+      "count": 2
+    }
+  ],
+  "summary": "Found 38 duplicate files out of 121 total files."
+}

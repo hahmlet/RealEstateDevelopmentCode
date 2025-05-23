@@ -1,0 +1,66 @@
+=======
+# Ignore all VM disk images or backups
+*.vma
+*.vma.zst
+*.tar
+*.tar.zst
+*.img
+*.qcow2
+*.raw
+*.iso
+
+# Don't accidentally commit media or big files
+*.mkv
+*.mp4
+*.avi
+*.flac
+*.mp3
+*.srt
+*.nfo
+
+# Ignore backup folders and ZFS dumps
+dump/
+backups/
+tmp/
+*.log
+*.swp
+*.zfsdump
+
+# Ignore secrets and credentials (if any exist)
+*.env
+*.key
+*.crt
+*.pem
+*.gpg
+*.sops.yaml
+secrets/
+
+# OS and editor-specific
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.log
+
+# Git internals if you ever script in subfolders
+.git/
+
+# generated or transient output
+output/
+dump/
+*.tmp
+*.temp
+
+# temporary MCP syncs or working files
+.cache/
+*.lock
+
+/scripts/
+!lxc_configs/
+!agent/
+/docling_json/
+/raw_pdfs/
+/logs/
+/registry/
+/tables/
+/vectors/

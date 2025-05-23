@@ -1,0 +1,1946 @@
+{
+  "metrics": {
+    "total_documents": 69,
+    "documents_with_files": 67,
+    "documents_without_files": 2,
+    "total_subsections": 97,
+    "orphaned_files": 15,
+    "alignment_percentage": 97.1
+  },
+  "missing_documents": [
+    {
+      "number": "3.01",
+      "title": "DEFINITIONS",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "3.0100",
+          "title": "DEFINITIONS"
+        }
+      ]
+    },
+    {
+      "number": "3.02",
+      "title": "LAND USE CLASSIFICATIONS",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "3.0200",
+          "title": "LAND USE CLASSIFICATIONS"
+        }
+      ]
+    }
+  ],
+  "orphaned_files": [
+    {
+      "filename": "dc-article-3.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-appendix-7.000.json",
+      "extracted_number": "7.00"
+    },
+    {
+      "filename": "dc-section-7.0600.json",
+      "extracted_number": "7.06"
+    },
+    {
+      "filename": "development-code-appendix-1.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-section-6.0000.json",
+      "extracted_number": "6.00"
+    },
+    {
+      "filename": "solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-appendix-9.000.json",
+      "extracted_number": "9.00"
+    },
+    {
+      "filename": "dc-section-5.0000.json",
+      "extracted_number": "5.00"
+    },
+    {
+      "filename": "dc-article-2.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-section-10.1700.json",
+      "extracted_number": "10.17"
+    },
+    {
+      "filename": "development-code-amendments-jan.-99---may-09.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-section-10.0300.json",
+      "extracted_number": "10.03"
+    },
+    {
+      "filename": "dc-appendix-13.000.json",
+      "extracted_number": "13.00"
+    },
+    {
+      "filename": "dc-appendix-3.000.json",
+      "extracted_number": "3.00"
+    },
+    {
+      "filename": "development-code-amendments.json",
+      "extracted_number": null
+    }
+  ],
+  "document_hierarchy": [
+    {
+      "number": "3.01",
+      "title": "DEFINITIONS",
+      "has_file": false,
+      "filename": null,
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "3.0100",
+          "title": "DEFINITIONS"
+        }
+      ]
+    },
+    {
+      "number": "3.02",
+      "title": "LAND USE CLASSIFICATIONS",
+      "has_file": false,
+      "filename": null,
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "3.0200",
+          "title": "LAND USE CLASSIFICATIONS"
+        }
+      ]
+    },
+    {
+      "number": "4.01",
+      "title": "RESIDENTIAL LAND USE DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.0100",
+          "title": "RESIDENTIAL LAND USE DISTRICTS"
+        }
+      ]
+    },
+    {
+      "number": "4.02",
+      "title": "COMMERCIAL LAND USE DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.0200",
+          "title": "COMMERCIAL LAND USE DISTRICTS"
+        }
+      ]
+    },
+    {
+      "number": "4.03",
+      "title": "INDUSTRIAL LAND USE DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.0300",
+          "title": "INDUSTRIAL LAND USE DISTRICTS"
+        }
+      ]
+    },
+    {
+      "number": "4.04",
+      "title": "CORRIDOR DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0400.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "4.0400",
+          "title": "CORRIDOR DISTRICTS"
+        },
+        {
+          "number": "4.0440",
+          "title": "Off-Street Parking for Townhouses in the Rockwood Town Center, Station Center,"
+        }
+      ]
+    },
+    {
+      "number": "4.10",
+      "title": "PLAN DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1000",
+          "title": "PLAN DISTRICTS"
+        }
+      ]
+    },
+    {
+      "number": "4.11",
+      "title": "DOWNTOWN PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1100",
+          "title": "DOWNTOWN PLAN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "4.12",
+      "title": "CIVIC NEIGHBORHOOD PLAN DISTRICT \nI",
+      "has_file": true,
+      "filename": "dc-section-4.1200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1200",
+          "title": "CIVIC NEIGHBORHOOD PLAN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "4.13",
+      "title": "GRESHAM BUTTE PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1300",
+          "title": "GRESHAM BUTTE PLAN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "4.14",
+      "title": "PLEASANT VALLEY PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1400.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "4.1400",
+          "title": "PLEASANT VALLEY PLAN DISTRICT"
+        },
+        {
+          "number": "4.1462",
+          "title": "Elementary School Overlay – Pleasant Valley (ESO-PV) and Middle School Overlay –"
+        }
+      ]
+    },
+    {
+      "number": "4.15",
+      "title": "SPRINGWATER PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1500",
+          "title": "SPRINGWATER PLAN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "5.00",
+      "title": "PURPOSE AND AUTHORITY \nG",
+      "has_file": true,
+      "filename": "dc-appendix-5.000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0000",
+          "title": "PURPOSE AND AUTHORITY"
+        }
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "FLOODPLAIN OVERLAY DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0100",
+          "title": "FLOODPLAIN OVERLAY DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "HILLSIDE AND GEOLOGIC RISK OVERLAY",
+      "has_file": true,
+      "filename": "dc-section-5.0200.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "5.0200",
+          "title": "HILLSIDE AND GEOLOGIC RISK OVERLAY (HGRO)"
+        },
+        {
+          "number": "5.0209",
+          "title": "General Standards for Development within the Hillside and Geologic Risk Overlay"
+        },
+        {
+          "number": "5.0210",
+          "title": "Standards for Specific Development Types within the Hillside and Geologic Risk"
+        }
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "has_file": true,
+      "filename": "dc-section-5.0300.json",
+      "subsection_count": 5,
+      "subsections": [
+        {
+          "number": "5.0300",
+          "title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT"
+        },
+        {
+          "number": "5.0310",
+          "title": "General"
+        },
+        {
+          "number": "5.0320",
+          "title": "Identification and Designation"
+        },
+        {
+          "number": "5.0330",
+          "title": "Development Requirements"
+        },
+        {
+          "number": "5.0340",
+          "title": "Archaeological Resources and Sites North of Interstate 84"
+        }
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "OPEN SPACE OVERLAY DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0500",
+          "title": "OPEN SPACE OVERLAY DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "GRESHAM BUTTE SCENIC VIEW OVERLAY DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0600",
+          "title": "GRESHAM BUTTE SCENIC VIEW OVERLAY DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "NATURAL RESOURCE OVERLAY \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0700.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0700",
+          "title": "NATURAL RESOURCE OVERLAY"
+        }
+      ]
+    },
+    {
+      "number": "6.00",
+      "title": "INTRODUCTORY PROVISIONS \nG",
+      "has_file": true,
+      "filename": "dc-appendix-6.000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0000",
+          "title": "INTRODUCTORY PROVISIONS"
+        }
+      ]
+    },
+    {
+      "number": "6.01",
+      "title": "LOT LINE ADJUSTMENTS AND LOT CONSOLIDATIONS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0100",
+          "title": "LOT LINE ADJUSTMENTS AND LOT CONSOLIDATIONS"
+        }
+      ]
+    },
+    {
+      "number": "6.02",
+      "title": "PARTITIONS AND SUBDIVISIONS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0200",
+          "title": "PARTITIONS AND SUBDIVISIONS"
+        }
+      ]
+    },
+    {
+      "number": "6.03",
+      "title": "PLANNED DEVELOPMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0300",
+          "title": "PLANNED DEVELOPMENTS"
+        }
+      ]
+    },
+    {
+      "number": "6.04",
+      "title": "LAND DIVISION FINAL PLAT REQUIREMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0400.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0400",
+          "title": "LAND DIVISION FINAL PLAT REQUIREMENTS"
+        }
+      ]
+    },
+    {
+      "number": "6.05",
+      "title": "MIDDLE HOUSING LAND DIVISION",
+      "has_file": true,
+      "filename": "dc-section-6.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0500",
+          "title": "MIDDLE HOUSING LAND DIVISION"
+        }
+      ]
+    },
+    {
+      "number": "7.00",
+      "title": "PURPOSE AND AUTHORITY",
+      "has_file": true,
+      "filename": "dc-section-7.0000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "7.0000",
+          "title": "PURPOSE AND AUTHORITY"
+        }
+      ]
+    },
+    {
+      "number": "7.01",
+      "title": "CORRIDOR DESIGN DISTRICT",
+      "has_file": true,
+      "filename": "dc-section-7.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "7.0100",
+          "title": "CORRIDOR DESIGN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "7.02",
+      "title": "GENERAL DESIGN STANDARDS",
+      "has_file": true,
+      "filename": "dc-section-7.0200.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "7.0200",
+          "title": "GENERAL DESIGN STANDARDS"
+        },
+        {
+          "number": "7.0212",
+          "title": "Standards for New Solid Waste and Recycling Collection Areas for Multifamily,"
+        }
+      ]
+    },
+    {
+      "number": "7.03",
+      "title": "COMMERCIAL",
+      "has_file": true,
+      "filename": "dc-section-7.0300.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "7.0300",
+          "title": "COMMERCIAL, INSTITUTIONAL, AND INDUSTRIAL DESIGN STANDARDS"
+        },
+        {
+          "number": "7.0310",
+          "title": "Commercial (except those in a Design District), Institutional, and Mixed Use"
+        }
+      ]
+    },
+    {
+      "number": "7.04",
+      "title": "RESIDENTIAL DESIGN STANDARDS",
+      "has_file": true,
+      "filename": "dc-section-7.0400.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "7.0400",
+          "title": "RESIDENTIAL DESIGN STANDARDS"
+        },
+        {
+          "number": "7.0420",
+          "title": "Design Standards for Single Detached Dwellings, Duplexes, Triplexes, and"
+        }
+      ]
+    },
+    {
+      "number": "7.05",
+      "title": "ROCKWOOD DESIGN DISTRICT DESIGN GUIDELINES AND STANDARDS",
+      "has_file": true,
+      "filename": "dc-section-7.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "7.0500",
+          "title": "ROCKWOOD DESIGN DISTRICT DESIGN GUIDELINES AND STANDARDS"
+        }
+      ]
+    },
+    {
+      "number": "8.01",
+      "title": "SPECIAL USE REVIEW \nG",
+      "has_file": true,
+      "filename": "dc-section-8.0100.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "8.0100",
+          "title": "SPECIAL USE REVIEW"
+        },
+        {
+          "number": "8.0110",
+          "title": "Special Use Review, Type II Procedure"
+        },
+        {
+          "number": "8.0140",
+          "title": "Special Use Review, Type III Procedure"
+        }
+      ]
+    },
+    {
+      "number": "8.02",
+      "title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT \nG",
+      "has_file": true,
+      "filename": "dc-section-8.0200.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "8.0200",
+          "title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT"
+        },
+        {
+          "number": "8.0221",
+          "title": "Alteration, Enlargement, Expansion, Movement or Replacement of a Nonconforming"
+        },
+        {
+          "number": "8.0222",
+          "title": "Alteration, Enlargement, Expansion, Movement or Replacement of a Nonconforming"
+        }
+      ]
+    },
+    {
+      "number": "8.03",
+      "title": "INSTITUTIONAL MASTER PLANS \nG",
+      "has_file": true,
+      "filename": "dc-section-8.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "8.0300",
+          "title": "INSTITUTIONAL MASTER PLANS"
+        }
+      ]
+    },
+    {
+      "number": "9.01",
+      "title": "BUFFERING AND SCREENING REQUIREMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0100",
+          "title": "BUFFERING AND SCREENING REQUIREMENTS"
+        }
+      ]
+    },
+    {
+      "number": "9.02",
+      "title": "CLEAR VISION AREA \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0200",
+          "title": "CLEAR VISION AREA"
+        }
+      ]
+    },
+    {
+      "number": "9.03",
+      "title": "EASEMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0300",
+          "title": "EASEMENTS"
+        }
+      ]
+    },
+    {
+      "number": "9.04",
+      "title": "FENCING \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0400.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0400",
+          "title": "FENCING"
+        }
+      ]
+    },
+    {
+      "number": "9.05",
+      "title": "GRADING AND DRAINAGE AND STORMWATER MANAGEMENT \nREQUIREMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0500",
+          "title": "GRADING AND DRAINAGE AND STORMWATER MANAGEMENT"
+        }
+      ]
+    },
+    {
+      "number": "9.06",
+      "title": "HEIGHT TRANSITION \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0600",
+          "title": "HEIGHT TRANSITION"
+        }
+      ]
+    },
+    {
+      "number": "9.07",
+      "title": "NEIGHBORHOOD CIRCULATION AND FUTURE STREET PLANS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0700.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0700",
+          "title": "NEIGHBORHOOD CIRCULATION AND FUTURE STREET PLANS"
+        }
+      ]
+    },
+    {
+      "number": "9.08",
+      "title": "PARKING \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0800.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0800",
+          "title": "PARKING"
+        }
+      ]
+    },
+    {
+      "number": "9.09",
+      "title": "PROJECTIONS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0900.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0900",
+          "title": "PROJECTIONS"
+        }
+      ]
+    },
+    {
+      "number": "9.10",
+      "title": "TREE REGULATIONS",
+      "has_file": true,
+      "filename": "dc-section-9.1000.json",
+      "subsection_count": 7,
+      "subsections": [
+        {
+          "number": "9.1000",
+          "title": "TREE REGULATIONS"
+        },
+        {
+          "number": "9.1010",
+          "title": "General"
+        },
+        {
+          "number": "9.1020",
+          "title": "Trees: Existing Development"
+        },
+        {
+          "number": "9.1030",
+          "title": "Trees: During Development"
+        },
+        {
+          "number": "9.1040",
+          "title": "Tree Planting and Pruning"
+        },
+        {
+          "note": "... and 2 more"
+        }
+      ]
+    },
+    {
+      "number": "10.01",
+      "title": "ACCESSORY DWELLINGS \nG",
+      "has_file": true,
+      "filename": "dc-section-10.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0100",
+          "title": "ACCESSORY DWELLINGS"
+        }
+      ]
+    },
+    {
+      "number": "10.02",
+      "title": "RESIDENTIAL ACCESSORY STRUCTURES \nG",
+      "has_file": true,
+      "filename": "dc-section-10.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0200",
+          "title": "RESIDENTIAL ACCESSORY STRUCTURES"
+        }
+      ]
+    },
+    {
+      "number": "10.04",
+      "title": "CONVERSION OF UNITS",
+      "has_file": true,
+      "filename": "dc-section-10.0400.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "10.0400",
+          "title": "CONVERSION OF UNITS"
+        },
+        {
+          "number": "10.0410",
+          "title": "Conversion of Elderly Housing Units"
+        },
+        {
+          "number": "10.0420",
+          "title": "Affordable Housing and Emergency Shelters Converted From Hotels and Motels"
+        }
+      ]
+    },
+    {
+      "number": "10.05",
+      "title": "HOME OCCUPATIONS",
+      "has_file": true,
+      "filename": "dc-section-10.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0500",
+          "title": "HOME OCCUPATIONS"
+        }
+      ]
+    },
+    {
+      "number": "10.06",
+      "title": "WIRELESS COMMUNICATION FACILITIES CO",
+      "has_file": true,
+      "filename": "dc-section-10.0600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0600",
+          "title": "WIRELESS COMMUNICATION FACILITIES CO-LOCATION STANDARDS"
+        }
+      ]
+    },
+    {
+      "number": "10.07",
+      "title": "MINERAL AND AGGREGATE RESOURCE EXTRACTION \nG",
+      "has_file": true,
+      "filename": "dc-section-10.0700.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0700",
+          "title": "MINERAL AND AGGREGATE RESOURCE EXTRACTION"
+        }
+      ]
+    },
+    {
+      "number": "10.09",
+      "title": "RENEWABLE ENERGY \nR",
+      "has_file": true,
+      "filename": "dc-section-10.0900.json",
+      "subsection_count": 6,
+      "subsections": [
+        {
+          "number": "10.0900",
+          "title": "RENEWABLE ENERGY"
+        },
+        {
+          "number": "10.0910",
+          "title": "Solar Energy Systems"
+        },
+        {
+          "number": "10.0920",
+          "title": "Windy Energy Systems"
+        },
+        {
+          "number": "10.0930",
+          "title": "Biomass Energy Systems"
+        },
+        {
+          "number": "10.0940",
+          "title": "Geothermal Energy Systems"
+        },
+        {
+          "note": "... and 1 more"
+        }
+      ]
+    },
+    {
+      "number": "10.10",
+      "title": "PRIVATE COMMUNICATION FACILITIES \nS",
+      "has_file": true,
+      "filename": "dc-section-10.1000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1000",
+          "title": "PRIVATE COMMUNICATION FACILITIES"
+        }
+      ]
+    },
+    {
+      "number": "10.11",
+      "title": "SHORELINE HEIGHT STANDARDS \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1100",
+          "title": "SHORELINE HEIGHT STANDARDS"
+        }
+      ]
+    },
+    {
+      "number": "10.13",
+      "title": "TEMPORARY HEALTH HARDSHIP DWELLING \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1300",
+          "title": "TEMPORARY HEALTH HARDSHIP DWELLING"
+        }
+      ]
+    },
+    {
+      "number": "10.14",
+      "title": "TEMPORARY",
+      "has_file": true,
+      "filename": "dc-section-10.1400.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1400",
+          "title": "TEMPORARY, INTERMITTENT AND INTERIM USES"
+        }
+      ]
+    },
+    {
+      "number": "10.15",
+      "title": "VARIANCE AND ADJUSTMENT PROCEDURES \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1500",
+          "title": "VARIANCE AND ADJUSTMENT PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "10.16",
+      "title": "FOOD CARTS \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1600",
+          "title": "FOOD CARTS"
+        }
+      ]
+    },
+    {
+      "number": "11.01",
+      "title": "DEVELOPMENT PERMIT REQUIREMENTS",
+      "has_file": true,
+      "filename": "dc-section-11.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0100",
+          "title": "DEVELOPMENT PERMIT REQUIREMENTS"
+        }
+      ]
+    },
+    {
+      "number": "11.02",
+      "title": "INITIATION AND CLASSIFICATION OF APPLICATIONS",
+      "has_file": true,
+      "filename": "dc-section-11.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0200",
+          "title": "INITIATION AND CLASSIFICATION OF APPLICATIONS"
+        }
+      ]
+    },
+    {
+      "number": "11.03",
+      "title": "TYPE I MINISTERIAL PROCEDURES",
+      "has_file": true,
+      "filename": "dc-section-11.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0300",
+          "title": "TYPE I MINISTERIAL PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.04",
+      "title": "TYPE II ADMINISTRATIVE PROCEDURES",
+      "has_file": true,
+      "filename": "dc-section-11.0400.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0400",
+          "title": "TYPE II ADMINISTRATIVE PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.05",
+      "title": "TYPE III QUASI",
+      "has_file": true,
+      "filename": "dc-section-11.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0500",
+          "title": "TYPE III QUASI-JUDICIAL PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.06",
+      "title": "TYPE IV LEGISLATIVE PROCEDURES",
+      "has_file": true,
+      "filename": "dc-section-11.0600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0600",
+          "title": "TYPE IV LEGISLATIVE PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.07",
+      "title": "OPTIONAL CONFERENCES AND PRE",
+      "has_file": true,
+      "filename": "dc-section-11.0700.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0700",
+          "title": "OPTIONAL CONFERENCES AND PRE-APPLICATION CONFERENCE"
+        }
+      ]
+    },
+    {
+      "number": "11.08",
+      "title": "NEIGHBORHOOD MEETING",
+      "has_file": true,
+      "filename": "dc-section-11.0800.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0800",
+          "title": "NEIGHBORHOOD MEETING"
+        }
+      ]
+    },
+    {
+      "number": "11.09",
+      "title": "APPLICATION SUBMITTAL AND COMPLETENESS REVIEW",
+      "has_file": true,
+      "filename": "dc-section-11.0900.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0900",
+          "title": "APPLICATION SUBMITTAL AND COMPLETENESS REVIEW"
+        }
+      ]
+    },
+    {
+      "number": "11.10",
+      "title": "PUBLIC HEARINGS",
+      "has_file": true,
+      "filename": "dc-section-11.1000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.1000",
+          "title": "PUBLIC HEARINGS"
+        }
+      ]
+    },
+    {
+      "number": "11.11",
+      "title": "APPEALS",
+      "has_file": true,
+      "filename": "dc-section-11.1100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.1100",
+          "title": "APPEALS"
+        }
+      ]
+    },
+    {
+      "number": "12.00",
+      "title": "PLAN MAP AMENDMENTS AND AMENDMENTS TO MAP BOUNDARIES \nG",
+      "has_file": true,
+      "filename": "dc-section-12.0000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "12.0000",
+          "title": "PLAN MAP AMENDMENTS AND AMENDMENTS TO MAP BOUNDARIES"
+        }
+      ]
+    }
+  ],
+  "content_validation": [
+    {
+      "document_number": "4.01",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "4.0100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "4.02",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.0200.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "4.0200"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "4.03",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.0300.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "4.0300"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "4.04",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "expected_subsections": 2,
+      "found_subsections": 2,
+      "missing_subsections": 0,
+      "found_list": [
+        "4.0400",
+        "4.0440"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "4.10",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1000.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "4.1000"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "4.11",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "4.1100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "4.12",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "4.1200"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "4.13",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1300.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "4.1300"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "4.14",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "expected_subsections": 2,
+      "found_subsections": 1,
+      "missing_subsections": 1,
+      "found_list": [
+        "4.1400"
+      ],
+      "missing_list": [
+        "4.1462"
+      ],
+      "validation_percentage": 50.0
+    },
+    {
+      "document_number": "4.15",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "4.1500"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "5.00",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-appendix-5.000.json",
+      "expected_subsections": 1,
+      "found_subsections": 0,
+      "missing_subsections": 1,
+      "found_list": [],
+      "missing_list": [
+        "5.0000"
+      ],
+      "validation_percentage": 0.0
+    },
+    {
+      "document_number": "5.01",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "5.0100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "5.02",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0200.json",
+      "expected_subsections": 3,
+      "found_subsections": 3,
+      "missing_subsections": 0,
+      "found_list": [
+        "5.0200",
+        "5.0209",
+        "5.0210"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "5.03",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0300.json",
+      "expected_subsections": 5,
+      "found_subsections": 5,
+      "missing_subsections": 0,
+      "found_list": [
+        "5.0300",
+        "5.0310",
+        "5.0320",
+        "5.0330",
+        "5.0340"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "5.05",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0500.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "5.0500"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "5.06",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "5.0600"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "5.07",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0700.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "5.0700"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "6.00",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-appendix-6.000.json",
+      "expected_subsections": 1,
+      "found_subsections": 0,
+      "missing_subsections": 1,
+      "found_list": [],
+      "missing_list": [
+        "6.0000"
+      ],
+      "validation_percentage": 0.0
+    },
+    {
+      "document_number": "6.01",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "6.0100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "6.02",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0200.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "6.0200"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "6.03",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "6.0300"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "6.04",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0400.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "6.0400"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "6.05",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0500.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "6.0500"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "7.00",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0000.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "7.0000"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "7.01",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "7.0100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "7.02",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0200.json",
+      "expected_subsections": 2,
+      "found_subsections": 2,
+      "missing_subsections": 0,
+      "found_list": [
+        "7.0200",
+        "7.0212"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "7.03",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0300.json",
+      "expected_subsections": 2,
+      "found_subsections": 2,
+      "missing_subsections": 0,
+      "found_list": [
+        "7.0300",
+        "7.0310"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "7.04",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0400.json",
+      "expected_subsections": 2,
+      "found_subsections": 2,
+      "missing_subsections": 0,
+      "found_list": [
+        "7.0400",
+        "7.0420"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "7.05",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "7.0500"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "8.01",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-8.0100.json",
+      "expected_subsections": 3,
+      "found_subsections": 3,
+      "missing_subsections": 0,
+      "found_list": [
+        "8.0100",
+        "8.0110",
+        "8.0140"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "8.02",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-8.0200.json",
+      "expected_subsections": 3,
+      "found_subsections": 3,
+      "missing_subsections": 0,
+      "found_list": [
+        "8.0200",
+        "8.0221",
+        "8.0222"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "8.03",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-8.0300.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "8.0300"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.01",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.0100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.02",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0200.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.0200"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.03",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0300.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.0300"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.04",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0400.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.0400"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.05",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0500.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.0500"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.06",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0600.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.0600"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.07",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0700.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.0700"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.08",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0800.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.0800"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.09",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0900.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.0900"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "9.10",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.1000.json",
+      "expected_subsections": 7,
+      "found_subsections": 7,
+      "missing_subsections": 0,
+      "found_list": [
+        "9.1000",
+        "9.1010",
+        "9.1020",
+        "9.1030",
+        "9.1040",
+        "9.1050",
+        "9.1053"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.01",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.0100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.02",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.0200"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.04",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0400.json",
+      "expected_subsections": 3,
+      "found_subsections": 3,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.0400",
+        "10.0410",
+        "10.0420"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.05",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0500.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.0500"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.06",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0600.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.0600"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.07",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0700.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.0700"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.09",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0900.json",
+      "expected_subsections": 6,
+      "found_subsections": 6,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.0900",
+        "10.0910",
+        "10.0920",
+        "10.0930",
+        "10.0940",
+        "10.0950"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.10",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1000.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.1000"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.11",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.1100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.13",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1300.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.1300"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.14",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1400.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.1400"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.15",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1500.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.1500"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "10.16",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "10.1600"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.01",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.0100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.02",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0200.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.0200"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.03",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0300.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.0300"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.04",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0400.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.0400"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.05",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0500.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.0500"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.06",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0600.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.0600"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.07",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0700.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.0700"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.08",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0800.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.0800"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.09",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0900.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.0900"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.10",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.1000.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.1000"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "11.11",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.1100.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "11.1100"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    },
+    {
+      "document_number": "12.00",
+      "file_path": "/workspace/data/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+      "expected_subsections": 1,
+      "found_subsections": 1,
+      "missing_subsections": 0,
+      "found_list": [
+        "12.0000"
+      ],
+      "missing_list": [],
+      "validation_percentage": 100.0
+    }
+  ],
+  "validation_summary": {
+    "total_validations": 67,
+    "successful_validations": 67,
+    "average_validation_percentage": 96.26865671641791
+  },
+  "analysis_metadata": {
+    "content_directory": "/workspace/data/pdf_content/Oregon/gresham",
+    "analysis_type": "comprehensive",
+    "validation_performed": true
+  }
+}

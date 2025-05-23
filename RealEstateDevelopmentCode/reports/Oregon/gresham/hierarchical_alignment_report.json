@@ -1,0 +1,2349 @@
+{
+  "metrics": {
+    "total_documents": 69,
+    "documents_with_files": 67,
+    "documents_without_files": 2,
+    "total_subsections": 812,
+    "orphaned_files": 15,
+    "alignment_percentage": 97.1
+  },
+  "missing_documents": [
+    {
+      "number": "3.01",
+      "title": "DEFINITIONS",
+      "subsection_count": 7,
+      "subsections": [
+        {
+          "number": "3.0101",
+          "title": "General Provisions"
+        },
+        {
+          "number": "3.0102",
+          "title": "List of Terms"
+        },
+        {
+          "number": "3.0103",
+          "title": "General Terms and Definitions"
+        },
+        {
+          "number": "3.0120",
+          "title": "Article 5 Terms and Definitions"
+        },
+        {
+          "number": "3.0140",
+          "title": "Renewable Energy Related Terms and Definitions"
+        },
+        {
+          "number": "3.0150",
+          "title": "Tree Related Terms and Definitions"
+        },
+        {
+          "number": "3.0100",
+          "title": "DEFINITIONS"
+        }
+      ]
+    },
+    {
+      "number": "3.02",
+      "title": "LAND USE CLASSIFICATIONS",
+      "subsection_count": 57,
+      "subsections": [
+        {
+          "number": "3.0201",
+          "title": "Purpose"
+        },
+        {
+          "number": "3.0202",
+          "title": "How to Use the Classification System"
+        },
+        {
+          "number": "3.0204",
+          "title": "Classifying a Use"
+        },
+        {
+          "number": "3.0205",
+          "title": "Multiple Primary Uses"
+        },
+        {
+          "number": "3.0206",
+          "title": "Determination of Similar Use"
+        },
+        {
+          "number": "3.0210",
+          "title": "Residential Classifications"
+        },
+        {
+          "number": "3.0211",
+          "title": "Single Detached Dwelling"
+        },
+        {
+          "number": "3.0212",
+          "title": "Duplex"
+        },
+        {
+          "number": "3.0213",
+          "title": "Triplex"
+        },
+        {
+          "number": "3.0214",
+          "title": "Quadplex"
+        },
+        {
+          "number": "3.0215",
+          "title": "Townhouse"
+        },
+        {
+          "number": "3.0216",
+          "title": "Cottage Cluster"
+        },
+        {
+          "number": "3.0217",
+          "title": "Multifamily"
+        },
+        {
+          "number": "3.0218",
+          "title": "Elderly Housing"
+        },
+        {
+          "number": "3.0219",
+          "title": "Manufactured Dwelling Park"
+        },
+        {
+          "number": "3.0220",
+          "title": "Residential Facility"
+        },
+        {
+          "number": "3.0221",
+          "title": "Residential Home"
+        },
+        {
+          "number": "3.0222",
+          "title": "Affordable Housing"
+        },
+        {
+          "number": "3.0230",
+          "title": "Commercial Classifications"
+        },
+        {
+          "number": "3.0231",
+          "title": "Auto-Dependent Use"
+        },
+        {
+          "number": "3.0232",
+          "title": "Business and Retail Service and Trade"
+        },
+        {
+          "number": "3.0233",
+          "title": "Clinics"
+        },
+        {
+          "number": "3.0234",
+          "title": "Commercial Parking"
+        },
+        {
+          "number": "3.0235",
+          "title": "Daycare Facilities"
+        },
+        {
+          "number": "3.0236",
+          "title": "Live-Work"
+        },
+        {
+          "number": "3.0237",
+          "title": "Major Event Entertainment"
+        },
+        {
+          "number": "3.0238",
+          "title": "Mini-Storage Facilities"
+        },
+        {
+          "number": "3.0239",
+          "title": "Outdoor Commercial"
+        },
+        {
+          "number": "3.0251",
+          "title": "Construction"
+        },
+        {
+          "number": "3.0252",
+          "title": "Exclusive Heavy Industrial"
+        },
+        {
+          "number": "3.0253",
+          "title": "Industrial Office"
+        },
+        {
+          "number": "3.0254",
+          "title": "Information Services"
+        },
+        {
+          "number": "3.0255",
+          "title": "Manufacturing"
+        },
+        {
+          "number": "3.0256",
+          "title": "Miscellaneous Industrial"
+        },
+        {
+          "number": "3.0257",
+          "title": "Trade Schools"
+        },
+        {
+          "number": "3.0258",
+          "title": "Transportation/Distribution"
+        },
+        {
+          "number": "3.0259",
+          "title": "Warehousing/Storage"
+        },
+        {
+          "number": "3.0260",
+          "title": "Waste Management"
+        },
+        {
+          "number": "3.0261",
+          "title": "Wholesale Trade"
+        },
+        {
+          "number": "3.0270",
+          "title": "Institutional Classifications"
+        },
+        {
+          "number": "3.0271",
+          "title": "Civic Uses"
+        },
+        {
+          "number": "3.0272",
+          "title": "Community Services"
+        },
+        {
+          "number": "3.0273",
+          "title": "Medical"
+        },
+        {
+          "number": "3.0274",
+          "title": "Parks, Open Spaces and Trails"
+        },
+        {
+          "number": "3.0275",
+          "title": "Religious Institutions"
+        },
+        {
+          "number": "3.0276",
+          "title": "Schools"
+        },
+        {
+          "number": "3.0280",
+          "title": "Renewable Energy"
+        },
+        {
+          "number": "3.0281",
+          "title": "Solar Energy Systems"
+        },
+        {
+          "number": "3.0282",
+          "title": "Wind Energy Systems"
+        },
+        {
+          "number": "3.0283",
+          "title": "Biomass Energy Systems"
+        },
+        {
+          "number": "3.0284",
+          "title": "Geothermal Energy Systems"
+        },
+        {
+          "number": "3.0285",
+          "title": "Micro-Hydro Energy Systems"
+        },
+        {
+          "number": "3.0290",
+          "title": "Other Classifications"
+        },
+        {
+          "number": "3.0291",
+          "title": "Basic Utilities"
+        },
+        {
+          "number": "3.0292",
+          "title": "Heliport Facilities"
+        },
+        {
+          "number": "3.0293",
+          "title": "Wireless Communication Facilities"
+        },
+        {
+          "number": "3.0200",
+          "title": "LAND USE CLASSIFICATIONS"
+        }
+      ]
+    }
+  ],
+  "orphaned_files": [
+    {
+      "filename": "dc-article-3.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-appendix-7.000.json",
+      "extracted_number": "7.00"
+    },
+    {
+      "filename": "dc-section-7.0600.json",
+      "extracted_number": "7.06"
+    },
+    {
+      "filename": "development-code-appendix-1.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-section-6.0000.json",
+      "extracted_number": "6.00"
+    },
+    {
+      "filename": "solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-appendix-9.000.json",
+      "extracted_number": "9.00"
+    },
+    {
+      "filename": "dc-section-5.0000.json",
+      "extracted_number": "5.00"
+    },
+    {
+      "filename": "dc-article-2.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-section-10.1700.json",
+      "extracted_number": "10.17"
+    },
+    {
+      "filename": "development-code-amendments-jan.-99---may-09.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-section-10.0300.json",
+      "extracted_number": "10.03"
+    },
+    {
+      "filename": "dc-appendix-13.000.json",
+      "extracted_number": "13.00"
+    },
+    {
+      "filename": "dc-appendix-3.000.json",
+      "extracted_number": "3.00"
+    },
+    {
+      "filename": "development-code-amendments.json",
+      "extracted_number": null
+    }
+  ],
+  "document_hierarchy": [
+    {
+      "number": "3.01",
+      "title": "DEFINITIONS",
+      "has_file": false,
+      "filename": null,
+      "subsection_count": 7,
+      "subsections": [
+        {
+          "number": "3.0101",
+          "title": "General Provisions"
+        },
+        {
+          "number": "3.0102",
+          "title": "List of Terms"
+        },
+        {
+          "number": "3.0103",
+          "title": "General Terms and Definitions"
+        },
+        {
+          "number": "3.0120",
+          "title": "Article 5 Terms and Definitions"
+        },
+        {
+          "number": "3.0140",
+          "title": "Renewable Energy Related Terms and Definitions"
+        },
+        {
+          "note": "... and 2 more"
+        }
+      ]
+    },
+    {
+      "number": "3.02",
+      "title": "LAND USE CLASSIFICATIONS",
+      "has_file": false,
+      "filename": null,
+      "subsection_count": 57,
+      "subsections": [
+        {
+          "number": "3.0201",
+          "title": "Purpose"
+        },
+        {
+          "number": "3.0202",
+          "title": "How to Use the Classification System"
+        },
+        {
+          "number": "3.0204",
+          "title": "Classifying a Use"
+        },
+        {
+          "number": "3.0205",
+          "title": "Multiple Primary Uses"
+        },
+        {
+          "number": "3.0206",
+          "title": "Determination of Similar Use"
+        },
+        {
+          "note": "... and 52 more"
+        }
+      ]
+    },
+    {
+      "number": "4.01",
+      "title": "RESIDENTIAL LAND USE DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0100.json",
+      "subsection_count": 23,
+      "subsections": [
+        {
+          "number": "4.0101",
+          "title": "Purpose"
+        },
+        {
+          "number": "4.0110",
+          "title": "Low Density Residential-5 (LDR-5)"
+        },
+        {
+          "number": "4.0111",
+          "title": "Low Density Residential-7 (LDR-7)"
+        },
+        {
+          "number": "4.0112",
+          "title": "Transit Low Density Residential (TLDR)"
+        },
+        {
+          "number": "4.0113",
+          "title": "Transition Residential (TR)"
+        },
+        {
+          "note": "... and 18 more"
+        }
+      ]
+    },
+    {
+      "number": "4.02",
+      "title": "COMMERCIAL LAND USE DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0200.json",
+      "subsection_count": 10,
+      "subsections": [
+        {
+          "number": "4.0201",
+          "title": "Purpose"
+        },
+        {
+          "number": "4.0210",
+          "title": "Neighborhood Commercial District (NC)"
+        },
+        {
+          "number": "4.0212",
+          "title": "Central Rockwood and Corridor Districts"
+        },
+        {
+          "number": "4.0220",
+          "title": "Permitted Uses"
+        },
+        {
+          "number": "4.0230",
+          "title": "Commercial Land Use District Standards"
+        },
+        {
+          "note": "... and 5 more"
+        }
+      ]
+    },
+    {
+      "number": "4.03",
+      "title": "INDUSTRIAL LAND USE DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0300.json",
+      "subsection_count": 13,
+      "subsections": [
+        {
+          "number": "4.0301",
+          "title": "Purpose"
+        },
+        {
+          "number": "4.0310",
+          "title": "Heavy Industrial (HI)"
+        },
+        {
+          "number": "4.0311",
+          "title": "General Industrial (GI)"
+        },
+        {
+          "number": "4.0320",
+          "title": "Permitted Uses"
+        },
+        {
+          "number": "4.0330",
+          "title": "Development Standards Table"
+        },
+        {
+          "note": "... and 8 more"
+        }
+      ]
+    },
+    {
+      "number": "4.04",
+      "title": "CORRIDOR DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0400.json",
+      "subsection_count": 24,
+      "subsections": [
+        {
+          "number": "4.0401",
+          "title": "Purpose"
+        },
+        {
+          "number": "4.0410",
+          "title": "Rockwood Town Center (RTC)"
+        },
+        {
+          "number": "4.0411",
+          "title": "Station Centers (SC)"
+        },
+        {
+          "number": "4.0412",
+          "title": "Corridor Multifamily (CMF)"
+        },
+        {
+          "number": "4.0413",
+          "title": "Corridor Mixed Use (CMU)"
+        },
+        {
+          "note": "... and 19 more"
+        }
+      ]
+    },
+    {
+      "number": "4.10",
+      "title": "PLAN DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1000.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "4.1000",
+          "title": "Enabling Legislation"
+        },
+        {
+          "number": "4.1000",
+          "title": "PLAN DISTRICTS"
+        }
+      ]
+    },
+    {
+      "number": "4.11",
+      "title": "DOWNTOWN PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1100.json",
+      "subsection_count": 27,
+      "subsections": [
+        {
+          "number": "4.1101",
+          "title": "Purpose"
+        },
+        {
+          "number": "4.1102",
+          "title": "Downtown Design Principles"
+        },
+        {
+          "number": "4.1109",
+          "title": "Downtown Sub-Districts"
+        },
+        {
+          "number": "4.1110",
+          "title": "Downtown Commercial Core (DCC)"
+        },
+        {
+          "number": "4.1111",
+          "title": "Downtown Mixed Use (DMU)"
+        },
+        {
+          "note": "... and 22 more"
+        }
+      ]
+    },
+    {
+      "number": "4.12",
+      "title": "CIVIC NEIGHBORHOOD PLAN DISTRICT \nI",
+      "has_file": true,
+      "filename": "dc-section-4.1200.json",
+      "subsection_count": 24,
+      "subsections": [
+        {
+          "number": "4.1201",
+          "title": "Purpose"
+        },
+        {
+          "number": "4.1210",
+          "title": "Civic Neighborhood Design Principles"
+        },
+        {
+          "number": "4.1220",
+          "title": "Civic Neighborhood Sub-Districts"
+        },
+        {
+          "number": "4.1221",
+          "title": "Civic Neighborhood Sub-Districts Map"
+        },
+        {
+          "number": "4.1222",
+          "title": "Civic Neighborhood Residential Mid-Rise (CNRM)"
+        },
+        {
+          "note": "... and 19 more"
+        }
+      ]
+    },
+    {
+      "number": "4.13",
+      "title": "GRESHAM BUTTE PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1300.json",
+      "subsection_count": 6,
+      "subsections": [
+        {
+          "number": "4.1301",
+          "title": "Purpose"
+        },
+        {
+          "number": "4.1310",
+          "title": "Types of Development Allowed and Setback Minimum"
+        },
+        {
+          "number": "4.1311",
+          "title": "Density and Average Lot Sizes"
+        },
+        {
+          "number": "4.1312",
+          "title": "Site Development Requirements"
+        },
+        {
+          "number": "4.1313",
+          "title": "Design Standards"
+        },
+        {
+          "note": "... and 1 more"
+        }
+      ]
+    },
+    {
+      "number": "4.14",
+      "title": "PLEASANT VALLEY PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1400.json",
+      "subsection_count": 49,
+      "subsections": [
+        {
+          "number": "4.1401",
+          "title": "Purpose"
+        },
+        {
+          "number": "4.1402",
+          "title": "Pleasant Valley Plan District Plan Map"
+        },
+        {
+          "number": "4.1403",
+          "title": "Pleasant Valley Sub-Districts in General"
+        },
+        {
+          "number": "4.1404",
+          "title": "Low-Density Residential – Pleasant Valley (LDR-PV)"
+        },
+        {
+          "number": "4.1405",
+          "title": "Medium-Density Residential – Pleasant Valley (MDR-PV)"
+        },
+        {
+          "note": "... and 44 more"
+        }
+      ]
+    },
+    {
+      "number": "4.15",
+      "title": "SPRINGWATER PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1500.json",
+      "subsection_count": 43,
+      "subsections": [
+        {
+          "number": "4.1501",
+          "title": "Purpose"
+        },
+        {
+          "number": "4.1502",
+          "title": "Springwater Plan Districts Plan Map"
+        },
+        {
+          "number": "4.1503",
+          "title": "Springwater Sub-Districts in General"
+        },
+        {
+          "number": "4.1504",
+          "title": "Very Low Density Residential – Springwater (VLDR-SW)"
+        },
+        {
+          "number": "4.1505",
+          "title": "Low Density Residential – Springwater (LDR-SW)"
+        },
+        {
+          "note": "... and 38 more"
+        }
+      ]
+    },
+    {
+      "number": "5.00",
+      "title": "PURPOSE AND AUTHORITY \nG",
+      "has_file": true,
+      "filename": "dc-appendix-5.000.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "5.0001",
+          "title": "Overlay Districts"
+        },
+        {
+          "number": "5.0000",
+          "title": "PURPOSE AND AUTHORITY"
+        }
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "FLOODPLAIN OVERLAY DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0100.json",
+      "subsection_count": 13,
+      "subsections": [
+        {
+          "number": "5.0101",
+          "title": "Introductory Provisions"
+        },
+        {
+          "number": "5.0102",
+          "title": "Warning and Disclaimer of Liability"
+        },
+        {
+          "number": "5.0103",
+          "title": "Interpretation of FIRM Boundaries"
+        },
+        {
+          "number": "5.0104",
+          "title": "Applicability"
+        },
+        {
+          "number": "5.0110",
+          "title": "Permitted Land Uses"
+        },
+        {
+          "note": "... and 8 more"
+        }
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "HILLSIDE AND GEOLOGIC RISK OVERLAY",
+      "has_file": true,
+      "filename": "dc-section-5.0200.json",
+      "subsection_count": 19,
+      "subsections": [
+        {
+          "number": "5.0201",
+          "title": "Purpose"
+        },
+        {
+          "number": "5.0202",
+          "title": "Coordination with Other Regulations"
+        },
+        {
+          "number": "5.0203",
+          "title": "Applicability"
+        },
+        {
+          "number": "5.0204",
+          "title": "Prohibitions"
+        },
+        {
+          "number": "5.0205",
+          "title": "Exempt Uses and Activities"
+        },
+        {
+          "note": "... and 14 more"
+        }
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "has_file": true,
+      "filename": "dc-section-5.0300.json",
+      "subsection_count": 22,
+      "subsections": [
+        {
+          "number": "5.0311",
+          "title": "Purpose"
+        },
+        {
+          "number": "5.0312",
+          "title": "Coordination with Other Regulations"
+        },
+        {
+          "number": "5.0313",
+          "title": "Applicability"
+        },
+        {
+          "number": "5.0314",
+          "title": "Permitted Uses"
+        },
+        {
+          "number": "5.0321",
+          "title": "Requirements for the Historic Resources Inventory"
+        },
+        {
+          "note": "... and 17 more"
+        }
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "OPEN SPACE OVERLAY DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0500.json",
+      "subsection_count": 10,
+      "subsections": [
+        {
+          "number": "5.0501",
+          "title": "Introductory Provisions"
+        },
+        {
+          "number": "5.0510",
+          "title": "Open Space Dedication"
+        },
+        {
+          "number": "5.0511",
+          "title": "Public Open Space Criteria"
+        },
+        {
+          "number": "5.0512",
+          "title": "Private Open Space Criteria"
+        },
+        {
+          "number": "5.0520",
+          "title": "Permitted Land Uses"
+        },
+        {
+          "note": "... and 5 more"
+        }
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "GRESHAM BUTTE SCENIC VIEW OVERLAY DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0600.json",
+      "subsection_count": 7,
+      "subsections": [
+        {
+          "number": "5.0601",
+          "title": "Purpose"
+        },
+        {
+          "number": "5.0602",
+          "title": "Applicability"
+        },
+        {
+          "number": "5.0603",
+          "title": "Permitted Uses"
+        },
+        {
+          "number": "5.0604",
+          "title": "Restricted Development Types"
+        },
+        {
+          "number": "5.0605",
+          "title": "Additional Standards in the Gresham Butte Scenic View Overlay District"
+        },
+        {
+          "note": "... and 2 more"
+        }
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "NATURAL RESOURCE OVERLAY \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0700.json",
+      "subsection_count": 17,
+      "subsections": [
+        {
+          "number": "5.0701",
+          "title": "Purpose"
+        },
+        {
+          "number": "5.0702",
+          "title": "Coordination with Other Regulations"
+        },
+        {
+          "number": "5.0703",
+          "title": "Applicability"
+        },
+        {
+          "number": "5.0704",
+          "title": "Prohibitions"
+        },
+        {
+          "number": "5.0705",
+          "title": "Exempt Uses and Activities"
+        },
+        {
+          "note": "... and 12 more"
+        }
+      ]
+    },
+    {
+      "number": "6.00",
+      "title": "INTRODUCTORY PROVISIONS \nG",
+      "has_file": true,
+      "filename": "dc-appendix-6.000.json",
+      "subsection_count": 7,
+      "subsections": [
+        {
+          "number": "6.0001",
+          "title": "Purpose and Authority"
+        },
+        {
+          "number": "6.0010",
+          "title": "Lot Arrangement"
+        },
+        {
+          "number": "6.0011",
+          "title": "Residential District Lot and Parcel Configuration"
+        },
+        {
+          "number": "6.0013",
+          "title": "Lot of Record"
+        },
+        {
+          "number": "6.0014",
+          "title": "Land Division with Leftover Parcels"
+        },
+        {
+          "note": "... and 2 more"
+        }
+      ]
+    },
+    {
+      "number": "6.01",
+      "title": "LOT LINE ADJUSTMENTS AND LOT CONSOLIDATIONS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0100.json",
+      "subsection_count": 5,
+      "subsections": [
+        {
+          "number": "6.0112",
+          "title": "Lots in Excessively Sloped Areas"
+        },
+        {
+          "number": "6.0101",
+          "title": "Lot Line Adjustments and Lot Consolidations"
+        },
+        {
+          "number": "6.0111",
+          "title": "Lot Line Adjustment – Final Survey Map"
+        },
+        {
+          "number": "6.0112",
+          "title": "Lot Consolidations"
+        },
+        {
+          "number": "6.0100",
+          "title": "LOT LINE ADJUSTMENTS AND LOT CONSOLIDATIONS"
+        }
+      ]
+    },
+    {
+      "number": "6.02",
+      "title": "PARTITIONS AND SUBDIVISIONS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0200.json",
+      "subsection_count": 7,
+      "subsections": [
+        {
+          "number": "6.0201",
+          "title": "Tentative Partition or Subdivision Plan"
+        },
+        {
+          "number": "6.0210",
+          "title": "Criteria for Approval of Tentative Plan"
+        },
+        {
+          "number": "6.0211",
+          "title": "Phased Subdivision"
+        },
+        {
+          "number": "6.0212",
+          "title": "Duration of Exemption from Subsequently Adopted Land Use Ordinance"
+        },
+        {
+          "number": "6.0213",
+          "title": "Review of Lots not Lawfully Created"
+        },
+        {
+          "note": "... and 2 more"
+        }
+      ]
+    },
+    {
+      "number": "6.03",
+      "title": "PLANNED DEVELOPMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0300.json",
+      "subsection_count": 15,
+      "subsections": [
+        {
+          "number": "6.0301",
+          "title": "Purpose"
+        },
+        {
+          "number": "6.0302",
+          "title": "Applicability"
+        },
+        {
+          "number": "6.0303",
+          "title": "Types of Planned Developments (PDs)"
+        },
+        {
+          "number": "6.0311",
+          "title": "PD Tentative Plan Approval Criteria"
+        },
+        {
+          "number": "6.0312",
+          "title": "Modification of Tentative PD Plan Approval"
+        },
+        {
+          "note": "... and 10 more"
+        }
+      ]
+    },
+    {
+      "number": "6.04",
+      "title": "LAND DIVISION FINAL PLAT REQUIREMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0400.json",
+      "subsection_count": 7,
+      "subsections": [
+        {
+          "number": "6.0401",
+          "title": "Surveys Required"
+        },
+        {
+          "number": "6.0403",
+          "title": "Partitions and Subdivision – Final Plat"
+        },
+        {
+          "number": "6.0404",
+          "title": "Approval Signatures for Final Subdivision Plat"
+        },
+        {
+          "number": "6.0405",
+          "title": "Approval Signatures for Final Partition Plat"
+        },
+        {
+          "number": "6.0411",
+          "title": "Reinstatement of Tentative Plan Approval Status"
+        },
+        {
+          "note": "... and 2 more"
+        }
+      ]
+    },
+    {
+      "number": "6.05",
+      "title": "MIDDLE HOUSING LAND DIVISION",
+      "has_file": true,
+      "filename": "dc-section-6.0500.json",
+      "subsection_count": 6,
+      "subsections": [
+        {
+          "number": "6.0501",
+          "title": "Purpose"
+        },
+        {
+          "number": "6.0502",
+          "title": "Applicability"
+        },
+        {
+          "number": "6.0503",
+          "title": "Review Criteria and Standards"
+        },
+        {
+          "number": "6.0504",
+          "title": "Procedures"
+        },
+        {
+          "number": "6.0505",
+          "title": "Middle Housing Final Plat"
+        },
+        {
+          "note": "... and 1 more"
+        }
+      ]
+    },
+    {
+      "number": "7.00",
+      "title": "PURPOSE AND AUTHORITY",
+      "has_file": true,
+      "filename": "dc-section-7.0000.json",
+      "subsection_count": 6,
+      "subsections": [
+        {
+          "number": "7.0001",
+          "title": "Purpose"
+        },
+        {
+          "number": "7.0002",
+          "title": "General"
+        },
+        {
+          "number": "7.0003",
+          "title": "Applications"
+        },
+        {
+          "number": "7.0004",
+          "title": "Phased Design Review"
+        },
+        {
+          "number": "7.0005",
+          "title": "Models in the Downtown Plan Area"
+        },
+        {
+          "note": "... and 1 more"
+        }
+      ]
+    },
+    {
+      "number": "7.01",
+      "title": "CORRIDOR DESIGN DISTRICT",
+      "has_file": true,
+      "filename": "dc-section-7.0100.json",
+      "subsection_count": 4,
+      "subsections": [
+        {
+          "number": "7.0101",
+          "title": "Introduction"
+        },
+        {
+          "number": "7.0102",
+          "title": "Corridor Design District Design Principles"
+        },
+        {
+          "number": "7.0103",
+          "title": "Corridor Design District Design Guidelines and Standards"
+        },
+        {
+          "number": "7.0100",
+          "title": "CORRIDOR DESIGN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "7.02",
+      "title": "GENERAL DESIGN STANDARDS",
+      "has_file": true,
+      "filename": "dc-section-7.0200.json",
+      "subsection_count": 10,
+      "subsections": [
+        {
+          "number": "7.0210",
+          "title": "Transit and Pedestrian Design Criteria and Standards"
+        },
+        {
+          "number": "7.0212",
+          "title": "Standards for New Solid Waste and Recycling Collection Areas for Multifamily, Commercial, Industrial, and Institutional Development"
+        },
+        {
+          "number": "7.0220",
+          "title": "Optional Improvements with Design Review"
+        },
+        {
+          "number": "7.0221",
+          "title": "Landscaping Installation"
+        },
+        {
+          "number": "7.0222",
+          "title": "Irrigation Provisions"
+        },
+        {
+          "note": "... and 5 more"
+        }
+      ]
+    },
+    {
+      "number": "7.03",
+      "title": "COMMERCIAL",
+      "has_file": true,
+      "filename": "dc-section-7.0300.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "7.0310",
+          "title": "Commercial (except those in a Design District), Institutional, and Mixed Use Developments (Non-Residential Component)"
+        },
+        {
+          "number": "7.0300",
+          "title": "COMMERCIAL, INSTITUTIONAL, AND INDUSTRIAL DESIGN STANDARDS"
+        },
+        {
+          "number": "7.0310",
+          "title": "Commercial (except those in a Design District), Institutional, and Mixed Use"
+        }
+      ]
+    },
+    {
+      "number": "7.04",
+      "title": "RESIDENTIAL DESIGN STANDARDS",
+      "has_file": true,
+      "filename": "dc-section-7.0400.json",
+      "subsection_count": 8,
+      "subsections": [
+        {
+          "number": "7.0410",
+          "title": "Manufactured Dwelling Park Design Standards"
+        },
+        {
+          "number": "7.0420",
+          "title": "Design Standards for Single Detached Dwellings, Duplexes, Triplexes, and Quadplexes"
+        },
+        {
+          "number": "7.0430",
+          "title": "Townhouse Design Standards"
+        },
+        {
+          "number": "7.0431",
+          "title": "Residential District Townhouse Design Standards"
+        },
+        {
+          "number": "7.0432",
+          "title": "Corridor District Townhouse Design Standards"
+        },
+        {
+          "note": "... and 3 more"
+        }
+      ]
+    },
+    {
+      "number": "7.05",
+      "title": "ROCKWOOD DESIGN DISTRICT DESIGN GUIDELINES AND STANDARDS",
+      "has_file": true,
+      "filename": "dc-section-7.0500.json",
+      "subsection_count": 4,
+      "subsections": [
+        {
+          "number": "7.0501",
+          "title": "Introduction"
+        },
+        {
+          "number": "7.0502",
+          "title": "Rockwood Design Principles"
+        },
+        {
+          "number": "7.0503",
+          "title": "Design Guidelines and Standards"
+        },
+        {
+          "number": "7.0500",
+          "title": "ROCKWOOD DESIGN DISTRICT DESIGN GUIDELINES AND STANDARDS"
+        }
+      ]
+    },
+    {
+      "number": "8.01",
+      "title": "SPECIAL USE REVIEW \nG",
+      "has_file": true,
+      "filename": "dc-section-8.0100.json",
+      "subsection_count": 33,
+      "subsections": [
+        {
+          "number": "8.0101",
+          "title": "Purpose"
+        },
+        {
+          "number": "8.0102",
+          "title": "Applicability"
+        },
+        {
+          "number": "8.0103",
+          "title": "General Standards"
+        },
+        {
+          "number": "8.0111",
+          "title": "Purpose and Review"
+        },
+        {
+          "number": "8.0112",
+          "title": "Applicability of the Type II Procedure"
+        },
+        {
+          "note": "... and 28 more"
+        }
+      ]
+    },
+    {
+      "number": "8.02",
+      "title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT \nG",
+      "has_file": true,
+      "filename": "dc-section-8.0200.json",
+      "subsection_count": 15,
+      "subsections": [
+        {
+          "number": "8.0201",
+          "title": "Purpose"
+        },
+        {
+          "number": "8.0202",
+          "title": "Design Review Standards"
+        },
+        {
+          "number": "8.0210",
+          "title": "Nonconforming Situations"
+        },
+        {
+          "number": "8.0211",
+          "title": "Legal Nonconforming Situations"
+        },
+        {
+          "number": "8.0220",
+          "title": "Changes to Nonconforming Uses and Developments"
+        },
+        {
+          "note": "... and 10 more"
+        }
+      ]
+    },
+    {
+      "number": "8.03",
+      "title": "INSTITUTIONAL MASTER PLANS \nG",
+      "has_file": true,
+      "filename": "dc-section-8.0300.json",
+      "subsection_count": 10,
+      "subsections": [
+        {
+          "number": "8.0301",
+          "title": "Purpose"
+        },
+        {
+          "number": "8.0302",
+          "title": "Applicability"
+        },
+        {
+          "number": "8.0303",
+          "title": "Review of Institutional Master Plans"
+        },
+        {
+          "number": "8.0304",
+          "title": "Submittal Requirements"
+        },
+        {
+          "number": "8.0305",
+          "title": "Duration of Institutional Master Plan Approvals"
+        },
+        {
+          "note": "... and 5 more"
+        }
+      ]
+    },
+    {
+      "number": "9.01",
+      "title": "BUFFERING AND SCREENING REQUIREMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0100.json",
+      "subsection_count": 4,
+      "subsections": [
+        {
+          "number": "9.0101",
+          "title": "Responsibilities"
+        },
+        {
+          "number": "9.0110",
+          "title": "Buffering and Screening Requirements"
+        },
+        {
+          "number": "9.0111",
+          "title": "Buffer Matrix"
+        },
+        {
+          "number": "9.0100",
+          "title": "BUFFERING AND SCREENING REQUIREMENTS"
+        }
+      ]
+    },
+    {
+      "number": "9.02",
+      "title": "CLEAR VISION AREA \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0200.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "9.0201",
+          "title": "Street and Railroad Clear Vision Area"
+        },
+        {
+          "number": "9.0202",
+          "title": "Driveway Clear Vision Area"
+        },
+        {
+          "number": "9.0200",
+          "title": "CLEAR VISION AREA"
+        }
+      ]
+    },
+    {
+      "number": "9.03",
+      "title": "EASEMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0300.json",
+      "subsection_count": 7,
+      "subsections": [
+        {
+          "number": "9.0301",
+          "title": "General Utility Easements"
+        },
+        {
+          "number": "9.0303",
+          "title": "Conservation Easement"
+        },
+        {
+          "number": "9.0304",
+          "title": "Open Space Easements"
+        },
+        {
+          "number": "9.0305",
+          "title": "Utility Easements Owned by the Public"
+        },
+        {
+          "number": "9.0307",
+          "title": "Private Easements"
+        },
+        {
+          "note": "... and 2 more"
+        }
+      ]
+    },
+    {
+      "number": "9.04",
+      "title": "FENCING \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0400.json",
+      "subsection_count": 5,
+      "subsections": [
+        {
+          "number": "9.0401",
+          "title": "General Provisions"
+        },
+        {
+          "number": "9.0410",
+          "title": "Fencing of Residential Lots"
+        },
+        {
+          "number": "9.0411",
+          "title": "Residential Subdivision Fencing"
+        },
+        {
+          "number": "9.0412",
+          "title": "Fencing of Hazardous Areas"
+        },
+        {
+          "number": "9.0400",
+          "title": "FENCING"
+        }
+      ]
+    },
+    {
+      "number": "9.05",
+      "title": "GRADING AND DRAINAGE AND STORMWATER MANAGEMENT \nREQUIREMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0500.json",
+      "subsection_count": 17,
+      "subsections": [
+        {
+          "number": "9.0501",
+          "title": "Purpose"
+        },
+        {
+          "number": "9.0502",
+          "title": "Grading and Drainage Plans and Specifications"
+        },
+        {
+          "number": "9.0503",
+          "title": "Stormwater Report"
+        },
+        {
+          "number": "9.0504",
+          "title": "Geotechnical Report"
+        },
+        {
+          "number": "9.0505",
+          "title": "Guarantees for Grading and Drainage"
+        },
+        {
+          "note": "... and 12 more"
+        }
+      ]
+    },
+    {
+      "number": "9.06",
+      "title": "HEIGHT TRANSITION \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0600.json",
+      "subsection_count": 4,
+      "subsections": [
+        {
+          "number": "9.0601",
+          "title": "Purpose"
+        },
+        {
+          "number": "9.0602",
+          "title": "Applicability"
+        },
+        {
+          "number": "9.0610",
+          "title": "Height Transition Standards"
+        },
+        {
+          "number": "9.0600",
+          "title": "HEIGHT TRANSITION"
+        }
+      ]
+    },
+    {
+      "number": "9.07",
+      "title": "NEIGHBORHOOD CIRCULATION AND FUTURE STREET PLANS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0700.json",
+      "subsection_count": 13,
+      "subsections": [
+        {
+          "number": "9.0701",
+          "title": "Purpose"
+        },
+        {
+          "number": "9.0702",
+          "title": "Applicability"
+        },
+        {
+          "number": "9.0710",
+          "title": "Approval Criteria"
+        },
+        {
+          "number": "9.0711",
+          "title": "Filing a Future Street Plan"
+        },
+        {
+          "number": "9.0712",
+          "title": "Compliance with or Revision to Future Street Plans"
+        },
+        {
+          "note": "... and 8 more"
+        }
+      ]
+    },
+    {
+      "number": "9.08",
+      "title": "PARKING \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0800.json",
+      "subsection_count": 30,
+      "subsections": [
+        {
+          "number": "9.0801",
+          "title": "Purpose"
+        },
+        {
+          "number": "9.0802",
+          "title": "General Provisions"
+        },
+        {
+          "number": "9.0803",
+          "title": "Exceptions"
+        },
+        {
+          "number": "9.0810",
+          "title": "Submittal Requirements"
+        },
+        {
+          "number": "9.0820",
+          "title": "General Location for Surface Parking Lots"
+        },
+        {
+          "note": "... and 25 more"
+        }
+      ]
+    },
+    {
+      "number": "9.09",
+      "title": "PROJECTIONS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0900.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "9.0901",
+          "title": "Projections Into Required Yards and Above the Maximum Building Height"
+        },
+        {
+          "number": "9.0900",
+          "title": "PROJECTIONS"
+        }
+      ]
+    },
+    {
+      "number": "9.10",
+      "title": "TREE REGULATIONS",
+      "has_file": true,
+      "filename": "dc-section-9.1000.json",
+      "subsection_count": 28,
+      "subsections": [
+        {
+          "number": "9.1011",
+          "title": "Purpose"
+        },
+        {
+          "number": "9.1012",
+          "title": "Applicability"
+        },
+        {
+          "number": "9.1013",
+          "title": "Exemptions"
+        },
+        {
+          "number": "9.1014",
+          "title": "Tree Types: Required, Regulated, Significant"
+        },
+        {
+          "number": "9.1021",
+          "title": "Tree Removal: Existing Development"
+        },
+        {
+          "note": "... and 23 more"
+        }
+      ]
+    },
+    {
+      "number": "10.01",
+      "title": "ACCESSORY DWELLINGS \nG",
+      "has_file": true,
+      "filename": "dc-section-10.0100.json",
+      "subsection_count": 4,
+      "subsections": [
+        {
+          "number": "10.0101",
+          "title": "Purpose and Applicability"
+        },
+        {
+          "number": "10.0110",
+          "title": "Standards"
+        },
+        {
+          "number": "10.0120",
+          "title": "Review Procedures for an Accessory Dwelling"
+        },
+        {
+          "number": "10.0100",
+          "title": "ACCESSORY DWELLINGS"
+        }
+      ]
+    },
+    {
+      "number": "10.02",
+      "title": "RESIDENTIAL ACCESSORY STRUCTURES \nG",
+      "has_file": true,
+      "filename": "dc-section-10.0200.json",
+      "subsection_count": 4,
+      "subsections": [
+        {
+          "number": "10.0201",
+          "title": "Accessory Structures"
+        },
+        {
+          "number": "10.0202",
+          "title": "Accessory Structure Setbacks"
+        },
+        {
+          "number": "10.0203",
+          "title": "General Standards"
+        },
+        {
+          "number": "10.0200",
+          "title": "RESIDENTIAL ACCESSORY STRUCTURES"
+        }
+      ]
+    },
+    {
+      "number": "10.04",
+      "title": "CONVERSION OF UNITS",
+      "has_file": true,
+      "filename": "dc-section-10.0400.json",
+      "subsection_count": 9,
+      "subsections": [
+        {
+          "number": "10.0411",
+          "title": "Application"
+        },
+        {
+          "number": "10.0412",
+          "title": "Conversion Criteria"
+        },
+        {
+          "number": "10.0421",
+          "title": "Applicability"
+        },
+        {
+          "number": "10.0422",
+          "title": "Coordination with Other Regulations"
+        },
+        {
+          "number": "10.0423",
+          "title": "Standards"
+        },
+        {
+          "note": "... and 4 more"
+        }
+      ]
+    },
+    {
+      "number": "10.05",
+      "title": "HOME OCCUPATIONS",
+      "has_file": true,
+      "filename": "dc-section-10.0500.json",
+      "subsection_count": 10,
+      "subsections": [
+        {
+          "number": "10.0501",
+          "title": "Purpose"
+        },
+        {
+          "number": "10.0502",
+          "title": "Home Occupation General Requirements"
+        },
+        {
+          "number": "10.0503",
+          "title": "Home Occupation Considerations"
+        },
+        {
+          "number": "10.0505",
+          "title": "Performance Standards for a Home Occupation"
+        },
+        {
+          "number": "10.0506",
+          "title": "Home Occupation Prohibited Uses"
+        },
+        {
+          "note": "... and 5 more"
+        }
+      ]
+    },
+    {
+      "number": "10.06",
+      "title": "WIRELESS COMMUNICATION FACILITIES CO",
+      "has_file": true,
+      "filename": "dc-section-10.0600.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "10.0601",
+          "title": "Co-Location Standards"
+        },
+        {
+          "number": "10.0602",
+          "title": "Request to Modify an Existing and Eligible Wireless Communication Facility"
+        },
+        {
+          "number": "10.0600",
+          "title": "WIRELESS COMMUNICATION FACILITIES CO-LOCATION STANDARDS"
+        }
+      ]
+    },
+    {
+      "number": "10.07",
+      "title": "MINERAL AND AGGREGATE RESOURCE EXTRACTION \nG",
+      "has_file": true,
+      "filename": "dc-section-10.0700.json",
+      "subsection_count": 5,
+      "subsections": [
+        {
+          "number": "10.0701",
+          "title": "Resource Utilization Permits for Mineral and Aggregate Resource Extraction"
+        },
+        {
+          "number": "10.0702",
+          "title": "Required Information for Review Purposes"
+        },
+        {
+          "number": "10.0710",
+          "title": "Standards for Mineral and Aggregate Resource Extraction"
+        },
+        {
+          "number": "10.0711",
+          "title": "Development Permit Requirements for Resource utilization"
+        },
+        {
+          "number": "10.0700",
+          "title": "MINERAL AND AGGREGATE RESOURCE EXTRACTION"
+        }
+      ]
+    },
+    {
+      "number": "10.09",
+      "title": "RENEWABLE ENERGY \nR",
+      "has_file": true,
+      "filename": "dc-section-10.0900.json",
+      "subsection_count": 32,
+      "subsections": [
+        {
+          "number": "10.0901",
+          "title": "Purpose"
+        },
+        {
+          "number": "10.0902",
+          "title": "Applicability"
+        },
+        {
+          "number": "10.0903",
+          "title": "Development Permit Requirements for Renewable Energy Systems"
+        },
+        {
+          "number": "10.0904",
+          "title": "General Standards"
+        },
+        {
+          "number": "10.0911",
+          "title": "Solar Energy Systems Scale"
+        },
+        {
+          "note": "... and 27 more"
+        }
+      ]
+    },
+    {
+      "number": "10.10",
+      "title": "PRIVATE COMMUNICATION FACILITIES \nS",
+      "has_file": true,
+      "filename": "dc-section-10.1000.json",
+      "subsection_count": 5,
+      "subsections": [
+        {
+          "number": "10.1001",
+          "title": "Satellite Receive-Only Antenna General Provisions"
+        },
+        {
+          "number": "10.1002",
+          "title": "Satellite Receive-Only Antenna Development Requirements"
+        },
+        {
+          "number": "10.1010",
+          "title": "Amateur Radio and Citizen Band Antenna General Provisions"
+        },
+        {
+          "number": "10.1011",
+          "title": "Amateur Radio and Citizen Band Antennas Development Requirements"
+        },
+        {
+          "number": "10.1000",
+          "title": "PRIVATE COMMUNICATION FACILITIES"
+        }
+      ]
+    },
+    {
+      "number": "10.11",
+      "title": "SHORELINE HEIGHT STANDARDS \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1100.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "10.1101",
+          "title": "Purpose"
+        },
+        {
+          "number": "10.1102",
+          "title": "Application"
+        },
+        {
+          "number": "10.1100",
+          "title": "SHORELINE HEIGHT STANDARDS"
+        }
+      ]
+    },
+    {
+      "number": "10.13",
+      "title": "TEMPORARY HEALTH HARDSHIP DWELLING \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1300.json",
+      "subsection_count": 8,
+      "subsections": [
+        {
+          "number": "10.1301",
+          "title": "Purpose"
+        },
+        {
+          "number": "10.1310",
+          "title": "Development Permit for Temporary Health Hardship Dwelling"
+        },
+        {
+          "number": "10.1311",
+          "title": "Application"
+        },
+        {
+          "number": "10.1312",
+          "title": "Approval Criteria"
+        },
+        {
+          "number": "10.1313",
+          "title": "Permit Renewals"
+        },
+        {
+          "note": "... and 3 more"
+        }
+      ]
+    },
+    {
+      "number": "10.14",
+      "title": "TEMPORARY",
+      "has_file": true,
+      "filename": "dc-section-10.1400.json",
+      "subsection_count": 11,
+      "subsections": [
+        {
+          "number": "10.1401",
+          "title": "Temporary Uses"
+        },
+        {
+          "number": "10.1402",
+          "title": "Intermittent Uses"
+        },
+        {
+          "number": "10.1403",
+          "title": "Interim Uses"
+        },
+        {
+          "number": "10.1420",
+          "title": "Permitted Temporary, Intermittent and Interim Uses"
+        },
+        {
+          "number": "10.1430",
+          "title": "Standards and Review Processes"
+        },
+        {
+          "note": "... and 6 more"
+        }
+      ]
+    },
+    {
+      "number": "10.15",
+      "title": "VARIANCE AND ADJUSTMENT PROCEDURES \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1500.json",
+      "subsection_count": 11,
+      "subsections": [
+        {
+          "number": "10.1501",
+          "title": "Purpose"
+        },
+        {
+          "number": "10.1502",
+          "title": "Exceptions"
+        },
+        {
+          "number": "10.1510",
+          "title": "Type II Minor Variance Provisions"
+        },
+        {
+          "number": "10.1511",
+          "title": "Type II Variance Provisions to the Floodplain Overlay District Standards"
+        },
+        {
+          "number": "10.1520",
+          "title": "Reduction in Minimum Street Frontage"
+        },
+        {
+          "note": "... and 6 more"
+        }
+      ]
+    },
+    {
+      "number": "10.16",
+      "title": "FOOD CARTS \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1600.json",
+      "subsection_count": 11,
+      "subsections": [
+        {
+          "number": "10.1601",
+          "title": "Purpose"
+        },
+        {
+          "number": "10.1602",
+          "title": "Applicability"
+        },
+        {
+          "number": "10.1603",
+          "title": "Coordination"
+        },
+        {
+          "number": "10.1611",
+          "title": "Standards for All Carts"
+        },
+        {
+          "number": "10.1612",
+          "title": "Additional Standards for Structures and Covered Outdoor Seating"
+        },
+        {
+          "note": "... and 6 more"
+        }
+      ]
+    },
+    {
+      "number": "11.01",
+      "title": "DEVELOPMENT PERMIT REQUIREMENTS",
+      "has_file": true,
+      "filename": "dc-section-11.0100.json",
+      "subsection_count": 9,
+      "subsections": [
+        {
+          "number": "11.0101",
+          "title": "Development Permit Required"
+        },
+        {
+          "number": "11.0102",
+          "title": "Exclusions from Development Permit"
+        },
+        {
+          "number": "11.0103",
+          "title": "Issuance and Effective Date of Development Permit"
+        },
+        {
+          "number": "11.0104",
+          "title": "Development Permit Conditions of Approval and Modifications of Approvals"
+        },
+        {
+          "number": "11.0105",
+          "title": "Expiration of Development Permit"
+        },
+        {
+          "note": "... and 4 more"
+        }
+      ]
+    },
+    {
+      "number": "11.02",
+      "title": "INITIATION AND CLASSIFICATION OF APPLICATIONS",
+      "has_file": true,
+      "filename": "dc-section-11.0200.json",
+      "subsection_count": 5,
+      "subsections": [
+        {
+          "number": "11.0201",
+          "title": "Initiation of Application"
+        },
+        {
+          "number": "11.0202",
+          "title": "Withdrawal of Application"
+        },
+        {
+          "number": "11.0203",
+          "title": "Classification of Applications by Procedure"
+        },
+        {
+          "number": "11.0204",
+          "title": "Review Authorities"
+        },
+        {
+          "number": "11.0200",
+          "title": "INITIATION AND CLASSIFICATION OF APPLICATIONS"
+        }
+      ]
+    },
+    {
+      "number": "11.03",
+      "title": "TYPE I MINISTERIAL PROCEDURES",
+      "has_file": true,
+      "filename": "dc-section-11.0300.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "11.0301",
+          "title": "General Description"
+        },
+        {
+          "number": "11.0302",
+          "title": "Type I Procedures"
+        },
+        {
+          "number": "11.0300",
+          "title": "TYPE I MINISTERIAL PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.04",
+      "title": "TYPE II ADMINISTRATIVE PROCEDURES",
+      "has_file": true,
+      "filename": "dc-section-11.0400.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "11.0401",
+          "title": "General Description"
+        },
+        {
+          "number": "11.0402",
+          "title": "Type II Procedures"
+        },
+        {
+          "number": "11.0400",
+          "title": "TYPE II ADMINISTRATIVE PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.05",
+      "title": "TYPE III QUASI",
+      "has_file": true,
+      "filename": "dc-section-11.0500.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "11.0501",
+          "title": "General Description"
+        },
+        {
+          "number": "11.0502",
+          "title": "Type III Procedures"
+        },
+        {
+          "number": "11.0500",
+          "title": "TYPE III QUASI-JUDICIAL PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.06",
+      "title": "TYPE IV LEGISLATIVE PROCEDURES",
+      "has_file": true,
+      "filename": "dc-section-11.0600.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "11.0601",
+          "title": "General Description"
+        },
+        {
+          "number": "11.0602",
+          "title": "Type IV Procedures"
+        },
+        {
+          "number": "11.0600",
+          "title": "TYPE IV LEGISLATIVE PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.07",
+      "title": "OPTIONAL CONFERENCES AND PRE",
+      "has_file": true,
+      "filename": "dc-section-11.0700.json",
+      "subsection_count": 4,
+      "subsections": [
+        {
+          "number": "11.0701",
+          "title": "Purpose"
+        },
+        {
+          "number": "11.0702",
+          "title": "Applicability"
+        },
+        {
+          "number": "11.0703",
+          "title": "Optional Conferences and Pre-Application Conference Procedures"
+        },
+        {
+          "number": "11.0700",
+          "title": "OPTIONAL CONFERENCES AND PRE-APPLICATION CONFERENCE"
+        }
+      ]
+    },
+    {
+      "number": "11.08",
+      "title": "NEIGHBORHOOD MEETING",
+      "has_file": true,
+      "filename": "dc-section-11.0800.json",
+      "subsection_count": 4,
+      "subsections": [
+        {
+          "number": "11.0801",
+          "title": "Purpose"
+        },
+        {
+          "number": "11.0802",
+          "title": "Applicability"
+        },
+        {
+          "number": "11.0803",
+          "title": "Procedures and Evidence of Compliance"
+        },
+        {
+          "number": "11.0800",
+          "title": "NEIGHBORHOOD MEETING"
+        }
+      ]
+    },
+    {
+      "number": "11.09",
+      "title": "APPLICATION SUBMITTAL AND COMPLETENESS REVIEW",
+      "has_file": true,
+      "filename": "dc-section-11.0900.json",
+      "subsection_count": 5,
+      "subsections": [
+        {
+          "number": "11.0901",
+          "title": "Application Forms and Checklists"
+        },
+        {
+          "number": "11.0902",
+          "title": "Application Submittal"
+        },
+        {
+          "number": "11.0903",
+          "title": "Completeness Review"
+        },
+        {
+          "number": "11.0904",
+          "title": "Resubmittal of Application following Denial"
+        },
+        {
+          "number": "11.0900",
+          "title": "APPLICATION SUBMITTAL AND COMPLETENESS REVIEW"
+        }
+      ]
+    },
+    {
+      "number": "11.10",
+      "title": "PUBLIC HEARINGS",
+      "has_file": true,
+      "filename": "dc-section-11.1000.json",
+      "subsection_count": 16,
+      "subsections": [
+        {
+          "number": "11.1001",
+          "title": "Responsibility of Manager"
+        },
+        {
+          "number": "11.1002",
+          "title": "General Public Notice Requirements"
+        },
+        {
+          "number": "11.1003",
+          "title": "Rules of Procedure"
+        },
+        {
+          "number": "11.1004",
+          "title": "Challenges to Impartiality"
+        },
+        {
+          "number": "11.1005",
+          "title": "Disqualification"
+        },
+        {
+          "note": "... and 11 more"
+        }
+      ]
+    },
+    {
+      "number": "11.11",
+      "title": "APPEALS",
+      "has_file": true,
+      "filename": "dc-section-11.1100.json",
+      "subsection_count": 8,
+      "subsections": [
+        {
+          "number": "11.1101",
+          "title": "General"
+        },
+        {
+          "number": "11.1102",
+          "title": "Notice of Appeal"
+        },
+        {
+          "number": "11.1103",
+          "title": "General Procedures Applicable to All Appeals"
+        },
+        {
+          "number": "11.1104",
+          "title": "Specific Provisions for Appeals of a Type I Decision"
+        },
+        {
+          "number": "11.1105",
+          "title": "Specific Provisions for Appeal of a Type II Decision"
+        },
+        {
+          "note": "... and 3 more"
+        }
+      ]
+    },
+    {
+      "number": "12.00",
+      "title": "PLAN MAP AMENDMENTS AND AMENDMENTS TO MAP BOUNDARIES \nG",
+      "has_file": true,
+      "filename": "dc-section-12.0000.json",
+      "subsection_count": 5,
+      "subsections": [
+        {
+          "number": "12.0001",
+          "title": "Community Development Plan Map Amendments"
+        },
+        {
+          "number": "12.0002",
+          "title": "Minor Amendments to the Gresham Urban Services Area Map Boundaries"
+        },
+        {
+          "number": "12.0010",
+          "title": "Overlay District Adjustments"
+        },
+        {
+          "number": "12.0011",
+          "title": "Overlay District Boundary Revisions"
+        },
+        {
+          "number": "12.0000",
+          "title": "PLAN MAP AMENDMENTS AND AMENDMENTS TO MAP BOUNDARIES"
+        }
+      ]
+    }
+  ],
+  "analysis_metadata": {
+    "content_directory": "/workspace/data/pdf_content/Oregon/gresham",
+    "analysis_type": "hierarchical_alignment",
+    "validation_performed": false
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "comparison_timestamp": "2025-05-23T06:26:03.581604",
+  "jurisdiction": {
+    "state": "Oregon",
+    "city": "gresham"
+  },
+  "analysis_methods": {
+    "existing_analysis": {
+      "description": "Enhanced TOC analysis from analyze_toc_enhanced.py",
+      "results_available": true
+    },
+    "registry_analysis": {
+      "description": "Document Registry system analysis",
+      "results_available": true
+    }
+  },
+  "comparison_results": {
+    "toc_entries": {
+      "existing_count": 0,
+      "registry_count": 966,
+      "difference": 966,
+      "match": false
+    },
+    "available_files": {
+      "existing": {},
+      "registry": {
+        "sections": [
+          "dc-section-10.0400.json",
+          "dc-section-7.0400.json",
+          "dc-section-11.0900.json",
+          "dc-section-11.0400.json",
+          "dc-section-10.0900.json",
+          "dc-section-6.0400.json",
+          "dc-section-4.1200.json",
+          "dc-section-9.0200.json",
+          "dc-section-4.0400.json",
+          "dc-section-8.0200.json",
+          "dc-section-7.0600.json",
+          "dc-section-10.0600.json",
+          "dc-section-11.1000.json",
+          "dc-section-11.0600.json",
+          "dc-section-10.1000.json",
+          "dc-section-5.0600.json",
+          "dc-section-4.1000.json",
+          "dc-section-6.0000.json",
+          "dc-section-10.1600.json",
+          "dc-section-7.0000.json",
+          "dc-section-9.1000.json",
+          "dc-section-12.0000.json",
+          "dc-section-9.0600.json",
+          "dc-section-5.0000.json",
+          "dc-section-10.1400.json",
+          "dc-section-11.0200.json",
+          "dc-section-6.0200.json",
+          "dc-section-10.0200.json",
+          "dc-section-7.0200.json",
+          "dc-section-4.0200.json",
+          "dc-section-9.0900.json",
+          "dc-section-4.1400.json",
+          "dc-section-5.0200.json",
+          "dc-section-9.0400.json",
+          "dc-section-5.0100.json",
+          "dc-section-9.0700.json",
+          "dc-section-4.0100.json",
+          "dc-section-10.0100.json",
+          "dc-section-7.0100.json",
+          "dc-section-11.0100.json",
+          "dc-section-6.0100.json",
+          "dc-section-10.1700.json",
+          "dc-section-4.1500.json",
+          "dc-section-9.0500.json",
+          "dc-section-5.0300.json",
+          "dc-section-4.0300.json",
+          "dc-section-9.0800.json",
+          "dc-section-7.0300.json",
+          "dc-section-10.0300.json",
+          "dc-section-10.1500.json",
+          "dc-section-6.0300.json",
+          "dc-section-11.0300.json",
+          "dc-section-8.0300.json",
+          "dc-section-4.1300.json",
+          "dc-section-9.0300.json",
+          "dc-section-5.0500.json",
+          "dc-section-10.1300.json",
+          "dc-section-6.0500.json",
+          "dc-section-11.0500.json",
+          "dc-section-11.0800.json",
+          "dc-section-7.0500.json",
+          "dc-section-10.0500.json",
+          "dc-section-8.0100.json",
+          "dc-section-5.0700.json",
+          "dc-section-9.0100.json",
+          "dc-section-4.1100.json",
+          "dc-section-11.0700.json",
+          "dc-section-10.1100.json",
+          "dc-section-10.0700.json",
+          "dc-section-11.1100.json"
+        ],
+        "articles": [
+          "dc-article-3.json",
+          "dc-article-2.json"
+        ],
+        "appendices": [
+          "dc-appendix-7.000.json",
+          "development-code-appendix-1.json",
+          "dc-appendix-6.000.json",
+          "dc-appendix-9.000.json",
+          "dc-appendix-5.000.json",
+          "dc-appendix-13.000.json",
+          "dc-appendix-3.000.json"
+        ],
+        "other": [
+          "solid-waste-and-recycling-collection-service-planning-matrix.json",
+          "development-code-amendments-jan.-99---may-09.json",
+          "development-code-amendments.json"
+        ]
+      },
+      "differences": {
+        "articles": {
+          "existing_count": 0,
+          "registry_count": 2,
+          "only_in_existing": [],
+          "only_in_registry": [
+            "dc-article-2.json",
+            "dc-article-3.json"
+          ],
+          "common": []
+        },
+        "other": {
+          "existing_count": 0,
+          "registry_count": 3,
+          "only_in_existing": [],
+          "only_in_registry": [
+            "development-code-amendments.json",
+            "solid-waste-and-recycling-collection-service-planning-matrix.json",
+            "development-code-amendments-jan.-99---may-09.json"
+          ],
+          "common": []
+        },
+        "appendices": {
+          "existing_count": 0,
+          "registry_count": 7,
+          "only_in_existing": [],
+          "only_in_registry": [
+            "dc-appendix-5.000.json",
+            "dc-appendix-7.000.json",
+            "dc-appendix-13.000.json",
+            "dc-appendix-3.000.json",
+            "dc-appendix-6.000.json",
+            "dc-appendix-9.000.json",
+            "development-code-appendix-1.json"
+          ],
+          "common": []
+        },
+        "sections": {
+          "existing_count": 0,
+          "registry_count": 70,
+          "only_in_existing": [],
+          "only_in_registry": [
+            "dc-section-4.1300.json",
+            "dc-section-10.1700.json",
+            "dc-section-9.0700.json",
+            "dc-section-9.1000.json",
+            "dc-section-11.0100.json",
+            "dc-section-6.0000.json",
+            "dc-section-7.0300.json",
+            "dc-section-4.0400.json",
+            "dc-section-5.0300.json",
+            "dc-section-5.0600.json",
+            "dc-section-11.1000.json",
+            "dc-section-10.0200.json",
+            "dc-section-5.0700.json",
+            "dc-section-4.1100.json",
+            "dc-section-4.1200.json",
+            "dc-section-5.0500.json",
+            "dc-section-7.0000.json",
+            "dc-section-9.0600.json",
+            "dc-section-6.0200.json",
+            "dc-section-6.0100.json",
+            "dc-section-4.0100.json",
+            "dc-section-11.0500.json",
+            "dc-section-10.1600.json",
+            "dc-section-11.0300.json",
+            "dc-section-4.1000.json",
+            "dc-section-10.0900.json",
+            "dc-section-10.0100.json",
+            "dc-section-8.0300.json",
+            "dc-section-9.0500.json",
+            "dc-section-9.0100.json",
+            "dc-section-4.1400.json",
+            "dc-section-7.0400.json",
+            "dc-section-12.0000.json",
+            "dc-section-6.0300.json",
+            "dc-section-10.1400.json",
+            "dc-section-4.0200.json",
+            "dc-section-7.0600.json",
+            "dc-section-11.0600.json",
+            "dc-section-11.0200.json",
+            "dc-section-9.0800.json",
+            "dc-section-11.1100.json",
+            "dc-section-11.0400.json",
+            "dc-section-10.1100.json",
+            "dc-section-10.0400.json",
+            "dc-section-9.0300.json",
+            "dc-section-9.0400.json",
+            "dc-section-10.0600.json",
+            "dc-section-11.0700.json",
+            "dc-section-6.0500.json",
+            "dc-section-7.0100.json",
+            "dc-section-4.1500.json",
+            "dc-section-9.0200.json",
+            "dc-section-10.0300.json",
+            "dc-section-11.0900.json",
+            "dc-section-7.0200.json",
+            "dc-section-5.0200.json",
+            "dc-section-5.0000.json",
+            "dc-section-7.0500.json",
+            "dc-section-8.0100.json",
+            "dc-section-9.0900.json",
+            "dc-section-10.1000.json",
+            "dc-section-10.1500.json",
+            "dc-section-11.0800.json",
+            "dc-section-10.0500.json",
+            "dc-section-8.0200.json",
+            "dc-section-4.0300.json",
+            "dc-section-6.0400.json",
+            "dc-section-10.1300.json",
+            "dc-section-10.0700.json",
+            "dc-section-5.0100.json"
+          ],
+          "common": []
+        }
+      }
+    },
+    "matches": {
+      "existing_count": 0,
+      "registry_count": 85,
+      "difference": 85
+    },
+    "missing_documents": {
+      "existing_count": 0,
+      "registry_count": 881,
+      "difference": 881
+    }
+  },
+  "assessment": {
+    "overall_consistency": "poor",
+    "significant_differences": [
+      "TOC entries count differs by 966",
+      "articles: 0 files only in existing, 2 only in registry",
+      "other: 0 files only in existing, 3 only in registry",
+      "appendices: 0 files only in existing, 7 only in registry",
+      "sections: 0 files only in existing, 70 only in registry",
+      "Matched documents count differs by 85"
+    ],
+    "recommendations": [
+      "Review TOC parsing differences between methods",
+      "Review matching algorithm differences",
+      "Investigate fundamental differences between analysis methods"
+    ],
+    "confidence_level": "low"
+  }
+}

@@ -1,0 +1,1851 @@
+{
+  "baseline_version": "1.0",
+  "generation_date": "2025-05-23",
+  "summary_metrics": {
+    "total_documents": 69,
+    "documents_with_files": 67,
+    "documents_without_files": 2,
+    "total_subsections": 97,
+    "total_files": 82,
+    "orphaned_files": 15,
+    "alignment_percentage": 97.1
+  },
+  "all_documents": [
+    {
+      "number": "10.01",
+      "title": "ACCESSORY DWELLINGS \nG",
+      "has_file": true,
+      "filename": "dc-section-10.0100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0100",
+          "title": "ACCESSORY DWELLINGS"
+        }
+      ]
+    },
+    {
+      "number": "10.02",
+      "title": "RESIDENTIAL ACCESSORY STRUCTURES \nG",
+      "has_file": true,
+      "filename": "dc-section-10.0200.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0200",
+          "title": "RESIDENTIAL ACCESSORY STRUCTURES"
+        }
+      ]
+    },
+    {
+      "number": "10.04",
+      "title": "CONVERSION OF UNITS",
+      "has_file": true,
+      "filename": "dc-section-10.0400.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0400.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "10.0400",
+          "title": "CONVERSION OF UNITS"
+        },
+        {
+          "number": "10.0410",
+          "title": "Conversion of Elderly Housing Units"
+        },
+        {
+          "number": "10.0420",
+          "title": "Affordable Housing and Emergency Shelters Converted From Hotels and Motels"
+        }
+      ]
+    },
+    {
+      "number": "10.05",
+      "title": "HOME OCCUPATIONS",
+      "has_file": true,
+      "filename": "dc-section-10.0500.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0500",
+          "title": "HOME OCCUPATIONS"
+        }
+      ]
+    },
+    {
+      "number": "10.06",
+      "title": "WIRELESS COMMUNICATION FACILITIES CO",
+      "has_file": true,
+      "filename": "dc-section-10.0600.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0600",
+          "title": "WIRELESS COMMUNICATION FACILITIES CO-LOCATION STANDARDS"
+        }
+      ]
+    },
+    {
+      "number": "10.07",
+      "title": "MINERAL AND AGGREGATE RESOURCE EXTRACTION \nG",
+      "has_file": true,
+      "filename": "dc-section-10.0700.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0700.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.0700",
+          "title": "MINERAL AND AGGREGATE RESOURCE EXTRACTION"
+        }
+      ]
+    },
+    {
+      "number": "10.09",
+      "title": "RENEWABLE ENERGY \nR",
+      "has_file": true,
+      "filename": "dc-section-10.0900.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0900.json",
+      "subsection_count": 6,
+      "subsections": [
+        {
+          "number": "10.0900",
+          "title": "RENEWABLE ENERGY"
+        },
+        {
+          "number": "10.0910",
+          "title": "Solar Energy Systems"
+        },
+        {
+          "number": "10.0920",
+          "title": "Windy Energy Systems"
+        },
+        {
+          "number": "10.0930",
+          "title": "Biomass Energy Systems"
+        },
+        {
+          "number": "10.0940",
+          "title": "Geothermal Energy Systems"
+        },
+        {
+          "number": "10.0950",
+          "title": "Micro-Hydro Energy Systems"
+        }
+      ]
+    },
+    {
+      "number": "10.10",
+      "title": "PRIVATE COMMUNICATION FACILITIES \nS",
+      "has_file": true,
+      "filename": "dc-section-10.1000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1000",
+          "title": "PRIVATE COMMUNICATION FACILITIES"
+        }
+      ]
+    },
+    {
+      "number": "10.11",
+      "title": "SHORELINE HEIGHT STANDARDS \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1100",
+          "title": "SHORELINE HEIGHT STANDARDS"
+        }
+      ]
+    },
+    {
+      "number": "10.13",
+      "title": "TEMPORARY HEALTH HARDSHIP DWELLING \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1300",
+          "title": "TEMPORARY HEALTH HARDSHIP DWELLING"
+        }
+      ]
+    },
+    {
+      "number": "10.14",
+      "title": "TEMPORARY",
+      "has_file": true,
+      "filename": "dc-section-10.1400.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1400.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1400",
+          "title": "TEMPORARY, INTERMITTENT AND INTERIM USES"
+        }
+      ]
+    },
+    {
+      "number": "10.15",
+      "title": "VARIANCE AND ADJUSTMENT PROCEDURES \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1500.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1500",
+          "title": "VARIANCE AND ADJUSTMENT PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "10.16",
+      "title": "FOOD CARTS \nG",
+      "has_file": true,
+      "filename": "dc-section-10.1600.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "10.1600",
+          "title": "FOOD CARTS"
+        }
+      ]
+    },
+    {
+      "number": "11.01",
+      "title": "DEVELOPMENT PERMIT REQUIREMENTS",
+      "has_file": true,
+      "filename": "dc-section-11.0100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0100",
+          "title": "DEVELOPMENT PERMIT REQUIREMENTS"
+        }
+      ]
+    },
+    {
+      "number": "11.02",
+      "title": "INITIATION AND CLASSIFICATION OF APPLICATIONS",
+      "has_file": true,
+      "filename": "dc-section-11.0200.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0200",
+          "title": "INITIATION AND CLASSIFICATION OF APPLICATIONS"
+        }
+      ]
+    },
+    {
+      "number": "11.03",
+      "title": "TYPE I MINISTERIAL PROCEDURES",
+      "has_file": true,
+      "filename": "dc-section-11.0300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0300",
+          "title": "TYPE I MINISTERIAL PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.04",
+      "title": "TYPE II ADMINISTRATIVE PROCEDURES",
+      "has_file": true,
+      "filename": "dc-section-11.0400.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0400.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0400",
+          "title": "TYPE II ADMINISTRATIVE PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.05",
+      "title": "TYPE III QUASI",
+      "has_file": true,
+      "filename": "dc-section-11.0500.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0500",
+          "title": "TYPE III QUASI-JUDICIAL PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.06",
+      "title": "TYPE IV LEGISLATIVE PROCEDURES",
+      "has_file": true,
+      "filename": "dc-section-11.0600.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0600",
+          "title": "TYPE IV LEGISLATIVE PROCEDURES"
+        }
+      ]
+    },
+    {
+      "number": "11.07",
+      "title": "OPTIONAL CONFERENCES AND PRE",
+      "has_file": true,
+      "filename": "dc-section-11.0700.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0700.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0700",
+          "title": "OPTIONAL CONFERENCES AND PRE-APPLICATION CONFERENCE"
+        }
+      ]
+    },
+    {
+      "number": "11.08",
+      "title": "NEIGHBORHOOD MEETING",
+      "has_file": true,
+      "filename": "dc-section-11.0800.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0800.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0800",
+          "title": "NEIGHBORHOOD MEETING"
+        }
+      ]
+    },
+    {
+      "number": "11.09",
+      "title": "APPLICATION SUBMITTAL AND COMPLETENESS REVIEW",
+      "has_file": true,
+      "filename": "dc-section-11.0900.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.0900.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.0900",
+          "title": "APPLICATION SUBMITTAL AND COMPLETENESS REVIEW"
+        }
+      ]
+    },
+    {
+      "number": "11.10",
+      "title": "PUBLIC HEARINGS",
+      "has_file": true,
+      "filename": "dc-section-11.1000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.1000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.1000",
+          "title": "PUBLIC HEARINGS"
+        }
+      ]
+    },
+    {
+      "number": "11.11",
+      "title": "APPEALS",
+      "has_file": true,
+      "filename": "dc-section-11.1100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-11.1100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "11.1100",
+          "title": "APPEALS"
+        }
+      ]
+    },
+    {
+      "number": "12.00",
+      "title": "PLAN MAP AMENDMENTS AND AMENDMENTS TO MAP BOUNDARIES \nG",
+      "has_file": true,
+      "filename": "dc-section-12.0000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "12.0000",
+          "title": "PLAN MAP AMENDMENTS AND AMENDMENTS TO MAP BOUNDARIES"
+        }
+      ]
+    },
+    {
+      "number": "3.01",
+      "title": "DEFINITIONS",
+      "has_file": false,
+      "filename": null,
+      "filepath": null,
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "3.0100",
+          "title": "DEFINITIONS"
+        }
+      ]
+    },
+    {
+      "number": "3.02",
+      "title": "LAND USE CLASSIFICATIONS",
+      "has_file": false,
+      "filename": null,
+      "filepath": null,
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "3.0200",
+          "title": "LAND USE CLASSIFICATIONS"
+        }
+      ]
+    },
+    {
+      "number": "4.01",
+      "title": "RESIDENTIAL LAND USE DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.0100",
+          "title": "RESIDENTIAL LAND USE DISTRICTS"
+        }
+      ]
+    },
+    {
+      "number": "4.02",
+      "title": "COMMERCIAL LAND USE DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0200.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.0200",
+          "title": "COMMERCIAL LAND USE DISTRICTS"
+        }
+      ]
+    },
+    {
+      "number": "4.03",
+      "title": "INDUSTRIAL LAND USE DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.0300",
+          "title": "INDUSTRIAL LAND USE DISTRICTS"
+        }
+      ]
+    },
+    {
+      "number": "4.04",
+      "title": "CORRIDOR DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.0400.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "4.0400",
+          "title": "CORRIDOR DISTRICTS"
+        },
+        {
+          "number": "4.0440",
+          "title": "Off-Street Parking for Townhouses in the Rockwood Town Center, Station Center,"
+        }
+      ]
+    },
+    {
+      "number": "4.10",
+      "title": "PLAN DISTRICTS \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1000",
+          "title": "PLAN DISTRICTS"
+        }
+      ]
+    },
+    {
+      "number": "4.11",
+      "title": "DOWNTOWN PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1100",
+          "title": "DOWNTOWN PLAN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "4.12",
+      "title": "CIVIC NEIGHBORHOOD PLAN DISTRICT \nI",
+      "has_file": true,
+      "filename": "dc-section-4.1200.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1200",
+          "title": "CIVIC NEIGHBORHOOD PLAN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "4.13",
+      "title": "GRESHAM BUTTE PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1300",
+          "title": "GRESHAM BUTTE PLAN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "4.14",
+      "title": "PLEASANT VALLEY PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1400.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "4.1400",
+          "title": "PLEASANT VALLEY PLAN DISTRICT"
+        },
+        {
+          "number": "4.1462",
+          "title": "Elementary School Overlay – Pleasant Valley (ESO-PV) and Middle School Overlay –"
+        }
+      ]
+    },
+    {
+      "number": "4.15",
+      "title": "SPRINGWATER PLAN DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-4.1500.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "4.1500",
+          "title": "SPRINGWATER PLAN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "5.00",
+      "title": "PURPOSE AND AUTHORITY \nG",
+      "has_file": true,
+      "filename": "dc-appendix-5.000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-appendix-5.000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0000",
+          "title": "PURPOSE AND AUTHORITY"
+        }
+      ]
+    },
+    {
+      "number": "5.01",
+      "title": "FLOODPLAIN OVERLAY DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0100",
+          "title": "FLOODPLAIN OVERLAY DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "5.02",
+      "title": "HILLSIDE AND GEOLOGIC RISK OVERLAY",
+      "has_file": true,
+      "filename": "dc-section-5.0200.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0200.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "5.0200",
+          "title": "HILLSIDE AND GEOLOGIC RISK OVERLAY (HGRO)"
+        },
+        {
+          "number": "5.0209",
+          "title": "General Standards for Development within the Hillside and Geologic Risk Overlay"
+        },
+        {
+          "number": "5.0210",
+          "title": "Standards for Specific Development Types within the Hillside and Geologic Risk"
+        }
+      ]
+    },
+    {
+      "number": "5.03",
+      "title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "has_file": true,
+      "filename": "dc-section-5.0300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0300.json",
+      "subsection_count": 5,
+      "subsections": [
+        {
+          "number": "5.0300",
+          "title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT"
+        },
+        {
+          "number": "5.0310",
+          "title": "General"
+        },
+        {
+          "number": "5.0320",
+          "title": "Identification and Designation"
+        },
+        {
+          "number": "5.0330",
+          "title": "Development Requirements"
+        },
+        {
+          "number": "5.0340",
+          "title": "Archaeological Resources and Sites North of Interstate 84"
+        }
+      ]
+    },
+    {
+      "number": "5.05",
+      "title": "OPEN SPACE OVERLAY DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0500.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0500",
+          "title": "OPEN SPACE OVERLAY DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "5.06",
+      "title": "GRESHAM BUTTE SCENIC VIEW OVERLAY DISTRICT \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0600.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0600",
+          "title": "GRESHAM BUTTE SCENIC VIEW OVERLAY DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "5.07",
+      "title": "NATURAL RESOURCE OVERLAY \nG",
+      "has_file": true,
+      "filename": "dc-section-5.0700.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0700.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "5.0700",
+          "title": "NATURAL RESOURCE OVERLAY"
+        }
+      ]
+    },
+    {
+      "number": "6.00",
+      "title": "INTRODUCTORY PROVISIONS \nG",
+      "has_file": true,
+      "filename": "dc-appendix-6.000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-appendix-6.000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0000",
+          "title": "INTRODUCTORY PROVISIONS"
+        }
+      ]
+    },
+    {
+      "number": "6.01",
+      "title": "LOT LINE ADJUSTMENTS AND LOT CONSOLIDATIONS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0100",
+          "title": "LOT LINE ADJUSTMENTS AND LOT CONSOLIDATIONS"
+        }
+      ]
+    },
+    {
+      "number": "6.02",
+      "title": "PARTITIONS AND SUBDIVISIONS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0200.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0200",
+          "title": "PARTITIONS AND SUBDIVISIONS"
+        }
+      ]
+    },
+    {
+      "number": "6.03",
+      "title": "PLANNED DEVELOPMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0300",
+          "title": "PLANNED DEVELOPMENTS"
+        }
+      ]
+    },
+    {
+      "number": "6.04",
+      "title": "LAND DIVISION FINAL PLAT REQUIREMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-6.0400.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0400.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0400",
+          "title": "LAND DIVISION FINAL PLAT REQUIREMENTS"
+        }
+      ]
+    },
+    {
+      "number": "6.05",
+      "title": "MIDDLE HOUSING LAND DIVISION",
+      "has_file": true,
+      "filename": "dc-section-6.0500.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "6.0500",
+          "title": "MIDDLE HOUSING LAND DIVISION"
+        }
+      ]
+    },
+    {
+      "number": "7.00",
+      "title": "PURPOSE AND AUTHORITY",
+      "has_file": true,
+      "filename": "dc-section-7.0000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0000.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "7.0000",
+          "title": "PURPOSE AND AUTHORITY"
+        }
+      ]
+    },
+    {
+      "number": "7.01",
+      "title": "CORRIDOR DESIGN DISTRICT",
+      "has_file": true,
+      "filename": "dc-section-7.0100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "7.0100",
+          "title": "CORRIDOR DESIGN DISTRICT"
+        }
+      ]
+    },
+    {
+      "number": "7.02",
+      "title": "GENERAL DESIGN STANDARDS",
+      "has_file": true,
+      "filename": "dc-section-7.0200.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0200.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "7.0200",
+          "title": "GENERAL DESIGN STANDARDS"
+        },
+        {
+          "number": "7.0212",
+          "title": "Standards for New Solid Waste and Recycling Collection Areas for Multifamily,"
+        }
+      ]
+    },
+    {
+      "number": "7.03",
+      "title": "COMMERCIAL",
+      "has_file": true,
+      "filename": "dc-section-7.0300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0300.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "7.0300",
+          "title": "COMMERCIAL, INSTITUTIONAL, AND INDUSTRIAL DESIGN STANDARDS"
+        },
+        {
+          "number": "7.0310",
+          "title": "Commercial (except those in a Design District), Institutional, and Mixed Use"
+        }
+      ]
+    },
+    {
+      "number": "7.04",
+      "title": "RESIDENTIAL DESIGN STANDARDS",
+      "has_file": true,
+      "filename": "dc-section-7.0400.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0400.json",
+      "subsection_count": 2,
+      "subsections": [
+        {
+          "number": "7.0400",
+          "title": "RESIDENTIAL DESIGN STANDARDS"
+        },
+        {
+          "number": "7.0420",
+          "title": "Design Standards for Single Detached Dwellings, Duplexes, Triplexes, and"
+        }
+      ]
+    },
+    {
+      "number": "7.05",
+      "title": "ROCKWOOD DESIGN DISTRICT DESIGN GUIDELINES AND STANDARDS",
+      "has_file": true,
+      "filename": "dc-section-7.0500.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "7.0500",
+          "title": "ROCKWOOD DESIGN DISTRICT DESIGN GUIDELINES AND STANDARDS"
+        }
+      ]
+    },
+    {
+      "number": "8.01",
+      "title": "SPECIAL USE REVIEW \nG",
+      "has_file": true,
+      "filename": "dc-section-8.0100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-8.0100.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "8.0100",
+          "title": "SPECIAL USE REVIEW"
+        },
+        {
+          "number": "8.0110",
+          "title": "Special Use Review, Type II Procedure"
+        },
+        {
+          "number": "8.0140",
+          "title": "Special Use Review, Type III Procedure"
+        }
+      ]
+    },
+    {
+      "number": "8.02",
+      "title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT \nG",
+      "has_file": true,
+      "filename": "dc-section-8.0200.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-8.0200.json",
+      "subsection_count": 3,
+      "subsections": [
+        {
+          "number": "8.0200",
+          "title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT"
+        },
+        {
+          "number": "8.0221",
+          "title": "Alteration, Enlargement, Expansion, Movement or Replacement of a Nonconforming"
+        },
+        {
+          "number": "8.0222",
+          "title": "Alteration, Enlargement, Expansion, Movement or Replacement of a Nonconforming"
+        }
+      ]
+    },
+    {
+      "number": "8.03",
+      "title": "INSTITUTIONAL MASTER PLANS \nG",
+      "has_file": true,
+      "filename": "dc-section-8.0300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-8.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "8.0300",
+          "title": "INSTITUTIONAL MASTER PLANS"
+        }
+      ]
+    },
+    {
+      "number": "9.01",
+      "title": "BUFFERING AND SCREENING REQUIREMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0100.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0100",
+          "title": "BUFFERING AND SCREENING REQUIREMENTS"
+        }
+      ]
+    },
+    {
+      "number": "9.02",
+      "title": "CLEAR VISION AREA \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0200.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0200.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0200",
+          "title": "CLEAR VISION AREA"
+        }
+      ]
+    },
+    {
+      "number": "9.03",
+      "title": "EASEMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0300.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0300",
+          "title": "EASEMENTS"
+        }
+      ]
+    },
+    {
+      "number": "9.04",
+      "title": "FENCING \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0400.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0400.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0400",
+          "title": "FENCING"
+        }
+      ]
+    },
+    {
+      "number": "9.05",
+      "title": "GRADING AND DRAINAGE AND STORMWATER MANAGEMENT \nREQUIREMENTS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0500.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0500.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0500",
+          "title": "GRADING AND DRAINAGE AND STORMWATER MANAGEMENT"
+        }
+      ]
+    },
+    {
+      "number": "9.06",
+      "title": "HEIGHT TRANSITION \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0600.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0600.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0600",
+          "title": "HEIGHT TRANSITION"
+        }
+      ]
+    },
+    {
+      "number": "9.07",
+      "title": "NEIGHBORHOOD CIRCULATION AND FUTURE STREET PLANS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0700.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0700.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0700",
+          "title": "NEIGHBORHOOD CIRCULATION AND FUTURE STREET PLANS"
+        }
+      ]
+    },
+    {
+      "number": "9.08",
+      "title": "PARKING \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0800.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0800.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0800",
+          "title": "PARKING"
+        }
+      ]
+    },
+    {
+      "number": "9.09",
+      "title": "PROJECTIONS \nG",
+      "has_file": true,
+      "filename": "dc-section-9.0900.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.0900.json",
+      "subsection_count": 1,
+      "subsections": [
+        {
+          "number": "9.0900",
+          "title": "PROJECTIONS"
+        }
+      ]
+    },
+    {
+      "number": "9.10",
+      "title": "TREE REGULATIONS",
+      "has_file": true,
+      "filename": "dc-section-9.1000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-9.1000.json",
+      "subsection_count": 7,
+      "subsections": [
+        {
+          "number": "9.1000",
+          "title": "TREE REGULATIONS"
+        },
+        {
+          "number": "9.1010",
+          "title": "General"
+        },
+        {
+          "number": "9.1020",
+          "title": "Trees: Existing Development"
+        },
+        {
+          "number": "9.1030",
+          "title": "Trees: During Development"
+        },
+        {
+          "number": "9.1040",
+          "title": "Tree Planting and Pruning"
+        },
+        {
+          "number": "9.1050",
+          "title": "Significant Trees"
+        },
+        {
+          "number": "9.1053",
+          "title": "Procedures for Designating, Maintaining, and De-Listing Significant Trees and"
+        }
+      ]
+    }
+  ],
+  "orphaned_files": [
+    {
+      "filename": "dc-article-3.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-article-3.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-appendix-7.000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-appendix-7.000.json",
+      "extracted_number": "7.00"
+    },
+    {
+      "filename": "dc-section-7.0600.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-7.0600.json",
+      "extracted_number": "7.06"
+    },
+    {
+      "filename": "development-code-appendix-1.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/development-code-appendix-1.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-section-6.0000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-6.0000.json",
+      "extracted_number": "6.00"
+    },
+    {
+      "filename": "solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-appendix-9.000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-appendix-9.000.json",
+      "extracted_number": "9.00"
+    },
+    {
+      "filename": "dc-section-5.0000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-5.0000.json",
+      "extracted_number": "5.00"
+    },
+    {
+      "filename": "dc-article-2.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-article-2.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-section-10.1700.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.1700.json",
+      "extracted_number": "10.17"
+    },
+    {
+      "filename": "development-code-amendments-jan.-99---may-09.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/development-code-amendments-jan.-99---may-09.json",
+      "extracted_number": null
+    },
+    {
+      "filename": "dc-section-10.0300.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-section-10.0300.json",
+      "extracted_number": "10.03"
+    },
+    {
+      "filename": "dc-appendix-13.000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-appendix-13.000.json",
+      "extracted_number": "13.00"
+    },
+    {
+      "filename": "dc-appendix-3.000.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/dc-appendix-3.000.json",
+      "extracted_number": "3.00"
+    },
+    {
+      "filename": "development-code-amendments.json",
+      "filepath": "/workspace/data/pdf_content/Oregon/gresham/development-code-amendments.json",
+      "extracted_number": null
+    }
+  ],
+  "all_subsections": [
+    {
+      "number": "10.0100",
+      "title": "ACCESSORY DWELLINGS",
+      "parent_document": "10.01",
+      "parent_title": "ACCESSORY DWELLINGS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0200",
+      "title": "RESIDENTIAL ACCESSORY STRUCTURES",
+      "parent_document": "10.02",
+      "parent_title": "RESIDENTIAL ACCESSORY STRUCTURES \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0400",
+      "title": "CONVERSION OF UNITS",
+      "parent_document": "10.04",
+      "parent_title": "CONVERSION OF UNITS",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0410",
+      "title": "Conversion of Elderly Housing Units",
+      "parent_document": "10.04",
+      "parent_title": "CONVERSION OF UNITS",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0420",
+      "title": "Affordable Housing and Emergency Shelters Converted From Hotels and Motels",
+      "parent_document": "10.04",
+      "parent_title": "CONVERSION OF UNITS",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0500",
+      "title": "HOME OCCUPATIONS",
+      "parent_document": "10.05",
+      "parent_title": "HOME OCCUPATIONS",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0600",
+      "title": "WIRELESS COMMUNICATION FACILITIES CO-LOCATION STANDARDS",
+      "parent_document": "10.06",
+      "parent_title": "WIRELESS COMMUNICATION FACILITIES CO",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0700",
+      "title": "MINERAL AND AGGREGATE RESOURCE EXTRACTION",
+      "parent_document": "10.07",
+      "parent_title": "MINERAL AND AGGREGATE RESOURCE EXTRACTION \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0900",
+      "title": "RENEWABLE ENERGY",
+      "parent_document": "10.09",
+      "parent_title": "RENEWABLE ENERGY \nR",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0910",
+      "title": "Solar Energy Systems",
+      "parent_document": "10.09",
+      "parent_title": "RENEWABLE ENERGY \nR",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0920",
+      "title": "Windy Energy Systems",
+      "parent_document": "10.09",
+      "parent_title": "RENEWABLE ENERGY \nR",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0930",
+      "title": "Biomass Energy Systems",
+      "parent_document": "10.09",
+      "parent_title": "RENEWABLE ENERGY \nR",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0940",
+      "title": "Geothermal Energy Systems",
+      "parent_document": "10.09",
+      "parent_title": "RENEWABLE ENERGY \nR",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.0950",
+      "title": "Micro-Hydro Energy Systems",
+      "parent_document": "10.09",
+      "parent_title": "RENEWABLE ENERGY \nR",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.1000",
+      "title": "PRIVATE COMMUNICATION FACILITIES",
+      "parent_document": "10.10",
+      "parent_title": "PRIVATE COMMUNICATION FACILITIES \nS",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.1100",
+      "title": "SHORELINE HEIGHT STANDARDS",
+      "parent_document": "10.11",
+      "parent_title": "SHORELINE HEIGHT STANDARDS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.1300",
+      "title": "TEMPORARY HEALTH HARDSHIP DWELLING",
+      "parent_document": "10.13",
+      "parent_title": "TEMPORARY HEALTH HARDSHIP DWELLING \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.1400",
+      "title": "TEMPORARY, INTERMITTENT AND INTERIM USES",
+      "parent_document": "10.14",
+      "parent_title": "TEMPORARY",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.1500",
+      "title": "VARIANCE AND ADJUSTMENT PROCEDURES",
+      "parent_document": "10.15",
+      "parent_title": "VARIANCE AND ADJUSTMENT PROCEDURES \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "10.1600",
+      "title": "FOOD CARTS",
+      "parent_document": "10.16",
+      "parent_title": "FOOD CARTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.0100",
+      "title": "DEVELOPMENT PERMIT REQUIREMENTS",
+      "parent_document": "11.01",
+      "parent_title": "DEVELOPMENT PERMIT REQUIREMENTS",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.0200",
+      "title": "INITIATION AND CLASSIFICATION OF APPLICATIONS",
+      "parent_document": "11.02",
+      "parent_title": "INITIATION AND CLASSIFICATION OF APPLICATIONS",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.0300",
+      "title": "TYPE I MINISTERIAL PROCEDURES",
+      "parent_document": "11.03",
+      "parent_title": "TYPE I MINISTERIAL PROCEDURES",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.0400",
+      "title": "TYPE II ADMINISTRATIVE PROCEDURES",
+      "parent_document": "11.04",
+      "parent_title": "TYPE II ADMINISTRATIVE PROCEDURES",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.0500",
+      "title": "TYPE III QUASI-JUDICIAL PROCEDURES",
+      "parent_document": "11.05",
+      "parent_title": "TYPE III QUASI",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.0600",
+      "title": "TYPE IV LEGISLATIVE PROCEDURES",
+      "parent_document": "11.06",
+      "parent_title": "TYPE IV LEGISLATIVE PROCEDURES",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.0700",
+      "title": "OPTIONAL CONFERENCES AND PRE-APPLICATION CONFERENCE",
+      "parent_document": "11.07",
+      "parent_title": "OPTIONAL CONFERENCES AND PRE",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.0800",
+      "title": "NEIGHBORHOOD MEETING",
+      "parent_document": "11.08",
+      "parent_title": "NEIGHBORHOOD MEETING",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.0900",
+      "title": "APPLICATION SUBMITTAL AND COMPLETENESS REVIEW",
+      "parent_document": "11.09",
+      "parent_title": "APPLICATION SUBMITTAL AND COMPLETENESS REVIEW",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.1000",
+      "title": "PUBLIC HEARINGS",
+      "parent_document": "11.10",
+      "parent_title": "PUBLIC HEARINGS",
+      "parent_has_file": true
+    },
+    {
+      "number": "11.1100",
+      "title": "APPEALS",
+      "parent_document": "11.11",
+      "parent_title": "APPEALS",
+      "parent_has_file": true
+    },
+    {
+      "number": "12.0000",
+      "title": "PLAN MAP AMENDMENTS AND AMENDMENTS TO MAP BOUNDARIES",
+      "parent_document": "12.00",
+      "parent_title": "PLAN MAP AMENDMENTS AND AMENDMENTS TO MAP BOUNDARIES \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "3.0100",
+      "title": "DEFINITIONS",
+      "parent_document": "3.01",
+      "parent_title": "DEFINITIONS",
+      "parent_has_file": false
+    },
+    {
+      "number": "3.0200",
+      "title": "LAND USE CLASSIFICATIONS",
+      "parent_document": "3.02",
+      "parent_title": "LAND USE CLASSIFICATIONS",
+      "parent_has_file": false
+    },
+    {
+      "number": "4.0100",
+      "title": "RESIDENTIAL LAND USE DISTRICTS",
+      "parent_document": "4.01",
+      "parent_title": "RESIDENTIAL LAND USE DISTRICTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.0200",
+      "title": "COMMERCIAL LAND USE DISTRICTS",
+      "parent_document": "4.02",
+      "parent_title": "COMMERCIAL LAND USE DISTRICTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.0300",
+      "title": "INDUSTRIAL LAND USE DISTRICTS",
+      "parent_document": "4.03",
+      "parent_title": "INDUSTRIAL LAND USE DISTRICTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.0400",
+      "title": "CORRIDOR DISTRICTS",
+      "parent_document": "4.04",
+      "parent_title": "CORRIDOR DISTRICTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.0440",
+      "title": "Off-Street Parking for Townhouses in the Rockwood Town Center, Station Center,",
+      "parent_document": "4.04",
+      "parent_title": "CORRIDOR DISTRICTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.1000",
+      "title": "PLAN DISTRICTS",
+      "parent_document": "4.10",
+      "parent_title": "PLAN DISTRICTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.1100",
+      "title": "DOWNTOWN PLAN DISTRICT",
+      "parent_document": "4.11",
+      "parent_title": "DOWNTOWN PLAN DISTRICT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.1200",
+      "title": "CIVIC NEIGHBORHOOD PLAN DISTRICT",
+      "parent_document": "4.12",
+      "parent_title": "CIVIC NEIGHBORHOOD PLAN DISTRICT \nI",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.1300",
+      "title": "GRESHAM BUTTE PLAN DISTRICT",
+      "parent_document": "4.13",
+      "parent_title": "GRESHAM BUTTE PLAN DISTRICT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.1400",
+      "title": "PLEASANT VALLEY PLAN DISTRICT",
+      "parent_document": "4.14",
+      "parent_title": "PLEASANT VALLEY PLAN DISTRICT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.1462",
+      "title": "Elementary School Overlay – Pleasant Valley (ESO-PV) and Middle School Overlay –",
+      "parent_document": "4.14",
+      "parent_title": "PLEASANT VALLEY PLAN DISTRICT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "4.1500",
+      "title": "SPRINGWATER PLAN DISTRICT",
+      "parent_document": "4.15",
+      "parent_title": "SPRINGWATER PLAN DISTRICT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0000",
+      "title": "PURPOSE AND AUTHORITY",
+      "parent_document": "5.00",
+      "parent_title": "PURPOSE AND AUTHORITY \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0100",
+      "title": "FLOODPLAIN OVERLAY DISTRICT",
+      "parent_document": "5.01",
+      "parent_title": "FLOODPLAIN OVERLAY DISTRICT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0200",
+      "title": "HILLSIDE AND GEOLOGIC RISK OVERLAY (HGRO)",
+      "parent_document": "5.02",
+      "parent_title": "HILLSIDE AND GEOLOGIC RISK OVERLAY",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0209",
+      "title": "General Standards for Development within the Hillside and Geologic Risk Overlay",
+      "parent_document": "5.02",
+      "parent_title": "HILLSIDE AND GEOLOGIC RISK OVERLAY",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0210",
+      "title": "Standards for Specific Development Types within the Hillside and Geologic Risk",
+      "parent_document": "5.02",
+      "parent_title": "HILLSIDE AND GEOLOGIC RISK OVERLAY",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0300",
+      "title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "parent_document": "5.03",
+      "parent_title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0310",
+      "title": "General",
+      "parent_document": "5.03",
+      "parent_title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0320",
+      "title": "Identification and Designation",
+      "parent_document": "5.03",
+      "parent_title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0330",
+      "title": "Development Requirements",
+      "parent_document": "5.03",
+      "parent_title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0340",
+      "title": "Archaeological Resources and Sites North of Interstate 84",
+      "parent_document": "5.03",
+      "parent_title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0500",
+      "title": "OPEN SPACE OVERLAY DISTRICT",
+      "parent_document": "5.05",
+      "parent_title": "OPEN SPACE OVERLAY DISTRICT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0600",
+      "title": "GRESHAM BUTTE SCENIC VIEW OVERLAY DISTRICT",
+      "parent_document": "5.06",
+      "parent_title": "GRESHAM BUTTE SCENIC VIEW OVERLAY DISTRICT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "5.0700",
+      "title": "NATURAL RESOURCE OVERLAY",
+      "parent_document": "5.07",
+      "parent_title": "NATURAL RESOURCE OVERLAY \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "6.0000",
+      "title": "INTRODUCTORY PROVISIONS",
+      "parent_document": "6.00",
+      "parent_title": "INTRODUCTORY PROVISIONS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "6.0100",
+      "title": "LOT LINE ADJUSTMENTS AND LOT CONSOLIDATIONS",
+      "parent_document": "6.01",
+      "parent_title": "LOT LINE ADJUSTMENTS AND LOT CONSOLIDATIONS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "6.0200",
+      "title": "PARTITIONS AND SUBDIVISIONS",
+      "parent_document": "6.02",
+      "parent_title": "PARTITIONS AND SUBDIVISIONS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "6.0300",
+      "title": "PLANNED DEVELOPMENTS",
+      "parent_document": "6.03",
+      "parent_title": "PLANNED DEVELOPMENTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "6.0400",
+      "title": "LAND DIVISION FINAL PLAT REQUIREMENTS",
+      "parent_document": "6.04",
+      "parent_title": "LAND DIVISION FINAL PLAT REQUIREMENTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "6.0500",
+      "title": "MIDDLE HOUSING LAND DIVISION",
+      "parent_document": "6.05",
+      "parent_title": "MIDDLE HOUSING LAND DIVISION",
+      "parent_has_file": true
+    },
+    {
+      "number": "7.0000",
+      "title": "PURPOSE AND AUTHORITY",
+      "parent_document": "7.00",
+      "parent_title": "PURPOSE AND AUTHORITY",
+      "parent_has_file": true
+    },
+    {
+      "number": "7.0100",
+      "title": "CORRIDOR DESIGN DISTRICT",
+      "parent_document": "7.01",
+      "parent_title": "CORRIDOR DESIGN DISTRICT",
+      "parent_has_file": true
+    },
+    {
+      "number": "7.0200",
+      "title": "GENERAL DESIGN STANDARDS",
+      "parent_document": "7.02",
+      "parent_title": "GENERAL DESIGN STANDARDS",
+      "parent_has_file": true
+    },
+    {
+      "number": "7.0212",
+      "title": "Standards for New Solid Waste and Recycling Collection Areas for Multifamily,",
+      "parent_document": "7.02",
+      "parent_title": "GENERAL DESIGN STANDARDS",
+      "parent_has_file": true
+    },
+    {
+      "number": "7.0300",
+      "title": "COMMERCIAL, INSTITUTIONAL, AND INDUSTRIAL DESIGN STANDARDS",
+      "parent_document": "7.03",
+      "parent_title": "COMMERCIAL",
+      "parent_has_file": true
+    },
+    {
+      "number": "7.0310",
+      "title": "Commercial (except those in a Design District), Institutional, and Mixed Use",
+      "parent_document": "7.03",
+      "parent_title": "COMMERCIAL",
+      "parent_has_file": true
+    },
+    {
+      "number": "7.0400",
+      "title": "RESIDENTIAL DESIGN STANDARDS",
+      "parent_document": "7.04",
+      "parent_title": "RESIDENTIAL DESIGN STANDARDS",
+      "parent_has_file": true
+    },
+    {
+      "number": "7.0420",
+      "title": "Design Standards for Single Detached Dwellings, Duplexes, Triplexes, and",
+      "parent_document": "7.04",
+      "parent_title": "RESIDENTIAL DESIGN STANDARDS",
+      "parent_has_file": true
+    },
+    {
+      "number": "7.0500",
+      "title": "ROCKWOOD DESIGN DISTRICT DESIGN GUIDELINES AND STANDARDS",
+      "parent_document": "7.05",
+      "parent_title": "ROCKWOOD DESIGN DISTRICT DESIGN GUIDELINES AND STANDARDS",
+      "parent_has_file": true
+    },
+    {
+      "number": "8.0100",
+      "title": "SPECIAL USE REVIEW",
+      "parent_document": "8.01",
+      "parent_title": "SPECIAL USE REVIEW \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "8.0110",
+      "title": "Special Use Review, Type II Procedure",
+      "parent_document": "8.01",
+      "parent_title": "SPECIAL USE REVIEW \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "8.0140",
+      "title": "Special Use Review, Type III Procedure",
+      "parent_document": "8.01",
+      "parent_title": "SPECIAL USE REVIEW \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "8.0200",
+      "title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT",
+      "parent_document": "8.02",
+      "parent_title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "8.0221",
+      "title": "Alteration, Enlargement, Expansion, Movement or Replacement of a Nonconforming",
+      "parent_document": "8.02",
+      "parent_title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "8.0222",
+      "title": "Alteration, Enlargement, Expansion, Movement or Replacement of a Nonconforming",
+      "parent_document": "8.02",
+      "parent_title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "8.0300",
+      "title": "INSTITUTIONAL MASTER PLANS",
+      "parent_document": "8.03",
+      "parent_title": "INSTITUTIONAL MASTER PLANS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.0100",
+      "title": "BUFFERING AND SCREENING REQUIREMENTS",
+      "parent_document": "9.01",
+      "parent_title": "BUFFERING AND SCREENING REQUIREMENTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.0200",
+      "title": "CLEAR VISION AREA",
+      "parent_document": "9.02",
+      "parent_title": "CLEAR VISION AREA \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.0300",
+      "title": "EASEMENTS",
+      "parent_document": "9.03",
+      "parent_title": "EASEMENTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.0400",
+      "title": "FENCING",
+      "parent_document": "9.04",
+      "parent_title": "FENCING \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.0500",
+      "title": "GRADING AND DRAINAGE AND STORMWATER MANAGEMENT",
+      "parent_document": "9.05",
+      "parent_title": "GRADING AND DRAINAGE AND STORMWATER MANAGEMENT \nREQUIREMENTS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.0600",
+      "title": "HEIGHT TRANSITION",
+      "parent_document": "9.06",
+      "parent_title": "HEIGHT TRANSITION \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.0700",
+      "title": "NEIGHBORHOOD CIRCULATION AND FUTURE STREET PLANS",
+      "parent_document": "9.07",
+      "parent_title": "NEIGHBORHOOD CIRCULATION AND FUTURE STREET PLANS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.0800",
+      "title": "PARKING",
+      "parent_document": "9.08",
+      "parent_title": "PARKING \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.0900",
+      "title": "PROJECTIONS",
+      "parent_document": "9.09",
+      "parent_title": "PROJECTIONS \nG",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.1000",
+      "title": "TREE REGULATIONS",
+      "parent_document": "9.10",
+      "parent_title": "TREE REGULATIONS",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.1010",
+      "title": "General",
+      "parent_document": "9.10",
+      "parent_title": "TREE REGULATIONS",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.1020",
+      "title": "Trees: Existing Development",
+      "parent_document": "9.10",
+      "parent_title": "TREE REGULATIONS",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.1030",
+      "title": "Trees: During Development",
+      "parent_document": "9.10",
+      "parent_title": "TREE REGULATIONS",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.1040",
+      "title": "Tree Planting and Pruning",
+      "parent_document": "9.10",
+      "parent_title": "TREE REGULATIONS",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.1050",
+      "title": "Significant Trees",
+      "parent_document": "9.10",
+      "parent_title": "TREE REGULATIONS",
+      "parent_has_file": true
+    },
+    {
+      "number": "9.1053",
+      "title": "Procedures for Designating, Maintaining, and De-Listing Significant Trees and",
+      "parent_document": "9.10",
+      "parent_title": "TREE REGULATIONS",
+      "parent_has_file": true
+    }
+  ]
+}

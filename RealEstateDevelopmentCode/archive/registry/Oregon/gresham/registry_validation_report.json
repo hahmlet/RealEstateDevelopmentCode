@@ -1,0 +1,38 @@
+{
+  "validation_timestamp": "2025-05-23T06:25:49.825013",
+  "checks": [
+    {
+      "check": "required_section_metadata",
+      "status": "passed",
+      "message": "Required section 'metadata' is present"
+    },
+    {
+      "check": "required_section_statistics",
+      "status": "passed",
+      "message": "Required section 'statistics' is present"
+    },
+    {
+      "check": "required_section_verified_documents",
+      "status": "passed",
+      "message": "Required section 'verified_documents' is present"
+    },
+    {
+      "check": "required_section_issues",
+      "status": "passed",
+      "message": "Required section 'issues' is present"
+    },
+    {
+      "check": "verified_documents_count",
+      "status": "passed",
+      "message": "Verified documents count matches statistics"
+    },
+    {
+      "check": "alignment_score_range",
+      "status": "passed",
+      "message": "Alignment score 8.8% is within valid range"
+    }
+  ],
+  "overall_status": "passed",
+  "warnings": [],
+  "errors": []
+}

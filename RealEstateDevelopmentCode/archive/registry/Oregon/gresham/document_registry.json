@@ -1,0 +1,1205 @@
+{
+  "generated_at": "2025-05-23T06:26:03.556965",
+  "jurisdiction": {
+    "state": "Oregon",
+    "city": "gresham"
+  },
+  "registry_version": "1.0",
+  "documents": [
+    {
+      "document_id": "article-2",
+      "type": "article",
+      "number": "2",
+      "title": "INTRODUCTORY PROVISIONS",
+      "filename": "dc-article-2.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "article-3",
+      "type": "article",
+      "number": "3",
+      "title": "GENERAL TERMS",
+      "filename": "dc-article-3.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.0100",
+      "type": "section",
+      "number": "4.0100",
+      "title": "RESIDENTIAL LAND USE DISTRICTS",
+      "filename": "dc-section-4.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.0200",
+      "type": "section",
+      "number": "4.0200",
+      "title": "COMMERCIAL LAND USE DISTRICTS",
+      "filename": "dc-section-4.0200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.0300",
+      "type": "section",
+      "number": "4.0300",
+      "title": "INDUSTRIAL LAND USE DISTRICTS",
+      "filename": "dc-section-4.0300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.0400",
+      "type": "section",
+      "number": "4.0400",
+      "title": "CORRIDOR DISTRICTS",
+      "filename": "dc-section-4.0400.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.1000",
+      "type": "section",
+      "number": "4.1000",
+      "title": "Enabling Legislation",
+      "filename": "dc-section-4.1000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": "1",
+        "section_reference": "4.10"
+      }
+    },
+    {
+      "document_id": "section-4.1000",
+      "type": "section",
+      "number": "4.1000",
+      "title": "PLAN DISTRICTS",
+      "filename": "dc-section-4.1000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.1100",
+      "type": "section",
+      "number": "4.1100",
+      "title": "DOWNTOWN PLAN DISTRICT",
+      "filename": "dc-section-4.1100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.1200",
+      "type": "section",
+      "number": "4.1200",
+      "title": "CIVIC NEIGHBORHOOD PLAN DISTRICT",
+      "filename": "dc-section-4.1200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.1300",
+      "type": "section",
+      "number": "4.1300",
+      "title": "GRESHAM BUTTE PLAN DISTRICT",
+      "filename": "dc-section-4.1300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.1400",
+      "type": "section",
+      "number": "4.1400",
+      "title": "PLEASANT VALLEY PLAN DISTRICT",
+      "filename": "dc-section-4.1400.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-4.1500",
+      "type": "section",
+      "number": "4.1500",
+      "title": "SPRINGWATER PLAN DISTRICT",
+      "filename": "dc-section-4.1500.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-5.000",
+      "type": "section",
+      "number": "5.000",
+      "title": "General",
+      "filename": "dc-section-5.0000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": "3",
+        "section_reference": "A.5"
+      }
+    },
+    {
+      "document_id": "section-5.0000",
+      "type": "section",
+      "number": "5.0000",
+      "title": "PURPOSE AND AUTHORITY",
+      "filename": "dc-section-5.0000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-5.000",
+      "type": "section",
+      "number": "5.000",
+      "title": "PUBLIC FACILITIES",
+      "filename": "dc-section-5.0000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-5.100",
+      "type": "section",
+      "number": "5.100",
+      "title": "Sanitary Sewer Facilities",
+      "filename": "dc-section-5.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": "8",
+        "section_reference": "A.5"
+      }
+    },
+    {
+      "document_id": "section-5.0100",
+      "type": "section",
+      "number": "5.0100",
+      "title": "FLOODPLAIN OVERLAY DISTRICT",
+      "filename": "dc-section-5.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-5.200",
+      "type": "section",
+      "number": "5.200",
+      "title": "Surface Water Management Systems",
+      "filename": "dc-section-5.0200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": "9",
+        "section_reference": "A.5"
+      }
+    },
+    {
+      "document_id": "section-5.0200",
+      "type": "section",
+      "number": "5.0200",
+      "title": "HILLSIDE AND GEOLOGIC RISK OVERLAY (HGRO)",
+      "filename": "dc-section-5.0200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-5.300",
+      "type": "section",
+      "number": "5.300",
+      "title": "Water Facilities",
+      "filename": "dc-section-5.0300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": "12",
+        "section_reference": "A.5"
+      }
+    },
+    {
+      "document_id": "section-5.0300",
+      "type": "section",
+      "number": "5.0300",
+      "title": "HISTORIC AND CULTURAL LANDMARKS OVERLAY DISTRICT",
+      "filename": "dc-section-5.0300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-5.500",
+      "type": "section",
+      "number": "5.500",
+      "title": "Transportation System Description and Function",
+      "filename": "dc-section-5.0500.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": "18",
+        "section_reference": "A.5"
+      }
+    },
+    {
+      "document_id": "section-5.0500",
+      "type": "section",
+      "number": "5.0500",
+      "title": "OPEN SPACE OVERLAY DISTRICT",
+      "filename": "dc-section-5.0500.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-5.0600",
+      "type": "section",
+      "number": "5.0600",
+      "title": "GRESHAM BUTTE SCENIC VIEW OVERLAY DISTRICT",
+      "filename": "dc-section-5.0600.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-5.0700",
+      "type": "section",
+      "number": "5.0700",
+      "title": "NATURAL RESOURCE OVERLAY",
+      "filename": "dc-section-5.0700.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-6.0000",
+      "type": "section",
+      "number": "6.0000",
+      "title": "INTRODUCTORY PROVISIONS",
+      "filename": "dc-section-6.0000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-6.000",
+      "type": "section",
+      "number": "6.000",
+      "title": "SIGN REGULATIONS",
+      "filename": "dc-section-6.0000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-6.100",
+      "type": "section",
+      "number": "6.100",
+      "title": "Commercial, Mixed Use and Industrial Districts",
+      "filename": "dc-section-6.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": "14",
+        "section_reference": "A.6"
+      }
+    },
+    {
+      "document_id": "section-6.0100",
+      "type": "section",
+      "number": "6.0100",
+      "title": "LOT LINE ADJUSTMENTS AND LOT CONSOLIDATIONS",
+      "filename": "dc-section-6.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-6.0200",
+      "type": "section",
+      "number": "6.0200",
+      "title": "PARTITIONS AND SUBDIVISIONS",
+      "filename": "dc-section-6.0200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-6.0300",
+      "type": "section",
+      "number": "6.0300",
+      "title": "PLANNED DEVELOPMENTS",
+      "filename": "dc-section-6.0300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-6.0400",
+      "type": "section",
+      "number": "6.0400",
+      "title": "LAND DIVISION FINAL PLAT REQUIREMENTS",
+      "filename": "dc-section-6.0400.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-6.0500",
+      "type": "section",
+      "number": "6.0500",
+      "title": "MIDDLE HOUSING LAND DIVISION",
+      "filename": "dc-section-6.0500.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-7.0000",
+      "type": "section",
+      "number": "7.0000",
+      "title": "PURPOSE AND AUTHORITY",
+      "filename": "dc-section-7.0000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-7.000",
+      "type": "section",
+      "number": "7.000",
+      "title": "VACATIONS",
+      "filename": "dc-section-7.0000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-7.0100",
+      "type": "section",
+      "number": "7.0100",
+      "title": "CORRIDOR DESIGN DISTRICT",
+      "filename": "dc-section-7.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-7.0200",
+      "type": "section",
+      "number": "7.0200",
+      "title": "GENERAL DESIGN STANDARDS",
+      "filename": "dc-section-7.0200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-7.0300",
+      "type": "section",
+      "number": "7.0300",
+      "title": "COMMERCIAL, INSTITUTIONAL, AND INDUSTRIAL DESIGN STANDARDS",
+      "filename": "dc-section-7.0300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-7.0400",
+      "type": "section",
+      "number": "7.0400",
+      "title": "RESIDENTIAL DESIGN STANDARDS",
+      "filename": "dc-section-7.0400.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-7.0500",
+      "type": "section",
+      "number": "7.0500",
+      "title": "ROCKWOOD DESIGN DISTRICT DESIGN GUIDELINES AND STANDARDS",
+      "filename": "dc-section-7.0500.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-8.0100",
+      "type": "section",
+      "number": "8.0100",
+      "title": "SPECIAL USE REVIEW",
+      "filename": "dc-section-8.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-8.0200",
+      "type": "section",
+      "number": "8.0200",
+      "title": "EXISTING AND NONCONFORMING USES AND DEVELOPMENT",
+      "filename": "dc-section-8.0200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-8.0300",
+      "type": "section",
+      "number": "8.0300",
+      "title": "INSTITUTIONAL MASTER PLANS",
+      "filename": "dc-section-8.0300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.0100",
+      "type": "section",
+      "number": "9.0100",
+      "title": "BUFFERING AND SCREENING REQUIREMENTS",
+      "filename": "dc-section-9.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.0200",
+      "type": "section",
+      "number": "9.0200",
+      "title": "CLEAR VISION AREA",
+      "filename": "dc-section-9.0200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.0300",
+      "type": "section",
+      "number": "9.0300",
+      "title": "EASEMENTS",
+      "filename": "dc-section-9.0300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.0400",
+      "type": "section",
+      "number": "9.0400",
+      "title": "FENCING",
+      "filename": "dc-section-9.0400.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.0500",
+      "type": "section",
+      "number": "9.0500",
+      "title": "GRADING AND DRAINAGE AND STORMWATER MANAGEMENT",
+      "filename": "dc-section-9.0500.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.0600",
+      "type": "section",
+      "number": "9.0600",
+      "title": "HEIGHT TRANSITION",
+      "filename": "dc-section-9.0600.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.0700",
+      "type": "section",
+      "number": "9.0700",
+      "title": "NEIGHBORHOOD CIRCULATION AND FUTURE STREET PLANS",
+      "filename": "dc-section-9.0700.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.0800",
+      "type": "section",
+      "number": "9.0800",
+      "title": "PARKING",
+      "filename": "dc-section-9.0800.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.0900",
+      "type": "section",
+      "number": "9.0900",
+      "title": "PROJECTIONS",
+      "filename": "dc-section-9.0900.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-9.1000",
+      "type": "section",
+      "number": "9.1000",
+      "title": "TREE REGULATIONS",
+      "filename": "dc-section-9.1000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.0100",
+      "type": "section",
+      "number": "10.0100",
+      "title": "ACCESSORY DWELLINGS",
+      "filename": "dc-section-10.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.0200",
+      "type": "section",
+      "number": "10.0200",
+      "title": "RESIDENTIAL ACCESSORY STRUCTURES",
+      "filename": "dc-section-10.0200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.0400",
+      "type": "section",
+      "number": "10.0400",
+      "title": "CONVERSION OF UNITS",
+      "filename": "dc-section-10.0400.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.0500",
+      "type": "section",
+      "number": "10.0500",
+      "title": "HOME OCCUPATIONS",
+      "filename": "dc-section-10.0500.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.0600",
+      "type": "section",
+      "number": "10.0600",
+      "title": "WIRELESS COMMUNICATION FACILITIES CO-LOCATION STANDARDS",
+      "filename": "dc-section-10.0600.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.0700",
+      "type": "section",
+      "number": "10.0700",
+      "title": "MINERAL AND AGGREGATE RESOURCE EXTRACTION",
+      "filename": "dc-section-10.0700.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.0900",
+      "type": "section",
+      "number": "10.0900",
+      "title": "RENEWABLE ENERGY",
+      "filename": "dc-section-10.0900.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.1000",
+      "type": "section",
+      "number": "10.1000",
+      "title": "PRIVATE COMMUNICATION FACILITIES",
+      "filename": "dc-section-10.1000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.1100",
+      "type": "section",
+      "number": "10.1100",
+      "title": "SHORELINE HEIGHT STANDARDS",
+      "filename": "dc-section-10.1100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.1300",
+      "type": "section",
+      "number": "10.1300",
+      "title": "TEMPORARY HEALTH HARDSHIP DWELLING",
+      "filename": "dc-section-10.1300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.1400",
+      "type": "section",
+      "number": "10.1400",
+      "title": "TEMPORARY, INTERMITTENT AND INTERIM USES",
+      "filename": "dc-section-10.1400.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.1500",
+      "type": "section",
+      "number": "10.1500",
+      "title": "VARIANCE AND ADJUSTMENT PROCEDURES",
+      "filename": "dc-section-10.1500.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-10.1600",
+      "type": "section",
+      "number": "10.1600",
+      "title": "FOOD CARTS",
+      "filename": "dc-section-10.1600.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.0100",
+      "type": "section",
+      "number": "11.0100",
+      "title": "DEVELOPMENT PERMIT REQUIREMENTS",
+      "filename": "dc-section-11.0100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.0200",
+      "type": "section",
+      "number": "11.0200",
+      "title": "INITIATION AND CLASSIFICATION OF APPLICATIONS",
+      "filename": "dc-section-11.0200.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.0300",
+      "type": "section",
+      "number": "11.0300",
+      "title": "TYPE I MINISTERIAL PROCEDURES",
+      "filename": "dc-section-11.0300.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.0400",
+      "type": "section",
+      "number": "11.0400",
+      "title": "TYPE II ADMINISTRATIVE PROCEDURES",
+      "filename": "dc-section-11.0400.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.0500",
+      "type": "section",
+      "number": "11.0500",
+      "title": "TYPE III QUASI-JUDICIAL PROCEDURES",
+      "filename": "dc-section-11.0500.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.0600",
+      "type": "section",
+      "number": "11.0600",
+      "title": "TYPE IV LEGISLATIVE PROCEDURES",
+      "filename": "dc-section-11.0600.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.0700",
+      "type": "section",
+      "number": "11.0700",
+      "title": "OPTIONAL CONFERENCES AND PRE-APPLICATION CONFERENCE",
+      "filename": "dc-section-11.0700.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.0800",
+      "type": "section",
+      "number": "11.0800",
+      "title": "NEIGHBORHOOD MEETING",
+      "filename": "dc-section-11.0800.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.0900",
+      "type": "section",
+      "number": "11.0900",
+      "title": "APPLICATION SUBMITTAL AND COMPLETENESS REVIEW",
+      "filename": "dc-section-11.0900.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.1000",
+      "type": "section",
+      "number": "11.1000",
+      "title": "PUBLIC HEARINGS",
+      "filename": "dc-section-11.1000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-11.1100",
+      "type": "section",
+      "number": "11.1100",
+      "title": "APPEALS",
+      "filename": "dc-section-11.1100.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "section-12.0000",
+      "type": "section",
+      "number": "12.0000",
+      "title": "PLAN MAP AMENDMENTS AND AMENDMENTS TO MAP BOUNDARIES",
+      "filename": "dc-section-12.0000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "appendix-3.000",
+      "type": "appendix",
+      "number": "3.000",
+      "title": "GUARANTEE OF COMPLETION",
+      "filename": "dc-appendix-3.000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "appendix-5.000",
+      "type": "appendix",
+      "number": "5.000",
+      "title": "PUBLIC FACILITIES",
+      "filename": "dc-appendix-5.000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "appendix-6.000",
+      "type": "appendix",
+      "number": "6.000",
+      "title": "SIGN REGULATIONS",
+      "filename": "dc-appendix-6.000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "appendix-7.000",
+      "type": "appendix",
+      "number": "7.000",
+      "title": "VACATIONS",
+      "filename": "dc-appendix-7.000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    },
+    {
+      "document_id": "appendix-9.000",
+      "type": "appendix",
+      "number": "9.000",
+      "title": "STATION CENTER AND TOWN CENTER MIXED USE AREAS",
+      "filename": "dc-appendix-9.000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": "1",
+        "section_reference": "A.9"
+      }
+    },
+    {
+      "document_id": "appendix-13.000",
+      "type": "appendix",
+      "number": "13.000",
+      "title": "STREET NAMING AND PROPERTY NUMBERING",
+      "filename": "dc-appendix-13.000.json",
+      "match_confidence": 0.95,
+      "match_method": "direct_number_match",
+      "status": "verified",
+      "toc_reference": {
+        "page": null,
+        "section_reference": null
+      }
+    }
+  ],
+  "integrity": {
+    "total_registered": 85,
+    "alignment_score": 8.8,
+    "last_verification": "2025-05-23T06:26:03.556965"
+  }
+}
