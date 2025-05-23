@@ -55,7 +55,6 @@ dump/
 .cache/
 *.lock
 
-/scripts/
 !lxc_configs/
 !agent/
 /docling_json/
@@ -64,3 +63,7 @@ dump/
 /registry/
 /tables/
 /vectors/
+/rag_data/
+/pdf_content/
+/duplicates/
+/archive/
