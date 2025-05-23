@@ -1,8 +1,18 @@
-unstructured[all-docs]
+# Core dependencies
+unstructured
 langchain
 langchain-text-splitters
-camelot-py[cv]
-tabula-py
 pandas
-faiss-cpu
-sentence-transformers
+pdfminer.six
+pypdf
+tabula-py
+camelot-py
+# Table extraction dependencies
+opencv-python-headless
+numpy
+# Document parsing
+lxml
+beautifulsoup4
+# Removed heavy dependencies that were causing memory issues:
+# faiss-cpu - vector search, can be added separately if needed
+# sentence-transformers - large transformer models, can be added separately
