@@ -57,12 +57,19 @@ class AccurateMunicipalRAG:
             from langchain.text_splitter import RecursiveCharacterTextSplitter
             from langchain.schema import Document
             
-            # Table extraction
-            import camelot
+            # Table extraction (camelot optional)
+            self.has_camelot = False
+            try:
+                import camelot
+                self.has_camelot = True
+                logger.info("Camelot available for advanced table extraction")
+            except ImportError:
+                logger.warning("Camelot not available - using tabula and pandas only")
+                
             import tabula
             import pandas as pd
             
-            logger.info("All dependencies successfully loaded!")
+            logger.info("Core dependencies successfully loaded!")
             
         except ImportError as e:
             logger.error(f"Required package missing: {e}")
@@ -76,7 +83,6 @@ class AccurateMunicipalRAG:
         # Import here to avoid load issues
         from unstructured.partition.auto import partition
         from langchain.schema import Document
-        import camelot
         import tabula
         import pandas as pd
         
@@ -134,33 +140,36 @@ class AccurateMunicipalRAG:
     def _extract_tables_accurately(self, pdf_path: str, table_elements: List) -> List[Dict]:
         """Extract tables with multiple methods for accuracy"""
         
-        import camelot
         import tabula
         
         table_results = []
         
-        # Method 1: Camelot (best for lattice tables)
-        try:
-            camelot_tables = camelot.read_pdf(pdf_path, pages='all', flavor='lattice')
-            logger.info(f"Camelot extracted {len(camelot_tables)} tables")
-            
-            for i, table in enumerate(camelot_tables):
-                if table.accuracy > 80:  # Only high-accuracy tables
-                    table_results.append({
-                        "type": "table",
-                        "method": "camelot_lattice",
-                        "accuracy": table.accuracy,
-                        "content": table.df.to_markdown(index=False),
-                        "raw_data": table.df.to_dict('records'),
-                        "metadata": {
-                            "table_id": f"camelot_{i}",
-                            "page": table.page,
-                            "shape": table.df.shape,
-                            "whitespace": table.whitespace
-                        }
-                    })
-        except Exception as e:
-            logger.error(f"Camelot extraction failed: {e}")
+        # Method 1: Camelot (if available - best for lattice tables)
+        if self.has_camelot:
+            try:
+                import camelot
+                camelot_tables = camelot.read_pdf(pdf_path, pages='all', flavor='lattice')
+                logger.info(f"Camelot extracted {len(camelot_tables)} tables")
+                
+                for i, table in enumerate(camelot_tables):
+                    if table.accuracy > 80:  # Only high-accuracy tables
+                        table_results.append({
+                            "type": "table",
+                            "method": "camelot_lattice",
+                            "accuracy": table.accuracy,
+                            "content": table.df.to_markdown(index=False),
+                            "raw_data": table.df.to_dict('records'),
+                            "metadata": {
+                                "table_id": f"camelot_{i}",
+                                "page": table.page,
+                                "shape": table.df.shape,
+                                "whitespace": table.whitespace
+                            }
+                        })
+            except Exception as e:
+                logger.error(f"Camelot extraction failed: {e}")
+        else:
+            logger.info("Camelot not available, using tabula for table extraction")
         
         # Method 2: Tabula (backup for stream tables)
         try:
