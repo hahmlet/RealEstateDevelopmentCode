@@ -330,33 +330,45 @@ class AccurateMunicipalRAG:
         
         for json_file in self.source_dir.glob("*.json"):
             try:
-                # Find corresponding PDF
+                # Prioritize JSON content (much more accurate than PDF parsing)
+                logger.info(f"Processing {json_file.name} using structured JSON content...")
+                json_results = self._process_json_primary(json_file, jurisdiction)
+                all_results.extend(json_results)
+                
+                # Count results
+                table_count = len([r for r in json_results if r['type'] == 'table'])
+                text_count = len([r for r in json_results if r['type'] == 'text'])
+                
+                stats["tables_found"] += table_count
+                stats["text_chunks"] += text_count
+                
+                # Optional: If PDF exists and we want additional table extraction
                 pdf_name = json_file.stem + ".pdf"
                 pdf_path = pdf_dir / pdf_name
                 
-                if pdf_path.exists():
-                    logger.info(f"Processing {json_file.name} with corresponding PDF...")
-                    doc_results = self.process_document_with_tables(str(pdf_path))
-                    
-                    # Ensure jurisdiction is set correctly in metadata
-                    for result in doc_results:
-                        result["metadata"]["jurisdiction"] = jurisdiction
-                    
-                    all_results.extend(doc_results)
-                    
-                    # Count results
-                    table_count = len([r for r in doc_results if r['type'] == 'table'])
-                    text_count = len([r for r in doc_results if r['type'] == 'text'])
-                    
-                    stats["tables_found"] += table_count
-                    stats["text_chunks"] += text_count
-                    
-                else:
-                    # Fallback to JSON content only
-                    logger.info(f"No PDF found for {json_file.name}, using JSON content...")
-                    json_results = self._process_json_fallback(json_file, jurisdiction)
-                    all_results.extend(json_results)
-                    stats["text_chunks"] += len(json_results)
+                if pdf_path.exists() and table_count == 0:
+                    # Only use PDF for table extraction if JSON had no tables
+                    logger.info(f"Supplementing with PDF table extraction for {json_file.name}...")
+                    try:
+                        pdf_results = self.process_document_with_tables(str(pdf_path))
+                        pdf_tables = [r for r in pdf_results if r['type'] == 'table']
+                        
+                        if pdf_tables:
+                            # Update metadata for PDF tables
+                            for table in pdf_tables:
+                                table["metadata"]["jurisdiction"] = jurisdiction
+                                table["metadata"]["source_supplement"] = "pdf_tables"
+                            
+                            all_results.extend(pdf_tables)
+                            stats["tables_found"] += len(pdf_tables)
+                            logger.info(f"Added {len(pdf_tables)} tables from PDF")
+                        else:
+                            logger.info(f"No additional tables found in PDF for {json_file.name}")
+                    except Exception as e:
+                        logger.warning(f"PDF table extraction failed for {json_file.name}: {e}")
+                        logger.info("Continuing with JSON-only processing...")
+                elif pdf_path.exists():
+                    logger.debug(f"Skipping PDF supplement for {json_file.name} (JSON already has {table_count} tables)")
                 
                 stats["processed"] += 1
                 
@@ -368,8 +380,8 @@ class AccurateMunicipalRAG:
         self._save_accurate_results(all_results, stats)
         return stats
     
-    def _process_json_fallback(self, json_file: Path, jurisdiction: str) -> List[Dict]:
-        """Fallback processing for JSON-only content
+    def _process_json_primary(self, json_file: Path, jurisdiction: str) -> List[Dict]:
+        """Process JSON content as primary source (more accurate than PDFs)
         
         Args:
             json_file: Path to the JSON file
@@ -381,30 +393,197 @@ class AccurateMunicipalRAG:
         with open(json_file, 'r') as f:
             doc_data = json.load(f)
         
-        # Extract text content
-        full_text = ""
-        for page in doc_data.get('pages', []):
-            full_text += page.get('text', '') + "\n\n"
+        results = []
         
-        # Create document
-        doc = Document(
-            page_content=full_text,
-            metadata={
-                "source": str(json_file),
-                "document_id": json_file.stem.replace('dc-section-', ''),
-                "jurisdiction": jurisdiction,
-                "content_type": "text_only"
-            }
-        )
+        # Extract structured content from JSON (much richer than PDF)
+        document_title = doc_data.get('metadata', {}).get('title', json_file.stem)
+        document_id = json_file.stem.replace('dc-section-', '')
         
-        # Chunk
-        chunks = self.text_splitter.split_documents([doc])
+        # Process each page with its structured content
+        for page_num, page in enumerate(doc_data.get('pages', [])):
+            page_text = page.get('text', '')
+            
+            # Extract tables from JSON structured tables array
+            if 'tables' in page and page['tables']:
+                for table_idx, table in enumerate(page['tables']):
+                    results.append({
+                        "type": "table",
+                        "method": "json_structured",
+                        "content": self._format_json_table(table),
+                        "raw_data": table,
+                        "metadata": {
+                            "source": str(json_file),
+                            "document_id": document_id,
+                            "document_title": document_title,
+                            "jurisdiction": jurisdiction,
+                            "page": page_num + 1,
+                            "table_id": f"json_p{page_num}_t{table_idx}",
+                            "content_type": "structured_table"
+                        }
+                    })
+            
+            # Extract tables embedded in text (like the STREET CLASS table we found)
+            embedded_tables = self._extract_tables_from_text(page_text)
+            for table_idx, table_content in enumerate(embedded_tables):
+                results.append({
+                    "type": "table",
+                    "method": "text_embedded",
+                    "content": table_content,
+                    "raw_data": {"text_table": table_content},
+                    "metadata": {
+                        "source": str(json_file),
+                        "document_id": document_id,
+                        "document_title": document_title,
+                        "jurisdiction": jurisdiction,
+                        "page": page_num + 1,
+                        "table_id": f"text_p{page_num}_t{table_idx}",
+                        "content_type": "text_embedded_table"
+                    }
+                })
+            
+            # Process text content if substantial
+            if page_text.strip() and len(page_text.strip()) > 50:
+                # Create document for this page
+                doc = Document(
+                    page_content=page_text,
+                    metadata={
+                        "source": str(json_file),
+                        "document_id": document_id,
+                        "document_title": document_title,
+                        "jurisdiction": jurisdiction,
+                        "page": page_num + 1,
+                        "content_type": "structured_text"
+                    }
+                )
+                
+                # Chunk the page content
+                chunks = self.text_splitter.split_documents([doc])
+                
+                for chunk in chunks:
+                    results.append({
+                        "type": "text",
+                        "content": chunk.page_content,
+                        "metadata": chunk.metadata
+                    })
         
-        return [{
-            "type": "text",
-            "content": chunk.page_content,
-            "metadata": chunk.metadata
-        } for chunk in chunks]
+        return results
+    
+    def _extract_tables_from_text(self, text: str) -> List[str]:
+        """Extract table-like structures from text content"""
+        import re
+        
+        tables = []
+        
+        # Pattern 1: Look for structured table patterns like the STREET CLASS table
+        # This matches tables with headers and rows of data
+        table_patterns = [
+            # Pattern for tables with column headers and multiple rows
+            r'([A-Z][A-Z\s/]+)\s*\n([A-Z][A-Z\s/]+)\s*\n([A-Z][A-Z\s/]+)\s*\n((?:[A-Za-z0-9\s]+\n){2,})',
+            # Pattern for simpler tables with headers and data
+            r'(\b[A-Z][A-Z\s]+\b)\s*\n((?:[A-Za-z0-9\s]+(?:feet|%|spaces|inches)\s*\n){2,})',
+            # Pattern for dimension tables (common in municipal codes)
+            r'((?:minimum|maximum|width|height|depth|area)\s*:?\s*[0-9]+\s*(?:feet|ft|inches|in|%)\s*\n){2,}'
+        ]
+        
+        for pattern in table_patterns:
+            matches = re.finditer(pattern, text, re.MULTILINE | re.IGNORECASE)
+            for match in matches:
+                table_text = match.group(0).strip()
+                if len(table_text) > 100:  # Only include substantial tables
+                    # Clean up the table text
+                    cleaned_table = self._clean_table_text(table_text)
+                    tables.append(cleaned_table)
+        
+        # Look for the specific STREET CLASS table format we saw
+        street_class_pattern = r'STREET CLASS\s+PARKING\s+PAVEMENT WIDTH.+?(?=\n\n|\n[0-9]+\.|\nE\.|\Z)'
+        street_matches = re.finditer(street_class_pattern, text, re.DOTALL | re.MULTILINE)
+        for match in street_matches:
+            table_text = match.group(0).strip()
+            formatted_table = self._format_street_class_table(table_text)
+            tables.append(formatted_table)
+        
+        return tables
+    
+    def _clean_table_text(self, table_text: str) -> str:
+        """Clean and format table text for better readability"""
+        lines = table_text.split('\n')
+        cleaned_lines = []
+        
+        for line in lines:
+            line = line.strip()
+            if line:
+                cleaned_lines.append(line)
+        
+        return '\n'.join(cleaned_lines)
+    
+    def _format_street_class_table(self, table_text: str) -> str:
+        """Format the specific STREET CLASS table into proper markdown"""
+        
+        # Extract the structured data from the table text
+        lines = [line.strip() for line in table_text.split('\n') if line.strip()]
+        
+        if len(lines) < 3:
+            return table_text
+        
+        # Create markdown table
+        md_table = "| Street Class | Parking | Pavement Width |\n"
+        md_table += "| --- | --- | --- |\n"
+        
+        # Parse the table data
+        current_class = None
+        for line in lines:
+            if 'Class 1' in line:
+                current_class = "Class 1 (Serving fewer than 50 spaces)"
+            elif 'Class 2' in line:
+                current_class = "Class 2 (Serving 50 or more spaces)"
+            elif line in ['None', 'One side', 'Both sides']:
+                parking_type = line
+            elif 'feet' in line:
+                # Extract width value
+                width = line
+                if current_class and 'parking_type' in locals():
+                    md_table += f"| {current_class} | {parking_type} | {width} |\n"
+        
+        return md_table if md_table.count('|') > 6 else table_text
+    
+    def _format_json_table(self, table_data: Dict) -> str:
+        """Format JSON table data into readable markdown"""
+        
+        if isinstance(table_data, dict):
+            if 'rows' in table_data:
+                # Table with rows structure
+                rows = table_data.get('rows', [])
+                if rows:
+                    # Create markdown table
+                    headers = list(rows[0].keys()) if rows else []
+                    md_table = "| " + " | ".join(headers) + " |\n"
+                    md_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
+                    
+                    for row in rows:
+                        values = [str(row.get(h, "")) for h in headers]
+                        md_table += "| " + " | ".join(values) + " |\n"
+                    
+                    return md_table
+            elif 'data' in table_data:
+                # Table with data array
+                return str(table_data['data'])
+            else:
+                # Generic table data
+                return str(table_data)
+        elif isinstance(table_data, list):
+            # List of rows
+            if table_data and isinstance(table_data[0], dict):
+                headers = list(table_data[0].keys())
+                md_table = "| " + " | ".join(headers) + " |\n"
+                md_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
+                
+                for row in table_data:
+                    values = [str(row.get(h, "")) for h in headers]
+                    md_table += "| " + " | ".join(values) + " |\n"
+                
+                return md_table
+        
+        return str(table_data)
     
     def _save_accurate_results(self, results: List[Dict], stats: Dict):
         """Save results optimized for table and text accuracy"""

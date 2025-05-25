@@ -1,8 +1,14 @@
+# System Dependencies (install via apt-get):
+# apt-get update && apt-get install -y libgl1-mesa-glx libglib2.0-0 default-jre poppler-utils tesseract-ocr tesseract-ocr-eng
+
+# Python Dependencies:
 unstructured[all-docs]
 langchain
 langchain-text-splitters
-camelot-py[cv]
+camelot-py[base]
 tabula-py
 pandas
 faiss-cpu
 sentence-transformers
+JPype1
+pdfplumber

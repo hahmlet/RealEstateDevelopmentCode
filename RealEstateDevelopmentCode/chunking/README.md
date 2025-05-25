@@ -23,10 +23,37 @@ This system prepares municipal development code documents for AI agent consumpti
 
 ## Installation
 
+### Quick Installation (Recommended)
 ```bash
 cd /workspace/RealEstateDevelopmentCode/chunking
+sudo ./install_dependencies.sh
+```
+
+### Manual Installation
+1. Install system dependencies:
+```bash
+sudo apt-get update && sudo apt-get install -y \
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    default-jre \
+    poppler-utils \
+    tesseract-ocr \
+    tesseract-ocr-eng
+```
+
+2. Install Python dependencies:
+```bash
 pip install -r requirements.txt
 ```
+
+### Dependencies Explained
+- **libgl1-mesa-glx**: OpenGL support for OpenCV
+- **default-jre**: Java runtime for Tabula table extraction
+- **poppler-utils**: PDF utilities (pdfinfo, pdftoppm, etc.)
+- **tesseract-ocr**: OCR engine for scanned PDFs
+- **JPype1**: Java-Python bridge for Tabula
+- **camelot-py**: Advanced table extraction from PDFs
+- **unstructured[all-docs]**: AI-powered document parsing
 
 ## Usage
 

@@ -1,0 +1,3249 @@
+[
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "square feet\nType I\nReplacing an approved Food Cart in a pod\nType I1\nAdding a new Food Cart to a previously approved Food Cart Pod spot\nType I1\nReplacing an approved Food Cart on a site within 12 months of a previous cart being",
+    "raw_data": {
+      "text_table": "square feet\nType I\nReplacing an approved Food Cart in a pod\nType I1\nAdding a new Food Cart to a previously approved Food Cart Pod spot\nType I1\nReplacing an approved Food Cart on a site within 12 months of a previous cart being"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+      "document_id": "10.1600",
+      "document_title": "DC Section 10.1600",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "through to a Food Cart or expanding covered outdoor\nseating by more than 400 square feet\nType I\nExpansion of covered outdoor seating by no more than 400 square feet",
+    "raw_data": {
+      "text_table": "through to a Food Cart or expanding covered outdoor\nseating by more than 400 square feet\nType I\nExpansion of covered outdoor seating by no more than 400 square feet"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+      "document_id": "10.1600",
+      "document_title": "DC Section 10.1600",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "STREET CLASS\nPARKING\nPAVEMENT WIDTH\nClass 1\nServing fewer than 50 spaces\nNone\nOne side\nBoth sides\n20 feet\n30 feet\n32 feet\nClass 2\nServing 50 or more spaces\nNone\nOne side\nBoth sides\n22 feet\n30 feet\n34 feet",
+    "raw_data": {
+      "text_table": "STREET CLASS\nPARKING\nPAVEMENT WIDTH\nClass 1\nServing fewer than 50 spaces\nNone\nOne side\nBoth sides\n20 feet\n30 feet\n32 feet\nClass 2\nServing 50 or more spaces\nNone\nOne side\nBoth sides\n22 feet\n30 feet\n34 feet"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0400.json",
+      "document_id": "7.0400",
+      "document_title": "DC Section 7.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "STREET CLASS\nPARKING\nPAVEMENT WIDTH\nClass 1\nServing fewer than 50 spaces\nNone\nOne side\nBoth sides\n20 feet\n30 feet\n32 feet\nClass 2\nServing 50 or more spaces\nNone\nOne side\nBoth sides\n22 feet\n30 feet\n34 feet",
+    "raw_data": {
+      "text_table": "STREET CLASS\nPARKING\nPAVEMENT WIDTH\nClass 1\nServing fewer than 50 spaces\nNone\nOne side\nBoth sides\n20 feet\n30 feet\n32 feet\nClass 2\nServing 50 or more spaces\nNone\nOne side\nBoth sides\n22 feet\n30 feet\n34 feet"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0400.json",
+      "document_id": "7.0400",
+      "document_title": "DC Section 7.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "| Street Class | Parking | Pavement Width |\n| --- | --- | --- |\n| Class 1 (Serving fewer than 50 spaces) | Both sides | 20 feet |\n| Class 1 (Serving fewer than 50 spaces) | Both sides | 30 feet |\n| Class 1 (Serving fewer than 50 spaces) | Both sides | 32 feet |\n| Class 2 (Serving 50 or more spaces) | Both sides | 22 feet |\n| Class 2 (Serving 50 or more spaces) | Both sides | 30 feet |\n| Class 2 (Serving 50 or more spaces) | Both sides | 34 feet |\n",
+    "raw_data": {
+      "text_table": "| Street Class | Parking | Pavement Width |\n| --- | --- | --- |\n| Class 1 (Serving fewer than 50 spaces) | Both sides | 20 feet |\n| Class 1 (Serving fewer than 50 spaces) | Both sides | 30 feet |\n| Class 1 (Serving fewer than 50 spaces) | Both sides | 32 feet |\n| Class 2 (Serving 50 or more spaces) | Both sides | 22 feet |\n| Class 2 (Serving 50 or more spaces) | Both sides | 30 feet |\n| Class 2 (Serving 50 or more spaces) | Both sides | 34 feet |\n"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0400.json",
+      "document_id": "7.0400",
+      "document_title": "DC Section 7.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Districts\nN\nW\nSh\natt\nuc\nk\nW\nay\nNW\nFa\nnni\nng\nWa\ny\nNW\nCo\nunc\nil D\nr\nNW Burnside Rd\nNW Wallula Ave\nNW Eastman Pkwy\nNW Division St\nNW Civic Dr\nNW Council Dr\nFlorence Ave\nNW 16th St\nNW 15th St\nNW 15th St\nNW 13th St\nNW 13th St\nNW 11th St\nNW 12th St\nNW Overlook Ave\nNW Ava Ln\nNW Sleret  Ave\nNW Norman Ave\nMAX Line\nCNTM\nCNTM\nCNTM\nCNTH\nCNRM",
+    "raw_data": {
+      "text_table": "Districts\nN\nW\nSh\natt\nuc\nk\nW\nay\nNW\nFa\nnni\nng\nWa\ny\nNW\nCo\nunc\nil D\nr\nNW Burnside Rd\nNW Wallula Ave\nNW Eastman Pkwy\nNW Division St\nNW Civic Dr\nNW Council Dr\nFlorence Ave\nNW 16th St\nNW 15th St\nNW 15th St\nNW 13th St\nNW 13th St\nNW 11th St\nNW 12th St\nNW Overlook Ave\nNW Ava Ln\nNW Sleret  Ave\nNW Norman Ave\nMAX Line\nCNTM\nCNTM\nCNTM\nCNTH\nCNRM"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "CNTH\nCNTM\nCNRM\nSingle Detached Dwelling\nNP\nNP\nNP\nDuplex\nNP\nNP\nNP\nTriplex\nNP\nNP\nNP\nQuadplex\nNP\nNP\nNP\nTownhouse\nP\nP\nP\nCottage Cluster\nNP\nNP\nNP\nMultifamily19\nP2\nP2\nP2\nElderly Housing\nSUR\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nResidential Facility\nP\nP\nP\nResidential Home\nNP\nNP\nNP\nAffordable Housing\nP3\nP3\nP3",
+    "raw_data": {
+      "text_table": "CNTH\nCNTM\nCNRM\nSingle Detached Dwelling\nNP\nNP\nNP\nDuplex\nNP\nNP\nNP\nTriplex\nNP\nNP\nNP\nQuadplex\nNP\nNP\nNP\nTownhouse\nP\nP\nP\nCottage Cluster\nNP\nNP\nNP\nMultifamily19\nP2\nP2\nP2\nElderly Housing\nSUR\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nResidential Facility\nP\nP\nP\nResidential Home\nNP\nNP\nNP\nAffordable Housing\nP3\nP3\nP3"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 9,
+      "table_id": "text_p8_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Dependent Use\nNP\nNP\nNP\nBusiness and Retail Service and Trade4\nP\nP\nL5\nClinics\nP\nP\nL5\nCommercial Parking\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "Dependent Use\nNP\nNP\nNP\nBusiness and Retail Service and Trade4\nP\nP\nL5\nClinics\nP\nP\nL5\nCommercial Parking\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Industrial Uses\nCNTH\nCNTM\nCNRM\nConstruction\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nManufacturing",
+    "raw_data": {
+      "text_table": "Industrial Uses\nCNTH\nCNTM\nCNRM\nConstruction\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nManufacturing"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "NP\nMiscellaneous Industrial\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nTransportation/Distribution\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP",
+    "raw_data": {
+      "text_table": "NP\nMiscellaneous Industrial\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nTransportation/Distribution\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Institutional Uses\nCNTH\nCNTM\nCNRM\nCivic Uses\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nMedical\nSUR\nSUR\nL8",
+    "raw_data": {
+      "text_table": "Institutional Uses\nCNTH\nCNTM\nCNRM\nCivic Uses\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nMedical\nSUR\nSUR\nL8"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 11,
+      "table_id": "text_p10_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Other Uses\nCNTH\nCNTM\nCNRM\nBasic Utilities\nMinor basic utilities\nMajor basic utilities17\nP\nSUR\nP\nSUR\nP",
+    "raw_data": {
+      "text_table": "Other Uses\nCNTH\nCNTM\nCNRM\nBasic Utilities\nMinor basic utilities\nMajor basic utilities17\nP\nSUR\nP\nSUR\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 11,
+      "table_id": "text_p10_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Civic Drive\nWallula Avenue\nCivic\nNeighborhood\nConnector1\nCivic\nNeighborhood\nLocal\nTownhouse\nMinimum Building",
+    "raw_data": {
+      "text_table": "Civic Drive\nWallula Avenue\nCivic\nNeighborhood\nConnector1\nCivic\nNeighborhood\nLocal\nTownhouse\nMinimum Building"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 13,
+      "table_id": "text_p12_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "The design of play areas shall\npromote safety of outdoor\ncommon areas by ensuring\nthey are clearly visible from a\nsufficient number of adjoining\nunits to provide opportunities for",
+    "raw_data": {
+      "text_table": "The design of play areas shall\npromote safety of outdoor\ncommon areas by ensuring\nthey are clearly visible from a\nsufficient number of adjoining\nunits to provide opportunities for"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 51,
+      "table_id": "text_p50_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "The choice and selection of plant\nmaterials shall insure that the type\nof plantings selected will be of a\ntype that will survive and thrive in\nthe area in which they are to be",
+    "raw_data": {
+      "text_table": "The choice and selection of plant\nmaterials shall insure that the type\nof plantings selected will be of a\ntype that will survive and thrive in\nthe area in which they are to be"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 54,
+      "table_id": "text_p53_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "The proper relationship between\ndeciduous and evergreen\nplant materials shall exist so\nas to ensure that the desired\nlandscaping and buffering effects",
+    "raw_data": {
+      "text_table": "The proper relationship between\ndeciduous and evergreen\nplant materials shall exist so\nas to ensure that the desired\nlandscaping and buffering effects"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 54,
+      "table_id": "text_p53_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "landscaped\nrows or islands shall be present in\nparking areas at sizes which foster\nhealthy tree growth and create\nopportunities for stormwater",
+    "raw_data": {
+      "text_table": "landscaped\nrows or islands shall be present in\nparking areas at sizes which foster\nhealthy tree growth and create\nopportunities for stormwater"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 60,
+      "table_id": "text_p59_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "The site shall be designed to achieve\nuniform illumination levels with a\nminimum glare to adjacent properties\nin order to create a comfortable and\nsafe environment in harmony with the",
+    "raw_data": {
+      "text_table": "The site shall be designed to achieve\nuniform illumination levels with a\nminimum glare to adjacent properties\nin order to create a comfortable and\nsafe environment in harmony with the"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 64,
+      "table_id": "text_p63_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Express roofs in a visually interesting\nmanner that complements the\ncomposition of the building and\nthe surrounding area and visually\nbreaks down the scale of the roof and",
+    "raw_data": {
+      "text_table": "Express roofs in a visually interesting\nmanner that complements the\ncomposition of the building and\nthe surrounding area and visually\nbreaks down the scale of the roof and"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 71,
+      "table_id": "text_p70_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "in height\nHeight of supporting wall\nHeight of supporting wall\nTwice increase\nin height\nIncrease\nIncrease\nin height\nin height\nPoint of\nIntersection",
+    "raw_data": {
+      "text_table": "in height\nHeight of supporting wall\nHeight of supporting wall\nTwice increase\nin height\nIncrease\nIncrease\nin height\nin height\nPoint of\nIntersection"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 72,
+      "table_id": "text_p71_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "canopy\ncanopy\nseasonal\nseasonal\nplanters\nplanters\nstorefront\nstorefront\nwindow\nwindow\nbulkhead\nbulkhead\npedestrian\npedestrian\nscaled\nscaled\nlights\nlights\nprojecting sill\nprojecting sill\nrecessed entry\nrecessed entry",
+    "raw_data": {
+      "text_table": "canopy\ncanopy\nseasonal\nseasonal\nplanters\nplanters\nstorefront\nstorefront\nwindow\nwindow\nbulkhead\nbulkhead\npedestrian\npedestrian\nscaled\nscaled\nlights\nlights\nprojecting sill\nprojecting sill\nrecessed entry\nrecessed entry"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 81,
+      "table_id": "text_p80_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Buildings shall be designed to\nconserve energy by optimizing solar\norientation and maximizing passive\nsolar access in winter months while\nminimizing solar heat gain in summer",
+    "raw_data": {
+      "text_table": "Buildings shall be designed to\nconserve energy by optimizing solar\norientation and maximizing passive\nsolar access in winter months while\nminimizing solar heat gain in summer"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 86,
+      "table_id": "text_p85_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "openings without glass but\nutilizing an artistic screening system or other decorative\nfeature in those areas may be used to meet the transparency\nrequirement for the portions of that facade occupied by the\nparking structure at the discretion of the Manager or Design",
+    "raw_data": {
+      "text_table": "openings without glass but\nutilizing an artistic screening system or other decorative\nfeature in those areas may be used to meet the transparency\nrequirement for the portions of that facade occupied by the\nparking structure at the discretion of the Manager or Design"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 87,
+      "table_id": "text_p86_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Buildings shall be designed to\nconserve energy by optimizing solar\norientation and maximizing passive\nsolar access in winter months while\nminimizing solar heat gain in summer",
+    "raw_data": {
+      "text_table": "Buildings shall be designed to\nconserve energy by optimizing solar\norientation and maximizing passive\nsolar access in winter months while\nminimizing solar heat gain in summer"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 89,
+      "table_id": "text_p88_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "S\nS\nCeramic tile\nS\nS\nStanding seam metal3\nS\nS\nOther material as approved by the Manager or\nDesign Commission",
+    "raw_data": {
+      "text_table": "S\nS\nCeramic tile\nS\nS\nStanding seam metal3\nS\nS\nOther material as approved by the Manager or\nDesign Commission"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "document_id": "4.1200",
+      "document_title": "DC Section 4.1200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 96,
+      "table_id": "text_p95_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Accessory Structure Setbacks\nAccessory\nStructure Size\nCondition\nSetback from side\nlot line\nSetback from\nrear lot line\nSetback from\nother structures",
+    "raw_data": {
+      "text_table": "Accessory Structure Setbacks\nAccessory\nStructure Size\nCondition\nSetback from side\nlot line\nSetback from\nrear lot line\nSetback from\nother structures"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+      "document_id": "10.0200",
+      "document_title": "DC Section 10.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 1,
+      "table_id": "text_p0_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "from\nfinished floor to average roof\nsurface\n3 feet\n3 feet\nSetbacks between\nstructures shall\nmeet Building Code",
+    "raw_data": {
+      "text_table": "from\nfinished floor to average roof\nsurface\n3 feet\n3 feet\nSetbacks between\nstructures shall\nmeet Building Code"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+      "document_id": "10.0200",
+      "document_title": "DC Section 10.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 1,
+      "table_id": "text_p0_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "from\nfinished floor to average roof\nsurface\n5 feet\n5 feet\nSetbacks between\nstructures shall\nmeet Building Code",
+    "raw_data": {
+      "text_table": "from\nfinished floor to average roof\nsurface\n5 feet\n5 feet\nSetbacks between\nstructures shall\nmeet Building Code"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+      "document_id": "10.0200",
+      "document_title": "DC Section 10.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 1,
+      "table_id": "text_p0_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Shall conform to underlying district\nstandard\nSetbacks between\nstructures shall\nmeet Building Code",
+    "raw_data": {
+      "text_table": "Shall conform to underlying district\nstandard\nSetbacks between\nstructures shall\nmeet Building Code"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+      "document_id": "10.0200",
+      "document_title": "DC Section 10.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 1,
+      "table_id": "text_p0_t3",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Accessory Structure Setbacks\nAccessory\nStructure Size\nCondition\nSetback from side\nlot line\nSetback from\nrear lot line\nSetback from\nother structures",
+    "raw_data": {
+      "text_table": "Accessory Structure Setbacks\nAccessory\nStructure Size\nCondition\nSetback from side\nlot line\nSetback from\nrear lot line\nSetback from\nother structures"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+      "document_id": "10.0200",
+      "document_title": "DC Section 10.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Only on lots greater than one\nacre\nShall conform to underlying district\nstandard\nSetbacks between\nstructures shall\nmeet Building Code",
+    "raw_data": {
+      "text_table": "Only on lots greater than one\nacre\nShall conform to underlying district\nstandard\nSetbacks between\nstructures shall\nmeet Building Code"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+      "document_id": "10.0200",
+      "document_title": "DC Section 10.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "NP\nNP\nP\nNP\nL7\nFilm Production Studios and Trailers\nP\nP\nP\nP\nP\nFireworks Sales\nP\nP\nP\nP\nP\nReal Estate Sales Offices\nP\nP\nP\nP\nNP\nSpecial Events\nNP\nNP\nP\nP\nP",
+    "raw_data": {
+      "text_table": "NP\nNP\nP\nNP\nL7\nFilm Production Studios and Trailers\nP\nP\nP\nP\nP\nFireworks Sales\nP\nP\nP\nP\nP\nReal Estate Sales Offices\nP\nP\nP\nP\nNP\nSpecial Events\nNP\nNP\nP\nP\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1400.json",
+      "document_id": "10.1400",
+      "document_title": "DC Section 10.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Markets\nNP\nNP\nP\nP\nP\nWarming/cooling Shelters\nNP\nNP\nP\nP\nP\nOther Intermittent Uses\nP\nP\nP\nP\nP",
+    "raw_data": {
+      "text_table": "Markets\nNP\nNP\nP\nP\nP\nWarming/cooling Shelters\nNP\nNP\nP\nP\nP\nOther Intermittent Uses\nP\nP\nP\nP\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1400.json",
+      "document_id": "10.1400",
+      "document_title": "DC Section 10.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "days\nYes\nType I\nNot applicable\nFireworks Sales\n20 days\nNo\nType I\nNot applicable\nReal Estate Sales Offices\n1 year",
+    "raw_data": {
+      "text_table": "days\nYes\nType I\nNot applicable\nFireworks Sales\n20 days\nNo\nType I\nNot applicable\nReal Estate Sales Offices\n1 year"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1400.json",
+      "document_id": "10.1400",
+      "document_title": "DC Section 10.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "RJ\nCMF\nCMU\nCC\nMC\nRESIDENTIAL1\nSingle Detached Dwelling\nNP\nNP\nNP\nL2\nNP\nNP\nNP\nDuplex\nNP\nP\nP\nP\nP\nNP\nNP\nTriplex\nNP\nP\nP\nP\nP\nNP\nNP\nQuadplex\nNP\nP\nP\nP\nP\nNP\nNP\nTownhouse\nL3\nP\nP\nP\nP\nNP\nNP\nCottage Cluster\nNP\nNP\nNP\nL2\nNP\nNP\nNP\nMultifamily28",
+    "raw_data": {
+      "text_table": "RJ\nCMF\nCMU\nCC\nMC\nRESIDENTIAL1\nSingle Detached Dwelling\nNP\nNP\nNP\nL2\nNP\nNP\nNP\nDuplex\nNP\nP\nP\nP\nP\nNP\nNP\nTriplex\nNP\nP\nP\nP\nP\nNP\nNP\nQuadplex\nNP\nP\nP\nP\nP\nNP\nNP\nTownhouse\nL3\nP\nP\nP\nP\nNP\nNP\nCottage Cluster\nNP\nNP\nNP\nL2\nNP\nNP\nNP\nMultifamily28"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "SUR\nSUR\nSUR\nSUR\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nResidential Facility\nP3\nP\nP\nP\nP",
+    "raw_data": {
+      "text_table": "SUR\nSUR\nSUR\nSUR\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nResidential Facility\nP3\nP\nP\nP\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "a\nResidential Home\nNP\nNP\nNP\nL2\nNP\nNP\nNP\nAffordable Housing\nP9\nP9\nP9\nP9\nP9\nP9\nP9\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "a\nResidential Home\nNP\nNP\nNP\nL2\nNP\nNP\nNP\nAffordable Housing\nP9\nP9\nP9\nP9\nP9\nP9\nP9\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "b\nCommercial Parking\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nDaycare Facilities\nP\nL12\nSUR\nSUR\nP\nP\nP",
+    "raw_data": {
+      "text_table": "b\nCommercial Parking\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nDaycare Facilities\nP\nL12\nSUR\nSUR\nP\nP\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t3",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "b\nINDUSTRIAL\nConstruction\nNP\nNP\nL14\nNP\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nManufacturing\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nMiscellaneous Industrial\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nNP\nNP\nNP\nNP",
+    "raw_data": {
+      "text_table": "b\nINDUSTRIAL\nConstruction\nNP\nNP\nL14\nNP\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nManufacturing\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nMiscellaneous Industrial\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nNP\nNP\nNP\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t4",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Transportation/Distribution\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nNP",
+    "raw_data": {
+      "text_table": "Transportation/Distribution\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t5",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Wholesale Trade\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Use\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "Wholesale Trade\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Use\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t6",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "OTHER\nBasic Utilities\nMinor basic utilities\nMajor basic utilities\nP\nSUR\nP\nSUR\nP\nSUR\nP",
+    "raw_data": {
+      "text_table": "OTHER\nBasic Utilities\nMinor basic utilities\nMajor basic utilities\nP\nSUR\nP\nSUR\nP\nSUR\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "P\nSUR\nP\nSUR\nP\nSUR\nHeliports17\nSUR\nNP\nNP\nNP\nNP\nSUR\nNP\nWireless Communication Facilities\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "P\nSUR\nP\nSUR\nP\nSUR\nHeliports17\nSUR\nNP\nNP\nNP\nNP\nSUR\nNP\nWireless Communication Facilities\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Development Requirements For Corridor Districts\nRockwood\nTown\nCenter\nStation\nCenters\nStation\nCenter",
+    "raw_data": {
+      "text_table": "Development Requirements For Corridor Districts\nRockwood\nTown\nCenter\nStation\nCenters\nStation\nCenter"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Development Requirements For Corridor Districts\nRockwood\nTown\nCenter\nStation\nCenters\nStation\nCenter",
+    "raw_data": {
+      "text_table": "Development Requirements For Corridor Districts\nRockwood\nTown\nCenter\nStation\nCenters\nStation\nCenter"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "units per\nacre for\nMultifamily\n12 units\nper  acre\n12 units per\nacre\n12 units per\nacre\n12 units\nper acre",
+    "raw_data": {
+      "text_table": "units per\nacre for\nMultifamily\n12 units\nper  acre\n12 units per\nacre\n12 units per\nacre\n12 units\nper acre"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "units per\nnet acre\nelsewhere\n60 units per\nacre\n60 units per\nacre\n24 units\nper acre\n24 units per\nacre\n40 units per\nacre\n40 units\nper acre",
+    "raw_data": {
+      "text_table": "units per\nnet acre\nelsewhere\n60 units per\nacre\n60 units per\nacre\n24 units\nper acre\n24 units per\nacre\n40 units per\nacre\n40 units\nper acre"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Development Requirements For Corridor Districts\nRockwood\nTown\nCenter\nStation\nCenters\nStation\nCenter",
+    "raw_data": {
+      "text_table": "Development Requirements For Corridor Districts\nRockwood\nTown\nCenter\nStation\nCenters\nStation\nCenter"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 9,
+      "table_id": "text_p8_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Development Requirements For Corridor Districts\nRockwood\nTown\nCenter\nStation\nCenters\nStation\nCenter",
+    "raw_data": {
+      "text_table": "Development Requirements For Corridor Districts\nRockwood\nTown\nCenter\nStation\nCenters\nStation\nCenter"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "document_id": "4.0400",
+      "document_title": "DC Section 4.0400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "in Open Space or\nNatural Resource Site\nN\nI\nD\nA\nOpen Space Dedication in other areas\nN\nII\nD\nA\nOpen Space Boundary Revisions\nY\nIII\nD\nA",
+    "raw_data": {
+      "text_table": "in Open Space or\nNatural Resource Site\nN\nI\nD\nA\nOpen Space Dedication in other areas\nN\nII\nD\nA\nOpen Space Boundary Revisions\nY\nIII\nD\nA"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0200.json",
+      "document_id": "11.0200",
+      "document_title": "DC Section 11.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Renaming of Existing Public Streets or Assignment\nof a Name to a Public Street Platted without a\nName\nN\nIV\nR\nD",
+    "raw_data": {
+      "text_table": "Renaming of Existing Public Streets or Assignment\nof a Name to a Public Street Platted without a\nName\nN\nIV\nR\nD"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0200.json",
+      "document_id": "11.0200",
+      "document_title": "DC Section 11.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 12,
+      "table_id": "text_p11_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "App\nType\nManager\nHearings\nOfficer\nUFS\nHRS\nDC\nPC\nCC\nUnlisted\nMiscellaneous Type I\nN\nI\nD\nA\nMiscellaneous Type II\nN\nII\nD\nA\nMiscellaneous Type III\nY\nIII\nD\nA",
+    "raw_data": {
+      "text_table": "App\nType\nManager\nHearings\nOfficer\nUFS\nHRS\nDC\nPC\nCC\nUnlisted\nMiscellaneous Type I\nN\nI\nD\nA\nMiscellaneous Type II\nN\nII\nD\nA\nMiscellaneous Type III\nY\nIII\nD\nA"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0200.json",
+      "document_id": "11.0200",
+      "document_title": "DC Section 11.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 13,
+      "table_id": "text_p12_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Permitted Uses in the Commercial Land Use Districts\nUSES\nNC\nRESIDENTIAL1\nSingle Detached Dwelling\nNP\nDuplex\nNP\nTriplex\nNP\nQuadplex\nNP\nTownhouse\nNP\nCottage Cluster\nNP\nMultifamily\nNP\nElderly Housing\nNP\nManufactured Dwelling Park\nNP\nResidential Facility\nNP\nResidential Home\nNP\nAffordable Housing\nP2\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "Permitted Uses in the Commercial Land Use Districts\nUSES\nNC\nRESIDENTIAL1\nSingle Detached Dwelling\nNP\nDuplex\nNP\nTriplex\nNP\nQuadplex\nNP\nTownhouse\nNP\nCottage Cluster\nNP\nMultifamily\nNP\nElderly Housing\nNP\nManufactured Dwelling Park\nNP\nResidential Facility\nNP\nResidential Home\nNP\nAffordable Housing\nP2\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0200.json",
+      "document_id": "4.0200",
+      "document_title": "DC Section 4.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Storage Facilities\nNP\nOutdoor Commercial\nNP\nINDUSTRIAL\nConstruction\nNP\nExclusive Heavy Industrial Uses\nNP\nIndustrial Office\nNP",
+    "raw_data": {
+      "text_table": "Storage Facilities\nNP\nOutdoor Commercial\nNP\nINDUSTRIAL\nConstruction\nNP\nExclusive Heavy Industrial Uses\nNP\nIndustrial Office\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0200.json",
+      "document_id": "4.0200",
+      "document_title": "DC Section 4.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "USES\nNC\nInformation Services\nNP\nManufacturing\nNP\nMiscellaneous Industrial\nNP\nTrade Schools\nNP\nTransportation/Distribution\nNP\nWarehousing/Storage\nNP\nWaste Management\nNP\nWholesale Trade\nNP\nINSTITUTIONAL USES\nCivic Use\nSUR\nCommunity Services\nSUR\nMedical\nSUR",
+    "raw_data": {
+      "text_table": "USES\nNC\nInformation Services\nNP\nManufacturing\nNP\nMiscellaneous Industrial\nNP\nTrade Schools\nNP\nTransportation/Distribution\nNP\nWarehousing/Storage\nNP\nWaste Management\nNP\nWholesale Trade\nNP\nINSTITUTIONAL USES\nCivic Use\nSUR\nCommunity Services\nSUR\nMedical\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0200.json",
+      "document_id": "4.0200",
+      "document_title": "DC Section 4.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Open Spaces and Trails\nSUR\nReligious Institutions\nSUR\nSchools\nSUR\nRENEWABLE ENERGY6\nSolar Energy Systems",
+    "raw_data": {
+      "text_table": "Open Spaces and Trails\nSUR\nReligious Institutions\nSUR\nSchools\nSUR\nRENEWABLE ENERGY6\nSolar Energy Systems"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0200.json",
+      "document_id": "4.0200",
+      "document_title": "DC Section 4.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "OTHER\nBasic Utilities\nMinor basic utilities\nMajor basic utilities\nP\nSUR\nHeliports5\nNP\nWireless Communication Facilities\nSUR",
+    "raw_data": {
+      "text_table": "OTHER\nBasic Utilities\nMinor basic utilities\nMajor basic utilities\nP\nSUR\nHeliports5\nNP\nWireless Communication Facilities\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0200.json",
+      "document_id": "4.0200",
+      "document_title": "DC Section 4.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "PV\nRESIDENTIAL\nSingle Detached Dwelling\nP\nP\nL\n0F1\nDuplex\nP\nP\nP\nTriplex\nP\nP\nP\nQuadplex\nP\nP\nP",
+    "raw_data": {
+      "text_table": "PV\nRESIDENTIAL\nSingle Detached Dwelling\nP\nP\nL\n0F1\nDuplex\nP\nP\nP\nTriplex\nP\nP\nP\nQuadplex\nP\nP\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "PV\nTownhouse\nP\nP\nP\nCottage Cluster\nP\nP\nP\nMultifamily\n1F2\nNP\nP\nP\nElderly Housing\nNP\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nResidential Facility\nP\nP\nP\nResidential Home\nP\nP\nNP\nAffordable Housing\nL3\nP4\nP4\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "PV\nTownhouse\nP\nP\nP\nCottage Cluster\nP\nP\nP\nMultifamily\n1F2\nNP\nP\nP\nElderly Housing\nNP\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nResidential Facility\nP\nP\nP\nResidential Home\nP\nP\nNP\nAffordable Housing\nL3\nP4\nP4\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Dependent Use\nNP\nNP\nNP\nBusiness and Retail Service and Office\nNP\nL5\nL5\nClinics\nNP\nL5\nL5\nCommercial Parking\nNP\nSUR\nSUR\nDaycare Facilities\nP\nP\nP",
+    "raw_data": {
+      "text_table": "Dependent Use\nNP\nNP\nNP\nBusiness and Retail Service and Office\nNP\nL5\nL5\nClinics\nNP\nL5\nL5\nCommercial Parking\nNP\nSUR\nSUR\nDaycare Facilities\nP\nP\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Storage Facilities\nNP\nNP\nNP\nOutdoor Commercial\nNP\nNP\nNP\nINDUSTRIAL\nConstruction\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nManufacturing\nNP\nNP\nNP\nMiscellaneous Industrial\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nTransportation/Distribution\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Use\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nMedical\nNP\nNP\nNP",
+    "raw_data": {
+      "text_table": "Storage Facilities\nNP\nNP\nNP\nOutdoor Commercial\nNP\nNP\nNP\nINDUSTRIAL\nConstruction\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nManufacturing\nNP\nNP\nNP\nMiscellaneous Industrial\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nTransportation/Distribution\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Use\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nMedical\nNP\nNP\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Quadplex\nnone\nnone\n40 units per acre\nTownhouses\n25 units per acre\n25 units per acre\n40 units per acre\nCottage Cluster\nnone\nnone\n40 units per acre\nAll other uses\n8 units per acre\n25 units per acre\n40 units per acre",
+    "raw_data": {
+      "text_table": "Quadplex\nnone\nnone\n40 units per acre\nTownhouses\n25 units per acre\n25 units per acre\n40 units per acre\nCottage Cluster\nnone\nnone\n40 units per acre\nAll other uses\n8 units per acre\n25 units per acre\n40 units per acre"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "ade/Wall\nFront Porch\nGarage\nInterior Side\nCommon Wall\nZero Lot Line\nOption\nStreet Side\nWall\nStreet Side\nPorch\nStreet Side\nGarage Access\nRear No Alley\nRear With\nAlley",
+    "raw_data": {
+      "text_table": "ade/Wall\nFront Porch\nGarage\nInterior Side\nCommon Wall\nZero Lot Line\nOption\nStreet Side\nWall\nStreet Side\nPorch\nStreet Side\nGarage Access\nRear No Alley\nRear With\nAlley"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "PV\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nNP\nNP\nDuplex\nNP\nNP\nNP\nTriplex\nNP\nNP\nNP\nQuadplex\nNP\nNP\nNP\nTownhouse\nL1\nL1\nNP\nCottage Cluster\nNP\nNP\nNP\nMultifamily",
+    "raw_data": {
+      "text_table": "PV\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nNP\nNP\nDuplex\nNP\nNP\nNP\nTriplex\nNP\nNP\nNP\nQuadplex\nNP\nNP\nNP\nTownhouse\nL1\nL1\nNP\nCottage Cluster\nNP\nNP\nNP\nMultifamily"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 18,
+      "table_id": "text_p17_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Elderly Housing\nSUR\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nResidential Facility\nL1\nL1\nL2\nResidential Home\nNP\nNP\nNP\nAffordable Housing\nP4\nP4\nP4\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "Elderly Housing\nSUR\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nResidential Facility\nL1\nL1\nL2\nResidential Home\nNP\nNP\nNP\nAffordable Housing\nP4\nP4\nP4\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 18,
+      "table_id": "text_p17_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Dependent Use\nNP\nNP\nP\nBusiness and Retail Service and Trade\nP\nL5\nL6\nClinics\nP\nL5\nP\nCommercial Parking\nSUR\nSUR\nSUR\nDaycare Facilities\nP\nP\nP",
+    "raw_data": {
+      "text_table": "Dependent Use\nNP\nNP\nP\nBusiness and Retail Service and Trade\nP\nL5\nL6\nClinics\nP\nL5\nP\nCommercial Parking\nSUR\nSUR\nSUR\nDaycare Facilities\nP\nP\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 18,
+      "table_id": "text_p17_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "PV\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nP\nInformation Services\nNP\nNP\nP\nManufacturing\nNP\nNP\nL12\nMiscellaneous Industrial\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nL11",
+    "raw_data": {
+      "text_table": "PV\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nP\nInformation Services\nNP\nNP\nP\nManufacturing\nNP\nNP\nL12\nMiscellaneous Industrial\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nL11"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 19,
+      "table_id": "text_p18_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Transportation/Distribution\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nWaste Management\nNP\nNP\nSUR\nWholesale Trade\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Uses\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nMedical\nSUR\nSUR\nSUR\nParks and Open Spaces",
+    "raw_data": {
+      "text_table": "Transportation/Distribution\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nWaste Management\nNP\nNP\nSUR\nWholesale Trade\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Uses\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nMedical\nSUR\nSUR\nSUR\nParks and Open Spaces"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 19,
+      "table_id": "text_p18_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "PV\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nDuplex\nNP\nTriplex\nNP\nQuadplex\nNP\nTownhouse\nNP\nCottage Cluster\nNP\nMultifamily\nNP\nElderly Housing\nNP\nManufactured Dwelling Park\nNP\nResidential Facility\nNP\nResidential Home\nNP\nAffordable Housing\nP1\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "PV\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nDuplex\nNP\nTriplex\nNP\nQuadplex\nNP\nTownhouse\nNP\nCottage Cluster\nNP\nMultifamily\nNP\nElderly Housing\nNP\nManufactured Dwelling Park\nNP\nResidential Facility\nNP\nResidential Home\nNP\nAffordable Housing\nP1\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 24,
+      "table_id": "text_p23_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Dependent Use\nNP\nBusiness and Retail Service and Trade\nNP\nClinics\nNP\nCommercial Parking\nNP\nDaycare Facilities\nNP",
+    "raw_data": {
+      "text_table": "Dependent Use\nNP\nBusiness and Retail Service and Trade\nNP\nClinics\nNP\nCommercial Parking\nNP\nDaycare Facilities\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 25,
+      "table_id": "text_p24_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Storage Facilities\nNP\nOutdoor Commercial\nNP\nINDUSTRIAL\nConstruction\nNP\nExclusive Heavy Industrial Uses\nNP\nIndustrial Office\nNP\nInformation Services\nNP\nManufacturing\nNP\nMiscellaneous Industrial\nNP\nTrade Schools\nNP\nTransportation/Distribution\nNP\nWarehousing/Storage\nNP\nWaste Management\nNP\nWholesale Trade\nINSTITUTIONAL USES\nCivic Uses\nSUR\nCommunity Services\nSUR\nMedical\nNP\nParks and Open Spaces\nSUR\nReligious Institutions\nNP\nSchools\nP\nRENEWABLE ENERGY2\nSolar Energy Systems",
+    "raw_data": {
+      "text_table": "Storage Facilities\nNP\nOutdoor Commercial\nNP\nINDUSTRIAL\nConstruction\nNP\nExclusive Heavy Industrial Uses\nNP\nIndustrial Office\nNP\nInformation Services\nNP\nManufacturing\nNP\nMiscellaneous Industrial\nNP\nTrade Schools\nNP\nTransportation/Distribution\nNP\nWarehousing/Storage\nNP\nWaste Management\nNP\nWholesale Trade\nINSTITUTIONAL USES\nCivic Uses\nSUR\nCommunity Services\nSUR\nMedical\nNP\nParks and Open Spaces\nSUR\nReligious Institutions\nNP\nSchools\nP\nRENEWABLE ENERGY2\nSolar Energy Systems"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "document_id": "4.1400",
+      "document_title": "DC Section 4.1400",
+      "jurisdiction": "Oregon/gresham",
+      "page": 25,
+      "table_id": "text_p24_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Permit Procedure and Applicable Standards for Development within an HGRO\nProposed Activity or Request\nPermit\nProcedure\nApplicable\nStandards\nHillside and Geologic Risk Overlay permits review\nconcurrent with land use application except as specified\nbelow\nSame as\nconcurrent\nland use\napplication\nvaries\nProgrammatic Permit\nType II",
+    "raw_data": {
+      "text_table": "Permit Procedure and Applicable Standards for Development within an HGRO\nProposed Activity or Request\nPermit\nProcedure\nApplicable\nStandards\nHillside and Geologic Risk Overlay permits review\nconcurrent with land use application except as specified\nbelow\nSame as\nconcurrent\nland use\napplication\nvaries\nProgrammatic Permit\nType II"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0200.json",
+      "document_id": "5.0200",
+      "document_title": "DC Section 5.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "All other Hillside and Geologic Risk Overlay permits with no\nconcurrent land use application\nType I\nvaries",
+    "raw_data": {
+      "text_table": "All other Hillside and Geologic Risk Overlay permits with no\nconcurrent land use application\nType I\nvaries"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0200.json",
+      "document_id": "5.0200",
+      "document_title": "DC Section 5.0200",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Consulting Arborist\nArcade\nArchaeological Object\nArchaeological Site\nArchaeologist\nArea of Shallow Flooding\nArea of Special Flood Hazard\nApproved Tree List",
+    "raw_data": {
+      "text_table": "Consulting Arborist\nArcade\nArchaeological Object\nArchaeological Site\nArchaeologist\nArea of Shallow Flooding\nArea of Special Flood Hazard\nApproved Tree List"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "See Roof\nCanopy\nCarpool/Vanpool Parking\nCarport\nCeiling Height\nCentralized Stormwater\nManagement Facilities",
+    "raw_data": {
+      "text_table": "See Roof\nCanopy\nCarpool/Vanpool Parking\nCarport\nCeiling Height\nCentralized Stormwater\nManagement Facilities"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Springwater Design District\nDesign Guidelines\nDesign Principles\nDesign Standards\nDesign Storm\nDesign Streets\nDetention\nDevelopment",
+    "raw_data": {
+      "text_table": "Springwater Design District\nDesign Guidelines\nDesign Principles\nDesign Standards\nDesign Storm\nDesign Streets\nDetention\nDevelopment"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Primary\nErosion\nErosion and Sediment Control\nErosion Prevention and Sediment\nControl Manual\nErosion Prevention and Sediment\nControl Plan\nEvergreen",
+    "raw_data": {
+      "text_table": "Primary\nErosion\nErosion and Sediment Control\nErosion Prevention and Sediment\nControl Manual\nErosion Prevention and Sediment\nControl Plan\nEvergreen"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "or\nCommunity Development Plan\nGresham Development Plan Map\nGresham Public Works\nStandards\nGrocery Store\nGround Floor\nGroundcover\nGrubbing\nHabitable Floor",
+    "raw_data": {
+      "text_table": "or\nCommunity Development Plan\nGresham Development Plan Map\nGresham Public Works\nStandards\nGrocery Store\nGround Floor\nGroundcover\nGrubbing\nHabitable Floor"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "See Lot\nJoint Development\nKitchen\nLaboratories/Research and\nDevelopment Facilities\nLand Division\nLanding",
+    "raw_data": {
+      "text_table": "See Lot\nJoint Development\nKitchen\nLaboratories/Research and\nDevelopment Facilities\nLand Division\nLanding"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "See Signs\nManufactured Dwelling\nManufactured Home\nPark/Subdivision\nMarijuana Business\nMarket Area",
+    "raw_data": {
+      "text_table": "See Signs\nManufactured Dwelling\nManufactured Home\nPark/Subdivision\nMarijuana Business\nMarket Area"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "See Tree\nPartition Parcel\nParent Parcel or Parent Lot\nPark and Ride Facility\nParking Lots\nParking Module\nParking Space\nParking Structure\nPartition land",
+    "raw_data": {
+      "text_table": "See Tree\nPartition Parcel\nParent Parcel or Parent Lot\nPark and Ride Facility\nParking Lots\nParking Module\nParking Space\nParking Structure\nPartition land"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Public Body\nPublic Community Park\nPublic Neighborhood Park\nPublic Path\nPublic Open Space\nPublic Place\nPublic Trail\nPublic Trail Access Points\nPublic Trailheads\nPublic Urban Plaza\nPublic Use Areas",
+    "raw_data": {
+      "text_table": "Public Body\nPublic Community Park\nPublic Neighborhood Park\nPublic Path\nPublic Open Space\nPublic Place\nPublic Trail\nPublic Trail Access Points\nPublic Trailheads\nPublic Urban Plaza\nPublic Use Areas"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "See Lot\nRedemption Center\nRedevelopment\nReflectivity or Reflectance\nRegistered Child Care Facility",
+    "raw_data": {
+      "text_table": "See Lot\nRedemption Center\nRedevelopment\nReflectivity or Reflectance\nRegistered Child Care Facility"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Start of Construction\nStorefront Window\nStormwater Filtration\nStormwater Management\nManual\nStormwater Planter\nStormwater Report\nStormwater Runoff\nStormwater Treatment\nStormwater Treatment Facility\nStory",
+    "raw_data": {
+      "text_table": "Start of Construction\nStorefront Window\nStormwater Filtration\nStormwater Management\nManual\nStormwater Planter\nStormwater Report\nStormwater Runoff\nStormwater Treatment\nStormwater Treatment Facility\nStory"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 6,
+      "table_id": "text_p5_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "ade\nTownhouse Project\nTownhouse Style\nTract\nTransit Facility\nTransit Streets and Routes\nTransit Supportive Use\nTransitional Housing\nTransitional Setback Space\nTransitway\nTransom Window\nTransportation Facility\nTree",
+    "raw_data": {
+      "text_table": "ade\nTownhouse Project\nTownhouse Style\nTract\nTransit Facility\nTransit Streets and Routes\nTransit Supportive Use\nTransitional Housing\nTransitional Setback Space\nTransitway\nTransom Window\nTransportation Facility\nTree"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 6,
+      "table_id": "text_p5_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Recreation\nVehicle Repair\nVehicle Sales and/or Rental Lot\nVehicular Way\nVisible\nVisible Transmittance",
+    "raw_data": {
+      "text_table": "Recreation\nVehicle Repair\nVehicle Sales and/or Rental Lot\nVehicular Way\nVisible\nVisible Transmittance"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Woody Debris\no Coarse Woody Debris\no Woody Debris Stockpiling\no Large Woody Debris\nPlacement\nRenewable Energy\nRelated Terms",
+    "raw_data": {
+      "text_table": "Woody Debris\no Coarse Woody Debris\no Woody Debris Stockpiling\no Large Woody Debris\nPlacement\nRenewable Energy\nRelated Terms"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "document_id": "dc-article-3",
+      "document_title": "DC Article 3",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "SW\nRESIDENTIAL\nSingle Detached Dwelling\nP\nP\nNP\nDuplex\nP\nP\nNP\nTriplex\nP\nP\nNP\nQuadplex\nP\nP\nNP\nTownhouse\nP\nP\nP\nCottage Cluster\nP\nP\nP\nMultifamily1\nNP\nNP\nNP\nElderly Housing\nNP\nNP\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nResidential Facility\nP\nP\nP\nResidential Home\nP\nP\nP\nAffordable Housing\nL2\nL2\nP3\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "SW\nRESIDENTIAL\nSingle Detached Dwelling\nP\nP\nNP\nDuplex\nP\nP\nNP\nTriplex\nP\nP\nNP\nQuadplex\nP\nP\nNP\nTownhouse\nP\nP\nP\nCottage Cluster\nP\nP\nP\nMultifamily1\nNP\nNP\nNP\nElderly Housing\nNP\nNP\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nResidential Facility\nP\nP\nP\nResidential Home\nP\nP\nP\nAffordable Housing\nL2\nL2\nP3\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Dependent Use\nNP\nNP\nNP\nBusiness and Retail Service and Trade\nNP\nNP\nNP\nClinics\nNP\nNP\nNP\nCommercial Parking\nNP\nSUR\nSUR\nDaycare Facilities\nSUR\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "Dependent Use\nNP\nNP\nNP\nBusiness and Retail Service and Trade\nNP\nNP\nNP\nClinics\nNP\nNP\nNP\nCommercial Parking\nNP\nSUR\nSUR\nDaycare Facilities\nSUR\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Storage Facilities\nNP\nNP\nNP\nOutdoor Commercial\nNP\nNP\nNP\nINDUSTRIAL\nConstruction\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nManufacturing\nNP\nNP\nNP\nMiscellaneous Industrial\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nTransportation/Distribution\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Uses\nL/SUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nMedical\nNP\nNP\nNP",
+    "raw_data": {
+      "text_table": "Storage Facilities\nNP\nNP\nNP\nOutdoor Commercial\nNP\nNP\nNP\nINDUSTRIAL\nConstruction\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nManufacturing\nNP\nNP\nNP\nMiscellaneous Industrial\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nTransportation/Distribution\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Uses\nL/SUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nMedical\nNP\nNP\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "SUR\nSUR\nSchools\nSUR\nSUR\nSUR\nRENEWABLE ENERGY8\nSolar Energy Systems\nL9\nL9\nL9\nWind Energy Systems\nL10\nL10\nL10\nBiomass Energy Systems",
+    "raw_data": {
+      "text_table": "SUR\nSUR\nSchools\nSUR\nSUR\nSUR\nRENEWABLE ENERGY8\nSolar Energy Systems\nL9\nL9\nL9\nWind Energy Systems\nL10\nL10\nL10\nBiomass Energy Systems"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 6,
+      "table_id": "text_p5_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "ade/Wall\nFront Porch\nGarage\nInterior Side\nCommon Wall\nZero Lot Line\nOption\nStreet Side\nWall\nStreet Side\nPorch\nStreet Side\nGarage Access\nRear No Alley\nRear With\nAlley\nTownhouse",
+    "raw_data": {
+      "text_table": "ade/Wall\nFront Porch\nGarage\nInterior Side\nCommon Wall\nZero Lot Line\nOption\nStreet Side\nWall\nStreet Side\nPorch\nStreet Side\nGarage Access\nRear No Alley\nRear With\nAlley\nTownhouse"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 9,
+      "table_id": "text_p8_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "SW\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nNP\nNP\nNP\nDuplex\nNP\nNP\nNP\nNP\nTriplex\nNP\nNP\nNP\nNP",
+    "raw_data": {
+      "text_table": "SW\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nNP\nNP\nNP\nDuplex\nNP\nNP\nNP\nNP\nTriplex\nNP\nNP\nNP\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 11,
+      "table_id": "text_p10_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "SW\nQuadplex\nNP\nNP\nNP\nNP\nTownhouse\nNP\nNP\nNP\nNP\nCottage Cluster\nNP\nNP\nNP\nNP\nMultifamily",
+    "raw_data": {
+      "text_table": "SW\nQuadplex\nNP\nNP\nNP\nNP\nTownhouse\nNP\nNP\nNP\nNP\nCottage Cluster\nNP\nNP\nNP\nNP\nMultifamily"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 12,
+      "table_id": "text_p11_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "NP\nElderly Housing\nSUR\nNP\nNP\nNP\nManufactured Dwelling Park\nNP\nNP\nNP\nNP\nResidential Facility\nL1\nNP\nNP\nNP\nResidential Home\nNP\nNP\nNP\nNP\nAffordable Housing\nP3\nP3\nL4\nP3\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "NP\nElderly Housing\nSUR\nNP\nNP\nNP\nManufactured Dwelling Park\nNP\nNP\nNP\nNP\nResidential Facility\nL1\nNP\nNP\nNP\nResidential Home\nNP\nNP\nNP\nNP\nAffordable Housing\nP3\nP3\nL4\nP3\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 12,
+      "table_id": "text_p11_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Storage Facilities\nNP\nNP\nNP\nNP\nOutdoor Commercial\nL13\nNP\nNP\nNP\nINDUSTRIAL\nConstruction\nNP\nNP\nP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nNP\nIndustrial Office\nNP\nP\nP\nNP\nInformation Services\nNP\nP\nP\nNP\nManufacturing\nNP\nL21\nL14\nNP\nMiscellaneous Industrial\nNP\nL15\nL15\nNP\nTrade Schools\nNP\nP\nP\nNP",
+    "raw_data": {
+      "text_table": "Storage Facilities\nNP\nNP\nNP\nNP\nOutdoor Commercial\nL13\nNP\nNP\nNP\nINDUSTRIAL\nConstruction\nNP\nNP\nP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nNP\nIndustrial Office\nNP\nP\nP\nNP\nInformation Services\nNP\nP\nP\nNP\nManufacturing\nNP\nL21\nL14\nNP\nMiscellaneous Industrial\nNP\nL15\nL15\nNP\nTrade Schools\nNP\nP\nP\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 12,
+      "table_id": "text_p11_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "NP\nWarehousing/Storage\nNP\nL16\nL16\nNP\nWaste Management\nNP\nSUR\nSUR\nNP\nWholesale Trade\nNP\nNP\nL16\nNP\nINSTITUTIONAL USES\nCivic Uses\nSUR\nSUR\nSUR\nSUR\nCommunity Services\nSUR",
+    "raw_data": {
+      "text_table": "NP\nWarehousing/Storage\nNP\nL16\nL16\nNP\nWaste Management\nNP\nSUR\nSUR\nNP\nWholesale Trade\nNP\nNP\nL16\nNP\nINSTITUTIONAL USES\nCivic Uses\nSUR\nSUR\nSUR\nSUR\nCommunity Services\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 12,
+      "table_id": "text_p11_t3",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "OTHER\nBasic Utilities\nMinor basic utilities\nMajor basic utilities\nP\nSUR22\nP\nSUR\nP\nSUR\nP\nSUR\nHeliports\nSUR\nSUR\nSUR\nNP\nWireless Communications Facilities\nSUR\nSUR\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "OTHER\nBasic Utilities\nMinor basic utilities\nMajor basic utilities\nP\nSUR22\nP\nSUR\nP\nSUR\nP\nSUR\nHeliports\nSUR\nSUR\nSUR\nNP\nWireless Communications Facilities\nSUR\nSUR\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "document_id": "4.1500",
+      "document_title": "DC Section 4.1500",
+      "jurisdiction": "Oregon/gresham",
+      "page": 13,
+      "table_id": "text_p12_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Landmarks\nAddress\nName\nPoints\nUse\nNational\nRegister\n17111 NE Sandy\nZimmerman House\n100\nInstitutional\nYes",
+    "raw_data": {
+      "text_table": "Landmarks\nAddress\nName\nPoints\nUse\nNational\nRegister\n17111 NE Sandy\nZimmerman House\n100\nInstitutional\nYes"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0300.json",
+      "document_id": "5.0300",
+      "document_title": "DC Section 5.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Amundsen House\nResidential\nYes\nClass 2 Landmarks\nAddress\nName\nPoints\nUse\nNational\nRegister",
+    "raw_data": {
+      "text_table": "Amundsen House\nResidential\nYes\nClass 2 Landmarks\nAddress\nName\nPoints\nUse\nNational\nRegister"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0300.json",
+      "document_id": "5.0300",
+      "document_title": "DC Section 5.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 6,
+      "table_id": "text_p5_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "A\nStreet\nClassification\nTypical Average\nDaily Trips\nMotorist Travel\nLanes\nBicycle\nLane\nParking\nMedian\nLandscape\nStrip\nSidewalk\nPaveme\nnt\nWidth",
+    "raw_data": {
+      "text_table": "A\nStreet\nClassification\nTypical Average\nDaily Trips\nMotorist Travel\nLanes\nBicycle\nLane\nParking\nMedian\nLandscape\nStrip\nSidewalk\nPaveme\nnt\nWidth"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-appendix-5.000.json",
+      "document_id": "dc-appendix-5.000",
+      "document_title": "DC Appendix 5.000",
+      "jurisdiction": "Oregon/gresham",
+      "page": 23,
+      "table_id": "text_p22_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Street Surface Parking Matrix\nRequired Space and Aisle Dimensions in Feet\nCompact\nStandard\nA\nB\nC\nD\nE\nF\nG\nB\nC\nD\nE\nF\nG",
+    "raw_data": {
+      "text_table": "Street Surface Parking Matrix\nRequired Space and Aisle Dimensions in Feet\nCompact\nStandard\nA\nB\nC\nD\nE\nF\nG\nB\nC\nD\nE\nF\nG"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0800.json",
+      "document_id": "9.0800",
+      "document_title": "DC Section 9.0800",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Minimum Number of Loading\nSpaces Required\nResidential\nNone Required\nNone Required\nElderly Housing",
+    "raw_data": {
+      "text_table": "Minimum Number of Loading\nSpaces Required\nResidential\nNone Required\nNone Required\nElderly Housing"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0800.json",
+      "document_id": "9.0800",
+      "document_title": "DC Section 9.0800",
+      "jurisdiction": "Oregon/gresham",
+      "page": 14,
+      "table_id": "text_p13_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Parking Structure Matrix\nParking Structure Matrix\nRequired Space and Aisle Dimensions in Feet\nCompact\nAngle\nInterlock\nReduction\nOverhang\nVehicle\nProjection\nWidth\nModule Widths\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ",
+    "raw_data": {
+      "text_table": "Parking Structure Matrix\nParking Structure Matrix\nRequired Space and Aisle Dimensions in Feet\nCompact\nAngle\nInterlock\nReduction\nOverhang\nVehicle\nProjection\nWidth\nModule Widths\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0800.json",
+      "document_id": "9.0800",
+      "document_title": "DC Section 9.0800",
+      "jurisdiction": "Oregon/gresham",
+      "page": 29,
+      "table_id": "text_p28_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Standard\nAngle\nInterlock\nReduction\nOverhang\nVehicle\nProjection\nWidth\nModule Widths\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ",
+    "raw_data": {
+      "text_table": "Standard\nAngle\nInterlock\nReduction\nOverhang\nVehicle\nProjection\nWidth\nModule Widths\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0800.json",
+      "document_id": "9.0800",
+      "document_title": "DC Section 9.0800",
+      "jurisdiction": "Oregon/gresham",
+      "page": 29,
+      "table_id": "text_p28_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "A\nParking Angle\nB\nInterlock reduction\nC\nOverhand clearance\nD\nProjected vehicle length measured\nperpendicular to aisle\nE\nAisle width\nF",
+    "raw_data": {
+      "text_table": "A\nParking Angle\nB\nInterlock reduction\nC\nOverhand clearance\nD\nProjected vehicle length measured\nperpendicular to aisle\nE\nAisle width\nF"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0800.json",
+      "document_id": "9.0800",
+      "document_title": "DC Section 9.0800",
+      "jurisdiction": "Oregon/gresham",
+      "page": 29,
+      "table_id": "text_p28_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Permitted Uses in the Industrial Land Use Districts\nUSES\nHI\nGI\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nNP\nDuplex\nNP\nNP\nTriplex\nNP\nNP\nQuadplex\nNP\nNP\nTownhouse\nNP\nNP\nCottage Cluster\nNP\nNP\nMultifamily\nNP\nNP\nElderly Housing\nNP\nNP\nManufactured Dwelling Park\nNP\nNP\nResidential Facility\nNP\nNP\nResidential Home\nNP\nNP\nAffordable Housing\nNP\nP1\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "Permitted Uses in the Industrial Land Use Districts\nUSES\nHI\nGI\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nNP\nDuplex\nNP\nNP\nTriplex\nNP\nNP\nQuadplex\nNP\nNP\nTownhouse\nNP\nNP\nCottage Cluster\nNP\nNP\nMultifamily\nNP\nNP\nElderly Housing\nNP\nNP\nManufactured Dwelling Park\nNP\nNP\nResidential Facility\nNP\nNP\nResidential Home\nNP\nNP\nAffordable Housing\nNP\nP1\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0300.json",
+      "document_id": "4.0300",
+      "document_title": "DC Section 4.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Dependent Use\nNP\nNP\nBusiness and Retail Service and Trade\nL2\nL2\nClinics\nL2\nL2\nCommercial Parking\nNP\nNP\nDaycare Facilities\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "Dependent Use\nNP\nNP\nBusiness and Retail Service and Trade\nL2\nL2\nClinics\nL2\nL2\nCommercial Parking\nNP\nNP\nDaycare Facilities\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0300.json",
+      "document_id": "4.0300",
+      "document_title": "DC Section 4.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Storage Facilities\nNP\nNP\nOutdoor Commercial\nNP\nNP\nINDUSTRIAL\nConstruction\nP\nP\nExclusive Heavy Industrial Uses\nP\nNP\nIndustrial Office\nL3\nP\nInformation Services\nNP\nP\nManufacturing\nP\nP\nMiscellaneous Industrial\nP\nL4\nTrade Schools\nNP\nP",
+    "raw_data": {
+      "text_table": "Storage Facilities\nNP\nNP\nOutdoor Commercial\nNP\nNP\nINDUSTRIAL\nConstruction\nP\nP\nExclusive Heavy Industrial Uses\nP\nNP\nIndustrial Office\nL3\nP\nInformation Services\nNP\nP\nManufacturing\nP\nP\nMiscellaneous Industrial\nP\nL4\nTrade Schools\nNP\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0300.json",
+      "document_id": "4.0300",
+      "document_title": "DC Section 4.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "OTHER\nBasic Utilities\nMinor basic utilities\nMajor basic utilities\nP\nSUR\nP\nSUR\nHeliports\nSUR\nSUR\nWireless Communication Facilities\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "OTHER\nBasic Utilities\nMinor basic utilities\nMajor basic utilities\nP\nSUR\nP\nSUR\nHeliports\nSUR\nSUR\nWireless Communication Facilities\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0300.json",
+      "document_id": "4.0300",
+      "document_title": "DC Section 4.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Quadplex\nTownhouse\nCottage Cluster\nStandards\nMinimum site size\nNone\nNone\nNone\nNone\nMinimum lot size",
+    "raw_data": {
+      "text_table": "Quadplex\nTownhouse\nCottage Cluster\nStandards\nMinimum site size\nNone\nNone\nNone\nNone\nMinimum lot size"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "document_id": "6.0300",
+      "document_title": "DC Section 6.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "See underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nMinimum lot\ndimensions2\nNone\nNone\nNone\nNone\nMinimum lot",
+    "raw_data": {
+      "text_table": "See underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nMinimum lot\ndimensions2\nNone\nNone\nNone\nNone\nMinimum lot"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "document_id": "6.0300",
+      "document_title": "DC Section 6.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "width/depth ratio\nNone\nNone\nNone\nNone\nMinimum street\nfrontage\nNone\nNone\nNone\nNone\nMinimum yard",
+    "raw_data": {
+      "text_table": "width/depth ratio\nNone\nNone\nNone\nNone\nMinimum street\nfrontage\nNone\nNone\nNone\nNone\nMinimum yard"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "document_id": "6.0300",
+      "document_title": "DC Section 6.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Perimeter\nlots\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nMaximum lot\ncoverage",
+    "raw_data": {
+      "text_table": "Perimeter\nlots\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nMaximum lot\ncoverage"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "document_id": "6.0300",
+      "document_title": "DC Section 6.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Minimum building\nheight\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nMaximum building\nheight",
+    "raw_data": {
+      "text_table": "Minimum building\nheight\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nMaximum building\nheight"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "document_id": "6.0300",
+      "document_title": "DC Section 6.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "See underlying\ndistrict\nNA\nBuilding separation\nPer Building Code\nPer Building Code\nPer Building Code",
+    "raw_data": {
+      "text_table": "See underlying\ndistrict\nNA\nBuilding separation\nPer Building Code\nPer Building Code\nPer Building Code"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "document_id": "6.0300",
+      "document_title": "DC Section 6.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Perimeter\nlots\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nMaximum lot\ncoverage\n70%\n70%\n70%\n70%",
+    "raw_data": {
+      "text_table": "Perimeter\nlots\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nSee underlying\ndistrict\nMaximum lot\ncoverage\n70%\n70%\n70%\n70%"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "document_id": "6.0300",
+      "document_title": "DC Section 6.0300",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t3",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "OFR\nRESIDENTIAL\nSingle Detached Dwelling\nP\nP\nP\nP\nL1\nNP\nL1\nDuplex\nP\nP\nP\nP\nP\nP\nP\nTriplex\nP\nP\nP\nP\nP\nP\nP\nQuadplex\nP\nP\nP\nP\nP\nP\nP\nTownhouse\nP\nP\nP\nP\nP\nP\nP\nCottage Cluster\nP\nP\nP\nP\nP\nP\nP\nMultifamily\nNP\nNP\nNP\nNP\nP2\nP2",
+    "raw_data": {
+      "text_table": "OFR\nRESIDENTIAL\nSingle Detached Dwelling\nP\nP\nP\nP\nL1\nNP\nL1\nDuplex\nP\nP\nP\nP\nP\nP\nP\nTriplex\nP\nP\nP\nP\nP\nP\nP\nQuadplex\nP\nP\nP\nP\nP\nP\nP\nTownhouse\nP\nP\nP\nP\nP\nP\nP\nCottage Cluster\nP\nP\nP\nP\nP\nP\nP\nMultifamily\nNP\nNP\nNP\nNP\nP2\nP2"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "document_id": "4.0100",
+      "document_title": "DC Section 4.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "NP\nNP\nNP\nNP\nSUR\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nP\nP\nNP\nNP\nResidential Facility\nNP\nNP\nNP\nNP\nP\nP\nP\nResidential Home\nP\nP\nP\nP\nL1\nNP\nL1\nAffordable Housing\nL5\nL5\nL5\nL5\nL5\nL5\nP6\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "NP\nNP\nNP\nNP\nSUR\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nP\nP\nNP\nNP\nResidential Facility\nNP\nNP\nNP\nNP\nP\nP\nP\nResidential Home\nP\nP\nP\nP\nL1\nNP\nL1\nAffordable Housing\nL5\nL5\nL5\nL5\nL5\nL5\nP6\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "document_id": "4.0100",
+      "document_title": "DC Section 4.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Dependent Use\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nBusiness and Retail Service and\nTrade\nNP\nNP\nNP\nNP\nNP\nNP\nL7\nClinics\nNP\nNP\nNP\nNP\nNP\nNP\nP\nCommercial Parking\nNP\nNP\nNP\nNP\nNP\nSUR\nSUR\nDaycare Facilities\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "Dependent Use\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nBusiness and Retail Service and\nTrade\nNP\nNP\nNP\nNP\nNP\nNP\nL7\nClinics\nNP\nNP\nNP\nNP\nNP\nNP\nP\nCommercial Parking\nNP\nNP\nNP\nNP\nNP\nSUR\nSUR\nDaycare Facilities\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "document_id": "4.0100",
+      "document_title": "DC Section 4.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Storage Facilities\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nOutdoor Commercial\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nINDUSTRIAL\nConstruction\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nManufacturing\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nMiscellaneous Industrial\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nTransportation/Distribution\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nINSTITUTIONAL USES",
+    "raw_data": {
+      "text_table": "Storage Facilities\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nOutdoor Commercial\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nINDUSTRIAL\nConstruction\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nInformation Services\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nManufacturing\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nMiscellaneous Industrial\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nTransportation/Distribution\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWarehousing/Storage\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWaste Management\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nINSTITUTIONAL USES"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "document_id": "4.0100",
+      "document_title": "DC Section 4.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 4,
+      "table_id": "text_p3_t3",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "OFR\nCivic Uses\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nMedical\nNP\nNP\nSUR\nSUR\nSUR\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "OFR\nCivic Uses\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nMedical\nNP\nNP\nSUR\nSUR\nSUR\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "document_id": "4.0100",
+      "document_title": "DC Section 4.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "and Trails\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nReligious Institutions\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSchools\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nRENEWABLE ENERGY8\nSolar Energy Systems\nL9\nL9\nL9\nL9",
+    "raw_data": {
+      "text_table": "and Trails\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nReligious Institutions\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSchools\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nRENEWABLE ENERGY8\nSolar Energy Systems\nL9\nL9\nL9\nL9"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "document_id": "4.0100",
+      "document_title": "DC Section 4.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "feet\n16 feet7\n16 feet\nAll other uses\n35 feet\n40 feet\n35 feet\nnone\n65 feet\n60 feet\n60 feet",
+    "raw_data": {
+      "text_table": "feet\n16 feet7\n16 feet\nAll other uses\n35 feet\n40 feet\n35 feet\nnone\n65 feet\n60 feet\n60 feet"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "document_id": "4.0100",
+      "document_title": "DC Section 4.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "ade/\nWall\nFront\nPorch\nGarage\nInterior\nSide\nCommon\nWall\nZero Lot\nLine\nOption3\nStreet\nSide Wall\nStreet\nSide\nPorch\nStreet\nSide\nGarage\nAccess\nRear No\nAlley\nRear\nWith\nAlley",
+    "raw_data": {
+      "text_table": "ade/\nWall\nFront\nPorch\nGarage\nInterior\nSide\nCommon\nWall\nZero Lot\nLine\nOption3\nStreet\nSide Wall\nStreet\nSide\nPorch\nStreet\nSide\nGarage\nAccess\nRear No\nAlley\nRear\nWith\nAlley"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "document_id": "4.0100",
+      "document_title": "DC Section 4.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 12,
+      "table_id": "text_p11_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "ade/\nWall\nFront\nPorch\nGarage\nInterior\nSide\nCommon\nWall\nZero Lot\nLine\nOption3\nStreet\nSide Wall\nStreet\nSide\nPorch\nStreet\nSide\nGarage\nAccess\nRear No\nAlley\nRear\nWith\nAlley\nAll Other Uses\nAll Districts",
+    "raw_data": {
+      "text_table": "ade/\nWall\nFront\nPorch\nGarage\nInterior\nSide\nCommon\nWall\nZero Lot\nLine\nOption3\nStreet\nSide Wall\nStreet\nSide\nPorch\nStreet\nSide\nGarage\nAccess\nRear No\nAlley\nRear\nWith\nAlley\nAll Other Uses\nAll Districts"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "document_id": "4.0100",
+      "document_title": "DC Section 4.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 13,
+      "table_id": "text_p12_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "foot spacing\nEnhanced\nsoil\nconditions\nwithin 6 feet\nof trees\nBump outs\nat pedestrian\ncrossings\nLighting\nfixtures\nat regular\nspacing",
+    "raw_data": {
+      "text_table": "foot spacing\nEnhanced\nsoil\nconditions\nwithin 6 feet\nof trees\nBump outs\nat pedestrian\ncrossings\nLighting\nfixtures\nat regular\nspacing"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+      "document_id": "7.0100",
+      "document_title": "dc-section-7.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 16,
+      "table_id": "text_p15_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "A City representative will perform a final\nlandscape inspection to ensure that the landscape\ndemonstrates equivalent compliance with the approved\nlandscape plan upon completion of the project and before\nissuance of a Temporary or Final Certificate of Occupancy",
+    "raw_data": {
+      "text_table": "A City representative will perform a final\nlandscape inspection to ensure that the landscape\ndemonstrates equivalent compliance with the approved\nlandscape plan upon completion of the project and before\nissuance of a Temporary or Final Certificate of Occupancy"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+      "document_id": "7.0100",
+      "document_title": "dc-section-7.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 26,
+      "table_id": "text_p25_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Entries shall\ninclude a variety of design features\nand/or a change in form of sufficient\ndimension to visually distinguish\nthe entry from the remainder of the",
+    "raw_data": {
+      "text_table": "Entries shall\ninclude a variety of design features\nand/or a change in form of sufficient\ndimension to visually distinguish\nthe entry from the remainder of the"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+      "document_id": "7.0100",
+      "document_title": "dc-section-7.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 36,
+      "table_id": "text_p35_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Building articulation shall create\na human scale within the building\nand shall place emphasis on\nenhancing the pedestrian levels\nof facades adjacent to streets or",
+    "raw_data": {
+      "text_table": "Building articulation shall create\na human scale within the building\nand shall place emphasis on\nenhancing the pedestrian levels\nof facades adjacent to streets or"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+      "document_id": "7.0100",
+      "document_title": "dc-section-7.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 44,
+      "table_id": "text_p43_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Openings between interior and\nexterior spaces that do not contain\nglass may count toward the\ntransparency requirement when\nadequately screened to limit views",
+    "raw_data": {
+      "text_table": "Openings between interior and\nexterior spaces that do not contain\nglass may count toward the\ntransparency requirement when\nadequately screened to limit views"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+      "document_id": "7.0100",
+      "document_title": "dc-section-7.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 48,
+      "table_id": "text_p47_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "street facing facades that have\ncustomer entries shall have sufficient\nlevels of transparency to improve the\nappearance of the facade and allow\nfor natural surveillance of the parking",
+    "raw_data": {
+      "text_table": "street facing facades that have\ncustomer entries shall have sufficient\nlevels of transparency to improve the\nappearance of the facade and allow\nfor natural surveillance of the parking"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+      "document_id": "7.0100",
+      "document_title": "dc-section-7.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 49,
+      "table_id": "text_p48_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Review Standards for Residential Uses Allowed Only as Affordable Housing\nProposed Residential Use\nLocation\nApplicable Design Standard\nManufactured Dwelling Park\nIn all locations",
+    "raw_data": {
+      "text_table": "Review Standards for Residential Uses Allowed Only as Affordable Housing\nProposed Residential Use\nLocation\nApplicable Design Standard\nManufactured Dwelling Park\nIn all locations"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1700.json",
+      "document_id": "10.1700",
+      "document_title": "DC Section 10.1700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Cottage Cluster Design\nStandards\nTownhouse\nIn a Design District\nThe design standards applicable to\ntownhouses in that design district\nTownhouse\nNot in a Design District",
+    "raw_data": {
+      "text_table": "Cottage Cluster Design\nStandards\nTownhouse\nIn a Design District\nThe design standards applicable to\ntownhouses in that design district\nTownhouse\nNot in a Design District"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1700.json",
+      "document_id": "10.1700",
+      "document_title": "DC Section 10.1700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Corridor District Townhouse\nDesign Standards\nMultifamily\nIn a Design District\nThe design standards applicable to\nmultifamily in that design district\nMultifamily\nNot in a Design District",
+    "raw_data": {
+      "text_table": "Corridor District Townhouse\nDesign Standards\nMultifamily\nIn a Design District\nThe design standards applicable to\nmultifamily in that design district\nMultifamily\nNot in a Design District"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1700.json",
+      "document_id": "10.1700",
+      "document_title": "DC Section 10.1700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 2,
+      "table_id": "text_p1_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Affordable Housing Density and Height Bonus\nProperty Maximum Density\nDensity Bonus\nHeight Bonus\n16 units per acre or fewer",
+    "raw_data": {
+      "text_table": "Affordable Housing Density and Height Bonus\nProperty Maximum Density\nDensity Bonus\nHeight Bonus\n16 units per acre or fewer"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1700.json",
+      "document_id": "10.1700",
+      "document_title": "DC Section 10.1700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Affordable Housing Density and Height Bonus\nProperty Maximum Density\nDensity Bonus\nHeight Bonus\n16 units per acre or fewer\n200%\n12 feet",
+    "raw_data": {
+      "text_table": "Affordable Housing Density and Height Bonus\nProperty Maximum Density\nDensity Bonus\nHeight Bonus\n16 units per acre or fewer\n200%\n12 feet"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1700.json",
+      "document_id": "10.1700",
+      "document_title": "DC Section 10.1700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 3,
+      "table_id": "text_p2_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Permit Procedure and Additional Applicable Standards for Development within\nan RA\nProposed Activity or Request\nPermit\nProcedure\nApplicable\nStandards\nPRA review\nType I",
+    "raw_data": {
+      "text_table": "Permit Procedure and Additional Applicable Standards for Development within\nan RA\nProposed Activity or Request\nPermit\nProcedure\nApplicable\nStandards\nPRA review\nType I"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0700.json",
+      "document_id": "5.0700",
+      "document_title": "DC Section 5.0700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "RA\n50 feet\n50 feet\nHVRA\n35 feet\n35 feet\n2\nRA\n200 feet\n100 feet\nHVRA\n50 feet\n50 feet\n3\nRA\n200 feet\n100 feet\nHVRA\n50 feet\n50 feet\n4\nRA\n200 feet\n100 feet\nHVRA\n50 feet\n50 feet\n5\nRA\n200 feet\n125 feet\nHVRA\n50 feet\n50 feet",
+    "raw_data": {
+      "text_table": "RA\n50 feet\n50 feet\nHVRA\n35 feet\n35 feet\n2\nRA\n200 feet\n100 feet\nHVRA\n50 feet\n50 feet\n3\nRA\n200 feet\n100 feet\nHVRA\n50 feet\n50 feet\n4\nRA\n200 feet\n100 feet\nHVRA\n50 feet\n50 feet\n5\nRA\n200 feet\n125 feet\nHVRA\n50 feet\n50 feet"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0700.json",
+      "document_id": "5.0700",
+      "document_title": "DC Section 5.0700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 29,
+      "table_id": "text_p28_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Disputed Issue\nCorrection Criteria\nWetland location incorrectly\nidentified\nAn accurate wetland boundary has been delineated using\nmethods currently accepted by the Oregon Department of",
+    "raw_data": {
+      "text_table": "Disputed Issue\nCorrection Criteria\nWetland location incorrectly\nidentified\nAn accurate wetland boundary has been delineated using\nmethods currently accepted by the Oregon Department of"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0700.json",
+      "document_id": "5.0700",
+      "document_title": "DC Section 5.0700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 33,
+      "table_id": "text_p32_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Stream location incorrectly\nidentified\nAn accurate location of the stream centerline based on the\nmidpoint between Ordinary High Water Marks has been\nidentified and surveyed as specified in the Gresham",
+    "raw_data": {
+      "text_table": "Stream location incorrectly\nidentified\nAn accurate location of the stream centerline based on the\nmidpoint between Ordinary High Water Marks has been\nidentified and surveyed as specified in the Gresham"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0700.json",
+      "document_id": "5.0700",
+      "document_title": "DC Section 5.0700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 33,
+      "table_id": "text_p32_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Public Purpose for Upland\nRA\nDocumentation clearly showing the property was acquired for\ndevelopment with active recreational uses\nPRA requirements satisfied",
+    "raw_data": {
+      "text_table": "Public Purpose for Upland\nRA\nDocumentation clearly showing the property was acquired for\ndevelopment with active recreational uses\nPRA requirements satisfied"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0700.json",
+      "document_id": "5.0700",
+      "document_title": "DC Section 5.0700",
+      "jurisdiction": "Oregon/gresham",
+      "page": 33,
+      "table_id": "text_p32_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Buffer Matrix\nABUTTING USE\nSingle Detached\nDwellings and\nMiddle Housing\nMultifamily\nType A\nUses\nCommercial\nType B\nUses\nOutdoor\nCommercial",
+    "raw_data": {
+      "text_table": "Buffer Matrix\nABUTTING USE\nSingle Detached\nDwellings and\nMiddle Housing\nMultifamily\nType A\nUses\nCommercial\nType B\nUses\nOutdoor\nCommercial"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "document_id": "9.0100",
+      "document_title": "DC Section 9.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Dependent\nCommercial\nIndustrial\nSpringwater\nIndustrial\nPROPOSED\nUSE\nSingle\nDetached\nDwellings and\nMiddle\nHousing",
+    "raw_data": {
+      "text_table": "Dependent\nCommercial\nIndustrial\nSpringwater\nIndustrial\nPROPOSED\nUSE\nSingle\nDetached\nDwellings and\nMiddle\nHousing"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "document_id": "9.0100",
+      "document_title": "DC Section 9.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "moderate buffer\nwidth\nThe B standard is a landscape treatment\nthat provides physical separation and uses\nscreening to ensure visual separation",
+    "raw_data": {
+      "text_table": "moderate buffer\nwidth\nThe B standard is a landscape treatment\nthat provides physical separation and uses\nscreening to ensure visual separation"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "document_id": "9.0100",
+      "document_title": "DC Section 9.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "large\nbuffer width\nThe C standard is a landscape treatment\nthat provides more physical separation\nthan in the B landscape standard and uses",
+    "raw_data": {
+      "text_table": "large\nbuffer width\nThe C standard is a landscape treatment\nthat provides more physical separation\nthan in the B landscape standard and uses"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "document_id": "9.0100",
+      "document_title": "DC Section 9.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "feet\n1 per 30\nlinear feet\n40 shrubs\nper 100\nlinear foot of\nlandscaped\narea\nHigh shrubs to form\na continuous screen\na minimum of 6 feet",
+    "raw_data": {
+      "text_table": "feet\n1 per 30\nlinear feet\n40 shrubs\nper 100\nlinear foot of\nlandscaped\narea\nHigh shrubs to form\na continuous screen\na minimum of 6 feet"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "document_id": "9.0100",
+      "document_title": "DC Section 9.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "E\nhigh wall and\nlarger buffer\nwidth\nThe E standard is a landscape treatment\nthat provides enhanced physical separation\nin addition to that provided by the C and D\nstandards because of the potential effects",
+    "raw_data": {
+      "text_table": "E\nhigh wall and\nlarger buffer\nwidth\nThe E standard is a landscape treatment\nthat provides enhanced physical separation\nin addition to that provided by the C and D\nstandards because of the potential effects"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "document_id": "9.0100",
+      "document_title": "DC Section 9.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 9,
+      "table_id": "text_p8_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "foot\nmasonry wall\nF\nhigh berm and\nmaximum buffer\nwidth\nThe F standard is intended to be used in\nspecial instances where the largest\nphysical separation is needed and the most\nextensive screening of both visual impacts\nand reduction of noise transmission is",
+    "raw_data": {
+      "text_table": "foot\nmasonry wall\nF\nhigh berm and\nmaximum buffer\nwidth\nThe F standard is intended to be used in\nspecial instances where the largest\nphysical separation is needed and the most\nextensive screening of both visual impacts\nand reduction of noise transmission is"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "document_id": "9.0100",
+      "document_title": "DC Section 9.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 9,
+      "table_id": "text_p8_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "trees\nor a combination of\nthe two landscape\nelements must be\nplanted at or near\nthe top to ensure",
+    "raw_data": {
+      "text_table": "trees\nor a combination of\nthe two landscape\nelements must be\nplanted at or near\nthe top to ensure"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "document_id": "9.0100",
+      "document_title": "DC Section 9.0100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 9,
+      "table_id": "text_p8_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "RD\nMAIN\nPOWELL\nDIVISION\n4TH\nBURNSIDE\n8TH\nKELLY\nHOOD\n1ST\n9TH\n18TH\nROBERTS\n2ND\nLINDEN\nTH\nH\n12TH\n13TH\nMILLER\n16TH\n17TH\nNORMAN\nELLIOTT\nLIBERTY\n20TH\n14TH\n10TH\nVISTA\nBEECH\n7TH\nWALTERS\n19TH\nFAIRVIEW\nEVELYN\nJUNIPER\nMORLAN\nVICTORY\nSPRUCE\nMIGNONETTE\nBLAINE\nMAPLE\n18TH\n4TH\nH\nKELLY\nJUNIPER\nLIBERTY\n11TH\nLINDEN\n14TH\n20TH\n20TH\nH\nELLIOTT\n6TH\nVICTORIA\n19TH\nJUNIPER\n4TH\n2ND\n6TH\n2ND\n5TH\n19TH\n18TH\n2ND\nLINDEN\nNORMAN\nROBERTS\nAVA\n2ND\n10TH\nVISTA\nAVA\nDTM\nDCC\nDCL\nDCL\nDMU\nDEM",
+    "raw_data": {
+      "text_table": "RD\nMAIN\nPOWELL\nDIVISION\n4TH\nBURNSIDE\n8TH\nKELLY\nHOOD\n1ST\n9TH\n18TH\nROBERTS\n2ND\nLINDEN\nTH\nH\n12TH\n13TH\nMILLER\n16TH\n17TH\nNORMAN\nELLIOTT\nLIBERTY\n20TH\n14TH\n10TH\nVISTA\nBEECH\n7TH\nWALTERS\n19TH\nFAIRVIEW\nEVELYN\nJUNIPER\nMORLAN\nVICTORY\nSPRUCE\nMIGNONETTE\nBLAINE\nMAPLE\n18TH\n4TH\nH\nKELLY\nJUNIPER\nLIBERTY\n11TH\nLINDEN\n14TH\n20TH\n20TH\nH\nELLIOTT\n6TH\nVICTORIA\n19TH\nJUNIPER\n4TH\n2ND\n6TH\n2ND\n5TH\n19TH\n18TH\n2ND\nLINDEN\nNORMAN\nROBERTS\nAVA\n2ND\n10TH\nVISTA\nAVA\nDTM\nDCC\nDCL\nDCL\nDMU\nDEM"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "DCL\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nNP\nNP\nNP\nP\nP\nNP\nDuplex\nL1\nL1\nL1\nNP\nP\nP\nNP\nTriplex\nL1\nNP\nL1\nNP\nP\nP\nNP\nQuadplex\nL1\nNP\nL1\nNP\nP\nP\nNP\nTownhouse\nP\nL2\nP\nP\nP\nP\nP\nCottage Cluster\nNP\nNP\nNP\nNP\nP\nP\nNP\nMultifamily20\nP3\nP3\nP3\nP3\nL3\nP3\nP3\nElderly Housing\nSUR\nSUR\nSUR\nSUR\nNP\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nResidential Facility\nP\nP\nP\nP\nNP\nP\nP\nResidential Home\nNP\nNP\nNP\nNP\nP\nP\nNP\nAffordable Housing\nP4\nP4\nP4\nP4\nP4\nP4\nP4\nCOMMERCIAL",
+    "raw_data": {
+      "text_table": "DCL\nRESIDENTIAL\nSingle Detached Dwelling\nNP\nNP\nNP\nNP\nP\nP\nNP\nDuplex\nL1\nL1\nL1\nNP\nP\nP\nNP\nTriplex\nL1\nNP\nL1\nNP\nP\nP\nNP\nQuadplex\nL1\nNP\nL1\nNP\nP\nP\nNP\nTownhouse\nP\nL2\nP\nP\nP\nP\nP\nCottage Cluster\nNP\nNP\nNP\nNP\nP\nP\nNP\nMultifamily20\nP3\nP3\nP3\nP3\nL3\nP3\nP3\nElderly Housing\nSUR\nSUR\nSUR\nSUR\nNP\nSUR\nSUR\nManufactured Dwelling Park\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nResidential Facility\nP\nP\nP\nP\nNP\nP\nP\nResidential Home\nNP\nNP\nNP\nNP\nP\nP\nNP\nAffordable Housing\nP4\nP4\nP4\nP4\nP4\nP4\nP4\nCOMMERCIAL"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Dependent Use\nNP\nNP\nNP\nNP\nNP\nNP\nL3\nBusiness and Retail Service and Trade\nP\nP\nP\nP\nL6\nL7\nP\nClinics\nP\nP\nP\nP\nL6\nL7\nP\nCommercial Parking\nL8\nL8\nL8\nL8\nNP\nL8\nL8\nDaycare Facilities\nP\nP\nP\nP\nSUR\nSUR\nP",
+    "raw_data": {
+      "text_table": "Dependent Use\nNP\nNP\nNP\nNP\nNP\nNP\nL3\nBusiness and Retail Service and Trade\nP\nP\nP\nP\nL6\nL7\nP\nClinics\nP\nP\nP\nP\nL6\nL7\nP\nCommercial Parking\nL8\nL8\nL8\nL8\nNP\nL8\nL8\nDaycare Facilities\nP\nP\nP\nP\nSUR\nSUR\nP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Storage Facilities\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nOutdoor Commercial\nNP\nNP\nNP\nNP\nNP\nNP\nL9\nINDUSTRIAL\nConstruction\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nInformation Services\nP\nP\nP\nP\nNP\nNP\nP\nManufacturing\nL10\nL10\nL10\nL10\nNP\nNP\nL10\nMiscellaneous Industrial\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nNP\nNP\nNP\nNP",
+    "raw_data": {
+      "text_table": "Storage Facilities\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nOutdoor Commercial\nNP\nNP\nNP\nNP\nNP\nNP\nL9\nINDUSTRIAL\nConstruction\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nExclusive Heavy Industrial Uses\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nIndustrial Office\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nInformation Services\nP\nP\nP\nP\nNP\nNP\nP\nManufacturing\nL10\nL10\nL10\nL10\nNP\nNP\nL10\nMiscellaneous Industrial\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nTrade Schools\nNP\nNP\nNP\nNP\nNP\nNP\nNP"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Transportation/Distribution\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWarehousing/Storage\nNP11\nNP11\nNP11\nNP11\nNP11\nNP11\nNP11\nWaste Management\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Uses\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nMedical\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR",
+    "raw_data": {
+      "text_table": "Transportation/Distribution\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWarehousing/Storage\nNP11\nNP11\nNP11\nNP11\nNP11\nNP11\nNP11\nWaste Management\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nWholesale Trade\nNP\nNP\nNP\nNP\nNP\nNP\nNP\nINSTITUTIONAL USES\nCivic Uses\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nCommunity Services\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nMedical\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR\nSUR"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t3",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "use district where the maximum building height\nHOGAN\nEASTMAN\nBURNSIDE\nCLEVELAND\n20TH\nMAIN\n18TH\n3RD\nMAIN\nPOWELL\nDIVISION\n4TH\nBURNSIDE\n8TH\nKELLY\nHOOD\n1ST\n9TH\n18TH\nROBERTS\n2ND\nLINDEN\n6TH\nTH\n12TH\nH\n13TH\nMILLER\n16TH\n17TH\nNORMAN\nELLIOTT\nLIBERTY\n20TH\n14TH\n10TH\nVISTA\nBEECH\n7TH\nWALTERS\n19TH\nFAIRVIEW\nEVELYN\nJUNIPER\nMORLAN\nVICTORY\nSPRUCE\nMIGNONETTE\nBLAINE\nMAPLE\n18TH\n4TH\nTH\nKELLY\nJUNIPER\nLIBERTY\n11TH\nLINDEN\n14TH\n20TH\n20TH\n7T\nELLIOTT\n6TH\nVICTORIA\n19TH\nJUNIPER\nH\n4TH\n2ND\n6T\n2ND\n5TH\n19TH\n18TH\n2ND\nLINDEN\nNORMAN\nROBERTS\nAVA\n2ND\n10TH\nVISTA\nAVA",
+    "raw_data": {
+      "text_table": "use district where the maximum building height\nHOGAN\nEASTMAN\nBURNSIDE\nCLEVELAND\n20TH\nMAIN\n18TH\n3RD\nMAIN\nPOWELL\nDIVISION\n4TH\nBURNSIDE\n8TH\nKELLY\nHOOD\n1ST\n9TH\n18TH\nROBERTS\n2ND\nLINDEN\n6TH\nTH\n12TH\nH\n13TH\nMILLER\n16TH\n17TH\nNORMAN\nELLIOTT\nLIBERTY\n20TH\n14TH\n10TH\nVISTA\nBEECH\n7TH\nWALTERS\n19TH\nFAIRVIEW\nEVELYN\nJUNIPER\nMORLAN\nVICTORY\nSPRUCE\nMIGNONETTE\nBLAINE\nMAPLE\n18TH\n4TH\nTH\nKELLY\nJUNIPER\nLIBERTY\n11TH\nLINDEN\n14TH\n20TH\n20TH\n7T\nELLIOTT\n6TH\nVICTORIA\n19TH\nJUNIPER\nH\n4TH\n2ND\n6T\n2ND\n5TH\n19TH\n18TH\n2ND\nLINDEN\nNORMAN\nROBERTS\nAVA\n2ND\n10TH\nVISTA\nAVA"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 16,
+      "table_id": "text_p15_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Sufficient length of buildings shall\nbe present to maintain a continuous building\nstreet wall and in general limit spatial gaps to\nthose necessary to accommodate vehicular and\npedestrian access in order to define the street",
+    "raw_data": {
+      "text_table": "Sufficient length of buildings shall\nbe present to maintain a continuous building\nstreet wall and in general limit spatial gaps to\nthose necessary to accommodate vehicular and\npedestrian access in order to define the street"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 46,
+      "table_id": "text_p45_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Site plan with access to parking behind buildings\nfronting the street and connections through the site to\nsurrounding streets\nstreet\nparking\npedestrian\nconnection\nbuilding",
+    "raw_data": {
+      "text_table": "Site plan with access to parking behind buildings\nfronting the street and connections through the site to\nsurrounding streets\nstreet\nparking\npedestrian\nconnection\nbuilding"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 47,
+      "table_id": "text_p46_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Integrated Site Planning\ncontinued\nsidewalk\nsetback\nproperty line\nminimum percentage of building frontage",
+    "raw_data": {
+      "text_table": "Integrated Site Planning\ncontinued\nsidewalk\nsetback\nproperty line\nminimum percentage of building frontage"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 49,
+      "table_id": "text_p48_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "The minimum amount of building frontage\nrequired on the front setback line may be\nreduced by the Design Commission or Manager\nif an adjustment is required to allow a driveway\nwith the required minimum width on street",
+    "raw_data": {
+      "text_table": "The minimum amount of building frontage\nrequired on the front setback line may be\nreduced by the Design Commission or Manager\nif an adjustment is required to allow a driveway\nwith the required minimum width on street"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 50,
+      "table_id": "text_p49_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "A City representative will\nperform a final landscape inspection to\nensure that the landscaping demonstrates\nequivalent compliance with the approved\nlandscape plan upon completion of the\nproject and before issuance of a Temporary",
+    "raw_data": {
+      "text_table": "A City representative will\nperform a final landscape inspection to\nensure that the landscaping demonstrates\nequivalent compliance with the approved\nlandscape plan upon completion of the\nproject and before issuance of a Temporary"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 81,
+      "table_id": "text_p80_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "The owner of the property\nsubject to the requirements of this\nSection shall be responsible for\ninstalling and maintaining landscaping\nper the approved final landscape plan",
+    "raw_data": {
+      "text_table": "The owner of the property\nsubject to the requirements of this\nSection shall be responsible for\ninstalling and maintaining landscaping\nper the approved final landscape plan"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 82,
+      "table_id": "text_p81_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Meeting the landscaping requirement can be\naccomplished through a number of site features\ncommon\nopen space\nfront yards\nwalkways",
+    "raw_data": {
+      "text_table": "Meeting the landscaping requirement can be\naccomplished through a number of site features\ncommon\nopen space\nfront yards\nwalkways"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 82,
+      "table_id": "text_p81_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Industrial and\nInstitutional uses providing a publicly\naccessible walkway or publicly\naccessible open spaces or outdoor\ndining areas between the right of way",
+    "raw_data": {
+      "text_table": "Industrial and\nInstitutional uses providing a publicly\naccessible walkway or publicly\naccessible open spaces or outdoor\ndining areas between the right of way"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 83,
+      "table_id": "text_p82_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "feet of\nthe front entrances and shall be screened with\nevergreen landscape materials of a height and\nspacing at time of planting that will screen the\nequipment or with fencing that is opaque and",
+    "raw_data": {
+      "text_table": "feet of\nthe front entrances and shall be screened with\nevergreen landscape materials of a height and\nspacing at time of planting that will screen the\nequipment or with fencing that is opaque and"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 97,
+      "table_id": "text_p96_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "canopy\nseasonal\nplanter\nstorefront\nwindow\nbulkhead\npedestrian\nscale signs\npedestrian\nscale lights\nrecessed entry\nprojecting sill",
+    "raw_data": {
+      "text_table": "canopy\nseasonal\nplanter\nstorefront\nwindow\nbulkhead\npedestrian\nscale signs\npedestrian\nscale lights\nrecessed entry\nprojecting sill"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 105,
+      "table_id": "text_p104_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Developments\nat gateway locations shall mark entry\nor departure points to a district for\nautomobiles and pedestrians by providing\na combination of significant public open",
+    "raw_data": {
+      "text_table": "Developments\nat gateway locations shall mark entry\nor departure points to a district for\nautomobiles and pedestrians by providing\na combination of significant public open"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 121,
+      "table_id": "text_p120_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "S\nS\nFiber reinforced cement siding\nand panels\nS\nS\nCeramic tile\nS\nS\nOther material as approved by the\nManager or Design Commission",
+    "raw_data": {
+      "text_table": "S\nS\nFiber reinforced cement siding\nand panels\nS\nS\nCeramic tile\nS\nS\nOther material as approved by the\nManager or Design Commission"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "document_id": "4.1100",
+      "document_title": "DC Section 4.1100",
+      "jurisdiction": "Oregon/gresham",
+      "page": 125,
+      "table_id": "text_p124_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "gov\nMULTIFAMILY PROPERTIES\nCapacity per\nLiving Unit per\nWeek\nNotes on Equipment\nGarbage Service\nSuggested",
+    "raw_data": {
+      "text_table": "gov\nMULTIFAMILY PROPERTIES\nCapacity per\nLiving Unit per\nWeek\nNotes on Equipment\nGarbage Service\nSuggested"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "document_id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "document_title": "City Letterhead Template",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Containers\nRecycling\nCapacity\nGlass\nRecycling\nCart\nCapacity\nFood Recycling\nCapacity\nAuto Repair\n6 cubic\nyards",
+    "raw_data": {
+      "text_table": "Containers\nRecycling\nCapacity\nGlass\nRecycling\nCart\nCapacity\nFood Recycling\nCapacity\nAuto Repair\n6 cubic\nyards"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "document_id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "document_title": "City Letterhead Template",
+      "jurisdiction": "Oregon/gresham",
+      "page": 5,
+      "table_id": "text_p4_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Containers\nRecycling\nCapacity\nGlass\nRecycling\nCart\nCapacity\nFood Recycling\nCapacity\nChurch\n4 cubic\nyards",
+    "raw_data": {
+      "text_table": "Containers\nRecycling\nCapacity\nGlass\nRecycling\nCart\nCapacity\nFood Recycling\nCapacity\nChurch\n4 cubic\nyards"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "document_id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "document_title": "City Letterhead Template",
+      "jurisdiction": "Oregon/gresham",
+      "page": 6,
+      "table_id": "text_p5_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "yard\ncontainer once\nper week\n4 cubic yard\ncontainer\n35 gallons\n1 yard\nConvenience\nStore\n6 cubic\nyards",
+    "raw_data": {
+      "text_table": "yard\ncontainer once\nper week\n4 cubic yard\ncontainer\n35 gallons\n1 yard\nConvenience\nStore\n6 cubic\nyards"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "document_id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "document_title": "City Letterhead Template",
+      "jurisdiction": "Oregon/gresham",
+      "page": 6,
+      "table_id": "text_p5_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "yard\ncontainer once\nper week\n6 cubic yard\ncontainer\n65 gallons\n1 yard\nDepending on waste\nstream\nGrocery Store\nCompactor\nCompactor for\ncardboard plus\n6 cubic yard\nt i\n65 gallons",
+    "raw_data": {
+      "text_table": "yard\ncontainer once\nper week\n6 cubic yard\ncontainer\n65 gallons\n1 yard\nDepending on waste\nstream\nGrocery Store\nCompactor\nCompactor for\ncardboard plus\n6 cubic yard\nt i\n65 gallons"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "document_id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "document_title": "City Letterhead Template",
+      "jurisdiction": "Oregon/gresham",
+      "page": 6,
+      "table_id": "text_p5_t2",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "yard\ncontainers once\nper week\n6 cubic yard\ncontainer\n95 gallons\n4 yards\nRetail Center\n20 cubic\nyards per\neach retail\nLargest\ncontainers and",
+    "raw_data": {
+      "text_table": "yard\ncontainers once\nper week\n6 cubic yard\ncontainer\n95 gallons\n4 yards\nRetail Center\n20 cubic\nyards per\neach retail\nLargest\ncontainers and"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "document_id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "document_title": "City Letterhead Template",
+      "jurisdiction": "Oregon/gresham",
+      "page": 6,
+      "table_id": "text_p5_t3",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Containers\nRecycling\nCapacity\nGlass\nRecycling\nCart\nCapacity\nFood Recycling\nCapacity",
+    "raw_data": {
+      "text_table": "Containers\nRecycling\nCapacity\nGlass\nRecycling\nCart\nCapacity\nFood Recycling\nCapacity"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "document_id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "document_title": "City Letterhead Template",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "yard\ncontainers once\nper week\n12 cubic yards\n65 gallons\n4 yards\nCooking Grease\nBusinesses that generate cooking grease should also plan for collection of that material from an",
+    "raw_data": {
+      "text_table": "yard\ncontainers once\nper week\n12 cubic yards\n65 gallons\n4 yards\nCooking Grease\nBusinesses that generate cooking grease should also plan for collection of that material from an"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "document_id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "document_title": "City Letterhead Template",
+      "jurisdiction": "Oregon/gresham",
+      "page": 7,
+      "table_id": "text_p6_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "if they demonstrate they\nare able to grade the paved surface on which\nwaste containers are stored toward an approved\nprivate stormwater treatment facility that can\nadequately treat any pollutants that might be",
+    "raw_data": {
+      "text_table": "if they demonstrate they\nare able to grade the paved surface on which\nwaste containers are stored toward an approved\nprivate stormwater treatment facility that can\nadequately treat any pollutants that might be"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "document_id": "solid-waste-and-recycling-collection-service-planning-matrix",
+      "document_title": "City Letterhead Template",
+      "jurisdiction": "Oregon/gresham",
+      "page": 11,
+      "table_id": "text_p10_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "bicycle and vehicular\naccess to adjoining properties and\nsurrounding residential neighborhoods\nshall occur in appropriate locations to\nfacilitate access and movement in the",
+    "raw_data": {
+      "text_table": "bicycle and vehicular\naccess to adjoining properties and\nsurrounding residential neighborhoods\nshall occur in appropriate locations to\nfacilitate access and movement in the"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 8,
+      "table_id": "text_p7_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "foot spacing\nEnhanced\nsoil\nconditions\nwithin 6 feet\nof trees\nBump\nouts at\npedestrian\ncrossings\nLighting\nfixtures\nat regular\npacing",
+    "raw_data": {
+      "text_table": "foot spacing\nEnhanced\nsoil\nconditions\nwithin 6 feet\nof trees\nBump\nouts at\npedestrian\ncrossings\nLighting\nfixtures\nat regular\npacing"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 10,
+      "table_id": "text_p9_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Sufficient length of buildings shall\nbe present to maintain a continuous\nbuilding street wall and in general\nlimit spatial gaps to those necessary\nto accommodate vehicular and\npedestrian access in order to define",
+    "raw_data": {
+      "text_table": "Sufficient length of buildings shall\nbe present to maintain a continuous\nbuilding street wall and in general\nlimit spatial gaps to those necessary\nto accommodate vehicular and\npedestrian access in order to define"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 16,
+      "table_id": "text_p15_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "These elements shall\ncontribute to pedestrian\ncirculation having a higher\npriority than vehicular\ncirculation in the design and\nlayout of development sites in",
+    "raw_data": {
+      "text_table": "These elements shall\ncontribute to pedestrian\ncirculation having a higher\npriority than vehicular\ncirculation in the design and\nlayout of development sites in"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 22,
+      "table_id": "text_p21_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Clear and safe pedestrian\nroutes shall be provided\nthrough parking areas to\nprovide pedestrian access\nbetween buildings with\nminimal conflicts with",
+    "raw_data": {
+      "text_table": "Clear and safe pedestrian\nroutes shall be provided\nthrough parking areas to\nprovide pedestrian access\nbetween buildings with\nminimal conflicts with"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 22,
+      "table_id": "text_p21_t1",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "loading\nservice and vehicular circulation areas\nshall be located at the rear of the\nsite or on the interior of the site and\nremoved from the adjacent light rail",
+    "raw_data": {
+      "text_table": "loading\nservice and vehicular circulation areas\nshall be located at the rear of the\nsite or on the interior of the site and\nremoved from the adjacent light rail"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 23,
+      "table_id": "text_p22_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "The choice and selection of plant\nmaterials shall ensure that the\ntype of plantings selected will\nbe of a type that will survive and\nthrive in the area in which they are",
+    "raw_data": {
+      "text_table": "The choice and selection of plant\nmaterials shall ensure that the\ntype of plantings selected will\nbe of a type that will survive and\nthrive in the area in which they are"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 33,
+      "table_id": "text_p32_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Prominent Facade Sections Profiles\nCorner Configurations\nHinged\nProjected\nRecessed\nCurved\nBeveled\nMitered\nWall Configurations\nCurved\nProjected\nRecessed",
+    "raw_data": {
+      "text_table": "Prominent Facade Sections Profiles\nCorner Configurations\nHinged\nProjected\nRecessed\nCurved\nBeveled\nMitered\nWall Configurations\nCurved\nProjected\nRecessed"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 42,
+      "table_id": "text_p41_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "To\nminimize\nnegative\nenvironmental\nimpacts\nfrom\ndevelopment by utilizing sustainable building techniques",
+    "raw_data": {
+      "text_table": "To\nminimize\nnegative\nenvironmental\nimpacts\nfrom\ndevelopment by utilizing sustainable building techniques"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 48,
+      "table_id": "text_p47_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "The development shall\npromote security by permitting\npassive surveillance while providing\na sense of privacy for the residents\nand a distinction between the public\nsidewalk realm and the private unit",
+    "raw_data": {
+      "text_table": "The development shall\npromote security by permitting\npassive surveillance while providing\na sense of privacy for the residents\nand a distinction between the public\nsidewalk realm and the private unit"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 55,
+      "table_id": "text_p54_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "To\nminimize\nnegative\nenvironmental\nimpacts\nfrom\ndevelopment by utilizing sustainable building techniques",
+    "raw_data": {
+      "text_table": "To\nminimize\nnegative\nenvironmental\nimpacts\nfrom\ndevelopment by utilizing sustainable building techniques"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 56,
+      "table_id": "text_p55_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Existing buildings\nshall follow the appropriate building\nfacade and ground level details\nGuidelines when changes to the\nbuilding facade are reviewed for a",
+    "raw_data": {
+      "text_table": "Existing buildings\nshall follow the appropriate building\nfacade and ground level details\nGuidelines when changes to the\nbuilding facade are reviewed for a"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 63,
+      "table_id": "text_p62_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "Commercial\nbuildings that face the most active\nstreets with the highest street\nclassifications shall contain higher\nlevels of transparency at the",
+    "raw_data": {
+      "text_table": "Commercial\nbuildings that face the most active\nstreets with the highest street\nclassifications shall contain higher\nlevels of transparency at the"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 64,
+      "table_id": "text_p63_t0",
+      "content_type": "text_embedded_table"
+    }
+  },
+  {
+    "type": "table",
+    "method": "text_embedded",
+    "content": "S\nS\nCeramic tile\nS\nS\nStanding seam metal3\nS\nS\nOther material as approved by the Manager or\nDesign Commission",
+    "raw_data": {
+      "text_table": "S\nS\nCeramic tile\nS\nS\nStanding seam metal3\nS\nS\nOther material as approved by the Manager or\nDesign Commission"
+    },
+    "metadata": {
+      "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "document_id": "7.0500",
+      "document_title": "Rockwood Design District 06-16-2022 (1).indd",
+      "jurisdiction": "Oregon/gresham",
+      "page": 72,
+      "table_id": "text_p71_t0",
+      "content_type": "text_embedded_table"
+    }
+  }
+]
