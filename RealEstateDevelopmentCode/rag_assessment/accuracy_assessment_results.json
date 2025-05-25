@@ -1,0 +1,802 @@
+{
+  "timestamp": "2025-05-25 15:12:06.272899",
+  "overall_stats": {
+    "total_chunks": 4899,
+    "table_chunks": 328,
+    "text_chunks": 4571,
+    "average_chunk_size": 651.9742804654011,
+    "chunk_size_distribution": {
+      "0-200": 339,
+      "200-500": 613,
+      "500-1000": 3947,
+      "1000-2000": 0,
+      "2000-\u221e": 0
+    },
+    "sources_covered": [
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0500.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1400.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0500.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0200.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0400.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0400.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.1000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0700.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/development-code-amendments.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-appendix-6.000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-appendix-5.000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1500.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0200.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0800.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-3.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0900.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0500.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0600.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-appendix-7.000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-appendix-3.000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0800.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-8.0200.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0400.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-appendix-13.000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0200.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0600.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0500.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.1000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-8.0300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0900.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0700.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0200.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/solid-waste-and-recycling-collection-service-planning-matrix.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/development-code-amendments-jan.-99---may-09.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0600.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0700.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0500.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0400.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-appendix-9.000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0200.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0400.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1200.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0600.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1000.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0700.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1700.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/development-code-appendix-1.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-article-2.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0400.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0500.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0900.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1500.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1400.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.1100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-8.0100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-table-of-contents.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0300.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-9.0200.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-6.0100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0200.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-11.0100.json",
+      "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.0100.json"
+    ],
+    "jurisdictions_covered": [
+      "Oregon/gresham"
+    ],
+    "content_types": {
+      "structured_text": 4571,
+      "text_embedded_table": 328
+    }
+  },
+  "table_quality": {
+    "total_tables": 328,
+    "table_methods": {
+      "text_embedded": 328
+    },
+    "table_sizes": [
+      114,
+      180,
+      259,
+      178,
+      193,
+      255,
+      205,
+      184,
+      245,
+      239,
+      237,
+      190,
+      104,
+      198,
+      164,
+      284,
+      255,
+      200,
+      168,
+      353,
+      203,
+      169,
+      258,
+      247,
+      208,
+      244,
+      55,
+      55,
+      164,
+      191,
+      190,
+      55,
+      55,
+      250,
+      272,
+      272,
+      55,
+      178,
+      154,
+      170,
+      147,
+      160,
+      129,
+      237,
+      162,
+      55,
+      142,
+      168,
+      144,
+      129,
+      160,
+      171,
+      227,
+      159,
+      155,
+      165,
+      55,
+      55,
+      220,
+      139,
+      333,
+      166,
+      136,
+      286,
+      158,
+      162,
+      133,
+      154,
+      185,
+      253,
+      124,
+      115,
+      55,
+      55,
+      91,
+      55,
+      227,
+      119,
+      291,
+      120,
+      345,
+      181,
+      213,
+      253,
+      222,
+      193,
+      324,
+      240,
+      55,
+      231,
+      217,
+      55,
+      184,
+      219,
+      55,
+      225,
+      55,
+      55,
+      55,
+      184,
+      55,
+      253,
+      197,
+      242,
+      193,
+      225,
+      190,
+      55,
+      192,
+      55,
+      55,
+      55,
+      55,
+      55,
+      216,
+      255,
+      263,
+      191,
+      126,
+      226,
+      213,
+      55,
+      55,
+      55,
+      334,
+      232,
+      200,
+      167,
+      222,
+      209,
+      222,
+      181,
+      181,
+      194,
+      181,
+      181,
+      309,
+      177,
+      55,
+      202,
+      220,
+      237,
+      196,
+      94,
+      55,
+      488,
+      260,
+      415,
+      55,
+      182,
+      167,
+      143,
+      182,
+      190,
+      254,
+      70,
+      55,
+      64,
+      181,
+      184,
+      183,
+      354,
+      55,
+      55,
+      348,
+      187,
+      55,
+      337,
+      267,
+      408,
+      199,
+      138,
+      215,
+      162,
+      347,
+      236,
+      255,
+      198,
+      150,
+      339,
+      213,
+      543,
+      421,
+      372,
+      154,
+      173,
+      238,
+      208,
+      204,
+      55,
+      192,
+      165,
+      138,
+      251,
+      168,
+      64,
+      231,
+      120,
+      402,
+      210,
+      193,
+      202,
+      200,
+      197,
+      211,
+      55,
+      224,
+      404,
+      358,
+      360,
+      225,
+      163,
+      172,
+      155,
+      149,
+      181,
+      55,
+      155,
+      173,
+      153,
+      162,
+      55,
+      264,
+      167,
+      135,
+      133,
+      240,
+      55,
+      144,
+      151,
+      139,
+      226,
+      249,
+      164,
+      147,
+      55,
+      342,
+      230,
+      186,
+      233,
+      164,
+      253,
+      226,
+      222,
+      55,
+      198,
+      205,
+      101,
+      201,
+      189,
+      194,
+      189,
+      114,
+      55,
+      55,
+      294,
+      220,
+      183,
+      149,
+      212,
+      211,
+      55,
+      199,
+      332,
+      183,
+      204,
+      218,
+      152,
+      367,
+      55,
+      127,
+      125,
+      148,
+      55,
+      125,
+      262,
+      129,
+      130,
+      149,
+      216,
+      111,
+      208,
+      154,
+      134,
+      189,
+      148,
+      227,
+      460,
+      55,
+      55,
+      149,
+      55,
+      164,
+      55,
+      55,
+      159,
+      150,
+      140,
+      152,
+      55,
+      184,
+      168,
+      179,
+      55,
+      130,
+      159,
+      154,
+      152,
+      137,
+      155,
+      55,
+      243,
+      210,
+      349,
+      220,
+      138,
+      138,
+      135,
+      131,
+      156,
+      180,
+      255,
+      158,
+      240,
+      160,
+      150,
+      173,
+      55
+    ],
+    "markdown_formatted": 328,
+    "well_structured": 328,
+    "municipal_table_types": {
+      "height": 184,
+      "fees": 173,
+      "setback": 22,
+      "landscaping": 48,
+      "signs": 19,
+      "parking": 11,
+      "use": 9,
+      "density": 6
+    },
+    "sample_tables": [
+      {
+        "method": "text_embedded",
+        "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+        "size": 114,
+        "preview": "| Column 1 | Column 2 | Column 3 |\n| --- | --- | --- |\n| 12.0001 | Community Development Plan Map Amendments |  |\n"
+      },
+      {
+        "method": "text_embedded",
+        "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+        "size": 180,
+        "preview": "| Dimension | Requirement | Zone/Type |\n| --- | --- | --- |\n| within | 300 feet | within of the area proposed for change.  The Hearings Officer shall approve a district boundary |\n"
+      },
+      {
+        "method": "text_embedded",
+        "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.1000.json",
+        "size": 259,
+        "preview": "| Column 1 | Column 2 | Column 3 |\n| --- | --- | --- |\n| Development Code. | The Plan District provisions may also apply additional requirements or |  |\n| allow exceptions to general regulations. | Where there is a conflict between the provisions of the |  |\n"
+      },
+      {
+        "method": "text_embedded",
+        "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+        "size": 178,
+        "preview": "| Dimension | Requirement | Zone/Type |\n| --- | --- | --- |\n| minimum of | 15 feet | minimum of from the property line of an abutting residential use. No minimum separation is |\n"
+      },
+      {
+        "method": "text_embedded",
+        "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+        "size": 193,
+        "preview": "| Dimension | Requirement | Zone/Type |\n| --- | --- | --- |\n| through Food Carts shall have at least | 85 feet | through Food Carts shall have at least in queuing distance behind each drive- |\n"
+      }
+    ],
+    "average_table_size": 179.16463414634146
+  },
+  "municipal_coverage": {
+    "zoning": {
+      "chunk_count": 2198,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0600.json",
+          "content_preview": "[7.06]-1 \nCity of Gresham Development Code \n \n(11/20) \n \nSECTION 7.0600 \n \n(The Corridor Design District Commercial Design Guidelines and Standards have been combined with the \nMulti-Family Design Gui..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "[12.00]-1 \nCity of Gresham Development Code \n(8/10) \nARTICLE 12 MAP AMENDMENTS \nSECTION 12.0000 PLAN MAP AMENDMENTS AND \nAMENDMENTS TO MAP BOUNDARIES \nGeneral \n12.0001  Community Development Plan Map ..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "3.\nAmendment Criteria.  The applicant must demonstrate compliance with the following\ncriteria:\na.\nThe proposed designation is consistent with the applicable goals, policies, and\nimplementation strateg..."
+        }
+      ]
+    },
+    "parking": {
+      "chunk_count": 1501,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+          "content_preview": "[10.16]-2 \nCity of Gresham Development Code \n \n(01/23) \n10.1603 COORDINATION WITH OTHER REGULATIONS \nA. All Food Carts shall meet the requirements of the Fire Code (as described in GRC 10.25). \nB. All..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+          "content_preview": "5.  Section 9.0800 Parking Standards. \nD. Except as provided in Sections 10.1613 and 10.1614, Food Carts are exempt from the requirements of \nAppendix 5.  \nE. Covered outdoor seating, accessory struct..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+          "content_preview": "B. Except as provided in Sections 10.1613 and 10.1614 for drive-through carts and carts in pods, no new \nvehicle access shall be granted for food cart development and all vehicular traffic shall be re..."
+        }
+      ]
+    },
+    "setbacks": {
+      "chunk_count": 555,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "b. \nLighting required by emergency response agencies, \nc. \nLighting fixtures required by the Federal Communication Commission, the Federal \nAviation Administration, the Federal Occupational Safety and..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1600.json",
+          "content_preview": "[10.16]-3 \nCity of Gresham Development Code \n \n(01/23) \n1. Outside district setbacks, pedestrian walkways, clear vision areas, required landscaping areas, required \nparking and access to required park..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0400.json",
+          "content_preview": "except that an accessory structure may be less than 6 feet from a manufactured dwelling on the \nsame space. \n4. Each manufactured dwelling shall be set back a distance of at least 6 feet from the clos..."
+        }
+      ]
+    },
+    "building_height": {
+      "chunk_count": 1383,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "the City Council decision.  This is in addition to the general process outlined above\nin Section 12.0001(B)(1).\nb.\nA plan map amendment with some details regarding a specific future land use.\nThe deci..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "anticipated building heights, and conceptual drawings of the use.\nii.\nFor residential uses, the proposed density and the number of units;\niii.\nFor non-residential uses, the square footage of buildings..."
+        },
+        {
+          "type": "table",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "| Dimension | Requirement | Zone/Type |\n| --- | --- | --- |\n| within | 300 feet | within of the area proposed for change.  The Hearings Officer shall approve a district boundary |\n..."
+        }
+      ]
+    },
+    "landscaping": {
+      "chunk_count": 2003,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "[5.06]-3 \nCity of Gresham Development Code \n \n(06/22) \n \nB. \nThe following regulations are designed to help ensure that developments are complementary to the \nscenic nature of Gresham Butte. These reg..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "b. \nLighting required by emergency response agencies, \nc. \nLighting fixtures required by the Federal Communication Commission, the Federal \nAviation Administration, the Federal Occupational Safety and..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "Lighting required to illuminate the flag of the United States of America. Such lighting \nmust be shielded and not visible off of the property. \n2. \nColors used for all structures are encouraged to be ..."
+        }
+      ]
+    },
+    "signs": {
+      "chunk_count": 2059,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-7.0600.json",
+          "content_preview": "[7.06]-1 \nCity of Gresham Development Code \n \n(11/20) \n \nSECTION 7.0600 \n \n(The Corridor Design District Commercial Design Guidelines and Standards have been combined with the \nMulti-Family Design Gui..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "[12.00]-1 \nCity of Gresham Development Code \n(8/10) \nARTICLE 12 MAP AMENDMENTS \nSECTION 12.0000 PLAN MAP AMENDMENTS AND \nAMENDMENTS TO MAP BOUNDARIES \nGeneral \n12.0001  Community Development Plan Map ..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "1.\nProperty owners or the City may initiate a plan map amendment for one parcel or a small\ngroup of parcels under the Type III procedure.  Unlike other Type III procedures, the\ndecision of the Plannin..."
+        }
+      ]
+    },
+    "subdivisions": {
+      "chunk_count": 819,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "[12.00]-1 \nCity of Gresham Development Code \n(8/10) \nARTICLE 12 MAP AMENDMENTS \nSECTION 12.0000 PLAN MAP AMENDMENTS AND \nAMENDMENTS TO MAP BOUNDARIES \nGeneral \n12.0001  Community Development Plan Map ..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "1.\nProperty owners or the City may initiate a plan map amendment for one parcel or a small\ngroup of parcels under the Type III procedure.  Unlike other Type III procedures, the\ndecision of the Plannin..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "[12.00]-2 \nCity of Gresham Development Code \n(8/10) \ni.\nA mistake was made in the current designation.  The applicant must identify\na specific error made during the adoption process of the Community\nD..."
+        }
+      ]
+    },
+    "conditional_use": {
+      "chunk_count": 389,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "[5.06]-2 \nCity of Gresham Development Code \n \n(06/22) \n \n5.0604  Restricted Development Types    \nThe following development types are restricted in the GBSV District as follows: \nA. \nThe following use..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "subject to the requirements in Section 8.0140: \n1. \nWireless Communication Facilities \nC. \nThe following Special Use Review is required to be reviewed through the Type II process under Section \n8.0110..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "criteria in Section 10.1530. \n2. \nResidential adjustments to height allowed by Section 10.1521.B.3 are prohibited in the GBSV \nDistrict. \n3. \nAdditional regulations regarding the height of and process..."
+        }
+      ]
+    },
+    "variances": {
+      "chunk_count": 212,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "subject to the requirements in Section 8.0140: \n1. \nWireless Communication Facilities \nC. \nThe following Special Use Review is required to be reviewed through the Type II process under Section \n8.0110..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "hearing body is the Planning Commission. \n \nAdditional Development Requirements \n5.0605  Additional Standards for the GBSV District    \nThe Site Development Requirements of LDR-5 and the Gresham Butte..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-5.0600.json",
+          "content_preview": "[5.06]-3 \nCity of Gresham Development Code \n \n(06/22) \n \nB. \nThe following regulations are designed to help ensure that developments are complementary to the \nscenic nature of Gresham Butte. These reg..."
+        }
+      ]
+    },
+    "appeals": {
+      "chunk_count": 733,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "1.\nProperty owners or the City may initiate a plan map amendment for one parcel or a small\ngroup of parcels under the Type III procedure.  Unlike other Type III procedures, the\ndecision of the Plannin..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "proposed land use designation and its potential uses vary.  The factors to be\nused in determining suitability are parcel size and location.\nd.\nThe proposed designation is consistent with the Metro Urb..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "2.\nA Conditioned Plan Map Amendment may take one of two forms:\na.\nA plan map amendment submitted at the same time as an application for a specific\nland use, such as a Design Review or Land Division.  ..."
+        }
+      ]
+    },
+    "enforcement": {
+      "chunk_count": 187,
+      "sample_chunks": [
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "1.\nProperty owners or the City may initiate a plan map amendment for one parcel or a small\ngroup of parcels under the Type III procedure.  Unlike other Type III procedures, the\ndecision of the Plannin..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "3.\nAmendment Criteria.  The applicant must demonstrate compliance with the following\ncriteria:\na.\nThe proposed designation is consistent with the applicable goals, policies, and\nimplementation strateg..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "[12.00]-3 \nCity of Gresham Development Code \n(01/21) \n3.\nIf an application for a Conditioned Plan Map Amendment is denied, the property owner may\nnot submit a request for the same plan map designation..."
+        }
+      ]
+    },
+    "fees": {
+      "chunk_count": 1210,
+      "sample_chunks": [
+        {
+          "type": "table",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "| Dimension | Requirement | Zone/Type |\n| --- | --- | --- |\n| within | 300 feet | within of the area proposed for change.  The Hearings Officer shall approve a district boundary |\n..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "[12.00]-4 \nCity of Gresham Development Code \n(01/21) \n12.0002  Minor Amendments to the Gresham Urban Services Area Map \nBoundaries \nA.\nThe Gresham Urban Services Area Map Boundaries may be changed for..."
+        },
+        {
+          "type": "text",
+          "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-12.0000.json",
+          "content_preview": "been obtained establishing that the boundary should be changed to fulfill the purpose for the special \npurpose district. \n12.0011  Overlay District Boundary Revisions \nA special purpose district bound..."
+        }
+      ]
+    }
+  },
+  "chunk_quality": {
+    "total_chunks": 4899,
+    "empty_chunks": 0,
+    "too_short": 1,
+    "too_long": 0,
+    "missing_metadata": 0,
+    "malformed_content": 0,
+    "quality_score_distribution": {
+      "100-109": 4898,
+      "80-89": 1
+    },
+    "quality_issues": [
+      {
+        "chunk_index": 4508,
+        "type": "text",
+        "issues": [
+          "Too short (48 chars)"
+        ],
+        "quality_score": 80,
+        "source": "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-10.1500.json"
+      }
+    ]
+  },
+  "source_accuracy": {
+    "source_files_found": 83,
+    "processed_files": 83,
+    "missing_from_processing": [],
+    "content_discrepancies": []
+  },
+  "sample_queries": [
+    {
+      "query": "What are the parking requirements for restaurant?",
+      "template": "What are the parking requirements for {use_type}?",
+      "expected_content_types": [
+        "text",
+        "table"
+      ]
+    },
+    {
+      "query": "What are the setback requirements in Commercial?",
+      "template": "What are the setback requirements in {zone}?",
+      "expected_content_types": [
+        "text",
+        "table"
+      ]
+    },
+    {
+      "query": "What is the maximum building height for Commercial?",
+      "template": "What is the maximum building height for {zone}?",
+      "expected_content_types": [
+        "text",
+        "table"
+      ]
+    },
+    {
+      "query": "What landscaping is required for commercial?",
+      "template": "What landscaping is required for {development_type}?",
+      "expected_content_types": [
+        "text",
+        "table"
+      ]
+    },
+    {
+      "query": "What are the sign regulations for Commercial?",
+      "template": "What are the sign regulations for {zone}?",
+      "expected_content_types": [
+        "text",
+        "table"
+      ]
+    }
+  ]
+}

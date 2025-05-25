@@ -11,6 +11,8 @@ Updates to work with the multi-jurisdiction MCP server structure.
 
 import json
 import os
+import re
+import time
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import sys
@@ -381,14 +383,13 @@ class AccurateMunicipalRAG:
         return stats
     
     def _process_json_primary(self, json_file: Path, jurisdiction: str) -> List[Dict]:
-        """Process JSON content as primary source (more accurate than PDFs)
-        
-        Args:
-            json_file: Path to the JSON file
-            jurisdiction: Jurisdiction in format "State/locality"
-        """
+        """Process JSON content as primary source with timeout protection"""
         
         from langchain.schema import Document
+        import time
+        
+        start_time = time.time()
+        max_document_time = 600  # 10 minute timeout per document (adjustable)
         
         with open(json_file, 'r') as f:
             doc_data = json.load(f)
@@ -399,8 +400,21 @@ class AccurateMunicipalRAG:
         document_title = doc_data.get('metadata', {}).get('title', json_file.stem)
         document_id = json_file.stem.replace('dc-section-', '')
         
+        # Track progress statistics for this document
+        page_count = len(doc_data.get('pages', []))
+        logger.info(f"Processing document {document_title} ({page_count} pages)")
+        
         # Process each page with its structured content
         for page_num, page in enumerate(doc_data.get('pages', [])):
+            # Check for document timeout
+            if time.time() - start_time > max_document_time:
+                logger.warning(f"Document timeout reached for {json_file.name} after {page_num+1}/{page_count} pages")
+                break
+                
+            # Log progress for large documents
+            if page_count > 10 and page_num % 5 == 0:
+                logger.info(f"  Processing page {page_num+1}/{page_count} of {json_file.name}")
+                
             page_text = page.get('text', '')
             
             # Extract tables from JSON structured tables array
@@ -422,24 +436,44 @@ class AccurateMunicipalRAG:
                         }
                     })
             
-            # Extract tables embedded in text (like the STREET CLASS table we found)
-            embedded_tables = self._extract_tables_from_text(page_text)
-            for table_idx, table_content in enumerate(embedded_tables):
-                results.append({
-                    "type": "table",
-                    "method": "text_embedded",
-                    "content": table_content,
-                    "raw_data": {"text_table": table_content},
-                    "metadata": {
-                        "source": str(json_file),
-                        "document_id": document_id,
-                        "document_title": document_title,
-                        "jurisdiction": jurisdiction,
-                        "page": page_num + 1,
-                        "table_id": f"text_p{page_num}_t{table_idx}",
-                        "content_type": "text_embedded_table"
-                    }
-                })
+            # Only extract tables from text if text is not excessively large
+            if len(page_text) < 100000:  # Skip massive pages to prevent hanging
+                try:
+                    # Set timeout just for table extraction
+                    page_start_time = time.time()
+                    max_page_table_time = 60  # 1 minute per page for table extraction
+                    
+                    # Skip the most complex pattern (pattern 5) for pages over 20KB
+                    if len(page_text) > 20000:
+                        logger.info(f"Using simplified pattern set for large page ({len(page_text)/1000:.1f}KB)")
+                        embedded_tables = self._extract_tables_from_text_simple(page_text)
+                    else:
+                        embedded_tables = self._extract_tables_from_text(page_text)
+                    
+                    # Check if table extraction took too long
+                    if time.time() - page_start_time > max_page_table_time:
+                        logger.warning(f"Table extraction timeout on page {page_num+1} of {json_file.name}")
+                    
+                    for table_idx, table_content in enumerate(embedded_tables):
+                        results.append({
+                            "type": "table",
+                            "method": "text_embedded",
+                            "content": table_content,
+                            "raw_data": {"text_table": table_content},
+                            "metadata": {
+                                "source": str(json_file),
+                                "document_id": document_id,
+                                "document_title": document_title,
+                                "jurisdiction": jurisdiction,
+                                "page": page_num + 1,
+                                "table_id": f"text_p{page_num}_t{table_idx}",
+                                "content_type": "text_embedded_table"
+                            }
+                        })
+                except Exception as e:
+                    logger.warning(f"Table extraction error on page {page_num+1} of {json_file.name}: {e}")
+            else:
+                logger.warning(f"Skipping table extraction for oversized page {page_num+1} ({len(page_text)/1000:.1f}KB)")
             
             # Process text content if substantial
             if page_text.strip() and len(page_text.strip()) > 50:
@@ -466,60 +500,294 @@ class AccurateMunicipalRAG:
                         "metadata": chunk.metadata
                     })
         
+        processing_time = time.time() - start_time
+        logger.info(f"Completed {json_file.name} in {processing_time:.1f}s ({len(results)} results)")
         return results
     
     def _extract_tables_from_text(self, text: str) -> List[str]:
-        """Extract table-like structures from text content"""
+        """Extract table-like structures from text content with improved formatting and performance"""
         import re
+        import time
         
         tables = []
+        start_time = time.time()
         
-        # Pattern 1: Look for structured table patterns like the STREET CLASS table
-        # This matches tables with headers and rows of data
+        # Optimized patterns with bounded repetition and non-greedy quantifiers to prevent catastrophic backtracking
         table_patterns = [
-            # Pattern for tables with column headers and multiple rows
-            r'([A-Z][A-Z\s/]+)\s*\n([A-Z][A-Z\s/]+)\s*\n([A-Z][A-Z\s/]+)\s*\n((?:[A-Za-z0-9\s]+\n){2,})',
-            # Pattern for simpler tables with headers and data
-            r'(\b[A-Z][A-Z\s]+\b)\s*\n((?:[A-Za-z0-9\s]+(?:feet|%|spaces|inches)\s*\n){2,})',
-            # Pattern for dimension tables (common in municipal codes)
-            r'((?:minimum|maximum|width|height|depth|area)\s*:?\s*[0-9]+\s*(?:feet|ft|inches|in|%)\s*\n){2,}'
+            # Pattern for fee/permit tables - bounded repetition and non-greedy
+            r'((?:Type\s+[IVX]+[^$\n]*?\$[0-9,]+[^\n]*?\n){2,8})',
+            # Pattern for dimensional tables - bounded and non-greedy
+            r'((?:[A-Za-z\s]+:\s*[0-9]+\s*(?:feet|ft|inches|in|%)[^\n]*?\n){2,8})',
+            # Pattern for zoning/use tables - bounded and non-greedy  
+            r'((?:[A-Z][A-Za-z\s]+\s+(?:Permitted|Conditional|Prohibited)[^\n]*?\n){2,8})',
+            # Pattern for parking/space requirements - bounded and non-greedy
+            r'((?:[A-Za-z\s]+\s+[0-9]+\s+space[s]?[^\n]*?\n){2,8})',
+            # Pattern for street classification tables - more specific end conditions and non-greedy
+            r'STREET CLASS\s+PARKING\s+PAVEMENT WIDTH[^\n]*?\n(?:[^\n]+?\n){1,15}?(?=\n\n|\n[0-9]+\.|\nE\.|\Z)',
+            # Simplified generic structured data pattern - more constrained to avoid timeouts
+            r'([A-Z][A-Za-z]{2,20}\s+[A-Za-z0-9]{2,20}\s+[A-Za-z0-9]{2,20}[^\n]*\n)(?:[A-Z][A-Za-z]{2,20}\s+[A-Za-z0-9]{2,20}\s+[A-Za-z0-9]{2,20}[^\n]*\n){2,5}'
         ]
         
-        for pattern in table_patterns:
-            matches = re.finditer(pattern, text, re.MULTILINE | re.IGNORECASE)
-            for match in matches:
-                table_text = match.group(0).strip()
-                if len(table_text) > 100:  # Only include substantial tables
-                    # Clean up the table text
-                    cleaned_table = self._clean_table_text(table_text)
-                    tables.append(cleaned_table)
+        # Process text in manageable chunks if very large
+        text_length = len(text)
         
-        # Look for the specific STREET CLASS table format we saw
-        street_class_pattern = r'STREET CLASS\s+PARKING\s+PAVEMENT WIDTH.+?(?=\n\n|\n[0-9]+\.|\nE\.|\Z)'
-        street_matches = re.finditer(street_class_pattern, text, re.DOTALL | re.MULTILINE)
-        for match in street_matches:
-            table_text = match.group(0).strip()
-            formatted_table = self._format_street_class_table(table_text)
-            tables.append(formatted_table)
+        if text_length > 30000:  # Only chunk very large text
+            chunk_size = 15000
+            overlap = 1000  # Overlap to catch tables at chunk boundaries
+            
+            for start in range(0, text_length, chunk_size - overlap):
+                end = min(start + chunk_size, text_length)
+                chunk = text[start:end]
+                
+                # Process each pattern with timeout protection
+                for pattern_idx, pattern in enumerate(table_patterns):
+                    try:
+                        # Set a timeout per pattern to prevent excessive processing
+                        pattern_start = time.time()
+                        pattern_timeout = 15  # 15 seconds max per pattern
+                        
+                        # Use re.finditer with timeout check
+                        matches = re.finditer(pattern, chunk, re.MULTILINE | re.IGNORECASE | re.DOTALL)
+                        
+                        for match in matches:
+                            # Check for timeout on each iteration
+                            if time.time() - pattern_start > pattern_timeout:
+                                logger.warning(f"Pattern {pattern_idx} timeout, moving to next pattern")
+                                break
+                                
+                            table_text = match.group(0).strip()
+                            if 150 < len(table_text) < 5000:  # Only substantial tables with reasonable size
+                                # Enhanced table formatting
+                                formatted_table = self._format_extracted_table(table_text)
+                                if formatted_table and formatted_table not in tables:
+                                    tables.append(formatted_table)
+                                    
+                                # Limit matches per pattern to avoid excessive extraction
+                                if len(tables) > 20:  # Cap total tables to prevent memory issues
+                                    break
+                    except Exception as e:
+                        logger.warning(f"Error processing pattern {pattern_idx}: {e}")
+                        continue
+        else:
+            # For normal sized text, process normally but with timeout protection
+            for pattern_idx, pattern in enumerate(table_patterns):
+                try:
+                    # Set a reasonable timeout
+                    pattern_start = time.time()
+                    pattern_timeout = 5  # Reduced to 5 seconds max per pattern
+                    
+                    matches = re.finditer(pattern, text, re.MULTILINE | re.IGNORECASE | re.DOTALL)
+                    
+                    for match in matches:
+                        # Check for timeout more frequently
+                        if time.time() - pattern_start > pattern_timeout:
+                            logger.warning(f"Pattern {pattern_idx} timeout, moving to next pattern")
+                            break
+                            
+                        table_text = match.group(0).strip()
+                        if 150 < len(table_text) < 5000:  # Only substantial tables
+                            # Enhanced table formatting
+                            formatted_table = self._format_extracted_table(table_text)
+                            if formatted_table and formatted_table not in tables:
+                                tables.append(formatted_table)
+                except Exception as e:
+                    logger.warning(f"Error processing pattern {pattern_idx}: {e}")
+                    continue
         
-        return tables
-    
-    def _clean_table_text(self, table_text: str) -> str:
-        """Clean and format table text for better readability"""
-        lines = table_text.split('\n')
-        cleaned_lines = []
+        logger.debug(f"Table extraction took {time.time() - start_time:.2f}s, found {len(tables)} tables")
+        return tables[:15]  # Limit total tables per document to prevent memory issues
+
+    def _extract_tables_from_text_simple(self, text: str) -> List[str]:
+        """Extract table-like structures from text content with simpler patterns for large pages"""
+        import re
+        import time
+        
+        tables = []
+        start_time = time.time()
+        
+        # Simpler patterns for large pages - skipping the complex generic pattern
+        simple_patterns = [
+            # Pattern for fee/permit tables - bounded repetition and non-greedy
+            r'((?:Type\s+[IVX]+[^$\n]*?\$[0-9,]+[^\n]*?\n){2,8})',
+            # Pattern for dimensional tables - bounded and non-greedy
+            r'((?:[A-Za-z\s]+:\s*[0-9]+\s*(?:feet|ft|inches|in|%)[^\n]*?\n){2,8})',
+            # Pattern for zoning/use tables - bounded and non-greedy  
+            r'((?:[A-Z][A-Za-z\s]+\s+(?:Permitted|Conditional|Prohibited)[^\n]*?\n){2,8})',
+            # Pattern for parking/space requirements - bounded and non-greedy
+            r'((?:[A-Za-z\s]+\s+[0-9]+\s+space[s]?[^\n]*?\n){2,8})',
+            # Pattern for street classification tables - more specific end conditions and non-greedy
+            r'STREET CLASS\s+PARKING\s+PAVEMENT WIDTH[^\n]*?\n(?:[^\n]+?\n){1,15}?(?=\n\n|\n[0-9]+\.|\nE\.|\Z)'
+            # Generic pattern intentionally omitted for large pages
+        ]
+        
+        # Process text with very strict timeouts for large pages
+        for pattern_idx, pattern in enumerate(simple_patterns):
+            try:
+                # Even shorter timeout for large pages
+                pattern_start = time.time()
+                pattern_timeout = 3  # 3 seconds max per pattern for large pages
+                
+                matches = re.finditer(pattern, text, re.MULTILINE | re.IGNORECASE | re.DOTALL)
+                
+                for match in matches:
+                    # Check for timeout more aggressively
+                    if time.time() - pattern_start > pattern_timeout:
+                        logger.warning(f"Pattern {pattern_idx} timeout on large page, skipping")
+                        break
+                        
+                    table_text = match.group(0).strip()
+                    if 150 < len(table_text) < 3000:  # Stricter size bounds for large pages
+                        # Enhanced table formatting
+                        formatted_table = self._format_extracted_table(table_text)
+                        if formatted_table and formatted_table not in tables:
+                            tables.append(formatted_table)
+                            
+                        # Limit matches per pattern more aggressively
+                        if len(tables) > 5:  # Take just the first few tables per pattern
+                            break
+            except Exception as e:
+                logger.warning(f"Error processing pattern {pattern_idx} on large page: {e}")
+                continue
+        
+        logger.debug(f"Simple table extraction took {time.time() - start_time:.2f}s, found {len(tables)} tables")
+        return tables[:10]  # Stricter limit for large pages
+
+    def _format_extracted_table(self, table_text: str) -> str:
+        """Format extracted table text into proper markdown with improved structure"""
+        
+        lines = [line.strip() for line in table_text.split('\n') if line.strip()]
+        if len(lines) < 3:
+            return None
+            
+        # Detect table type and apply appropriate formatting
+        
+        # Fee table detection (Type I, Type II, etc.)
+        if any('Type ' in line and '$' in line for line in lines):
+            return self._format_fee_table(lines)
+            
+        # Street class table detection
+        if 'STREET CLASS' in table_text.upper() and 'PARKING' in table_text.upper():
+            return self._format_street_class_table(table_text)
+            
+        # Use/zoning table detection
+        if any(word in line for line in lines for word in ['Permitted', 'Conditional', 'Prohibited']):
+            return self._format_use_table(lines)
+            
+        # Dimensional table detection (feet, inches, etc.)
+        if any(unit in line for line in lines for unit in ['feet', 'ft', 'inches', 'in', '%']):
+            return self._format_dimensional_table(lines)
+            
+        # Generic three-column table format
+        return self._format_generic_table(lines)
+
+    def _format_fee_table(self, lines: List[str]) -> str:
+        """Format fee tables with Type/Description/Fee structure"""
+        md_table = "| Application Type | Description | Fee |\n"
+        md_table += "| --- | --- | --- |\n"
         
         for line in lines:
-            line = line.strip()
-            if line:
-                cleaned_lines.append(line)
+            if 'Type ' in line and '$' in line:
+                # Extract type, description, and fee
+                parts = line.split('$')
+                if len(parts) >= 2:
+                    pre_fee = parts[0].strip()
+                    fee = '$' + parts[1].strip()
+                    
+                    # Extract type
+                    type_match = re.search(r'Type [IVX]+', pre_fee)
+                    if type_match:
+                        app_type = type_match.group()
+                        description = pre_fee.replace(app_type, '').strip()
+                        md_table += f"| {app_type} | {description} | {fee} |\n"
         
-        return '\n'.join(cleaned_lines)
-    
+        return md_table if md_table.count('|') > 6 else None
+
+    def _format_use_table(self, lines: List[str]) -> str:
+        """Format use/zoning tables"""
+        md_table = "| Use | Zone | Status |\n"
+        md_table += "| --- | --- | --- |\n"
+        
+        for line in lines:
+            for status in ['Permitted', 'Conditional', 'Prohibited']:
+                if status in line:
+                    parts = line.split(status)
+                    if len(parts) >= 2:
+                        use_zone = parts[0].strip()
+                        # Try to split use from zone
+                        use_parts = use_zone.split()
+                        if len(use_parts) > 1:
+                            use = ' '.join(use_parts[:-1])
+                            zone = use_parts[-1]
+                        else:
+                            use = use_zone
+                            zone = ""
+                        md_table += f"| {use} | {zone} | {status} |\n"
+                    break
+        
+        return md_table if md_table.count('|') > 6 else None
+
+    def _format_dimensional_table(self, lines: List[str]) -> str:
+        """Format dimensional tables (setbacks, heights, etc.)"""
+        md_table = "| Dimension | Requirement | Zone/Type |\n"
+        md_table += "| --- | --- | --- |\n"
+        
+        has_rows = False
+        for line in lines:
+            # Look for dimension patterns
+            for unit in ['feet', 'ft', 'inches', 'in', '%']:
+                if unit in line.lower():
+                    # Extract the dimensional requirement
+                    dim_match = re.search(r'([0-9]+(?:\.[0-9]+)?)\s*' + unit, line.lower())
+                    if dim_match:
+                        has_rows = True
+                        requirement = line[dim_match.start():dim_match.end()]
+                        before_req = line[:dim_match.start()].strip()
+                        after_req = line[dim_match.end():].strip()
+                        
+                        # Determine what the dimension is
+                        if ':' in before_req:
+                            parts = before_req.split(':', 1)
+                            dimension = parts[0].strip()
+                            before_req = parts[1].strip() if len(parts) > 1 else ""
+                        else:
+                            dimension = before_req if before_req else "Requirement"
+                        
+                        # Combine any remaining parts with the zone/type
+                        remaining = (before_req + " " + after_req).strip()
+                        zone_type = remaining if remaining else ""
+                        
+                        md_table += f"| {dimension} | {requirement} | {zone_type} |\n"
+                    break
+        
+        # Only return if we have actual rows
+        return md_table if has_rows else None
+
+    def _format_generic_table(self, lines: List[str]) -> str:
+        """Format generic three-column tables"""
+        if len(lines) < 3:
+            return None
+            
+        # Try to detect patterns in the first few lines
+        md_table = "| Column 1 | Column 2 | Column 3 |\n"
+        md_table += "| --- | --- | --- |\n"
+        
+        for line in lines:
+            # Split on multiple spaces or tabs
+            parts = re.split(r'\s{2,}|\t+', line)
+            if len(parts) >= 2:
+                # Pad to 3 columns
+                while len(parts) < 3:
+                    parts.append("")
+                # Take first 3 columns
+                parts = parts[:3]
+                md_table += f"| {' | '.join(parts)} |\n"
+        
+        return md_table if md_table.count('|') > 6 else None
+
     def _format_street_class_table(self, table_text: str) -> str:
         """Format the specific STREET CLASS table into proper markdown"""
+        import re
         
-        # Extract the structured data from the table text
         lines = [line.strip() for line in table_text.split('\n') if line.strip()]
         
         if len(lines) < 3:
@@ -529,62 +797,99 @@ class AccurateMunicipalRAG:
         md_table = "| Street Class | Parking | Pavement Width |\n"
         md_table += "| --- | --- | --- |\n"
         
-        # Parse the table data
+        # Enhanced parsing for street class tables
         current_class = None
+        parking_type = None
+        
         for line in lines:
-            if 'Class 1' in line:
-                current_class = "Class 1 (Serving fewer than 50 spaces)"
-            elif 'Class 2' in line:
-                current_class = "Class 2 (Serving 50 or more spaces)"
-            elif line in ['None', 'One side', 'Both sides']:
+            line_lower = line.lower()
+            
+            # Detect class definitions
+            if 'class 1' in line_lower:
+                if 'fewer than 50' in line_lower or '50 spaces' in line_lower:
+                    current_class = "Class 1 (Fewer than 50 spaces)"
+                else:
+                    current_class = "Class 1"
+                    
+            elif 'class 2' in line_lower:
+                if '50 or more' in line_lower:
+                    current_class = "Class 2 (50 or more spaces)"
+                else:
+                    current_class = "Class 2"
+                    
+            # Detect parking options
+            elif line in ['None', 'One side', 'Both sides'] or any(p in line_lower for p in ['no parking', 'one side', 'both sides']):
                 parking_type = line
-            elif 'feet' in line:
-                # Extract width value
+                
+            # Detect width specifications
+            elif any(unit in line_lower for unit in ['feet', 'ft', 'inch', 'in']):
                 width = line
-                if current_class and 'parking_type' in locals():
+                # If we have all components, add row
+                if current_class and parking_type:
+                    md_table += f"| {current_class} | {parking_type} | {width} |\n"
+                    # Reset for next entry
+                    parking_type = None
+                    
+            # Handle combined entries (Class, parking, width in one line)
+            elif current_class and any(unit in line_lower for unit in ['feet', 'ft']) and any(p in line_lower for p in ['none', 'one', 'both']):
+                # Parse combined line
+                if 'none' in line_lower:
+                    parking_type = "None"
+                elif 'one side' in line_lower:
+                    parking_type = "One side"
+                elif 'both' in line_lower:
+                    parking_type = "Both sides"
+                    
+                # Extract width
+                width_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:feet|ft)', line_lower)
+                if width_match:
+                    width = f"{width_match.group(1)} feet"
                     md_table += f"| {current_class} | {parking_type} | {width} |\n"
         
         return md_table if md_table.count('|') > 6 else table_text
-    
-    def _format_json_table(self, table_data: Dict) -> str:
-        """Format JSON table data into readable markdown"""
+
+    def _format_json_table(self, table: Dict) -> str:
+        """Format a JSON table into markdown format
         
-        if isinstance(table_data, dict):
-            if 'rows' in table_data:
-                # Table with rows structure
-                rows = table_data.get('rows', [])
-                if rows:
-                    # Create markdown table
-                    headers = list(rows[0].keys()) if rows else []
-                    md_table = "| " + " | ".join(headers) + " |\n"
-                    md_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
-                    
-                    for row in rows:
-                        values = [str(row.get(h, "")) for h in headers]
-                        md_table += "| " + " | ".join(values) + " |\n"
-                    
-                    return md_table
-            elif 'data' in table_data:
-                # Table with data array
-                return str(table_data['data'])
-            else:
-                # Generic table data
-                return str(table_data)
-        elif isinstance(table_data, list):
-            # List of rows
-            if table_data and isinstance(table_data[0], dict):
-                headers = list(table_data[0].keys())
-                md_table = "| " + " | ".join(headers) + " |\n"
-                md_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
-                
-                for row in table_data:
-                    values = [str(row.get(h, "")) for h in headers]
-                    md_table += "| " + " | ".join(values) + " |\n"
-                
-                return md_table
+        Args:
+            table: Dictionary containing table data from the JSON
+            
+        Returns:
+            Markdown formatted table
+        """
+        # Extract table data
+        rows = table.get('data', [])
+        if not rows or len(rows) < 2:  # Need at least header + one row
+            return str(table)  # Fallback
         
-        return str(table_data)
-    
+        # Create markdown table
+        md_table = ""
+        
+        # Try to extract headers
+        headers = []
+        if 'header' in table:
+            headers = table['header']
+        elif rows and len(rows) > 0:
+            # Use first row as header
+            headers = rows[0]
+            rows = rows[1:]  # Skip header row
+        
+        # Create header row
+        if headers:
+            md_table += "| " + " | ".join(str(h) for h in headers) + " |\n"
+            md_table += "| " + " | ".join(["---"] * len(headers)) + " |\n"
+        
+        # Add data rows
+        for row in rows:
+            if not row:  # Skip empty rows
+                continue
+            # Pad row if shorter than headers
+            while len(row) < len(headers):
+                row.append("")
+            md_table += "| " + " | ".join(str(cell) for cell in row) + " |\n"
+        
+        return md_table
+
     def _save_accurate_results(self, results: List[Dict], stats: Dict):
         """Save results optimized for table and text accuracy"""
         
