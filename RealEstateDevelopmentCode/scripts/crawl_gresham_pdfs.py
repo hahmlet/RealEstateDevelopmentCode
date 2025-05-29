@@ -38,7 +38,7 @@ class GreshamPDFCrawler:
         self.base_url = base_url
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (compatible; Municipal Document Crawler/1.0)'
+            'User-Agent': 'Mozilla/5.0 (compatible; Municipal Document Crawler/1.1)'
         })
         self.logger = setup_logging()
         

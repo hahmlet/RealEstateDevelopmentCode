@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Utilities for document processing and analysis
-Version: 1.0
+Version: 1.1
 Date: May 23, 2025
 
 Consolidates common utility functions to avoid duplication.

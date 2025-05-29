@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Baseline Detail Generator v1.0
+Baseline Detail Generator v1.1
 Extracts comprehensive document and subsection data for baseline comparison
 """
 
@@ -80,7 +80,7 @@ def generate_detailed_baseline():
     
     # Create detailed baseline data
     baseline_detail = {
-        'baseline_version': '1.0',
+        'baseline_version': '1.1',
         'generation_date': '2025-05-23',
         'summary_metrics': {
             'total_documents': len(all_documents),
@@ -105,7 +105,7 @@ def format_baseline_markdown(baseline_data):
     md_content = []
     
     # Document listings
-    md_content.append("\n## Detailed Document Inventory - Baseline 1.0\n")
+    md_content.append("\n## Detailed Document Inventory - Baseline 1.1\n")
     md_content.append("### All Documents in TOC with File Matches\n")
     
     for doc in baseline_data['all_documents']:
@@ -136,7 +136,7 @@ def format_baseline_markdown(baseline_data):
     
     # Statistics summary
     metrics = baseline_data['summary_metrics']
-    md_content.append(f"\n### Baseline 1.0 Statistics Summary\n")
+    md_content.append(f"\n### Baseline 1.1 Statistics Summary\n")
     md_content.append(f"- **Total Documents**: {metrics['total_documents']}\n")
     md_content.append(f"- **Documents with Files**: {metrics['documents_with_files']}\n")
     md_content.append(f"- **Documents without Files**: {metrics['documents_without_files']}\n")
@@ -155,10 +155,10 @@ if __name__ == "__main__":
     baseline_data = generate_detailed_baseline()
     
     # Save detailed JSON
-    with open('/workspace/RealEstateDevelopmentCode/docs/municipality_reports/Oregon/gresham/baseline/baseline_1.0_detailed.json', 'w', encoding='utf-8') as f:
+    with open('/workspace/RealEstateDevelopmentCode/docs/municipality_reports/Oregon/gresham/baseline/baseline_1.1_detailed.json', 'w', encoding='utf-8') as f:
         json.dump(baseline_data, f, indent=2, ensure_ascii=False)
     
-    print(f"Saved detailed baseline to: baseline_1.0_detailed.json")
+    print(f"Saved detailed baseline to: baseline_1.1_detailed.json")
     print(f"Total documents: {baseline_data['summary_metrics']['total_documents']}")
     print(f"Total subsections: {baseline_data['summary_metrics']['total_subsections']}")
     print(f"Orphaned files: {baseline_data['summary_metrics']['orphaned_files']}")
@@ -167,8 +167,8 @@ if __name__ == "__main__":
     markdown_content = format_baseline_markdown(baseline_data)
     
     # Append to baseline markdown file
-    with open('/workspace/RealEstateDevelopmentCode/docs/municipality_reports/Oregon/gresham/baseline/BASELINE_1.0.md', 'a', encoding='utf-8') as f:
+    with open('/workspace/RealEstateDevelopmentCode/docs/municipality_reports/Oregon/gresham/baseline/BASELINE_1.1.md', 'a', encoding='utf-8') as f:
         f.write(markdown_content)
     
-    print("Appended detailed listings to BASELINE_1.0.md")
-    print("Baseline 1.0 detailed documentation complete!")
+    print("Appended detailed listings to BASELINE_1.1.md")
+    print("Baseline 1.1 detailed documentation complete!")

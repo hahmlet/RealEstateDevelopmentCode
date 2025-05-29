@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Multi-Jurisdiction MCP Server
-Version: 1.0
+Version: 1.1
 Date: May 23, 2025
 
 Serves municipal development code via Model Context Protocol (MCP)
@@ -256,7 +256,7 @@ Table ID: {chunk.metadata.get('table_id', 'Unknown')}
         """Get server statistics"""
         stats = self.db.get_statistics()
         stats['server_info'] = {
-            'version': '1.0',
+            'version': '1.1',
             'available_jurisdictions': list(self.jurisdictions.keys()),
         }
         return stats

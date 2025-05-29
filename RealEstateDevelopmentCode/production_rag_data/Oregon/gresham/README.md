@@ -1,10 +1,10 @@
 # Oregon/gresham Municipal Code RAG Data
 
 ## System Overview
-- Built: 2025-05-26 17:44:24
+- Built: 2025-05-29 20:13:43
 - Documents processed: 83
-- Tables extracted: 342
-- Text chunks: 4571
+- Tables extracted: 376
+- Text chunks: 4943
 
 ## Files
 - `accurate_chunks.jsonl`: All chunks (text + tables)

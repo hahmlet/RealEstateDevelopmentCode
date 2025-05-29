@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 MCP Server Configuration
-Version: 1.0
+Version: 1.1
 Date: May 23, 2025
 
 Configuration settings for the multi-jurisdiction MCP server.

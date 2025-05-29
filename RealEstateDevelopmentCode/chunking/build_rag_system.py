@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Complete RAG System Builder v1.0
-Version: 1.0
+Complete RAG System Builder v1.1
+Version: 1.1
 Date: May 23, 2025
 
 Builds the complete RAG system from extracted documents
@@ -110,7 +110,7 @@ def build_complete_rag_system(source_dir=None, jurisdiction=None):
     
     # Set up paths
     source_path = Path(source_dir)
-    rag_data_dir = Path("/workspace/RealEstateDevelopmentCode/rag_data") / state / locality
+    rag_data_dir = Path("/workspace/RealEstateDevelopmentCode/production_rag_data") / state / locality
     
     logger.info("🏗️  Building Municipal RAG System...")
     logger.info(f"     Source: {source_path}")
@@ -125,10 +125,10 @@ def build_complete_rag_system(source_dir=None, jurisdiction=None):
         output_dir=str(rag_data_dir)
     )
     
-    stats = preparator.prepare_from_json_content(jurisdiction=jurisdiction)
+    stats = preparator.prepare_from_json_content()
     
-    if stats['errors'] > 0:
-        logger.warning(f"⚠️  Warning: {stats['errors']} errors occurred during preparation")
+    if stats['failed_files'] > 0:
+        logger.warning(f"⚠️  Warning: {stats['failed_files']} errors occurred during preparation")
     
     
     # Create a README for the RAG data
@@ -136,9 +136,9 @@ def build_complete_rag_system(source_dir=None, jurisdiction=None):
 
 ## System Overview
 - Built: {time.strftime('%Y-%m-%d %H:%M:%S')}
-- Documents processed: {stats['processed']}
-- Tables extracted: {stats['tables_found']}
-- Text chunks: {stats['text_chunks']}
+- Documents processed: {stats['total_files_processed']}
+- Tables extracted: {stats['total_tables']}
+- Text chunks: {stats['total_chunks']}
 
 ## Files
 - `accurate_chunks.jsonl`: All chunks (text + tables)
@@ -171,9 +171,9 @@ See the MCP server documentation for more details.
     
     logger.info("\n🎉 RAG Data Preparation Complete!")
     logger.info(f"📊 Stats:")
-    logger.info(f"   - Documents processed: {stats['processed']}")
-    logger.info(f"   - Tables extracted: {stats['tables_found']}")
-    logger.info(f"   - Text chunks: {stats['text_chunks']}")
+    logger.info(f"   - Documents processed: {stats['total_files_processed']}")
+    logger.info(f"   - Tables extracted: {stats['total_tables']}")
+    logger.info(f"   - Text chunks: {stats['total_chunks']}")
     logger.info(f"   - Output directory: {rag_data_dir}")
     logger.info(f"\n🚀 Ready for MCP server integration!")
     logger.info(f"\n📖 Next Steps:")

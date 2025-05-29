@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Archive and Test Script v1.0
+Archive and Test Script v1.1
 Duplicates previous archive/test workflow with baseline comparison functionality
-Version: 1.0
+Version: 1.1
 Date: May 23, 2025
 
 This script provides comprehensive testing and archiving capabilities:
 1. Runs full system tests
-2. Compares results against baseline 1.0
+2. Compares results against baseline 1.1
 3. Archives test results with timestamps
 4. Generates comparison reports
 """
@@ -39,13 +39,13 @@ class ArchiveAndTestRunner:
         # Create test directory
         self.test_dir.mkdir(parents=True, exist_ok=True)
         
-        print(f"Archive and Test Runner v1.0")
+        print(f"Archive and Test Runner v1.1")
         print(f"Test run: {self.timestamp}")
         print(f"Test directory: {self.test_dir}")
         
     def load_baseline(self):
-        """Load baseline 1.0 data for comparison"""
-        baseline_file = self.baseline_dir / "baseline_1.0_detailed.json"
+        """Load baseline 1.1 data for comparison"""
+        baseline_file = self.baseline_dir / "baseline_1.1_detailed.json"
         
         if not baseline_file.exists():
             print(f"ERROR: Baseline file not found: {baseline_file}")
@@ -53,7 +53,7 @@ class ArchiveAndTestRunner:
             
         try:
             self.baseline_data = load_json_file(str(baseline_file))
-            print(f"✓ Loaded baseline 1.0 data")
+            print(f"✓ Loaded baseline 1.1 data")
             print(f"  - Documents: {self.baseline_data['summary_metrics']['total_documents']}")
             print(f"  - Alignment: {self.baseline_data['summary_metrics']['alignment_percentage']}%")
             return True
@@ -129,7 +129,7 @@ class ArchiveAndTestRunner:
             return None
     
     def compare_with_baseline(self, current_alignment, current_validation):
-        """Compare current results with baseline 1.0"""
+        """Compare current results with baseline 1.1"""
         print("\n=== Baseline Comparison ===")
         
         if not self.baseline_data or not current_alignment or not current_validation:
@@ -152,7 +152,7 @@ class ArchiveAndTestRunner:
         # Calculate differences
         comparison = {
             'timestamp': self.timestamp,
-            'baseline_version': '1.0',
+            'baseline_version': '1.1',
             'current_metrics': current_metrics,
             'baseline_metrics': baseline_metrics,
             'differences': {
@@ -191,7 +191,7 @@ class ArchiveAndTestRunner:
         report = {
             'test_run': {
                 'timestamp': self.timestamp,
-                'version': '1.0',
+                'version': '1.1',
                 'status': comparison_data['status'] if comparison_data else 'UNKNOWN'
             },
             'alignment_summary': alignment_data['metrics'] if alignment_data else None,
@@ -220,7 +220,7 @@ class ArchiveAndTestRunner:
 - **Version**: {report['test_run']['version']}
 - **Timestamp**: {self.timestamp}
 
-## Results vs Baseline 1.0
+## Results vs Baseline 1.1
 """
         
         if comparison_data:
@@ -245,7 +245,7 @@ class ArchiveAndTestRunner:
 ## Test Files Generated
 - `alignment_analysis.json` - Full alignment analysis
 - `content_validation.json` - Content validation results  
-- `baseline_comparison.json` - Comparison with baseline 1.0
+- `baseline_comparison.json` - Comparison with baseline 1.1
 - `test_report.json` - This comprehensive report
 
 ## Test Directory
@@ -286,7 +286,7 @@ class ArchiveAndTestRunner:
     def run_full_test_suite(self):
         """Run the complete test suite with baseline comparison"""
         print("="*60)
-        print("MUNICIPAL DOCUMENT REGISTRY - ARCHIVE AND TEST v1.0")
+        print("MUNICIPAL DOCUMENT REGISTRY - ARCHIVE AND TEST v1.1")
         print("="*60)
         
         # Load baseline
@@ -319,7 +319,7 @@ def main():
     """Main entry point"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='Archive and Test Script v1.0')
+    parser = argparse.ArgumentParser(description='Archive and Test Script v1.1')
     parser.add_argument('--baseline-only', action='store_true', 
                        help='Only compare against baseline, skip running new tests')
     

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Municipal Document RAG Preparation v1.0 - Optimized for Tables & Accuracy
-Version: 1.0
+Municipal Document RAG Preparation v1.1 - Optimized for Tables & Accuracy
+Version: 1.1
 Date: May 23, 2025
 
 Combines Unstructured.io + LangChain + specialized table extraction
@@ -512,3 +512,423 @@ class AccurateMunicipalRAG:
             
         except Exception as e:
             print(f"Error generating TOC validation report: {e}")
+    
+    def prepare_from_json_content(self) -> Dict[str, Any]:
+        """
+        Public method to prepare RAG data from JSON content files
+        This is the main entry point for processing extracted JSON files
+        """
+        logger.info(f"Starting RAG preparation from JSON content in {self.source_dir}")
+        
+        # Find all JSON files in the source directory
+        json_files = list(self.source_dir.glob("**/*.json"))
+        logger.info(f"Found {len(json_files)} JSON files to process")
+        
+        if not json_files:
+            logger.warning(f"No JSON files found in {self.source_dir}")
+            return {"success": False, "error": "No JSON files found"}
+        
+        # Process all JSON files
+        all_results = []
+        total_tables = 0
+        total_chunks = 0
+        failed_files = []
+        
+        for json_file in json_files:
+            try:
+                logger.info(f"Processing {json_file.name}")
+                
+                # Load JSON content
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    document_data = json.load(f)
+                
+                # Process document using private methods
+                results = self._process_document_content(document_data, str(json_file))
+                all_results.extend(results)
+                
+                # Count results
+                tables = [r for r in results if r.get("type") == "table"]
+                chunks = [r for r in results if r.get("type") == "text"]
+                total_tables += len(tables)
+                total_chunks += len(chunks)
+                
+                logger.info(f"  Extracted {len(tables)} tables, {len(chunks)} text chunks")
+                
+            except Exception as e:
+                logger.error(f"Error processing {json_file.name}: {e}")
+                failed_files.append({"file": json_file.name, "error": str(e)})
+        
+        # Save results to output directory
+        output_file = self.output_dir / "rag_prepared_data.json"
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(all_results, f, indent=2, ensure_ascii=False)
+        
+        # Generate summary
+        summary = {
+            "success": True,
+            "total_files_processed": len(json_files),
+            "failed_files": len(failed_files),
+            "total_tables": total_tables,
+            "total_chunks": total_chunks,
+            "output_file": str(output_file),
+            "failed_details": failed_files
+        }
+        
+        logger.info(f"RAG preparation completed: {summary}")
+        return summary
+    
+    def process_pdfs(self, pdf_files: List[Path], max_files: Optional[int] = None) -> List[Dict[str, Any]]:
+        """
+        Public method to process PDF files directly
+        Used for testing and direct PDF processing
+        """
+        logger.info(f"Starting PDF processing for {len(pdf_files)} files")
+        
+        if max_files:
+            pdf_files = pdf_files[:max_files]
+            logger.info(f"Limited to {max_files} files for processing")
+        
+        all_results = []
+        
+        for pdf_file in pdf_files:
+            try:
+                logger.info(f"Processing PDF: {pdf_file.name}")
+                
+                # Extract PDF to temporary JSON content
+                pdf_content = self._extract_pdf_content(pdf_file)
+                
+                # Process the extracted content
+                results = self._process_document_content(pdf_content, str(pdf_file))
+                all_results.extend(results)
+                
+                logger.info(f"  Processed {pdf_file.name}: {len(results)} elements")
+                
+            except Exception as e:
+                logger.error(f"Error processing PDF {pdf_file.name}: {e}")
+                # Add error result
+                all_results.append({
+                    "type": "error",
+                    "source_file": str(pdf_file),
+                    "error": str(e)
+                })
+        
+        logger.info(f"PDF processing completed: {len(all_results)} total results")
+        return all_results
+    
+    def _extract_pdf_content(self, pdf_path: Path) -> Dict[str, Any]:
+        """Extract content from PDF using unstructured.io"""
+        try:
+            from unstructured.partition.pdf import partition_pdf
+            from datetime import datetime
+            
+            # Extract elements using unstructured
+            elements = partition_pdf(
+                filename=str(pdf_path),
+                strategy="hi_res",
+                infer_table_structure=True,
+                extract_tables=True,
+                include_metadata=True,
+                pdf_infer_table_structure=True
+            )
+            
+            # Convert to our JSON format
+            result = {
+                "metadata": {
+                    "filename": pdf_path.name,
+                    "extracted_at": datetime.now().isoformat(),
+                    "extractor": "unstructured.io",
+                    "strategy": "hi_res"
+                },
+                "pages": []
+            }
+            
+            # Group elements by page
+            page_elements = {}
+            for element in elements:
+                page_num = getattr(element.metadata, 'page_number', 1)
+                if page_num not in page_elements:
+                    page_elements[page_num] = []
+                page_elements[page_num].append(element)
+            
+            # Build pages structure
+            for page_num in sorted(page_elements.keys()):
+                page_text = ""
+                page_tables = []
+                
+                for element in page_elements[page_num]:
+                    if hasattr(element, 'text') and element.text:
+                        page_text += element.text + "\n"
+                    
+                    # Extract table information if available
+                    if hasattr(element, 'metadata') and hasattr(element.metadata, 'text_as_html'):
+                        if element.metadata.text_as_html and '<table' in str(element.metadata.text_as_html).lower():
+                            page_tables.append({
+                                "html": str(element.metadata.text_as_html),
+                                "text": element.text if hasattr(element, 'text') else ""
+                            })
+                
+                page_data = {
+                    "page_number": page_num,
+                    "text": page_text.strip()
+                }
+                
+                if page_tables:
+                    page_data["tables"] = page_tables
+                
+                result["pages"].append(page_data)
+            
+            return result
+            
+        except Exception as e:
+            logger.error(f"Error extracting PDF content from {pdf_path}: {e}")
+            raise
+    
+    def _process_document_content(self, document_data: Dict[str, Any], source_file: str) -> List[Dict[str, Any]]:
+        """Process document content and extract tables with enhanced accuracy"""
+        results = []
+        
+        # Extract pages from document data
+        pages = document_data.get("pages", [])
+        
+        for page in pages:
+            page_num = page.get("page_number", 1)
+            page_text = page.get("text", "")
+            page_tables = page.get("tables", [])
+            
+            # Process tables with enhanced extraction
+            for table_data in page_tables:
+                try:
+                    # Enhanced table processing
+                    table_result = self._process_table_with_enhancement(table_data, page_num, source_file)
+                    if table_result:
+                        results.append(table_result)
+                except Exception as e:
+                    logger.error(f"Error processing table on page {page_num}: {e}")
+            
+            # Process text content
+            if page_text.strip():
+                try:
+                    text_chunks = self._process_text_content(page_text, page_num, source_file)
+                    results.extend(text_chunks)
+                except Exception as e:
+                    logger.error(f"Error processing text on page {page_num}: {e}")
+        
+        return results
+    
+    def _process_table_with_enhancement(self, table_data: Dict[str, Any], page_num: int, source_file: str) -> Optional[Dict[str, Any]]:
+        """Process table with enhanced municipal-specific extraction"""
+        try:
+            table_html = table_data.get("html", "")
+            table_text = table_data.get("text", "")
+            
+            if not table_html and not table_text:
+                return None
+            
+            # Enhanced table extraction using three-phase approach
+            # Phase 1: Layout-aware extraction
+            enhanced_content = self._extract_table_with_layout_awareness(table_html, table_text)
+            
+            # Phase 2: Municipal-specific processing (P/NP/SUR codes)
+            municipal_content = self._apply_municipal_specific_processing(enhanced_content)
+            
+            # Phase 3: Quality validation and scoring
+            validated_table = self._validate_and_score_table(municipal_content, source_file)
+            
+            return {
+                "type": "table",
+                "content": validated_table.get("content", municipal_content),
+                "source_file": source_file,
+                "page_number": page_num,
+                "metadata": {
+                    "extraction_method": "enhanced_three_phase",
+                    "quality_score": validated_table.get("quality_score", 0.0),
+                    "validation_flags": validated_table.get("validation_flags", []),
+                    "municipal_codes_preserved": validated_table.get("municipal_codes_preserved", False)
+                }
+            }
+            
+        except Exception as e:
+            logger.error(f"Error in enhanced table processing: {e}")
+            return None
+    
+    def _extract_table_with_layout_awareness(self, table_html: str, table_text: str) -> str:
+        """Phase 1: Layout-aware table extraction preserving spatial relationships"""
+        if table_html and '<table' in table_html.lower():
+            # Process HTML table preserving structure
+            try:
+                import re
+                from html import unescape
+                
+                # Clean HTML and extract table structure
+                html_clean = unescape(table_html)
+                
+                # Extract rows and cells
+                row_pattern = r'<tr[^>]*>(.*?)</tr>'
+                cell_pattern = r'<t[dh][^>]*>(.*?)</t[dh]>'
+                
+                rows = re.findall(row_pattern, html_clean, re.DOTALL | re.IGNORECASE)
+                table_rows = []
+                
+                for row in rows:
+                    cells = re.findall(cell_pattern, row, re.DOTALL | re.IGNORECASE)
+                    if cells:
+                        # Clean cell content
+                        clean_cells = []
+                        for cell in cells:
+                            # Remove HTML tags but preserve content
+                            clean_cell = re.sub(r'<[^>]+>', ' ', cell).strip()
+                            clean_cell = ' '.join(clean_cell.split())  # Normalize whitespace
+                            clean_cells.append(clean_cell)
+                        table_rows.append(clean_cells)
+                
+                # Format as markdown table
+                if table_rows:
+                    markdown_table = self._format_as_markdown_table(table_rows)
+                    return markdown_table
+                    
+            except Exception as e:
+                logger.warning(f"HTML table processing failed: {e}")
+        
+        # Fallback to text-based processing
+        return table_text if table_text else ""
+    
+    def _format_as_markdown_table(self, table_rows: List[List[str]]) -> str:
+        """Format table rows as markdown table"""
+        if not table_rows:
+            return ""
+        
+        # Determine column widths
+        max_cols = max(len(row) for row in table_rows)
+        col_widths = [0] * max_cols
+        
+        # Pad rows to same length and calculate column widths
+        padded_rows = []
+        for row in table_rows:
+            padded_row = row + [''] * (max_cols - len(row))
+            padded_rows.append(padded_row)
+            for i, cell in enumerate(padded_row):
+                col_widths[i] = max(col_widths[i], len(cell))
+        
+        # Build markdown table
+        markdown_lines = []
+        
+        for i, row in enumerate(padded_rows):
+            # Format row
+            formatted_cells = []
+            for j, cell in enumerate(row):
+                formatted_cells.append(cell.ljust(col_widths[j]))
+            markdown_lines.append("| " + " | ".join(formatted_cells) + " |")
+            
+            # Add separator after header row
+            if i == 0:
+                separator_cells = ["-" * width for width in col_widths]
+                markdown_lines.append("| " + " | ".join(separator_cells) + " |")
+        
+        return "\n".join(markdown_lines)
+    
+    def _apply_municipal_specific_processing(self, content: str) -> str:
+        """Phase 2: Municipal-specific processing for P/NP/SUR codes"""
+        if not content:
+            return content
+        
+        # Preserve municipal use codes (P, NP, SUR, L1, L2, etc.)
+        import re
+        
+        # Patterns for municipal codes
+        municipal_patterns = [
+            (r'\bP\b', ' P '),           # Permitted
+            (r'\bNP\b', ' NP '),        # Not Permitted  
+            (r'\bSUR\b', ' SUR '),      # Special Use Review
+            (r'\bL\d+\b', lambda m: f' {m.group(0)} '),  # Limited uses (L1, L2, etc.)
+        ]
+        
+        enhanced_content = content
+        for pattern, replacement in municipal_patterns:
+            if callable(replacement):
+                enhanced_content = re.sub(pattern, replacement, enhanced_content)
+            else:
+                enhanced_content = re.sub(pattern, replacement, enhanced_content)
+        
+        # Preserve zone abbreviations
+        zone_patterns = [
+            r'\bLDR-\d+\b',  # Low Density Residential
+            r'\bMDR-\d+\b',  # Medium Density Residential  
+            r'\bTR\b',       # Transitional Residential
+            r'\bTLDR\b',     # Transitional Low Density Residential
+            r'\bOFR\b',      # Office Residential
+        ]
+        
+        for pattern in zone_patterns:
+            enhanced_content = re.sub(pattern, lambda m: f' {m.group(0)} ', enhanced_content)
+        
+        return enhanced_content
+    
+    def _validate_and_score_table(self, content: str, source_file: str) -> Dict[str, Any]:
+        """Phase 3: Quality validation and scoring for municipal tables"""
+        validation_result = {
+            "content": content,
+            "quality_score": 0.0,
+            "validation_flags": [],
+            "municipal_codes_preserved": False
+        }
+        
+        if not content:
+            validation_result["validation_flags"].append("empty_content")
+            return validation_result
+        
+        # Check for municipal code preservation
+        municipal_codes = ["P", "NP", "SUR", "L1", "L2", "L3"]
+        codes_found = sum(1 for code in municipal_codes if f" {code} " in content)
+        
+        if codes_found > 0:
+            validation_result["municipal_codes_preserved"] = True
+            validation_result["validation_flags"].append("municipal_codes_found")
+        
+        # Quality scoring
+        score = 0.0
+        
+        # Base score for content presence
+        if content.strip():
+            score += 0.3
+        
+        # Municipal code preservation bonus
+        if validation_result["municipal_codes_preserved"]:
+            score += 0.4
+        
+        # Table structure bonus
+        if "|" in content and "-" in content:  # Markdown table format
+            score += 0.2
+            validation_result["validation_flags"].append("structured_table")
+        
+        # Content length bonus
+        if len(content) > 100:
+            score += 0.1
+        
+        validation_result["quality_score"] = min(score, 1.0)
+        
+        return validation_result
+    
+    def _process_text_content(self, text: str, page_num: int, source_file: str) -> List[Dict[str, Any]]:
+        """Process text content into chunks"""
+        if not text.strip():
+            return []
+        
+        # Split text into chunks
+        chunks = self.text_splitter.split_text(text)
+        
+        results = []
+        for i, chunk in enumerate(chunks):
+            if chunk.strip():
+                results.append({
+                    "type": "text",
+                    "content": chunk.strip(),
+                    "source_file": source_file,
+                    "page_number": page_num,
+                    "chunk_index": i,
+                    "metadata": {
+                        "chunk_length": len(chunk),
+                        "extraction_method": "text_splitter"
+                    }
+                })
+        
+        return results

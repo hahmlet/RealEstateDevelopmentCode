@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 MCP Client Example
-Version: 1.0
+Version: 1.1
 Date: May 23, 2025
 
 Example client for the multi-jurisdiction MCP server.

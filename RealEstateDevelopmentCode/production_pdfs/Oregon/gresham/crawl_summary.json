@@ -1,10 +1,10 @@
 {
-  "start_time": "2025-05-28T05:35:54.817966",
-  "end_time": "2025-05-28T05:37:20.855433",
-  "duration_seconds": 86.037467,
+  "start_time": "2025-05-29T07:15:15.851790",
+  "end_time": "2025-05-29T07:16:57.952860",
+  "duration_seconds": 102.10107,
   "base_url": "https://greshamoregon.gov/Development-Code/",
   "pdfs_found": 83,
-  "pdfs_downloaded": 8,
+  "pdfs_downloaded": 83,
   "errors": [],
-  "download_directory": "/workspace/RealEstateDevelopmentCode/raw_pdfs/Oregon/gresham"
+  "download_directory": "/workspace/RealEstateDevelopmentCode/production_pdfs/Oregon/gresham"
 }

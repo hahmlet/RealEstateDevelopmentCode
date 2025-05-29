@@ -1,7 +1,9 @@
-#!/usr/bin/env python3
+#"""
+Municipal Document Registry CLI v1.1
+Version: 1.1sr/bin/env python3
 """
 Municipal Document Registry CLI Tool
-Version: 1.0
+Version: 1.1
 Date: May 23, 2025
 
 Consolidated command-line interface for document registry operations.

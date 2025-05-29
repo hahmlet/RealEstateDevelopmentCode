@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Configuration management for document registry system
-Version: 1.0
+Version: 1.1
 Date: May 23, 2025
 
 Centralizes all hard-coded paths and configuration values.

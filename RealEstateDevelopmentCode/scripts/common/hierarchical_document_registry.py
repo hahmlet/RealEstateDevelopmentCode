@@ -1,6 +1,6 @@
 """
 Hierarchical Document Registry System for Municipal Development Codes
-Version: 1.0
+Version: 1.1
 Date: May 23, 2025
 
 This module provides a corrected understanding of municipal code structure where:
