@@ -7,6 +7,8 @@ Date: May 23, 2025
 Combines Unstructured.io + LangChain + specialized table extraction
 to ensure maximum accuracy for municipal development codes, especially tables.
 Updates to work with the multi-jurisdiction MCP server structure.
+
+Enhanced with TOC structure validation for comprehensive document mapping.
 """
 
 import json
@@ -17,6 +19,7 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 import sys
 import logging
+from collections import defaultdict
 
 # Set up logging
 logging.basicConfig(
@@ -140,114 +143,67 @@ class AccurateMunicipalRAG:
         return results
     
     def _extract_tables_accurately(self, pdf_path: str, table_elements: List) -> List[Dict]:
-        """Enhanced table extraction using Unstructured.io's latest features and multiple methods"""
+        """Enhanced table extraction using multi-pass approach with layout awareness"""
         
-        import tabula
+        logger.info(f"Starting enhanced table extraction for {Path(pdf_path).name}")
         
-        table_results = []
+        # Use the new enhanced multi-pass extraction
+        enhanced_tables = self._extract_tables_with_enhanced_multi_pass(pdf_path)
         
-        # Phase 1: Enhanced Unstructured.io extraction with advanced parameters
-        enhanced_tables = self._extract_tables_with_unstructured_advanced(pdf_path)
-        if enhanced_tables:
-            logger.info(f"Enhanced Unstructured extraction found {len(enhanced_tables)} tables")
-            table_results.extend(enhanced_tables)
-        
-        # Method 1: Camelot (if available - best for lattice tables)
-        if self.has_camelot:
-            try:
-                import camelot
-                camelot_tables = camelot.read_pdf(pdf_path, pages='all', flavor='lattice')
-                logger.info(f"Camelot extracted {len(camelot_tables)} tables")
-                
-                for i, table in enumerate(camelot_tables):
-                    if table.accuracy > 80:  # Only high-accuracy tables
-                        table_results.append({
-                            "type": "table",
-                            "method": "camelot_lattice",
-                            "accuracy": table.accuracy,
-                            "content": table.df.to_markdown(index=False),
-                            "raw_data": table.df.to_dict('records'),
-                            "metadata": {
-                                "table_id": f"camelot_{i}",
-                                "page": table.page,
-                                "shape": table.df.shape,
-                                "whitespace": table.whitespace,
-                                "coordinates": None  # Camelot doesn't provide coordinates
-                            }
-                        })
-            except Exception as e:
-                logger.error(f"Camelot extraction failed: {e}")
-        else:
-            logger.info("Camelot not available, using tabula for table extraction")
-        
-        # Method 2: Tabula (backup for stream tables)
-        try:
-            tabula_tables = tabula.read_pdf(pdf_path, pages='all', multiple_tables=True)
-            logger.info(f"Tabula extracted {len(tabula_tables)} tables")
+        # Legacy fallback: Process original Unstructured table elements if no enhanced results
+        if not enhanced_tables and table_elements:
+            logger.info("Falling back to original Unstructured elements processing...")
+            fallback_tables = []
             
-            for i, df in enumerate(tabula_tables):
-                if not df.empty and len(df.columns) > 1:  # Valid table check
-                    table_results.append({
+            for i, element in enumerate(table_elements):
+                if hasattr(element, 'metadata'):
+                    # Extract coordinates for spatial table reconstruction
+                    coordinates = self._extract_element_coordinates(element)
+                    
+                    table_result = {
                         "type": "table",
-                        "method": "tabula",
-                        "content": df.to_markdown(index=False),
-                        "raw_data": df.to_dict('records'),
+                        "method": "unstructured_fallback",
+                        "content": str(element),
                         "metadata": {
-                            "table_id": f"tabula_{i}",
-                            "shape": df.shape,
-                            "columns": list(df.columns),
-                            "coordinates": None  # Tabula doesn't provide coordinates
+                            "table_id": f"fallback_{i}",
+                            "element_metadata": element.metadata,
+                            "coordinates": coordinates
                         }
-                    })
-        except Exception as e:
-            logger.error(f"Tabula extraction failed: {e}")
-        
-        # Method 3: Process original Unstructured table elements with coordinate awareness
-        for i, element in enumerate(table_elements):
-            if hasattr(element, 'metadata'):
-                # Phase 2: Extract coordinates for spatial table reconstruction
-                coordinates = self._extract_element_coordinates(element)
-                
-                table_result = {
-                    "type": "table",
-                    "method": "unstructured_original",
-                    "content": str(element),
-                    "metadata": {
-                        "table_id": f"unstructured_{i}",
-                        "element_metadata": element.metadata,
-                        "coordinates": coordinates
                     }
-                }
-                
-                # Add HTML if available
-                if element.metadata.get('text_as_html'):
-                    table_result["html"] = element.metadata.get('text_as_html')
-                
-                # Phase 2: Attempt spatial reconstruction if coordinates available
-                if coordinates:
-                    try:
-                        reconstructed_table = self._reconstruct_spatial_table(element, coordinates)
-                        if reconstructed_table:
-                            table_result["content"] = reconstructed_table
-                            table_result["method"] = "unstructured_spatial"
-                    except Exception as e:
-                        logger.warning(f"Spatial reconstruction failed for table {i}: {e}")
-                
-                table_results.append(table_result)
+                    
+                    # Add HTML if available
+                    if element.metadata.get('text_as_html'):
+                        table_result["html"] = element.metadata.get('text_as_html')
+                    
+                    # Attempt spatial reconstruction if coordinates available
+                    if coordinates:
+                        try:
+                            reconstructed_table = self._reconstruct_spatial_table(element, coordinates)
+                            if reconstructed_table:
+                                table_result["content"] = reconstructed_table
+                                table_result["method"] = "unstructured_spatial_fallback"
+                        except Exception as e:
+                            logger.warning(f"Spatial reconstruction failed for fallback table {i}: {e}")
+                    
+                    fallback_tables.append(table_result)
+            
+            enhanced_tables = fallback_tables
         
-        # Phase 3: Enhanced validation and quality scoring
-        validated_tables = self._validate_and_score_tables(table_results)
-        
-        # Sort by quality score (highest first)
-        validated_tables.sort(key=lambda x: x.get("quality_metrics", {}).get("overall_score", 0), reverse=True)
-        
-        logger.info(f"Table extraction completed: {len(validated_tables)} tables extracted and validated")
-        for i, table in enumerate(validated_tables[:3]):  # Log top 3 tables
-            score = table.get("quality_metrics", {}).get("overall_score", 0)
-            method = table.get("method", "unknown")
-            logger.info(f"  Table {i+1}: {method} (score: {score:.2f})")
-        
-        return validated_tables
+        # Final validation and scoring
+        if enhanced_tables:
+            validated_tables = self._validate_and_score_tables(enhanced_tables)
+            
+            logger.info(f"Table extraction completed: {len(validated_tables)} tables extracted and validated")
+            for i, table in enumerate(validated_tables[:3]):  # Log top 3 tables
+                score = table.get("quality_score", 0)
+                method = table.get("method", "unknown")
+                table_type = table.get("metadata", {}).get("table_type", "unknown")
+                logger.info(f"  Table {i+1}: {method} (score: {score:.2f}, type: {table_type})")
+            
+            return validated_tables
+        else:
+            logger.warning("No tables extracted by any method")
+            return []
     
     def _process_text_elements(self, text_elements: List, pdf_file: Path) -> List[Dict]:
         """Process non-table text with structure preservation"""
@@ -1163,28 +1119,6 @@ class AccurateMunicipalRAG:
         else:
             return table_text;
 
-    def _format_generic_table(self, lines: List[str]) -> str:
-        """Format generic three-column tables"""
-        if len(lines) < 3:
-            return None
-            
-        # Try to detect patterns in the first few lines
-        md_table = "| Column 1 | Column 2 | Column 3 |\n"
-        md_table += "| --- | --- | --- |\n"
-        
-        for line in lines:
-            # Split on multiple spaces or tabs
-            parts = re.split(r'\s{2,}|\t+', line)
-            if len(parts) >= 2:
-                # Pad to 3 columns
-                while len(parts) < 3:
-                    parts.append("")
-                # Take first 3 columns
-                parts = parts[:3]
-                md_table += f"| {' | '.join(parts)} |\n"
-        
-        return md_table if md_table.count('|') > 6 else None
-
     def _format_street_class_table(self, table_text: str) -> str:
         """Format the specific STREET CLASS table into proper markdown"""
         import re
@@ -1373,210 +1307,498 @@ class AccurateMunicipalRAG:
         logger.info(f"Phase 3 completed: {len(validated_tables)}/{len(table_results)} tables passed validation")
         return validated_tables
 
+    def _intelligent_result_ranking_and_deduplication(self, all_tables: List[Dict]) -> List[Dict]:
+        """
+        Intelligent ranking and deduplication of extracted tables
+        
+        This method scores tables based on quality metrics and removes duplicates,
+        keeping the best version of each unique table.
+        """
+        if not all_tables:
+            return []
+        
+        # Step 1: Score all tables
+        scored_tables = []
+        for table in all_tables:
+            score = self._calculate_table_quality_score(table)
+            table["quality_score"] = score
+            scored_tables.append(table)
+        
+        # Step 2: Group similar tables for deduplication
+        table_groups = self._group_similar_tables(scored_tables)
+        
+        # Step 3: Select best table from each group
+        deduplicated_tables = []
+        for group in table_groups:
+            best_table = max(group, key=lambda t: t["quality_score"])
+            deduplicated_tables.append(best_table)
+        
+        # Step 4: Final ranking by quality score
+        deduplicated_tables.sort(key=lambda t: t["quality_score"], reverse=True)
+        
+        logger.info(f"Deduplication: {len(all_tables)} -> {len(deduplicated_tables)} tables")
+        
+        return deduplicated_tables
+    
     def _calculate_table_quality_score(self, table: Dict) -> float:
-        """Calculate comprehensive quality score for a table (0.0 to 1.0)"""
-        
-        score_components = {}
-        
-        # Content quality (30%)
+        """Calculate quality score for a table based on multiple factors"""
+        score = 0.0
         content = table.get("content", "")
-        if content:
-            score_components["content_length"] = min(len(content) / 500, 1.0) * 0.1
-            score_components["has_structure"] = 0.2 if any(char in content for char in ['|', '\t', '  ']) else 0.0
-        else:
-            score_components["content_length"] = 0.0
-            score_components["has_structure"] = 0.0
-        
-        # Method reliability (25%)
         method = table.get("method", "")
+        metadata = table.get("metadata", {})
+        
+        # Base score by extraction method (higher = better quality)
         method_scores = {
-            "camelot_lattice": 0.25,
-            "unstructured_advanced": 0.23,
-            "unstructured_spatial": 0.22,
-            "tabula": 0.20,
-            "unstructured_original": 0.18,
-            "tabula_fallback": 0.15
+            "pdfplumber_spatial": 0.9,
+            "coordinate_grouping": 0.8, 
+            "camelot_lattice": 0.85,
+            "unstructured_spatial": 0.75,
+            "tabula": 0.6,
+            "unstructured_original": 0.7,
+            "ocr_extraction": 0.4,
+            "text_embedded": 0.3
         }
-        score_components["method_reliability"] = method_scores.get(method, 0.10)
+        score += method_scores.get(method, 0.5)
         
-        # Coordinate information (20%)
-        coordinates = table.get("metadata", {}).get("coordinates")
-        if coordinates:
-            score_components["coordinates"] = 0.20
-        else:
-            score_components["coordinates"] = 0.0
-        
-        # Structured data availability (15%)
-        if table.get("raw_data"):
-            score_components["structured_data"] = 0.15
-        elif table.get("html"):
-            score_components["structured_data"] = 0.10
-        else:
-            score_components["structured_data"] = 0.0
-        
-        # Accuracy indicators (10%)
-        accuracy = table.get("accuracy", 0)
-        if accuracy > 0:
-            score_components["accuracy"] = (accuracy / 100) * 0.10
-        else:
-            score_components["accuracy"] = 0.05  # Default score for methods without accuracy
-        
-        total_score = sum(score_components.values())
-        
-        # Log score breakdown for debugging
-        logger.debug(f"Quality score breakdown: {score_components} = {total_score:.2f}")
-        
-        return total_score
-
-    def _validate_table_content(self, table: Dict) -> Dict:
-        """Validate table content for common issues"""
-        
-        validation = {
-            "has_content": True,
-            "content_issues": [],
-            "content_score": 1.0
-        }
-        
-        content = table.get("content", "")
-        
-        if not content or not content.strip():
-            validation["has_content"] = False
-            validation["content_issues"].append("empty_content")
-            validation["content_score"] = 0.0
-            return validation
-        
-        # Check for common content issues
-        lines = content.split('\n')
-        non_empty_lines = [line.strip() for line in lines if line.strip()]
-        
-        if len(non_empty_lines) < 2:
-            validation["content_issues"].append("insufficient_rows")
-            validation["content_score"] *= 0.5
-        
-        # Check for table structure indicators
-        has_pipes = any('|' in line for line in non_empty_lines)
-        has_tabs = any('\t' in line for line in non_empty_lines)
-        has_consistent_spacing = len(set(len(line.split()) for line in non_empty_lines[:3])) <= 2
-        
-        if not (has_pipes or has_tabs or has_consistent_spacing):
-            validation["content_issues"].append("poor_structure")
-            validation["content_score"] *= 0.7
-        
-        # Check for excessive repetition (OCR artifacts)
-        if len(non_empty_lines) > 1:
-            unique_lines = set(non_empty_lines)
-            if len(unique_lines) / len(non_empty_lines) < 0.5:
-                validation["content_issues"].append("excessive_repetition")
-                validation["content_score"] *= 0.6
-        
-        return validation
-
-    def _validate_table_structure(self, table: Dict) -> Dict:
-        """Validate table structure and formatting"""
-        
-        validation = {
-            "is_valid_table": True,
-            "structure_issues": [],
-            "structure_score": 1.0,
-            "estimated_columns": 0,
-            "estimated_rows": 0
-        }
-        
-        # Analyze raw data if available
-        raw_data = table.get("raw_data")
-        if raw_data and isinstance(raw_data, list):
-            validation["estimated_rows"] = len(raw_data)
-            if raw_data:
-                validation["estimated_columns"] = len(raw_data[0]) if isinstance(raw_data[0], dict) else 0
-                
-                # Check for consistent column structure
-                if len(raw_data) > 1:
-                    column_counts = [len(row) if isinstance(row, dict) else 0 for row in raw_data]
-                    if len(set(column_counts)) > 1:
-                        validation["structure_issues"].append("inconsistent_columns")
-                        validation["structure_score"] *= 0.8
+        # Content quality factors
+        if content:
+            # Length factor (substantial content is better)
+            content_length = len(content)
+            if content_length > 100:
+                score += min(0.3, content_length / 1000)
             
-            return validation
+            # Structure quality (proper markdown table format)
+            # Municipal content relevance
+            content_upper = content.upper()
+            
+            # High value municipal patterns
+            if any(pattern in content_upper for pattern in [
+                '4.0100', 'PERMITTED USES', 'SECTION 4'
+            ]):
+                score += 0.4
+            
+            # Medium value municipal patterns  
+            if any(pattern in content_upper for pattern in [
+                'P|', 'NP|', 'SUR|', 'ZONE', 'DISTRICT'
+            ]):
+                score += 0.2
+            
+            # General municipal patterns
+            if any(pattern in content_upper for pattern in [
+                'SETBACK', 'HEIGHT', 'FEET', 'MINIMUM', 'MAXIMUM'
+            ]):
+                score += 0.1
         
-        # Analyze content structure
+        # Metadata quality factors
+        if metadata.get("is_section_4_table"):
+            score += 0.3
+        if metadata.get("is_municipal_uses"):
+            score += 0.2
+        if metadata.get("bbox"):  # Has spatial coordinates
+            score += 0.1
+        if metadata.get("specialized_formatting"):
+            score += 0.1
+        
+        # Method-specific bonuses
+        if method == "camelot_lattice" and metadata.get("accuracy", 0) > 90:
+            score += 0.2
+        if method == "ocr_extraction" and metadata.get("confidence", 0) > 0.8:
+            score += 0.1
+        
+        return min(1.0, score)  # Cap at 1.0
+    
+    def _validate_table_content(self, table: Dict) -> Dict:
+        """Content-specific validation for extracted tables"""
         content = table.get("content", "")
-        if not content:
-            validation["is_valid_table"] = False
-            validation["structure_score"] = 0.0
-            return validation
-        
-        lines = [line.strip() for line in content.split('\n') if line.strip()]
-        validation["estimated_rows"] = len(lines)
-        
-        if len(lines) < 2:
-            validation["structure_issues"].append("insufficient_rows")
-            validation["structure_score"] *= 0.5
-        
-        # Estimate columns from pipe-delimited content
-        if any('|' in line for line in lines):
-            column_counts = [len(line.split('|')) - 2 for line in lines if '|' in line]  # -2 for start/end pipes
-            if column_counts:
-                validation["estimated_columns"] = max(column_counts)
-                if len(set(column_counts)) > 1:
-                    validation["structure_issues"].append("inconsistent_pipe_columns")
-                    validation["structure_score"] *= 0.9
-        else:
-            # Estimate from whitespace
-            column_counts = [len(line.split()) for line in lines]
-            if column_counts:
-                validation["estimated_columns"] = max(column_counts)
-                if len(set(column_counts)) > 2:  # Allow some variation
-                    validation["structure_issues"].append("inconsistent_whitespace_columns")
-                    validation["structure_score"] *= 0.8
-        
-        return validation
-
-    def _validate_municipal_table(self, table: Dict) -> Dict:
-        """Validate table against municipal document patterns"""
-        
-        validation = {
-            "municipal_relevance": True,
-            "municipal_issues": [],
-            "municipal_score": 1.0,
+        validation_result = {
+            "content_score": 0.0,
+            "has_valid_structure": False,
+            "content_length": len(content),
             "detected_patterns": []
         }
         
-        content = table.get("content", "").lower()
+        if not content:
+            return validation_result
         
-        # Common municipal table indicators
-        municipal_keywords = [
-            "zone", "district", "setback", "height", "density", "parking", 
-            "requirement", "minimum", "maximum", "feet", "square feet",
-            "unit", "dwelling", "commercial", "residential", "industrial",
-            "permitted", "conditional", "prohibited", "ldr", "hdr", "tr"
+        # Base content score
+        content_length = len(content)
+        if content_length >= 50:
+            validation_result["content_score"] += 0.3
+        if content_length >= 200:
+            validation_result["content_score"] += 0.2
+        if content_length >= 500:
+            validation_result["content_score"] += 0.2
+        
+        # Check for table structure indicators
+        if '|' in content and '---' in content:
+            validation_result["has_valid_structure"] = True
+            validation_result["content_score"] += 0.3
+        
+        # Check for municipal content patterns
+        content_upper = content.upper()
+        municipal_patterns = [
+            'PERMITTED', 'CONDITIONAL', 'PROHIBITED', 'SETBACK', 'HEIGHT',
+            'FEET', 'FT', 'MINIMUM', 'MAXIMUM', 'ZONE', 'DISTRICT', 'P|', 'NP|', 'SUR|'
         ]
         
-        found_keywords = [kw for kw in municipal_keywords if kw in content]
-        validation["detected_patterns"] = found_keywords
+        for pattern in municipal_patterns:
+            if pattern in content_upper:
+                validation_result["detected_patterns"].append(pattern.lower())
         
-        if not found_keywords:
-            validation["municipal_issues"].append("no_municipal_keywords")
-            validation["municipal_score"] *= 0.7
-        elif len(found_keywords) >= 3:
-            validation["municipal_score"] = 1.0  # High confidence
+        # Bonus for municipal patterns
+        if validation_result["detected_patterns"]:
+            validation_result["content_score"] += min(0.2, len(validation_result["detected_patterns"]) * 0.05)
         
-        # Check for table patterns specific to Section 4.0100
-        section_4100_patterns = [
-            "table 4.0120", "development standards", "tldr", "ldr-5", "ldr-7"
-        ]
+        validation_result["content_score"] = min(1.0, validation_result["content_score"])
+        return validation_result
+    
+    def _validate_table_structure(self, table: Dict) -> Dict:
+        """Structural validation for extracted tables"""
+        content = table.get("content", "")
+        metadata = table.get("metadata", {})
         
-        found_4100_patterns = [pattern for pattern in section_4100_patterns if pattern in content]
-        if found_4100_patterns:
-            validation["detected_patterns"].extend(found_4100_patterns)
-            validation["municipal_score"] = min(validation["municipal_score"] + 0.2, 1.0)
+        validation_result = {
+            "structure_score": 0.0,
+            "has_headers": False,
+            "row_count": 0,
+            "column_count": 0,
+            "is_well_formed": False
+        }
         
-        # Check for measurement patterns (feet, percentages, etc.)
+        if not content:
+            return validation_result
+        
+        lines = content.split('\n')
+        table_lines = [line for line in lines if '|' in line]
+        
+        if not table_lines:
+            return validation_result
+        
+        validation_result["row_count"] = len(table_lines)
+        
+        # Check for header separator (markdown table indicator)
+        has_separator = any('---' in line for line in table_lines)
+        if has_separator:
+            validation_result["has_headers"] = True
+            validation_result["structure_score"] += 0.3
+        
+        # Estimate column count from first table row
+        if table_lines:
+            first_row = table_lines[0]
+            column_count = first_row.count('|') - 1  # Subtract border pipes
+            validation_result["column_count"] = max(0, column_count)
+            
+            if column_count >= 2:
+                validation_result["structure_score"] += 0.2
+            if column_count >= 3:
+                validation_result["structure_score"] += 0.2
+        
+        # Check for consistent structure across rows
+        if len(table_lines) >= 3:  # Header + separator + at least one data row
+            pipe_counts = [line.count('|') for line in table_lines if line.strip()]
+            if pipe_counts and max(pipe_counts) - min(pipe_counts) <= 1:  # Allow some variation
+                validation_result["is_well_formed"] = True
+                validation_result["structure_score"] += 0.3
+        
+        validation_result["structure_score"] = min(1.0, validation_result["structure_score"])
+        return validation_result
+    
+    def _validate_municipal_table(self, table: Dict) -> Dict:
+        """Municipal document pattern validation"""
+        content = table.get("content", "")
+        metadata = table.get("metadata", {})
+        
+        validation_result = {
+            "municipal_score": 0.0,
+            "detected_patterns": [],
+            "table_type": "unknown",
+            "is_section_4": False,
+            "has_zoning_codes": False
+        }
+        
+        if not content:
+            return validation_result
+        
+        content_upper = content.upper()
+        
+        # Check for Section 4.0100 patterns
+        section_4_patterns = ['4.0100', 'SECTION 4', 'PERMITTED USES', 'USE CATEGORIES']
+        for pattern in section_4_patterns:
+            if pattern in content_upper:
+                validation_result["is_section_4"] = True
+                validation_result["detected_patterns"].append(f"section_4_{pattern.lower().replace('.', '_')}")
+                validation_result["municipal_score"] += 0.3
+                break
+        
+        # Check for zoning codes (P/NP/SUR/L patterns)
         import re
-        if re.search(r'\d+\s*(?:feet|ft|%|\s+sf)', content):
-            validation["detected_patterns"].append("measurement_values")
-            validation["municipal_score"] = min(validation["municipal_score"] + 0.1, 1.0)
+        if re.search(r'\b(P|NP|SUR|L\d*)\b', content_upper):
+            validation_result["has_zoning_codes"] = True
+            validation_result["detected_patterns"].append("zoning_codes")
+            validation_result["municipal_score"] += 0.4
         
-        return validation
+        # Check for municipal table types
+        municipal_keywords = {
+            'dimensional_standards': ['SETBACK', 'HEIGHT', 'COVERAGE', 'DENSITY'],
+            'parking_requirements': ['PARKING', 'SPACE', 'STALL', 'VEHICLE'],
+            'fee_schedule': ['FEE', 'COST', 'CHARGE', 'TYPE I', 'TYPE II'],
+            'permitted_uses': ['PERMITTED', 'CONDITIONAL', 'PROHIBITED'],
+            'zoning_districts': ['ZONE', 'DISTRICT', 'LDR', 'MDR', 'HDR']
+        }
+        
+        for table_type, keywords in municipal_keywords.items():
+            if any(keyword in content_upper for keyword in keywords):
+                validation_result["table_type"] = table_type
+                validation_result["detected_patterns"].append(table_type)
+                validation_result["municipal_score"] += 0.2
+                break
+        
+        # Check for measurement patterns
+        measurement_patterns = [
+            r'\d+\s*(?:feet|ft|inches|in)',
+            r'\d+\s*%',
+            r'\d+\s*square\s*feet',
+            r'\d+\s*stories'
+        ]
+        
+        for pattern in measurement_patterns:
+            if re.search(pattern, content_upper):
+                validation_result["detected_patterns"].append("measurements")
+                validation_result["municipal_score"] += 0.1
+                break
+        
+        # Bonus for metadata indicators
+        if metadata.get("is_section_4_table"):
+            validation_result["municipal_score"] += 0.2
+        if metadata.get("is_municipal_uses"):
+            validation_result["municipal_score"] += 0.2
+        
+        validation_result["municipal_score"] = min(1.0, validation_result["municipal_score"])
+        return validation_result
+
+    def _group_similar_tables(self, tables: List[Dict]) -> List[List[Dict]]:
+        """Group similar tables for deduplication"""
+        if not tables:
+            return []
+        
+        groups = []
+        
+        for table in tables:
+            # Find if this table belongs to an existing group
+            assigned = False
+            
+            for group in groups:
+                if self._are_tables_similar(table, group[0]):
+                    group.append(table)
+                    assigned = True
+                    break
+            
+            if not assigned:
+                groups.append([table])
+        
+        return groups
+    
+    def _are_tables_similar(self, table1: Dict, table2: Dict) -> bool:
+        """Determine if two tables are similar (likely the same table extracted differently)"""
+        content1 = table1.get("content", "")
+        content2 = table2.get("content", "")
+        metadata1 = table1.get("metadata", {})
+        metadata2 = table2.get("metadata", {})
+        
+        # Same page check
+        if (metadata1.get("page") and metadata2.get("page") and 
+            metadata1["page"] != metadata2["page"]):
+            return False
+        
+        # Content similarity check
+        if content1 and content2:
+            # Simple text similarity
+            words1 = set(content1.lower().split())
+            words2 = set(content2.lower().split())
+            
+            if words1 and words2:
+                intersection = len(words1.intersection(words2))
+                union = len(words1.union(words2))
+                similarity = intersection / union if union > 0 else 0
+                
+                if similarity > 0.7:  # 70% word overlap
+                    return True
+        
+        # Spatial overlap check (if coordinates available)
+        bbox1 = metadata1.get("bbox")
+        bbox2 = metadata2.get("bbox")
+        coords1 = metadata1.get("coordinates")
+        coords2 = metadata2.get("coordinates")
+        
+        if bbox1 and bbox2:
+            overlap = self._calculate_bbox_overlap(bbox1, bbox2)
+            if overlap > 0.5:  # 50% spatial overlap
+                return True
+        
+        if coords1 and coords2:
+            # Check coordinate overlap
+            x1_overlap = max(0, min(coords1.get("x1", 0), coords2.get("x1", 0)) - 
+                           max(coords1.get("x0", 0), coords2.get("x0", 0)))
+            y1_overlap = max(0, min(coords1.get("y1", 0), coords2.get("y1", 0)) - 
+                           max(coords1.get("y0", 0), coords2.get("y0", 0)))
+            
+            if x1_overlap > 100 and y1_overlap > 50:  # Significant spatial overlap
+                return True
+        
+        return False
+    
+    def _calculate_bbox_overlap(self, bbox1: tuple, bbox2: tuple) -> float:
+        """Calculate overlap ratio between two bounding boxes"""
+        if not bbox1 or not bbox2 or len(bbox1) < 4 or len(bbox2) < 4:
+            return 0.0
+        
+        x1_max = max(bbox1[0], bbox2[0])
+        y1_max = max(bbox1[1], bbox2[1])
+        x2_min = min(bbox1[2], bbox2[2])
+        y2_min = min(bbox1[3], bbox2[3])
+        
+        if x2_min <= x1_max or y2_min <= y1_max:
+            return 0.0  # No overlap
+        
+        overlap_area = (x2_min - x1_max) * (y2_min - y1_max)
+        area1 = (bbox1[2] - bbox1[0]) * (bbox1[3] - bbox1[1])
+        area2 = (bbox2[2] - bbox2[0]) * (bbox2[3] - bbox2[1])
+        
+        if area1 <= 0 or area2 <= 0:
+            return 0.0
+        
+        return overlap_area / min(area1, area2)
+    
+    def _extract_tables_with_enhanced_multi_pass(self, pdf_path: str) -> List[Dict]:
+        """
+        Enhanced multi-pass table extraction using all available methods
+        
+        This is the main orchestrator that combines all extraction approaches:
+        1. Layout-aware spatial extraction (pdfplumber)
+        2. Advanced Unstructured.io processing  
+        3. Traditional tabula/camelot extraction
+        4. OCR fallback for complex layouts
+        5. Municipal template application
+        6. Intelligent ranking and deduplication
+        """
+        logger.info(f"Starting enhanced multi-pass table extraction for {Path(pdf_path).name}")
+        
+        all_extracted_tables = []
+        
+        # Pass 1: Spatial awareness extraction (highest priority for municipal tables)
+        logger.info("Pass 1: Spatial awareness extraction...")
+        try:
+            spatial_tables = self._extract_tables_with_spatial_awareness(pdf_path)
+            all_extracted_tables.extend(spatial_tables)
+            logger.info(f"Spatial extraction found {len(spatial_tables)} tables")
+        except Exception as e:
+            logger.warning(f"Spatial extraction failed: {e}")
+        
+        # Pass 2: Enhanced Unstructured.io (structure-aware)
+        logger.info("Pass 2: Enhanced Unstructured.io extraction...")
+        try:
+            unstructured_tables = self._extract_tables_with_unstructured_advanced(pdf_path)
+            all_extracted_tables.extend(unstructured_tables)
+            logger.info(f"Unstructured extraction found {len(unstructured_tables)} tables")
+        except Exception as e:
+            logger.warning(f"Unstructured extraction failed: {e}")
+        
+        # Pass 3: Traditional extraction methods (camelot/tabula)
+        logger.info("Pass 3: Traditional extraction methods...")
+        try:
+            traditional_tables = self._extract_tables_traditional_methods(pdf_path)
+            all_extracted_tables.extend(traditional_tables)
+            logger.info(f"Traditional extraction found {len(traditional_tables)} tables")
+        except Exception as e:
+            logger.warning(f"Traditional extraction failed: {e}")
+        
+        # Pass 4: OCR fallback for complex layouts
+        logger.info("Pass 4: OCR fallback extraction...")
+        try:
+            ocr_tables = self._extract_tables_with_ocr_enhancement(pdf_path)
+            all_extracted_tables.extend(ocr_tables)
+            logger.info(f"OCR extraction found {len(ocr_tables)} tables")
+        except Exception as e:
+            logger.warning(f"OCR extraction failed: {e}")
+        
+        # Pass 5: Apply municipal-specific templates
+        logger.info("Pass 5: Applying municipal templates...")
+        try:
+            templated_tables = self._apply_municipal_specific_templates(all_extracted_tables)
+            logger.info(f"Applied templates to {len(templated_tables)} tables")
+        except Exception as e:
+            logger.warning(f"Template application failed: {e}")
+            templated_tables = all_extracted_tables
+        
+        # Pass 6: Intelligent ranking and deduplication
+        logger.info("Pass 6: Intelligent ranking and deduplication...")
+        try:
+            final_tables = self._intelligent_result_ranking_and_deduplication(templated_tables)
+            logger.info(f"Final result: {len(final_tables)} unique, ranked tables")
+        except Exception as e:
+            logger.warning(f"Ranking and deduplication failed: {e}")
+            final_tables = templated_tables
+        
+        # Log summary of results
+        if final_tables:
+            logger.info("Table extraction summary:")
+            for i, table in enumerate(final_tables[:5]):  # Top 5 tables
+                method = table.get("method", "unknown")
+                score = table.get("quality_score", 0)
+                table_type = table.get("metadata", {}).get("table_type", "unknown")
+                logger.info(f"  #{i+1}: {method} (score: {score:.2f}, type: {table_type})")
+        
+        return final_tables
+    
+    def _extract_tables_traditional_methods(self, pdf_path: str) -> List[Dict]:
+        """Extract tables using traditional camelot/tabula methods"""
+        traditional_tables = []
+        
+        # Camelot lattice extraction
+        if self.has_camelot:
+            try:
+                import camelot
+                camelot_tables = camelot.read_pdf(pdf_path, pages='all', flavor='lattice')
+                
+                for i, table in enumerate(camelot_tables):
+                    if table.accuracy > 70:  # Reasonable accuracy threshold
+                        traditional_tables.append({
+                            "type": "table",
+                            "method": "camelot_lattice",
+                            "content": table.df.to_markdown(index=False),
+                            "raw_data": {"dataframe": table.df.to_dict('records')},
+                            "metadata": {
+                                "table_id": f"camelot_{i}",
+                                "page": table.page,
+                                "accuracy": table.accuracy,
+                                "shape": table.df.shape
+                            }
+                        })
+            except Exception as e:
+                logger.warning(f"Camelot extraction failed: {e}")
+        
+        # Tabula extraction
+        try:
+            import tabula
+            tabula_tables = tabula.read_pdf(pdf_path, pages='all', multiple_tables=True)
+            
+            for i, df in enumerate(tabula_tables):
+                if not df.empty and len(df.columns) > 1:
+                    traditional_tables.append({
+                        "type": "table",
+                        "method": "tabula",
+                        "content": df.to_markdown(index=False),
+                        "raw_data": {"dataframe": df.to_dict('records')},
+                        "metadata": {
+                            "table_id": f"tabula_{i}",
+                            "shape": df.shape,
+                            "columns": list(df.columns)
+                        }
+                    })
+        except Exception as e:
+            logger.warning(f"Tabula extraction failed: {e}")
+        
+        return traditional_tables
 
     def _extract_tables_with_unstructured_advanced(self, pdf_path: str) -> List[Dict]:
         """Phase 1: Enhanced Unstructured.io extraction with advanced parameters for coordinate awareness"""
@@ -1811,3 +2033,758 @@ class AccurateMunicipalRAG:
         except Exception as e:
             logger.error(f"Spatial table reconstruction failed: {e}")
             return None
+
+    def _extract_tables_with_spatial_awareness(self, pdf_path: str) -> List[Dict]:
+        """
+        Phase 2 Enhancement: Layout-aware table extraction using pdfplumber for spatial relationships
+        
+        This method preserves 2D spatial relationships that are lost in text linearization,
+        specifically targeting municipal code tables like Section 4.0100 with P/NP/SUR codes.
+        """
+        try:
+            import pdfplumber
+        except ImportError:
+            logger.warning("pdfplumber not available for spatial table extraction")
+            return []
+        
+        spatial_tables = []
+        
+        try:
+            with pdfplumber.open(pdf_path) as pdf:
+                for page_num, page in enumerate(pdf.pages):
+                    # Method 1: Direct table detection with pdfplumber
+                    tables = page.find_tables()
+                    
+                    for table_idx, table in enumerate(tables):
+                        try:
+                            # Extract table data with spatial coordinates
+                            extracted_table = table.extract()
+                            if not extracted_table or len(extracted_table) < 2:
+                                continue
+                            
+                            # Get table bounding box
+                            bbox = table.bbox
+                            
+                            # Convert to markdown with preserved structure
+                            md_table = self._convert_extracted_table_to_markdown(extracted_table)
+                            
+                            # Check if this looks like a municipal uses table (P/NP/SUR pattern)
+                            is_municipal_uses = self._detect_municipal_uses_table(extracted_table)
+                            
+                            spatial_tables.append({
+                                "type": "table",
+                                "method": "pdfplumber_spatial",
+                                "content": md_table,
+                                "raw_data": {"table_data": extracted_table},
+                                "metadata": {
+                                    "source": pdf_path,
+                                    "page": page_num + 1,
+                                    "table_id": f"spatial_p{page_num}_t{table_idx}",
+                                    "bbox": bbox,
+                                    "coordinates": {
+                                        "x0": bbox[0], "y0": bbox[1], 
+                                        "x1": bbox[2], "y1": bbox[3]
+                                    },
+                                    "is_municipal_uses": is_municipal_uses,
+                                    "extraction_method": "direct_table_detection"
+                                }
+                            })
+                            
+                        except Exception as e:
+                            logger.warning(f"Failed to extract spatial table {table_idx} on page {page_num + 1}: {e}")
+                    
+                    # Method 2: Coordinate-based text grouping for complex layouts
+                    text_based_tables = self._extract_tables_from_coordinates(page, page_num)
+                    spatial_tables.extend(text_based_tables)
+                    
+        except Exception as e:
+            logger.error(f"Spatial table extraction failed: {e}")
+        
+        return spatial_tables
+    
+    def _convert_extracted_table_to_markdown(self, table_data: List[List]) -> str:
+        """Convert pdfplumber extracted table to clean markdown format"""
+        if not table_data or len(table_data) < 2:
+            return ""
+        
+        # Filter out empty rows
+        clean_data = []
+        for row in table_data:
+            if row and any(cell and str(cell).strip() for cell in row):
+                # Clean and standardize cells
+                clean_row = []
+                for cell in row:
+                    if cell is None:
+                        clean_row.append("")
+                    else:
+                        # Clean cell content
+                        clean_cell = str(cell).strip().replace('\n', ' ').replace('|', '\\|')
+                        clean_row.append(clean_cell)
+                clean_data.append(clean_row)
+        
+        if len(clean_data) < 2:
+            return ""
+        
+        # Determine number of columns from the most complete row
+        max_cols = max(len(row) for row in clean_data)
+        
+        # Pad rows to consistent length
+        for row in clean_data:
+            while len(row) < max_cols:
+                row.append("")
+        
+        # Build markdown table
+        md_table = ""
+        
+        # Header row
+        header = clean_data[0]
+        md_table += "| " + " | ".join(header) + " |\n"
+        
+        # Separator row
+        md_table += "| " + " | ".join(["---"] * len(header)) + " |\n"
+        
+        # Data rows
+        for row in clean_data[1:]:
+            md_table += "| " + " | ".join(row) + " |\n"
+        
+        return md_table
+    
+    def _detect_municipal_uses_table(self, table_data: List[List]) -> bool:
+        """Detect if this is a municipal uses table with P/NP/SUR codes"""
+        if not table_data or len(table_data) < 3:
+            return False
+        
+        # Look for characteristic patterns
+        table_text = str(table_data).upper()
+        
+        # Check for P/NP/SUR pattern
+        has_codes = bool(re.search(r'\b(P|NP|SUR|L\d*)\b', table_text))
+        
+        # Check for uses-related headers
+        header_text = str(table_data[0]).upper() if table_data else ""
+        has_uses_header = any(term in header_text for term in [
+            'USE', 'USES', 'PERMITTED', 'ZONE', 'DISTRICT'
+        ])
+        
+        # Check for zone abbreviations in headers
+        has_zone_codes = bool(re.search(r'\b(LDR|MDR|HDR|NC|GC|CC|TC|DMU|CM|CI|LI|HI)\b', header_text))
+        
+        return has_codes and (has_uses_header or has_zone_codes)
+    
+    def _extract_tables_from_coordinates(self, page, page_num: int) -> List[Dict]:
+        """
+        Extract tables using coordinate-based text grouping
+        
+        This method groups text elements by their spatial positions to reconstruct
+        tabular data that may not be detected by standard table extraction.
+        """
+        coordinate_tables = []
+        
+        try:
+            # Get all text elements with coordinates
+            chars = page.chars
+            
+            if not chars:
+                return []
+            
+            # Group characters into words with coordinates
+            words = self._group_chars_into_words(chars)
+            
+            # Group words into potential table rows based on vertical alignment
+            potential_rows = self._group_words_into_rows(words)
+            
+            # Identify table-like structures
+            tables = self._identify_table_structures(potential_rows)
+            
+            for table_idx, table_data in enumerate(tables):
+                if len(table_data) >= 2:  # At least header + one data row
+                    md_table = self._convert_coordinate_table_to_markdown(table_data)
+                    
+                    # Check if this looks like Section 4.0100 table
+                    is_section_4_table = self._detect_section_4_pattern(table_data)
+                    
+                    coordinate_tables.append({
+                        "type": "table",
+                        "method": "coordinate_grouping",
+                        "content": md_table,
+                        "raw_data": {"coordinate_table": table_data},
+                        "metadata": {
+                            "page": page_num + 1,
+                            "table_id": f"coord_p{page_num}_t{table_idx}",
+                            "is_section_4_table": is_section_4_table,
+                            "extraction_method": "coordinate_based_grouping",
+                            "row_count": len(table_data),
+                            "col_count": max(len(row) for row in table_data) if table_data else 0
+                        }
+                    })
+                    
+        except Exception as e:
+            logger.warning(f"Coordinate-based table extraction failed on page {page_num + 1}: {e}")
+        
+        return coordinate_tables
+    
+    def _group_chars_into_words(self, chars: List[Dict]) -> List[Dict]:
+        """Group character objects into word objects with bounding boxes"""
+        if not chars:
+            return []
+        
+        words = []
+        current_word = {"text": "", "x0": None, "y0": None, "x1": None, "y1": None}
+        
+        for char in sorted(chars, key=lambda c: (c.get('y0', 0), c.get('x0', 0))):
+            char_text = char.get('text', '')
+            
+            if char_text.isspace():
+                # End current word
+                if current_word["text"]:
+                    words.append(current_word)
+                    current_word = {"text": "", "x0": None, "y0": None, "x1": None, "y1": None}
+            else:
+                # Add to current word
+                if not current_word["text"]:
+                    # Start new word
+                    current_word = {
+                        "text": char_text,
+                        "x0": char.get('x0'),
+                        "y0": char.get('y0'),
+                        "x1": char.get('x1'),
+                        "y1": char.get('y1')
+                    }
+                else:
+                    # Continue word
+                    current_word["text"] += char_text
+                    current_word["x1"] = char.get('x1')
+                    current_word["y1"] = max(current_word["y1"] or 0, char.get('y1', 0))
+        
+        # Add final word
+        if current_word["text"]:
+            words.append(current_word)
+        
+        return words
+    
+    def _group_words_into_rows(self, words: List[Dict], y_tolerance: float = 3) -> List[List[Dict]]:
+        """Group words into rows based on vertical alignment"""
+        if not words:
+            return []
+        
+        # Sort words by vertical position
+        sorted_words = sorted(words, key=lambda w: w.get('y0', 0))
+        
+        rows = []
+        current_row = []
+        current_y = None
+        
+        for word in sorted_words:
+            word_y = word.get('y0')
+            
+            if current_y is None:
+                current_y = word_y
+                current_row = [word]
+            elif abs(word_y - current_y) <= y_tolerance:
+                # Same row
+                current_row.append(word)
+            else:
+                # New row
+                if current_row:
+                    # Sort current row by x position
+                    current_row.sort(key=lambda w: w.get('x0', 0))
+                    rows.append(current_row)
+                current_row = [word]
+                current_y = word_y
+        
+        # Add final row
+        if current_row:
+            current_row.sort(key=lambda w: w.get('x0', 0))
+            rows.append(current_row)
+        
+        return rows
+    
+    def _identify_table_structures(self, rows: List[List[Dict]]) -> List[List[List[str]]]:
+        """Identify table-like structures from grouped rows"""
+        if len(rows) < 2:
+            return []
+        
+        tables = []
+        current_table = []
+        
+        for row_idx, row in enumerate(rows):
+            # Convert words to text cells
+            row_texts = [word["text"] for word in row]
+            
+            # Check if this looks like a table row
+            is_table_row = self._is_potential_table_row(row_texts, row)
+            
+            if is_table_row:
+                current_table.append(row_texts)
+            else:
+                # End current table if it has enough rows
+                if len(current_table) >= 2:
+                    tables.append(current_table)
+                current_table = []
+        
+        # Add final table
+        if len(current_table) >= 2:
+            tables.append(current_table)
+        
+        return tables
+    
+    def _is_potential_table_row(self, row_texts: List[str], word_objects: List[Dict]) -> bool:
+        """Determine if a row of text looks like part of a table"""
+        if len(row_texts) < 2:
+            return False
+        
+        # Check for table-like characteristics
+        
+        # 1. Multiple columns with reasonable spacing
+        if len(row_texts) >= 3:
+            return True
+        
+        # 2. Contains typical table content
+        text = " ".join(row_texts).upper()
+        
+        # Municipal table indicators
+        if any(indicator in text for indicator in [
+            'PERMITTED', 'CONDITIONAL', 'PROHIBITED', 'P', 'NP', 'SUR', 'L1', 'L2'
+        ]):
+            return True
+        
+        # 3. Numeric patterns common in tables
+        if re.search(r'\d+\s*(feet|ft|inches|in|%)', text):
+            return True
+        
+        # 4. Check spacing between words (columns should be well-spaced)
+        if len(word_objects) >= 2:
+            spacings = []
+            for i in range(1, len(word_objects)):
+                prev_x1 = word_objects[i-1].get('x1', 0)
+                curr_x0 = word_objects[i].get('x0', 0)
+                spacing = curr_x0 - prev_x1
+                spacings.append(spacing)
+            
+            # If there are significant gaps, likely table columns
+            avg_spacing = sum(spacings) / len(spacings)
+            if avg_spacing > 20:  # Significant spacing suggests columns
+                return True
+        
+        return False
+    
+    def _convert_coordinate_table_to_markdown(self, table_data: List[List[str]]) -> str:
+        """Convert coordinate-based table data to markdown"""
+        if not table_data or len(table_data) < 2:
+            return ""
+        
+        # Determine maximum columns
+        max_cols = max(len(row) for row in table_data)
+        
+        # Pad rows
+        padded_data = []
+        for row in table_data:
+            padded_row = row + [""] * (max_cols - len(row))
+            padded_data.append(padded_row)
+        
+        # Build markdown
+        md_table = ""
+        header = padded_data[0]
+        md_table += "| " + " | ".join(header) + " |\n"
+        md_table += "| " + " | ".join(["---"] * len(header)) + " |\n"
+        
+        for row in padded_data[1:]:
+            md_table += "| " + " | ".join(row) + " |\n"
+        
+        return md_table
+    
+    def _detect_section_4_pattern(self, table_data: List[List[str]]) -> bool:
+        """Detect Section 4.0100 permitted uses table pattern"""
+        if not table_data or len(table_data) < 2:
+            return False
+        
+        # Convert to string for pattern matching
+        table_text = str(table_data).upper()
+        
+        # Look for Section 4 indicators
+        section_4_indicators = [
+            '4.0100', 'SECTION 4', 'PERMITTED USES', 'USE CATEGORIES'
+        ]
+        
+        has_section_4 = any(indicator in table_text for indicator in section_4_indicators)
+        
+        # Look for P/NP/SUR pattern
+        has_pnp_pattern = bool(re.search(r'\b(P|NP|SUR|L\d*)\b', table_text))
+        
+        # Look for multi-line use names pattern
+        has_multiline_uses = any(len(" ".join(row)) > 50 for row in table_data[1:] if row)
+        
+        return has_section_4 or (has_pnp_pattern and has_multiline_uses)
+    
+    def _extract_tables_with_ocr_enhancement(self, pdf_path: str) -> List[Dict]:
+        """
+        Phase 3 Enhancement: OCR-based table extraction for complex layouts
+        
+        This method uses computer vision and OCR as a fallback for tables that
+        standard extraction methods cannot handle properly.
+        """
+        ocr_tables = []
+        
+        try:
+            # Try to import OCR dependencies
+            try:
+                import pytesseract
+                from PIL import Image
+                import pdf2image
+            except ImportError:
+                logger.warning("OCR dependencies not available (pytesseract, PIL, pdf2image)")
+                return []
+            
+            # Convert PDF pages to images
+            images = pdf2image.convert_from_path(pdf_path, dpi=300)
+            
+            for page_num, image in enumerate(images):
+                try:
+                    # Extract text with position information
+                    ocr_data = pytesseract.image_to_data(image, output_type=pytesseract.Output.DICT)
+                    
+                    # Group OCR text into potential table structures
+                    table_candidates = self._group_ocr_text_into_tables(ocr_data, page_num)
+                    
+                    for table_idx, table_data in enumerate(table_candidates):
+                        md_table = self._convert_ocr_table_to_markdown(table_data)
+                        
+                        ocr_tables.append({
+                            "type": "table",
+                            "method": "ocr_extraction",
+                            "content": md_table,
+                            "raw_data": {"ocr_table": table_data},
+                            "metadata": {
+                                "page": page_num + 1,
+                                "table_id": f"ocr_p{page_num}_t{table_idx}",
+                                "extraction_method": "ocr_computer_vision",
+                                "confidence": self._calculate_ocr_confidence(table_data)
+                            }
+                        })
+                        
+                except Exception as e:
+                    logger.warning(f"OCR extraction failed on page {page_num + 1}: {e}")
+                    
+        except Exception as e:
+            logger.error(f"OCR table extraction failed: {e}")
+        
+        return ocr_tables
+    
+    def _group_ocr_text_into_tables(self, ocr_data: Dict, page_num: int) -> List[List[List[str]]]:
+        """Group OCR text data into table structures based on spatial positioning"""
+        if not ocr_data or 'text' not in ocr_data:
+            return []
+        
+        # Extract words with coordinates and confidence
+        words = []
+        for i, text in enumerate(ocr_data['text']):
+            if text.strip() and int(ocr_data['conf'][i]) > 30:  # Confidence threshold
+                words.append({
+                    'text': text.strip(),
+                    'x': int(ocr_data['left'][i]),
+                    'y': int(ocr_data['top'][i]),
+                    'width': int(ocr_data['width'][i]),
+                    'height': int(ocr_data['height'][i]),
+                    'conf': int(ocr_data['conf'][i])
+                })
+        
+        if not words:
+            return []
+        
+        # Group words into rows based on Y coordinates
+        rows = self._group_ocr_words_into_rows(words)
+        
+        # Identify table-like structures
+        tables = self._identify_ocr_table_structures(rows)
+        
+        return tables
+    
+    def _group_ocr_words_into_rows(self, words: List[Dict], y_tolerance: int = 10) -> List[List[Dict]]:
+        """Group OCR words into rows based on vertical position"""
+        if not words:
+            return []
+        
+        # Sort by Y coordinate
+        sorted_words = sorted(words, key=lambda w: w['y'])
+        
+        rows = []
+        current_row = []
+        current_y = None
+        
+        for word in sorted_words:
+            if current_y is None:
+                current_y = word['y']
+                current_row = [word]
+            elif abs(word['y'] - current_y) <= y_tolerance:
+                current_row.append(word)
+            else:
+                if current_row:
+                    # Sort row by X coordinate
+                    current_row.sort(key=lambda w: w['x'])
+                    rows.append(current_row)
+                current_row = [word]
+                current_y = word['y']
+        
+        if current_row:
+            current_row.sort(key=lambda w: w['x'])
+            rows.append(current_row)
+        
+        return rows
+    
+    def _identify_ocr_table_structures(self, rows: List[List[Dict]]) -> List[List[List[str]]]:
+        """Identify table structures from OCR rows"""
+        if len(rows) < 2:
+            return []
+        
+        tables = []
+        current_table = []
+        
+        for row in rows:
+            row_texts = [word['text'] for word in row]
+            
+            # Check if this looks like a table row
+            if self._is_ocr_table_row(row_texts, row):
+                current_table.append(row_texts)
+            else:
+                if len(current_table) >= 2:
+                    tables.append(current_table)
+                current_table = []
+        
+        if len(current_table) >= 2:
+            tables.append(current_table)
+        
+        return tables
+    
+    def _is_ocr_table_row(self, row_texts: List[str], word_objects: List[Dict]) -> bool:
+        """Determine if OCR row looks like a table row"""
+        if len(row_texts) < 2:
+            return False
+        
+        text = " ".join(row_texts).upper()
+        
+        # Municipal table patterns
+        municipal_patterns = [
+            'PERMITTED', 'CONDITIONAL', 'PROHIBITED', 'P', 'NP', 'SUR',
+            'FEET', 'FT', 'MINIMUM', 'MAXIMUM', 'SETBACK', 'HEIGHT'
+        ]
+        
+        if any(pattern in text for pattern in municipal_patterns):
+            return True
+        
+        # Check for column-like spacing
+        if len(word_objects) >= 3:
+            x_positions = [word['x'] for word in word_objects]
+            spacings = [x_positions[i] - x_positions[i-1] for i in range(1, len(x_positions))]
+            avg_spacing = sum(spacings) / len(spacings)
+            
+            if avg_spacing > 50:  # Significant spacing suggests table columns
+                return True
+        
+        return False
+    
+    def _convert_ocr_table_to_markdown(self, table_data: List[List[str]]) -> str:
+        """Convert OCR table data to markdown format"""
+        if not table_data or len(table_data) < 2:
+            return ""
+        
+        # Find maximum columns
+        max_cols = max(len(row) for row in table_data)
+        
+        # Pad rows
+        padded_data = []
+        for row in table_data:
+            padded_row = row + [""] * (max_cols - len(row))
+            padded_data.append(padded_row)
+        
+        # Build markdown
+        md_table = ""
+        header = padded_data[0]
+        md_table += "| " + " | ".join(header) + " |\n"
+        md_table += "| " + " | ".join(["---"] * len(header)) + " |\n"
+        
+        for row in padded_data[1:]:
+            md_table += "| " + " | ".join(row) + " |\n"
+        
+        return md_table
+    
+    def _calculate_ocr_confidence(self, table_data: List[List[str]]) -> float:
+        """Calculate overall confidence score for OCR-extracted table"""
+        if not table_data:
+            return 0.0
+        
+        # Simple confidence based on text quality indicators
+        total_chars = sum(len("".join(row)) for row in table_data)
+        
+        if total_chars == 0:
+            return 0.0
+        
+        # Base confidence for having substantial content
+        confidence = min(0.8, total_chars / 100)
+        
+        # Boost for municipal patterns
+        text = str(table_data).upper()
+        if re.search(r'\b(P|NP|SUR)\b', text):
+            confidence += 0.1
+        if any(term in text for term in ['PERMITTED', 'ZONE', 'DISTRICT']):
+            confidence += 0.1
+        
+        return min(1.0, confidence)
+    
+    def _apply_municipal_specific_templates(self, tables: List[Dict]) -> List[Dict]:
+        """
+        Apply municipal-specific table templates and formatting
+        
+        This method recognizes common municipal table types and applies
+        specialized formatting and structure recognition.
+        """
+        enhanced_tables = []
+        
+        for table in tables:
+            try:
+                # Create enhanced copy
+                enhanced_table = table.copy()
+                
+                # Detect table type and apply appropriate template
+                table_type = self._classify_municipal_table_type(table)
+                enhanced_table["metadata"]["table_type"] = table_type
+                
+                if table_type == "permitted_uses":
+                    enhanced_table = self._apply_permitted_uses_template(enhanced_table)
+                elif table_type == "dimensional_standards":
+                    enhanced_table = self._apply_dimensional_standards_template(enhanced_table)
+                elif table_type == "parking_requirements":
+                    enhanced_table = self._apply_parking_requirements_template(enhanced_table)
+                elif table_type == "fee_schedule":
+                    enhanced_table = self._apply_fee_schedule_template(enhanced_table)
+                else:
+                    enhanced_table = self._apply_generic_municipal_template(enhanced_table)
+                
+                enhanced_tables.append(enhanced_table)
+                
+            except Exception as e:
+                logger.warning(f"Template application failed for table: {e}")
+                enhanced_tables.append(table)  # Fallback to original
+        
+        return enhanced_tables
+    
+    def _classify_municipal_table_type(self, table: Dict) -> str:
+        """Classify the type of municipal table"""
+        content = table.get("content", "").upper()
+        metadata = table.get("metadata", {})
+        
+        # Check for Section 4.0100 permitted uses patterns
+        if ("4.0100" in content or 
+            metadata.get("is_section_4_table") or 
+            metadata.get("is_municipal_uses")):
+            return "permitted_uses"
+        
+        # Check for dimensional standards
+        if any(term in content for term in [
+            "SETBACK", "HEIGHT", "COVERAGE", "DENSITY", "FEET", "FT", "MINIMUM", "MAXIMUM"
+        ]):
+            return "dimensional_standards"
+        
+        # Check for parking requirements
+        if any(term in content for term in [
+            "PARKING", "SPACE", "STALL", "VEHICLE"
+        ]):
+            return "parking_requirements"
+        
+        # Check for fee schedules
+        if "$" in content and any(term in content for term in [
+            "FEE", "COST", "CHARGE", "TYPE I", "TYPE II"
+        ]):
+            return "fee_schedule"
+        
+        return "general_municipal"
+    
+    def _apply_permitted_uses_template(self, table: Dict) -> Dict:
+        """Apply specialized formatting for permitted uses tables (Section 4.0100)"""
+        content = table.get("content", "")
+        
+        # Enhanced formatting for P/NP/SUR codes
+        enhanced_content = self._enhance_pnp_formatting(content)
+        
+        # Add specialized metadata
+        table["metadata"]["specialized_formatting"] = "permitted_uses"
+        table["metadata"]["code_legend"] = {
+            "P": "Permitted",
+            "NP": "Not Permitted", 
+            "SUR": "Special Use Review Required",
+            "L1": "Limited Use Level 1",
+            "L2": "Limited Use Level 2"
+        }
+        
+        table["content"] = enhanced_content
+        
+        return table
+    
+    def _enhance_pnp_formatting(self, content: str) -> str:
+        """Enhance P/NP/SUR code formatting for better readability"""
+        # Replace short codes with more descriptive text in a copy for display
+        enhanced = content
+        
+        # Add explanatory headers if missing
+        lines = enhanced.split('\n')
+        if lines and not any('Zone' in line or 'District' in line for line in lines[:2]):
+            # Try to detect and enhance zone headers
+            for i, line in enumerate(lines):
+                if re.search(r'\|\s*(LDR|MDR|HDR|NC|GC|CC|TC|DMU|CM|CI|LI|HI)', line):
+                    # This looks like a zone abbreviation header
+                    enhanced_line = line
+                    zone_expansions = {
+                        'LDR': 'LDR (Low Density Residential)',
+                        'MDR': 'MDR (Medium Density Residential)', 
+                        'HDR': 'HDR (High Density Residential)',
+                        'NC': 'NC (Neighborhood Commercial)',
+                        'GC': 'GC (General Commercial)',
+                        'CC': 'CC (Community Commercial)',
+                        'TC': 'TC (Town Center)',
+                        'DMU': 'DMU (Downtown Mixed Use)',
+                        'CM': 'CM (Commercial Mixed)',
+                        'CI': 'CI (Commercial Industrial)',
+                        'LI': 'LI (Light Industrial)',
+                        'HI': 'HI (Heavy Industrial)'
+                    }
+                    
+                    for abbrev, expansion in zone_expansions.items():
+                        enhanced_line = enhanced_line.replace(f' {abbrev} ', f' {expansion} ')
+                    
+                    lines[i] = enhanced_line
+                    break
+        
+        return '\n'.join(lines)
+    
+    def _apply_dimensional_standards_template(self, table: Dict) -> Dict:
+        """Apply formatting for dimensional standards tables"""
+        table["metadata"]["specialized_formatting"] = "dimensional_standards"
+        table["metadata"]["common_dimensions"] = [
+            "Front Setback", "Side Setback", "Rear Setback", 
+            "Maximum Height", "Lot Coverage", "Density"
+        ]
+        
+        return table
+    
+    def _apply_parking_requirements_template(self, table: Dict) -> Dict:
+        """Apply formatting for parking requirements tables"""
+        table["metadata"]["specialized_formatting"] = "parking_requirements" 
+        table["metadata"]["parking_metrics"] = [
+            "Required Spaces", "Space Dimensions", "Aisle Width"
+        ]
+        
+        return table
+    
+    def _apply_fee_schedule_template(self, table: Dict) -> Dict:
+        """Apply formatting for fee schedule tables"""
+        table["metadata"]["specialized_formatting"] = "fee_schedule"
+        table["metadata"]["fee_structure"] = [
+            "Application Type", "Base Fee", "Additional Charges"
+        ]
+        
+        return table
+    
+    def _apply_generic_municipal_template(self, table: Dict) -> Dict:
+        """Apply generic municipal table formatting"""
+        table["metadata"]["specialized_formatting"] = "general_municipal"
+        
+        return table
