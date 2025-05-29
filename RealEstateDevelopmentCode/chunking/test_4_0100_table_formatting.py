@@ -23,7 +23,7 @@ def format_section_4_0100_tables():
     # Create a processor instance to use its formatting method
     processor = AccurateMunicipalRAG(
         source_dir="/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham",
-        output_dir="/workspace/RealEstateDevelopmentCode/rag_data_test/Oregon/gresham"
+        output_dir="/workspace/RealEstateDevelopmentCode/test_data/results/Oregon/gresham"
     )
     
     # Load the document

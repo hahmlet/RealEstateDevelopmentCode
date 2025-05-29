@@ -178,5 +178,5 @@ def show_chunk_details(chunk):
     input(f"\nPress Enter to continue...")
 
 if __name__ == "__main__":
-    rag_data_dir = "/workspace/RealEstateDevelopmentCode/rag_data_accurate/Oregon/gresham"
+    rag_data_dir = "/workspace/RealEstateDevelopmentCode/production_rag_data/Oregon/gresham"
     inspect_content_interactively(rag_data_dir)

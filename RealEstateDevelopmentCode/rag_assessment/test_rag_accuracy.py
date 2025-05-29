@@ -391,7 +391,7 @@ def main():
     """Main function to run RAG accuracy assessment"""
     
     # Configuration
-    rag_data_dir = "/workspace/RealEstateDevelopmentCode/rag_data_accurate/Oregon/gresham"
+    rag_data_dir = "/workspace/RealEstateDevelopmentCode/production_rag_data/Oregon/gresham"
     source_json_dir = "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham"
     output_dir = Path("/workspace/RealEstateDevelopmentCode/rag_assessment")
     

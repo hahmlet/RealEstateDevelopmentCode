@@ -18,7 +18,7 @@ DATA_ROOT = WORKSPACE_ROOT / "RealEstateDevelopmentCode"
 # Directory structure
 DIRECTORIES = {
     'pdf_content': DATA_ROOT / "pdf_content",
-    'raw_pdfs': DATA_ROOT / "raw_pdfs", 
+    'production_pdfs': DATA_ROOT / "production_pdfs", 
     'reports': DATA_ROOT / "reports",
     'scripts': DATA_ROOT / "scripts",
     'archive': DATA_ROOT / "archive"

@@ -93,5 +93,5 @@ def quick_quality_check(rag_data_dir: str):
     print(f"\n✅ Quick assessment complete!")
 
 if __name__ == "__main__":
-    rag_data_dir = "/workspace/RealEstateDevelopmentCode/rag_data_accurate/Oregon/gresham"
+    rag_data_dir = "/workspace/RealEstateDevelopmentCode/production_rag_data/Oregon/gresham"
     quick_quality_check(rag_data_dir)

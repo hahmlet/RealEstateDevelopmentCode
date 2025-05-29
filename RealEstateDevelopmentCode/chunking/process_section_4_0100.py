@@ -23,7 +23,7 @@ def process_specific_document():
     """Process a specific document to verify table extraction"""
     
     input_file = "/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham/dc-section-4.0100.json"
-    output_dir = "/workspace/RealEstateDevelopmentCode/rag_data_test/Oregon/gresham"
+    output_dir = "/workspace/RealEstateDevelopmentCode/test_data/results/Oregon/gresham"
     
     print(f"Input file: {input_file}")
     print(f"Output directory: {output_dir}")
@@ -37,7 +37,7 @@ def process_specific_document():
         print("Creating RAG processor...")
         rag = AccurateMunicipalRAG(
             source_dir="/workspace/RealEstateDevelopmentCode/pdf_content",
-            output_dir="/workspace/RealEstateDevelopmentCode/rag_data_test"
+            output_dir="/workspace/RealEstateDevelopmentCode/test_data/results"
         )
         print("RAG processor created successfully")
         

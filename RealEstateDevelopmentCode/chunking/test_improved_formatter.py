@@ -21,7 +21,7 @@ def test_business_retail_fix():
     # Create a processor instance
     processor = AccurateMunicipalRAG(
         source_dir="/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham",
-        output_dir="/workspace/RealEstateDevelopmentCode/rag_data_test/Oregon/gresham"
+        output_dir="/workspace/RealEstateDevelopmentCode/test_data/results/Oregon/gresham"
     )
     
     # Create a test table with the problematic entry
@@ -79,7 +79,7 @@ def test_empty_cells_fix():
     # Create a processor instance
     processor = AccurateMunicipalRAG(
         source_dir="/workspace/RealEstateDevelopmentCode/pdf_content/Oregon/gresham",
-        output_dir="/workspace/RealEstateDevelopmentCode/rag_data_test/Oregon/gresham"
+        output_dir="/workspace/RealEstateDevelopmentCode/test_data/results/Oregon/gresham"
     )
     
     # Create a test table with incomplete cells

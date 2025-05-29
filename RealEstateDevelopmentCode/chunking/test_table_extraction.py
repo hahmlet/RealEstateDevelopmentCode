@@ -26,7 +26,7 @@ def test_table_extraction():
     # Create a RAG processor instance
     rag = AccurateMunicipalRAG(
         source_dir="/workspace/RealEstateDevelopmentCode/pdf_content",
-        output_dir="/workspace/RealEstateDevelopmentCode/rag_data_test"
+        output_dir="/workspace/RealEstateDevelopmentCode/test_data/results"
     )
     
     # Load the JSON content
